@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/emails/create-email-cam
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/emails/locations/:locationId/campaigns/emails
+summary: "Create a new email campaign"
 ---
 # Create Email Campaign
 

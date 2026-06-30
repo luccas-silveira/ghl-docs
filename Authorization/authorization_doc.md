@@ -2,6 +2,7 @@
 title: "Authorization Doc"
 source_url: https://marketplace.gohighlevel.com/docs/Authorization/authorization_doc
 version: v3
+summary: "You should use a Private Integration Token if:"
 ---
 Authorization is the process of granting or denying access to resources based on a user's verified identity and permissions. It determines what a user can do within a system after they have been authenticated (proven their identity). Essentially, it's about verifying that a user has the right to access specific resources or perform certain actions.
 

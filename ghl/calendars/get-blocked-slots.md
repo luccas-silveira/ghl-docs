@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/get-blocked-s
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/calendars/blocked-slots
+summary: "Get Blocked Slots"
 ---
 # Get Blocked Slots
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/funnels/get-pages-by-fu
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/funnels/page
+summary: "Retrieves a list of all funnel pages based on the given query parameters"
 ---
 # Fetch list of funnel pages
 

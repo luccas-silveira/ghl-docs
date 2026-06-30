@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/schedule-invoi
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/invoices/schedule/:scheduleId/schedule
+summary: "API to schedule an schedule invoice to start sending to the customer"
 ---
 # Schedule an schedule invoice
 

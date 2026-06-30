@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/update
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/knowledge-bases/faqs/:id
+summary: "Update an existing knowledge base FAQ"
 ---
 # Update an existing knowledge base FAQ
 

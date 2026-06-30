@@ -2,6 +2,7 @@
 title: "Sandboxfup"
 source_url: https://marketplace.gohighlevel.com/docs/MarketplacePolicies/SandBoxFUP
 version: v3
+summary: "By using the Sandbox, you agree to follow this Policy, which may be updated periodically"
 ---
 ## Purpose
 

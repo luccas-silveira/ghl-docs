@@ -2,6 +2,7 @@
 title: "Opportunities"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/opportunities/opportunities
 version: v3
+summary: "Documentation for Opportunities API"
 ---
 Documentation for Opportunities API
 

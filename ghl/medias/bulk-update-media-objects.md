@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/medias/bulk-update-medi
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/medias/update-files
+summary: "Updates metadata or status of multiple files and folders"
 ---
 # Bulk Update Files/ Folders
 

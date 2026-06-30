@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/get-location
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/locations/:locationId
+summary: "Get details of a Sub-Account (Formerly Location) by passing the sub-account id"
 ---
 # Get Sub-Account (Formerly Location)
 

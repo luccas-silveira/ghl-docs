@@ -2,6 +2,7 @@
 title: "Calendar Events"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/calendar-events
 version: v3
+summary: "Documentation for Calendars API"
 ---
 Documentation for Calendars API
 

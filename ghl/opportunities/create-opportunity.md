@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/opportunities/create-op
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/opportunities
+summary: "Create Opportunity"
 ---
 # Create Opportunity
 

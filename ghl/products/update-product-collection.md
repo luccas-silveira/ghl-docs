@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/products/update-product
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/products/collections/:collectionId
+summary: "Update a specific product collection with Id :collectionId"
 ---
 # Update Product Collection
 

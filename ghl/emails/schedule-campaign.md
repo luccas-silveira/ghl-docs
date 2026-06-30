@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/emails/schedule-campaig
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/emails/locations/:locationId/campaigns/emails/:campaignId/schedule
+summary: "Schedule or start an email campaign. The campaign must be in draft, cancelled, or paused status"
 ---
 # Schedule Campaign
 

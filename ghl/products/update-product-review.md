@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/products/update-product
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/products/reviews/:reviewId
+summary: "Update status, reply, etc of a particular review"
 ---
 # Update Product Reviews
 

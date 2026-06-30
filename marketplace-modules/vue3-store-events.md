@@ -2,6 +2,7 @@
 title: "Vue3 Store Events"
 source_url: https://marketplace.gohighlevel.com/docs/marketplace-modules/vue3-store-events
 version: v3
+summary: "To ensure your apps continue to function seamlessly, please migrate to the new **StoreEvents** API for store subscriptions"
 ---
 As part of our upcoming Vue 3 migration, we've introduced a new and safer way for Marketplace apps to listen for store changes. Direct access to the Vue instance (`__vue__`, `$store`, `$router`) will no longer be available in Vue 3.
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/associations/get-associ
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/associations/key/:key_name
+summary: "Using this api you can get standard / user defined association by key"
 ---
 # Get association key by key name
 

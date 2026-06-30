@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/store/list-shipping-rat
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/store/shipping-zone/:shippingZoneId/shipping-rate
+summary: "The 'List Shipping Rate' API allows to retrieve a list of shipping rate"
 ---
 # List Shipping Rates
 

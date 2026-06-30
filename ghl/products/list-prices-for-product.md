@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/products/list-prices-fo
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/products/:productId/price
+summary: "ID of the product that needs to be used"
 ---
 # List Prices for a Product
 

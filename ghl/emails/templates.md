@@ -2,6 +2,7 @@
 title: "Templates"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/emails/templates
 version: v3
+summary: "Documentation for emails API"
 ---
 Documentation for emails API
 

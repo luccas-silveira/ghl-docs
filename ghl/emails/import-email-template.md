@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/emails/import-email-tem
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/emails/locations/:locationId/templates/import
+summary: "Import a template from a provider URL"
 ---
 # Import an email template
 

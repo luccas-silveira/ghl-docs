@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/surveys/get-surveys-sub
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/surveys/submissions
+summary: "Get Surveys Submissions"
 ---
 # Get Surveys Submissions
 

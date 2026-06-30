@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/get-calendar-
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/calendars/schedules/event-calendar/:calendarId
+summary: "Retrieve the availability schedule for a specific event calendar. Returns the schedule associated with the calendar ID provided in the path"
 ---
 # Get event calendar availability schedule
 

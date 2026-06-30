@@ -2,6 +2,7 @@
 title: "Developer marketplace API"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/marketplace/developer-marketplace-api
 version: v3
+summary: "Documentation for Marketplace API"
 ---
 Version: 1.0
 

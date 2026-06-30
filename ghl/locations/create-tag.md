@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/create-tag
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/locations/:locationId/tags
+summary: "Successful response"
 ---
 # Create Tag
 

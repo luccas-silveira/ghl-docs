@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/delete-contact
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/contacts/:contactId/workflow/:workflowId
+summary: "Delete Contact from Workflow"
 ---
 # Delete Contact from Workflow
 

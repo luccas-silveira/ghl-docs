@@ -2,6 +2,7 @@
 title: "Usercreate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/UserCreate
 version: v3
+summary: "Called whenever a user is created"
 ---
 Called whenever a user is created
 

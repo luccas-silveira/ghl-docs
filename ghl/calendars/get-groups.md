@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/get-groups
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/calendars/groups
+summary: "Get all calendar groups in a location"
 ---
 # Get Groups
 

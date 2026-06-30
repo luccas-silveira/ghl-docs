@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/payments/delete-coupon
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/payments/coupon
+summary: "Successful response"
 ---
 # Delete Coupon
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/delete-
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/conversation-ai/agents/:agentId/actions/:actionId
+summary: "Permanently deletes an action. This will remove the action from all associated agents and cannot be undone"
 ---
 # Remove Action from Agent
 

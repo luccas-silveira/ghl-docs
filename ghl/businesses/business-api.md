@@ -2,6 +2,7 @@
 title: "Business API"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/businesses/business-api
 version: v3
+summary: "Documentation for business API"
 ---
 Version: 1.0
 

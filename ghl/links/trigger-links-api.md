@@ -2,6 +2,7 @@
 title: "Trigger Links API"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/links/trigger-links-api
 version: v3
+summary: "Documentation for links API"
 ---
 Version: 1.0
 

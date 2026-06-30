@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/proposals/send-document
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/proposals/templates/send
+summary: "Send template to a client"
 ---
 # Send template
 

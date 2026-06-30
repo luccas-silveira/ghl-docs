@@ -2,6 +2,7 @@
 title: "Knowledgebaseupdate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/KnowledgeBaseUpdate
 version: v3
+summary: "Called whenever a knowledge base name/description is updated"
 ---
 Called whenever a knowledge base name/description is updated
 

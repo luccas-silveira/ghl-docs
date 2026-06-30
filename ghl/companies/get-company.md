@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/companies/get-company
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/companies/:companyId
+summary: "Successful response"
 ---
 # Get Company
 

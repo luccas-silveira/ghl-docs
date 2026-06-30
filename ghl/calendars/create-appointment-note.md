@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/create-appoin
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/calendars/appointments/:appointmentId/notes
+summary: "Appointment ID"
 ---
 # Create Note
 

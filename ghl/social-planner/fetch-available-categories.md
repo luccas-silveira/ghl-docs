@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/fetch-av
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/social-media-posting/category/queues/available-categories
+summary: "Returns categories with status: 'available' (no queue), 'in\_queue' (active/paused queue), or 'draft' (queue in draft)"
 ---
 # Get all categories with their queue status
 

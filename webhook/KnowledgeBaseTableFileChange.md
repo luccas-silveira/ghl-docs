@@ -2,6 +2,7 @@
 title: "Knowledgebasetablefilechange"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/KnowledgeBaseTableFileChange
 version: v3
+summary: "Called whenever a knowledge base **table file** asset is created, updated or deleted"
 ---
 Called whenever a knowledge base **table file** asset is created, updated or deleted
 

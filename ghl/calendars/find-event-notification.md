@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/find-event-no
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/calendars/:calendarId/notifications/:notificationId
+summary: "Find Event notification by notificationId"
 ---
 # Get notification
 

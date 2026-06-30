@@ -2,6 +2,7 @@
 title: "Locationcreate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/LocationCreate
 version: v3
+summary: "Called whenever a location is created"
 ---
 Called whenever a location is created.
 

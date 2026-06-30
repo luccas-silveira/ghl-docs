@@ -2,6 +2,7 @@
 title: "Knowledgebasedelete"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/KnowledgeBaseDelete
 version: v3
+summary: "Called whenever a knowledge base is deleted"
 ---
 Called whenever a knowledge base is deleted
 

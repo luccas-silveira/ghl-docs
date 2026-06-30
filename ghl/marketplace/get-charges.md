@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/marketplace/get-charges
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/marketplace/billing/charges
+summary: "Get all wallet charges"
 ---
 # Get all wallet charges
 

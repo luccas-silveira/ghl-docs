@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/agent-studio/get-agent-
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/agent-studio/public-api/agents/:agentId
+summary: "This endpoint has been deprecated and may be replaced or removed in future versions of the API"
 ---
 # Get Agent (Deprecated)
 

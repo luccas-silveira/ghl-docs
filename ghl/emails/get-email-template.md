@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/emails/get-email-templa
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/emails/locations/:locationId/templates/:templateId
+summary: "Get a single email template by its ID"
 ---
 # Get Email Template by ID
 

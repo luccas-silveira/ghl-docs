@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/get-slots
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/calendars/:calendarId/free-slots
+summary: "Get free slots for a calendar between a date range. Optionally a consumer can also request free slots in a particular timezone and also for a particular user"
 ---
 # Get Free Slots
 

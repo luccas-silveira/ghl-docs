@@ -2,6 +2,7 @@
 title: "Conversations API"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/conversations/conversations-api
 version: v3
+summary: "Documentation for Conversations API"
 ---
 Version: 1.0
 

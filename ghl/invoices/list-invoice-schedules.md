@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/list-invoice-s
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/invoices/schedule
+summary: "API to get list of schedules"
 ---
 # List schedules
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/get-tag-by-id
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/locations/:locationId/tags/:tagId
+summary: "Get tag by id"
 ---
 # Get tag by id
 

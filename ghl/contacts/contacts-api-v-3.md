@@ -2,6 +2,7 @@
 title: "Contacts API v3"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/contacts-api-v-3
 version: v3
+summary: "Documentation for Contacts API"
 ---
 # Contacts API v3
 

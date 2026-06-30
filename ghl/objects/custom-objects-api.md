@@ -2,6 +2,7 @@
 title: "CUSTOM\_OBJECTS API"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/objects/custom-objects-api
 version: v3
+summary: "Use the Access Token generated with user type as Sub-Account (OR) Private Integration Token of Sub-Account"
 ---
 Version: 1.0
 

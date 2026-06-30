@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/update-estimat
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/invoices/estimate/:estimateId
+summary: "Update an existing estimate with new details"
 ---
 # Update Estimate
 

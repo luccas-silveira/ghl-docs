@@ -2,6 +2,7 @@
 title: "Saasplancreate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/SaaSPlanCreate
 version: v3
+summary: "For example, when a company creates a new subscription plan for their SaaS product:"
 ---
 ## Overview
 

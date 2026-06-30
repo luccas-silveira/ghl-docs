@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/get-service-b
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/calendars/services/bookings/:bookingId
+summary: "Get a specific service booking by ID"
 ---
 # Get Service Booking by ID
 

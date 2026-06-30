@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/opportunities/get-pipel
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/opportunities/pipelines
+summary: "Get Pipelines"
 ---
 # Get Pipelines
 

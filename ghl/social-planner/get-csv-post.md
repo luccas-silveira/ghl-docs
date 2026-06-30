@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-csv-
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/social-media-posting/:locationId/csv/:id
+summary: "Get details of a specific CSV import including its posts"
 ---
 # Get CSV Post
 

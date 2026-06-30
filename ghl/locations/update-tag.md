@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/update-tag
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/locations/:locationId/tags/:tagId
+summary: "Successful response"
 ---
 # Update tag
 

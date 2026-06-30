@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/get-task
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/contacts/:contactId/tasks/:taskId
+summary: "Successful response"
 ---
 # Get Task
 

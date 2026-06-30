@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/products/delete-product
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/products/collections/:collectionId
+summary: "Delete specific product collection with Id :collectionId"
 ---
 # Delete Product Collection
 

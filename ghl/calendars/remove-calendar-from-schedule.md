@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/remove-calend
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/calendars/schedules/:id/associations/:calendarId
+summary: "Removes the association between a team calendar and the given schedule by removing the calendarId from the schedule"
 ---
 # Remove user availability schedule from a calendar
 

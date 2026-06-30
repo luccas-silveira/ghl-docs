@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/edit-group
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/calendars/groups/:groupId
+summary: "Update Group by group ID"
 ---
 # Update Group
 

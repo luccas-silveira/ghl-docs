@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/get-gen
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/conversation-ai/generations
+summary: "Retrieves detailed information about AI responses including the System Prompt, Conversation history, Knowledge base, website, FAQ chunks, and Rich Text chunks"
 ---
 # Get the generation details
 

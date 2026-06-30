@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/upsert-contact
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/contacts/upsert
+summary: "First name of the contact"
 ---
 # Upsert Contact
 

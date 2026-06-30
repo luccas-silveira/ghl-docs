@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/store/create-shipping-r
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/store/shipping-zone/:shippingZoneId/shipping-rate
+summary: "The 'Create Shipping Rate' API allows adding a new shipping rate"
 ---
 # Create Shipping Rate
 

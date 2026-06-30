@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/saas/enable-saas-locati
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/saas/enable-saas/:locationId
+summary: "Enable SaaS for Sub-Account (Formerly Location) based on the data provided"
 ---
 # Enable SaaS for Sub-Account (Formerly Location)
 

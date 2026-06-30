@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/products/get-product-st
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/products/store/:storeId/stats
+summary: "API to fetch the total number of products, included in the store, and excluded from the store and other stats"
 ---
 # Fetch Product Store Stats
 

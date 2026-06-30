@@ -2,6 +2,7 @@
 title: "Chat Widget"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/chat-widget/chat-widget
 version: v3
+summary: "Documentation for Chat Widget API"
 ---
 Documentation for Chat Widget API
 

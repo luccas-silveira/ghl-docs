@@ -2,6 +2,7 @@
 title: "Subscriptions"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/payments/subscriptions
 version: v3
+summary: "Documentation for payments API"
 ---
 Documentation for payments API
 

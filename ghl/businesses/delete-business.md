@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/businesses/delete-busin
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/businesses/:businessId
+summary: "Delete Business"
 ---
 # Delete Business
 

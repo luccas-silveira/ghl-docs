@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/delete-recurr
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/locations/:locationId/recurring-tasks/:id
+summary: "Delete Recurring Task"
 ---
 # Delete Recurring Task
 

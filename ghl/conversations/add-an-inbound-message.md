@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversations/add-an-in
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/conversations/messages/inbound
+summary: "Post the necessary fields for the API to add a new inbound message"
 ---
 # Add an inbound message
 

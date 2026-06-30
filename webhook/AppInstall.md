@@ -2,6 +2,7 @@
 title: "Appinstall"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/AppInstall
 version: v3
+summary: "Called whenever an app is installed"
 ---
 Called whenever an app is installed
 

@@ -2,6 +2,7 @@
 title: "Noteupdate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/NoteUpdate
 version: v3
+summary: "Called whenever a note is updated"
 ---
 Called whenever a note is updated
 

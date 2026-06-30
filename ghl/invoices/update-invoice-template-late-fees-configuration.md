@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/update-invoice
 version: v3
 method: PATCH
 endpoint: https://services.leadconnectorhq.com/invoices/template/:templateId/late-fees-configuration
+summary: "API to update template late fees configuration by template id"
 ---
 # Update template late fees configuration
 

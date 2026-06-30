@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/update-appoin
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/calendars/appointments/:appointmentId/notes/:noteId
+summary: "Appointment ID"
 ---
 # Update Note
 

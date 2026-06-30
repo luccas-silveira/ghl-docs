@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/agent-studio/execute-ag
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/agent-studio/public-api/agents/:agentId/execute
+summary: "This endpoint has been deprecated and may be replaced or removed in future versions of the API"
 ---
 # Execute Agent (Deprecated)
 

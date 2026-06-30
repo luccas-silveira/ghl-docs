@@ -2,6 +2,7 @@
 title: "Privateintegrationstoken"
 source_url: https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken
 version: v3
+summary: "Private Integrations allow you to build powerful custom integrations between your HighLevel account and any other third-party app"
 ---
 Private Integrations allow you to build powerful custom integrations between your HighLevel account and any other third-party app.
 

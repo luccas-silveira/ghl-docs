@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/funnels/get-pages-count
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/funnels/page/count
+summary: "Retrieves count of all funnel pages based on the given query parameters"
 ---
 # Fetch count of funnel pages
 

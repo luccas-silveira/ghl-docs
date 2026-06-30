@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/voice-ai/patch-agent
 version: v3
 method: PATCH
 endpoint: https://services.leadconnectorhq.com/voice-ai/agents/:agentId
+summary: "Partially update an existing voice AI agent"
 ---
 # Patch Agent
 

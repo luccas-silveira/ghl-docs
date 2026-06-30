@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/links/search-trigger-li
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/links/search
+summary: "Get list of links by searching"
 ---
 # Search Trigger Links
 

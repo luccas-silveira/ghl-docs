@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/delete-tag
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/locations/:locationId/tags/:tagId
+summary: "Successful response"
 ---
 # Delete tag
 

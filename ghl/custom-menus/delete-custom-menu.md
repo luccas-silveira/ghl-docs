@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/custom-menus/delete-cus
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/custom-menus/:customMenuId
+summary: "ID of the custom menu to delete"
 ---
 # Delete Custom Menu Link
 

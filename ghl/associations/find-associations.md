@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/associations/find-assoc
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/associations
+summary: "Get all Associations"
 ---
 # Get all associations for a sub-account / location
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/medias/delete-media-con
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/medias/:id
+summary: "Deletes specific file or folder from the media storage"
 ---
 # Delete File or Folder
 

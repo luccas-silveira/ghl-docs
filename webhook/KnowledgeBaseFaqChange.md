@@ -2,6 +2,7 @@
 title: "Knowledgebasefaqchange"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/KnowledgeBaseFaqChange
 version: v3
+summary: "Called whenever a knowledge base **FAQ** asset is created, updated or deleted"
 ---
 Called whenever a knowledge base **FAQ** asset is created, updated or deleted
 

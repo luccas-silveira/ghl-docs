@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/saas/generate-payment-l
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/saas/update-saas-subscription/:locationId
+summary: "Update SaaS subscription for given locationId and customerId"
 ---
 # Update SaaS subscription
 

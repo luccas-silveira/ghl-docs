@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/add-calendar-
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/calendars/schedules/:id/associations/:calendarId
+summary: "Associates a calendar with the given schedule by adding the calendarId to a schedule"
 ---
 # Apply user availability schedule to a calendar
 

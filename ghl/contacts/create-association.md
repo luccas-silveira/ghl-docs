@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/create-associa
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/contacts/bulk/tags/update/:type
+summary: "Allows you to update tags to multiple contacts at once, you can add or remove tags from the contacts"
 ---
 # Update Contacts Tags
 

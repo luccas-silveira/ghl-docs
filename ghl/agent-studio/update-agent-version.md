@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/agent-studio/update-age
 version: v3
 method: PATCH
 endpoint: https://services.leadconnectorhq.com/agent-studio/agent/versions/:versionId
+summary: "Updates a specific agent version by versionId. Supports updating nodes, edges, variables, and configuration"
 ---
 # Update Agent
 

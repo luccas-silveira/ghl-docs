@@ -2,6 +2,7 @@
 title: "Invoicesent"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/InvoiceSent
 version: v3
+summary: "Called whenever an invoice is sent"
 ---
 Called whenever an invoice is sent
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/emails/get-email-campai
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/emails/locations/:locationId/campaigns/emails/:campaignId
+summary: "Get a single email campaign by its ID"
 ---
 # Get Email Campaign by ID
 

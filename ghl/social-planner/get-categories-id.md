@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-cate
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/social-media-posting/:locationId/categories/:id
+summary: "Retrieve a specific category by its ID"
 ---
 # Get categories by id
 

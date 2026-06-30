@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/create-event-
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/calendars/:calendarId/notifications
+summary: "Create Calendar notifications, either one or multiple. All notification settings must be for single calendar only"
 ---
 # Create notification
 

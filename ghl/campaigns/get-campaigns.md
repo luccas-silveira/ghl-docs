@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/campaigns/get-campaigns
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/campaigns
+summary: "Get Campaigns"
 ---
 # Get Campaigns
 

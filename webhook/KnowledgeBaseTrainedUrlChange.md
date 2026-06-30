@@ -2,6 +2,7 @@
 title: "Knowledgebasetrainedurlchange"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/KnowledgeBaseTrainedUrlChange
 version: v3
+summary: "Called whenever a knowledge base **trained URL** asset is created, updated or deleted"
 ---
 Called whenever a knowledge base **trained URL** asset is created, updated or deleted
 

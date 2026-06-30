@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/payments/record-order-p
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/payments/orders/:orderId/record-payment
+summary: "The 'Record Order Payment' API allows to record a payment for an order. Use this endpoint to record payment for an order and update the order status to 'Paid'"
 ---
 # Record Order Payment
 

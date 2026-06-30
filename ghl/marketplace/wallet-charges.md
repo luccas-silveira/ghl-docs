@@ -2,6 +2,7 @@
 title: "Wallet Charges"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/marketplace/wallet-charges
 version: v3
+summary: "Documentation for Marketplace API"
 ---
 Documentation for Marketplace API
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/opportunities/get-oppor
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/opportunities/:id
+summary: "Get Opportunity"
 ---
 # Get Opportunity
 

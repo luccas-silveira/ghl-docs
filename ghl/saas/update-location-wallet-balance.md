@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/saas/update-location-wa
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/saas-api/public-api/companies/:companyId/locations/:locationId/wallet-balance/complimentary-credits
+summary: "Update the wallet balance or complimentary credit settings for a specific location. Supports partial updates via updateMask field (AIP-134 compliant)"
 ---
 # Update Location Wallet Balance
 

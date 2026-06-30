@@ -2,6 +2,7 @@
 title: "Estimate"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/estimate
 version: v3
+summary: "Documentation for invoice API"
 ---
 Documentation for invoice API
 

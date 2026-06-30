@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/void-invoice
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/invoices/:invoiceId/void
+summary: "API to delete invoice by invoice id"
 ---
 # Void invoice
 

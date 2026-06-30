@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/emails/list-email-templ
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/emails/locations/:locationId/templates
+summary: "Get list of templates by location"
 ---
 # List templates
 

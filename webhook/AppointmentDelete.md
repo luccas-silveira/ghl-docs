@@ -2,6 +2,7 @@
 title: "Appointmentdelete"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/AppointmentDelete
 version: v3
+summary: "Called whenever an appointment is deleted"
 ---
 Called whenever an appointment is deleted
 

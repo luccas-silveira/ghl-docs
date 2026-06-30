@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/create-calend
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/calendars/groups
+summary: "Create Calendar Group"
 ---
 # Create Calendar Group
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/associations/delete-ass
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/associations/:associationId
+summary: "Delete USER\_DEFINED Association By Id, deleting an association will also all the relations for that association"
 ---
 # Delete Association
 

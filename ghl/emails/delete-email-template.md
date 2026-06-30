@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/emails/delete-email-tem
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/emails/locations/:locationId/templates/:templateId
+summary: "Delete a template"
 ---
 # Delete a template
 

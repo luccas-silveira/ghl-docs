@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/get-custom-va
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/locations/:locationId/customValues
+summary: "Get Custom Values"
 ---
 # Get Custom Values
 

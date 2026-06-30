@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/create-k
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/knowledge-bases
+summary: "Create a new knowledge base (max 15 knowledge bases per location)"
 ---
 # Create a new knowledge base (max 15 knowledge bases per location)
 

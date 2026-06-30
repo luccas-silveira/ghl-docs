@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/create-custom
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/locations/:locationId/customFields
+summary: "Create Custom Field"
 ---
 # Create Custom Field
 

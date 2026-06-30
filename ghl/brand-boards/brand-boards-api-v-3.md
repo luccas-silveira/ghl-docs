@@ -2,6 +2,7 @@
 title: "Brand Boards API v3"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/brand-boards/brand-boards-api-v-3
 version: v3
+summary: "Documentation for Brand Boards API"
 ---
 # Brand Boards API v3
 

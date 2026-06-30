@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversations/export-me
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/conversations/messages/export
+summary: "Export messages for a specific location with cursor-based pagination support"
 ---
 # Export messages by location ID
 

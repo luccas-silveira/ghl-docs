@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/associations/get-associ
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/associations/:associationId
+summary: "Using this api you can get SYSTEM\_DEFINED / USER\_DEFINED association by id"
 ---
 # Get association by ID
 

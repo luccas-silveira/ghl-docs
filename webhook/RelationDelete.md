@@ -2,6 +2,7 @@
 title: "Relationdelete"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/RelationDelete
 version: v3
+summary: "This webhook response is triggered when an existing relation between objects is deleted"
 ---
 ## Overview
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/update-note
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/contacts/:contactId/notes/:id
+summary: "User Id of the note author"
 ---
 # Update Note
 

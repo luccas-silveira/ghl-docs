@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/create-calend
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/calendars/resources/:resourceType
+summary: "This endpoint has been deprecated and may be replaced or removed in future versions of the API"
 ---
 # Create Calendar Resource
 

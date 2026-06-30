@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/get-all-or-em
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/locations/:locationId/templates
+summary: "GET all or email/sms templates"
 ---
 # GET all or email/sms templates
 

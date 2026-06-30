@@ -2,6 +2,7 @@
 title: "Appointmentupdate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/AppointmentUpdate
 version: v3
+summary: "Called whenever an appointment is updated"
 ---
 Called whenever an appointment is updated
 

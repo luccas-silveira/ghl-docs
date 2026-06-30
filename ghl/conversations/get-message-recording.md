@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversations/get-messa
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/conversations/messages/:messageId/locations/:locationId/recording
+summary: "Get the recording for a message by passing the message id"
 ---
 # Get Recording by Message ID
 

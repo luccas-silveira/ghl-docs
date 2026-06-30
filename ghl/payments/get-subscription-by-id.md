@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/payments/get-subscripti
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/payments/subscriptions/:subscriptionId
+summary: "ID of the subscription that needs to be returned"
 ---
 # Get Subscription by ID
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/train-di
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/knowledge-bases/crawler/train
+summary: "Train discovered website pages and ingest into the knowledge base"
 ---
 # Train discovered website pages and ingest into the knowledge base
 

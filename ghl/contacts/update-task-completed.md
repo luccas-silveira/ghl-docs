@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/update-task-co
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/contacts/:contactId/tasks/:taskId/completed
+summary: "Update Task Completed"
 ---
 # Update Task Completed
 

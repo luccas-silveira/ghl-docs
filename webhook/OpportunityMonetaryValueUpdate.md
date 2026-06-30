@@ -2,6 +2,7 @@
 title: "Opportunitymonetaryvalueupdate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/OpportunityMonetaryValueUpdate
 version: v3
+summary: "Called whenever an opportunity's monetary value field is updated"
 ---
 Called whenever an opportunity's monetary value field is updated
 

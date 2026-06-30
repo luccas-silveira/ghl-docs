@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/saas/bulk-disable-saas-
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/saas-api/public-api/bulk-disable-saas/:companyId
+summary: "This endpoint has been deprecated and may be replaced or removed in future versions of the API"
 ---
 # Disable SaaS for locations
 

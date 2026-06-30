@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/delete-a
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/social-media-posting/:locationId/accounts/:id
+summary: "Delete account and account from group"
 ---
 # Delete Account
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/create-
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/conversation-ai/agents/:agentId/actions
+summary: "Creates and attach a new action for an AI agent. Actions define specific tasks or behaviors that the agent can perform, such as booking appointments, sending follow-ups, or collecting information"
 ---
 # Attach Action to Agent
 

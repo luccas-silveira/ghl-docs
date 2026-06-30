@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/payments/create-order-f
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/payments/orders/:orderId/fulfillments
+summary: "The 'Order Fulfillment' API facilitates the process of fulfilling an order"
 ---
 # Create order fulfillment
 

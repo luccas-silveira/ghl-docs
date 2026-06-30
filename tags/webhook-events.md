@@ -1,6 +1,7 @@
 ---
 title: "Webhook Events"
 source_url: https://marketplace.gohighlevel.com/docs/tags/webhook-events
+summary: "Called whenever an app is installed"
 ---
 [**App**](https://marketplace.gohighlevel.com/docs/webhook/AppInstall)
 

@@ -2,6 +2,7 @@
 title: "Inboundmessage"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/InboundMessage
 version: v3
+summary: "Called whenever a contact sends a message to the user"
 ---
 Called whenever a contact sends a message to the user.
 

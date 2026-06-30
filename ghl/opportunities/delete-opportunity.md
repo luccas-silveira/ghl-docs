@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/opportunities/delete-op
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/opportunities/:id
+summary: "Delete Opportunity"
 ---
 # Delete Opportunity
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/generate-estim
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/invoices/estimate/number/generate
+summary: "Get the next estimate number for the given location"
 ---
 # Generate Estimate Number
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/delete-l
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/social-media-posting/comments/:platform/:id/like
+summary: "Remove a like from a comment by its **Highlevel** comment ID (the `_id` returned by the list-comments endpoint — not the native platform ID)"
 ---
 # Unlike a comment
 

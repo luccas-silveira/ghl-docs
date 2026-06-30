@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/links/get-links
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/links
+summary: "Location ID of the business profile"
 ---
 # Get Links
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/brand-boards/list-brand
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/brand-boards/locations/:locationId/brand-voices
+summary: "Get list of brand voices for a location"
 ---
 # List Brand Voices
 

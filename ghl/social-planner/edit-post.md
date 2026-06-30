@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/edit-pos
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/social-media-posting/:locationId/posts/:id
+summary: "The content and media limitations, as well as platform rate limiters corresponding to the respective platforms, are provided in the following reference link:"
 ---
 # Edit post
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/voice-ai/get-agents
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/voice-ai/agents
+summary: "Retrieve a paginated list of agents for given location"
 ---
 # List Agents
 

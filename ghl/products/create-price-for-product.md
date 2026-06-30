@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/products/create-price-f
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/products/:productId/price
+summary: "ID of the product that needs to be used"
 ---
 # Create Price for a Product
 

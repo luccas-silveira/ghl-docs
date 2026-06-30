@@ -2,6 +2,7 @@
 title: "Taskcreate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/TaskCreate
 version: v3
+summary: "Called whenever a task is created"
 ---
 Called whenever a task is created
 

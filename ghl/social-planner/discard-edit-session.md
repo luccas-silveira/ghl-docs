@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/discard-
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/social-media-posting/category/queues/:queueId/edit/discard
+summary: "Cancels the edit session and deletes all staged changes without affecting the live queue"
 ---
 # Discard edit session changes
 

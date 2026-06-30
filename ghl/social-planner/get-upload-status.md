@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-uplo
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/social-media-posting/:locationId/csv
+summary: "Get the status of all CSV imports for a location"
 ---
 # Get Upload Status
 

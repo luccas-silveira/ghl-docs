@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/delete-custom
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/locations/:locationId/customFields/:id
+summary: "Delete Custom Field"
 ---
 # Delete Custom Field
 

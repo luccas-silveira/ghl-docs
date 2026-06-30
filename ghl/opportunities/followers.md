@@ -2,6 +2,7 @@
 title: "Followers"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/opportunities/followers
 version: v3
+summary: "Documentation for Opportunities API"
 ---
 Documentation for Opportunities API
 

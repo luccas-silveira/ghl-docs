@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/start-ed
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/social-media-posting/category/queues/:queueId/edit/start
+summary: "Creates a draft copy of queue items for editing. Changes are staged until saved or discarded"
 ---
 # Start or resume an edit session
 

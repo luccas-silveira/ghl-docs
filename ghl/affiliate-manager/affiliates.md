@@ -2,6 +2,7 @@
 title: "Affiliates"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/affiliate-manager/affiliates
 version: v3
+summary: "Documentation for Affiliate Manager API"
 ---
 Documentation for Affiliate Manager API
 

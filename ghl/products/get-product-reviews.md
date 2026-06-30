@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/products/get-product-re
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/products/reviews
+summary: "API to fetch the Product Reviews"
 ---
 # Fetch Product Reviews
 

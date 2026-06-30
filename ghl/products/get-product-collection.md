@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/products/get-product-co
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/products/collections
+summary: "Internal API to fetch the Product Collections"
 ---
 # Fetch Product Collections
 

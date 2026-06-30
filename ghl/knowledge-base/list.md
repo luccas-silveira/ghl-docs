@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/list
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/knowledge-bases/faqs
+summary: "Retrieves FAQs for a knowledge base. Supports pagination using limit and lastFaqId parameters"
 ---
 # Get all FAQs by knowledge base with pagination support
 

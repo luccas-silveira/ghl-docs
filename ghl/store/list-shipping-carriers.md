@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/store/list-shipping-car
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/store/shipping-carrier
+summary: "The 'List Shipping Carrier' API allows to retrieve a list of shipping carrier"
 ---
 # List Shipping Carriers
 

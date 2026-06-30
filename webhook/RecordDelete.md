@@ -2,6 +2,7 @@
 title: "Recorddelete"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/RecordDelete
 version: v3
+summary: "The `Delete Record` is triggered whenever a record or business (company) is deleted from the system"
 ---
 ## Overview
 

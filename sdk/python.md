@@ -2,6 +2,7 @@
 title: "Python"
 source_url: https://marketplace.gohighlevel.com/docs/sdk/python
 version: v3
+summary: "The SDK is async-first; wrap your logic in `asyncio.run()` when you are not already inside an async framework"
 ---
 The official `gohighlevel-api-client` package publishes a async client that speaks to every HighLevel endpoint with the same token automation, webhook helpers, and storage adapters you get on other platforms. Requires Python 3.8+.
 

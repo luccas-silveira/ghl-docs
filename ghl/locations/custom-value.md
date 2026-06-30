@@ -2,6 +2,7 @@
 title: "Custom Value"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/custom-value
 version: v3
+summary: "Documentation for Sub-Account (Formerly location) API"
 ---
 Documentation for Sub-Account (Formerly location) API
 

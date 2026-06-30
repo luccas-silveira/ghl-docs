@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/saas/generate-payment-l
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/saas-api/public-api/update-saas-subscription/:locationId
+summary: "This endpoint has been deprecated and may be replaced or removed in future versions of the API"
 ---
 # Update SaaS subscription
 

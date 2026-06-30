@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/update-q
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/social-media-posting/category/queues/:queueId/items/:itemId
+summary: "Updates the content or variations of a specific item within a category queue"
 ---
 # Update an item in a queue
 

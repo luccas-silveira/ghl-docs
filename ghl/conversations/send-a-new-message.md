@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversations/send-a-ne
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/conversations/messages
+summary: "Post the necessary fields for the API to send a new message"
 ---
 # Send a new message
 

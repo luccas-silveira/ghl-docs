@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/saas/bulk-enable-saas
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/saas/bulk-enable-saas/:companyId
+summary: "Enable SaaS mode for multiple locations with support for both SaaS v1 and v2"
 ---
 # Bulk Enable SaaS
 

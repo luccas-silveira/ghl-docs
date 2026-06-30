@@ -2,6 +2,7 @@
 title: "Invoicevoid"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/InvoiceVoid
 version: v3
+summary: "Called whenever an invoice is marked as void"
 ---
 Called whenever an invoice is marked as void
 

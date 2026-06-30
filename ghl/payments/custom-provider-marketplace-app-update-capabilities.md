@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/payments/custom-provide
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/payments/custom-provider/capabilities
+summary: "Toggle capabilities for the marketplace app tied to the OAuth client"
 ---
 # Custom-provider marketplace app update capabilities
 

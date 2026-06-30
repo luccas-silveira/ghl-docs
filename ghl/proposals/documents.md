@@ -2,6 +2,7 @@
 title: "Documents"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/proposals/documents
 version: v3
+summary: "Documentation for Documents and Contracts API"
 ---
 Documentation for Documents and Contracts API
 

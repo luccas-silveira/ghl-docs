@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/search-contact
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/contacts/search
+summary: "Unauthorized"
 ---
 # Search Contacts
 

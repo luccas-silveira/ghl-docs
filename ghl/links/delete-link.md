@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/links/delete-link
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/links/:linkId
+summary: "Successful response"
 ---
 # Delete Link
 

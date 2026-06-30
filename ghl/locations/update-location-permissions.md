@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/update-locati
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/locations/:locationId/permissions
+summary: "Update Sub-Account (Formerly Location) permissions"
 ---
 # Update Permissions
 

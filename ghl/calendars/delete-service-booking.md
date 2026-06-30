@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/delete-servic
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/calendars/services/bookings/:bookingId
+summary: "Delete a service booking by ID"
 ---
 # Delete Service Booking
 

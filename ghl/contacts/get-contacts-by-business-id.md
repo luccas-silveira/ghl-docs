@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/get-contacts-b
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/contacts/business/:businessId
+summary: "Get Contacts By BusinessId"
 ---
 # Get Contacts By BusinessId
 

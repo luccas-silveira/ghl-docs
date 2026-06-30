@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/blogs/get-all-categorie
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/blogs/categories
+summary: "The 'Get all categories' Api return the blog categoies for a given location ID. Please use 'blogs/category.readonly'"
 ---
 # Get all categories
 

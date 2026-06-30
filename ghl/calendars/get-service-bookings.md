@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/get-service-b
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/calendars/services/bookings
+summary: "Retrieve service bookings for a location within a given date range, with an optional service location filter"
 ---
 # Get Service Bookings
 

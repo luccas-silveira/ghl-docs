@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/payments/create-integra
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/payments/integrations/provider/whitelabel
+summary: "location Id / company Id based on altType"
 ---
 # Create White-label Integration Provider
 

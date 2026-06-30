@@ -2,6 +2,7 @@
 title: "Coupons"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/payments/coupons
 version: v3
+summary: "Documentation for payments API"
 ---
 Documentation for payments API
 

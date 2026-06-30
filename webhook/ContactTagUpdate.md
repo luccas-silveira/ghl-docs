@@ -2,6 +2,7 @@
 title: "Contacttagupdate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/ContactTagUpdate
 version: v3
+summary: "Called whenever a contact's tag field is updated"
 ---
 Called whenever a contact's tag field is updated
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/get-all-sched
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/calendars/schedules/search
+summary: "Retrieve user availability schedules based on various filters including location, calendar, and user. Supports pagination"
 ---
 # List user availability schedule
 

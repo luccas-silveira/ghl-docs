@@ -2,6 +2,7 @@
 title: "Scopes"
 source_url: https://marketplace.gohighlevel.com/docs/Authorization/Scopes
 version: v3
+summary: "Here is a list of the scopes you require to access the API Endpoints and Webhook Events"
 ---
 Here is a list of the scopes you require to access the API Endpoints and Webhook Events.
 

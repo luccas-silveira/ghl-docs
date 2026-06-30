@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/medias/fetch-media-cont
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/medias/files
+summary: "Fetches list of files and folders from the media storage"
 ---
 # Get List of Files/ Folders
 

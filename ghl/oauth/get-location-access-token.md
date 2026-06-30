@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/oauth/get-location-acce
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/oauth/location-token
+summary: "This API allows you to generate locationAccessToken from AgencyAccessToken"
 ---
 # Get Location Access Token from Agency Token
 

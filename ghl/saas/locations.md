@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/saas/locations
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/saas/locations
+summary: "Get locations by stripeCustomerId or stripeSubscriptionId with companyId"
 ---
 # Get locations by stripeId with companyId
 

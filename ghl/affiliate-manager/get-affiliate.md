@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/affiliate-manager/get-a
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/affiliate-manager/:locationId/affiliates/:affiliateId
+summary: "Retrieve a single affiliate by id for a location"
 ---
 # Get Affiliate
 

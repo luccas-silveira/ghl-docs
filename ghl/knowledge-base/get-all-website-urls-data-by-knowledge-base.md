@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/get-all-
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/knowledge-bases/crawler
+summary: "Get all trained page links by knowledge base"
 ---
 # Get all trained page links by knowledge base
 

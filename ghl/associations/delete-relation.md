@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/associations/delete-rel
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/associations/relations/:relationId
+summary: "Delete Relation"
 ---
 # Delete Relation
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/fetch-qu
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/social-media-posting/category/queues/list
+summary: "Retrieves a paginated list of all category queues for a given location, excluding any that have been marked as deleted"
 ---
 # Fetch category queues for a location
 

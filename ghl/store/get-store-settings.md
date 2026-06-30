@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/store/get-store-setting
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/store/store-setting
+summary: "Get store settings by altId and altType"
 ---
 # Get Store Settings
 

@@ -2,6 +2,7 @@
 title: "Oauth2.0"
 source_url: https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0
 version: v3
+summary: "HighLevel supports the **Authorization Code Grant** flow with v2 APIs. Below is the step-by-step procedure to understand and use the OAuth 2.0 flow"
 ---
 OAuth 2.0 is a standard protocol that authorizes a client application (like a third-party app) to access specific resources on behalf of a user, without sharing the user’s password. It’s widely used for APIs that need secure, delegated access.
 

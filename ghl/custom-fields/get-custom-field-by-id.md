@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/custom-fields/get-custo
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/custom-fields/:id
+summary: "Get Custom Field / Folder By Id"
 ---
 # Get Custom Field / Folder By Id
 

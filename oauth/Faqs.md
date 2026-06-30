@@ -2,6 +2,7 @@
 title: "Faqs"
 source_url: https://marketplace.gohighlevel.com/docs/oauth/Faqs
 version: v3
+summary: "Here you will find answers to commonly encountered questions"
 ---
 Here you will find answers to commonly encountered questions.
 

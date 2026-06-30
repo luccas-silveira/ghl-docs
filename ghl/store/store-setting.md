@@ -2,6 +2,7 @@
 title: "Store Setting"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/store/store-setting
 version: v3
+summary: "Documentation for store API"
 ---
 Documentation for store API
 

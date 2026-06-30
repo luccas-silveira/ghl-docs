@@ -2,6 +2,7 @@
 title: "Statistics"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/emails/statistics
 version: v3
+summary: "Documentation for emails API"
 ---
 Documentation for emails API
 

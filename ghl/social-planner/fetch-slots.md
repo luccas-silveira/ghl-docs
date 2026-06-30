@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/fetch-sl
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/social-media-posting/category/queues/:queueId/slots
+summary: "Returns paginated slot information (scheduledDateTime, isSkipped) for queue items. Pass sessionId to get slots for draft items, or omit for live items. Call this after mutations to refresh slot data"
 ---
 # Fetch slot information for queue items
 

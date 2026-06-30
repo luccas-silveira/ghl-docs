@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/agent-studio/execute-ag
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/agent-studio/agent/:agentId/execute
+summary: "Message to send to the agent"
 ---
 # Execute Agent
 

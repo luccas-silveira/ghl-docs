@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/fetch-calenda
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/calendars/resources/:resourceType
+summary: "This endpoint has been deprecated and may be replaced or removed in future versions of the API"
 ---
 # List Calendar Resources
 

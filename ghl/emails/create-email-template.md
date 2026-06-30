@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/emails/create-email-tem
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/emails/locations/:locationId/templates
+summary: "Create a new email template"
 ---
 # Create an email template
 

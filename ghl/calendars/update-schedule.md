@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/update-schedu
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/calendars/schedules/:id
+summary: "Modify an existing schedule by updating its rules, timezone, and name All fields are optional - only provided fields will be updated"
 ---
 # Update user availability schedule
 

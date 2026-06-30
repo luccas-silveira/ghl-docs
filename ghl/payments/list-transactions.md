@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/payments/list-transacti
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/payments/transactions
+summary: "LocationId is the id of the sub-account"
 ---
 # List Transactions
 

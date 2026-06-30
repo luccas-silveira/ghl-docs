@@ -2,6 +2,7 @@
 title: "Commissions"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/affiliate-manager/commissions
 version: v3
+summary: "Documentation for Affiliate Manager API"
 ---
 Documentation for Affiliate Manager API
 

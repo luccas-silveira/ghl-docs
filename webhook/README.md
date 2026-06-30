@@ -2,78 +2,78 @@
 
 75 pages.
 
-- [Appinstall](AppInstall.md)
-- [Appuninstall](AppUninstall.md)
-- [Appupdate](AppUpdate.md)
-- [Appointmentcreate](AppointmentCreate.md)
-- [Appointmentdelete](AppointmentDelete.md)
-- [Appointmentupdate](AppointmentUpdate.md)
-- [Associationcreate](AssociationCreate.md)
-- [Associationdelete](AssociationDelete.md)
-- [Associationupdate](AssociationUpdate.md)
-- [Campaignstatusupdate](CampaignStatusUpdate.md)
-- [Contactcreate](ContactCreate.md)
-- [Contactdelete](ContactDelete.md)
-- [Contactdndupdate](ContactDndUpdate.md)
-- [Contacttagupdate](ContactTagUpdate.md)
-- [Contactupdate](ContactUpdate.md)
-- [Conversationunreadwebhook](ConversationUnreadWebhook.md)
-- [Conversationupdate](ConversationUpdate.md)
-- [Externalauthconnected](ExternalAuthConnected.md)
-- [Inboundmessage](InboundMessage.md)
-- [Invoicecreate](InvoiceCreate.md)
-- [Invoicedelete](InvoiceDelete.md)
-- [Invoicepaid](InvoicePaid.md)
-- [Invoicepartiallypaid](InvoicePartiallyPaid.md)
-- [Invoicesent](InvoiceSent.md)
-- [Invoiceupdate](InvoiceUpdate.md)
-- [Invoicevoid](InvoiceVoid.md)
-- [Knowledgebasecreate](KnowledgeBaseCreate.md)
-- [Knowledgebasedelete](KnowledgeBaseDelete.md)
-- [Knowledgebasefaqchange](KnowledgeBaseFaqChange.md)
-- [Knowledgebasefilechange](KnowledgeBaseFileChange.md)
-- [Knowledgebaserichtextchange](KnowledgeBaseRichTextChange.md)
-- [Knowledgebasetablefilechange](KnowledgeBaseTableFileChange.md)
-- [Knowledgebasetrainedurlchange](KnowledgeBaseTrainedUrlChange.md)
-- [Knowledgebaseupdate](KnowledgeBaseUpdate.md)
-- [Lcemailstats](LCEmailStats.md)
-- [Locationcreate](LocationCreate.md)
-- [Locationupdate](LocationUpdate.md)
-- [Notecreate](NoteCreate.md)
-- [Notedelete](NoteDelete.md)
-- [Noteupdate](NoteUpdate.md)
-- [Objectschemacreate](ObjectSchemaCreate.md)
-- [Objectschemaupdate](ObjectSchemaUpdate.md)
-- [Opportunityassignedtoupdate](OpportunityAssignedToUpdate.md)
-- [Opportunitycreate](OpportunityCreate.md)
-- [Opportunitydelete](OpportunityDelete.md)
-- [Opportunitymonetaryvalueupdate](OpportunityMonetaryValueUpdate.md)
-- [Opportunitystageupdate](OpportunityStageUpdate.md)
-- [Opportunitystatusupdate](OpportunityStatusUpdate.md)
-- [Opportunityupdate](OpportunityUpdate.md)
-- [Ordercreate](OrderCreate.md)
-- [Orderstatusupdate](OrderStatusUpdate.md)
-- [Outboundmessage](OutboundMessage.md)
-- [Planchange](PlanChange.md)
-- [Pricecreate](PriceCreate.md)
-- [Pricedelete](PriceDelete.md)
-- [Priceupdate](PriceUpdate.md)
-- [Productcreate](ProductCreate.md)
-- [Productdelete](ProductDelete.md)
-- [Productupdate](ProductUpdate.md)
-- [Provideroutboundmessage](ProviderOutboundMessage.md)
-- [Recordcreate](RecordCreate.md)
-- [Recorddelete](RecordDelete.md)
-- [Recordupdate](RecordUpdate.md)
-- [Relationcreate](RelationCreate.md)
-- [Relationdelete](RelationDelete.md)
-- [Saasplancreate](SaaSPlanCreate.md)
-- [Taskcomplete](TaskComplete.md)
-- [Taskcreate](TaskCreate.md)
-- [Taskdelete](TaskDelete.md)
-- [Usercreate](UserCreate.md)
-- [Userdelete](UserDelete.md)
-- [Userupdate](UserUpdate.md)
-- [Voiceaicallend](VoiceAiCallEnd.md)
-- [Webhookintegrationguide](WebhookIntegrationGuide.md)
-- [Webhooklogsdashboard](WebhookLogsDashboard.md)
+- [Appinstall](AppInstall.md) — Called whenever an app is installed
+- [Appuninstall](AppUninstall.md) — Called whenever an app is uninstalled
+- [Appupdate](AppUpdate.md) — Called whenever an app is updated to a new version
+- [Appointmentcreate](AppointmentCreate.md) — Called whenever an appointment is created
+- [Appointmentdelete](AppointmentDelete.md) — Called whenever an appointment is deleted
+- [Appointmentupdate](AppointmentUpdate.md) — Called whenever an appointment is updated
+- [Associationcreate](AssociationCreate.md) — For example, in a real estate system, a company may want to associate potential buyers with specific properties. In this case:
+- [Associationdelete](AssociationDelete.md) — For example, in a real estate system, a company may want to associate potential buyers with specific properties. In this case:
+- [Associationupdate](AssociationUpdate.md) — For example, in a real estate system, a company may want to associate potential buyers with specific properties. In this case:
+- [Campaignstatusupdate](CampaignStatusUpdate.md) — Called whenever a campaign status is updated
+- [Contactcreate](ContactCreate.md) — Called whenever a contact is created
+- [Contactdelete](ContactDelete.md) — Called whenever a contact is deleted
+- [Contactdndupdate](ContactDndUpdate.md) — Called whenever a contact's dnd field is updated
+- [Contacttagupdate](ContactTagUpdate.md) — Called whenever a contact's tag field is updated
+- [Contactupdate](ContactUpdate.md) — Called whenever the specific fields in contact is updated
+- [Conversationunreadwebhook](ConversationUnreadWebhook.md) — Called whenever a conversations unread status is updated
+- [Conversationupdate](ConversationUpdate.md) — Called whenever a live chat conversation is merged into another conversation due to contact identification (e.g. a visitor provides their email or phone number matching an existing contact)
+- [Externalauthconnected](ExternalAuthConnected.md) — Called whenever external authentication (OAuth2 or Basic) is connected successfully for an app/location/company
+- [Inboundmessage](InboundMessage.md) — Called whenever a contact sends a message to the user
+- [Invoicecreate](InvoiceCreate.md) — Called whenever an invoice is created
+- [Invoicedelete](InvoiceDelete.md) — Called whenever an invoice is deleted
+- [Invoicepaid](InvoicePaid.md) — Called whenever an invoice is paid
+- [Invoicepartiallypaid](InvoicePartiallyPaid.md) — Called whenever an invoice is partially paid
+- [Invoicesent](InvoiceSent.md) — Called whenever an invoice is sent
+- [Invoiceupdate](InvoiceUpdate.md) — Called whenever an invoice is updated
+- [Invoicevoid](InvoiceVoid.md) — Called whenever an invoice is marked as void
+- [Knowledgebasecreate](KnowledgeBaseCreate.md) — Called whenever a knowledge base is created
+- [Knowledgebasedelete](KnowledgeBaseDelete.md) — Called whenever a knowledge base is deleted
+- [Knowledgebasefaqchange](KnowledgeBaseFaqChange.md) — Called whenever a knowledge base **FAQ** asset is created, updated or deleted
+- [Knowledgebasefilechange](KnowledgeBaseFileChange.md) — Called whenever a knowledge base **file** asset is created, updated or deleted
+- [Knowledgebaserichtextchange](KnowledgeBaseRichTextChange.md) — Called whenever a knowledge base **rich text** asset is created, updated or deleted
+- [Knowledgebasetablefilechange](KnowledgeBaseTableFileChange.md) — Called whenever a knowledge base **table file** asset is created, updated or deleted
+- [Knowledgebasetrainedurlchange](KnowledgeBaseTrainedUrlChange.md) — Called whenever a knowledge base **trained URL** asset is created, updated or deleted
+- [Knowledgebaseupdate](KnowledgeBaseUpdate.md) — Called whenever a knowledge base name/description is updated
+- [Lcemailstats](LCEmailStats.md) — Called whenever an email is sent, gives the statistics of the said email
+- [Locationcreate](LocationCreate.md) — Called whenever a location is created
+- [Locationupdate](LocationUpdate.md) — Called whenever a location is updated
+- [Notecreate](NoteCreate.md) — Called whenever a note is created
+- [Notedelete](NoteDelete.md) — Called whenever a note is deleted
+- [Noteupdate](NoteUpdate.md) — Called whenever a note is updated
+- [Objectschemacreate](ObjectSchemaCreate.md) — The **Object Schema Create** is triggered whenever a custom object is created. This webhook allows systems to listen for new custom objects and take appropriate actions based on the event
+- [Objectschemaupdate](ObjectSchemaUpdate.md) — The **Update Custom Object** is triggered whenever a custom object is Updated. This webhook allows systems to listen for new custom objects and take appropriate actions based on the event
+- [Opportunityassignedtoupdate](OpportunityAssignedToUpdate.md) — Called whenever an opportunity's AssignedTo field is updated
+- [Opportunitycreate](OpportunityCreate.md) — Called whenever an opportunity is created
+- [Opportunitydelete](OpportunityDelete.md) — Called whenever an opportunity is deleted
+- [Opportunitymonetaryvalueupdate](OpportunityMonetaryValueUpdate.md) — Called whenever an opportunity's monetary value field is updated
+- [Opportunitystageupdate](OpportunityStageUpdate.md) — Called whenever an opportunity's stage field is updated
+- [Opportunitystatusupdate](OpportunityStatusUpdate.md) — Called whenever an opportunity's status field is updated
+- [Opportunityupdate](OpportunityUpdate.md) — Called whenever an opportunity is updated
+- [Ordercreate](OrderCreate.md) — Called whenever an order is created
+- [Orderstatusupdate](OrderStatusUpdate.md) — Called whenever an order's status field updated
+- [Outboundmessage](OutboundMessage.md) — Called whenever a user sends a message to a contact
+- [Planchange](PlanChange.md) — Called whenever user changes the plan for a paid app
+- [Pricecreate](PriceCreate.md) — Called whenever a price is created
+- [Pricedelete](PriceDelete.md) — Called whenever a price is deleted
+- [Priceupdate](PriceUpdate.md) — Called whenever a price is updated
+- [Productcreate](ProductCreate.md) — Called whenever a product is created
+- [Productdelete](ProductDelete.md) — Called whenever a product is deleted
+- [Productupdate](ProductUpdate.md) — Called whenever a product is updated
+- [Provideroutboundmessage](ProviderOutboundMessage.md) — Called whenever a user sends a message to a contact and has a custom provider as the default channel in the settings
+- [Recordcreate](RecordCreate.md) — This webhook response is triggered when a new record or business is created
+- [Recorddelete](RecordDelete.md) — The `Delete Record` is triggered whenever a record or business (company) is deleted from the system
+- [Recordupdate](RecordUpdate.md) — This webhook response is triggered when a record or business is updated
+- [Relationcreate](RelationCreate.md) — This webhook response is triggered when an relation between objects is created
+- [Relationdelete](RelationDelete.md) — This webhook response is triggered when an existing relation between objects is deleted
+- [Saasplancreate](SaaSPlanCreate.md) — For example, when a company creates a new subscription plan for their SaaS product:
+- [Taskcomplete](TaskComplete.md) — Called whenever a task is completed
+- [Taskcreate](TaskCreate.md) — Called whenever a task is created
+- [Taskdelete](TaskDelete.md) — Called whenever a task is deleted
+- [Usercreate](UserCreate.md) — Called whenever a user is created
+- [Userdelete](UserDelete.md) — Called whenever a user is deleted
+- [Userupdate](UserUpdate.md) — Called whenever a user is updated
+- [Voiceaicallend](VoiceAiCallEnd.md) — Called whenever a Voice AI call ends for a sub-account
+- [Webhookintegrationguide](WebhookIntegrationGuide.md) — Webhooks are a way for applications to communicate in real-time. Think of them as **automatic notifications** that are sent to your application when something happens in our platform
+- [Webhooklogsdashboard](WebhookLogsDashboard.md) — The Webhook Logs Dashboard enables you to:

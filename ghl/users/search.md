@@ -2,6 +2,7 @@
 title: "Search"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/users/search
 version: v3
+summary: "Documentation for users API"
 ---
 Documentation for users API
 

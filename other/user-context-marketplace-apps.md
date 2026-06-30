@@ -2,6 +2,7 @@
 title: "User Context Marketplace Apps"
 source_url: https://marketplace.gohighlevel.com/docs/other/user-context-marketplace-apps
 version: v3
+summary: "First you'll need to generate a Shared Secret key for your application:"
 ---
 HighLevel provides a secure mechanism for accessing authenticated user information through signed tokens. This guide explains how you can generate and use `Shared Secret` key to access user context in secured manner.
 

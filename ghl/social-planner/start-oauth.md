@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/start-oa
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/social-media-posting/oauth/:platform/start
+summary: "This is the first step in the 3-step OAuth flow to connect a social media account:"
 ---
 # Start OAuth Flow (Step 1 of 3)
 

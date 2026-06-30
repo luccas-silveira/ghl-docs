@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/products/delete-product
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/products/:productId
+summary: "The 'Delete Product by ID' API allows deleting a specific product using its unique identifier. Use this endpoint to remove a product from the system"
 ---
 # Delete Product by ID
 

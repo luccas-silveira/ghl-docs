@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/saas/get-agency-plans
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/saas/agency-plans/:companyId
+summary: "Fetch all agency subscription plans for a given company ID"
 ---
 # Get Agency Plans
 

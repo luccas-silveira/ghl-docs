@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/remove-contact
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/contacts/:contactId/campaigns/:campaignId
+summary: "Remove Contact From Campaign"
 ---
 # Remove Contact From Campaign
 

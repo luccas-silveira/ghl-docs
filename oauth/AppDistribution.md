@@ -2,6 +2,7 @@
 title: "Appdistribution"
 source_url: https://marketplace.gohighlevel.com/docs/oauth/AppDistribution
 version: v3
+summary: "This guide covers the new, simplified Marketplace distribution model and the OAuth flow you’ll need to implement to obtain the correct access tokens"
 ---
 This guide covers the new, simplified Marketplace distribution model and the OAuth flow you’ll need to implement to obtain the correct access tokens.
 

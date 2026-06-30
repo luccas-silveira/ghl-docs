@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/get-appointmen
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/contacts/:contactId/appointments
+summary: "Get Appointments for Contact"
 ---
 # Get Appointments for Contact
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversations/update-em
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/conversations/messages/email/:emailMessageId/status
+summary: "Update delivery events, per-recipient statuses, and the overall message status for an email sent via a custom conversation provider"
 ---
 # Update email message status
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/email-isv/verify-email
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/email/verify
+summary: "Verify Email"
 ---
 # Email Verification
 

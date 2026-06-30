@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/products/delete-price-b
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/products/:productId/price/:priceId
+summary: "The 'Delete Price by ID for a Product' API allows deleting a specific price associated with a particular product using its unique identifier. Use this endpoint to remove a price from the system"
 ---
 # Delete Price by ID for a Product
 

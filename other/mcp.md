@@ -2,6 +2,7 @@
 title: "Model Context Protocol (MCP)"
 source_url: https://marketplace.gohighlevel.com/docs/other/mcp
 version: v3
+summary: "_You’ll be prompted to select these scopes when creating your Private Integration under Settings > Private Integrations in HighLevel._"
 ---
 We’re excited to announce that the HighLevel MCP (Model Context Protocol) server is now **live and ready for use!** , opening up a world where advanced AI assistants can talk directly to your GHL data and tools. Think of it as a bridge: you can now **query, automate, and orchestrate** everything in your HighLevel account with AI, in any app that supports HTTP based MCP (like Cursor, Windsurf, OpenAI Playground, and more).
 

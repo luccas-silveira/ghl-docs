@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/add-tags
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/contacts/:contactId/tags
+summary: "List of tags to add or remove"
 ---
 # Add Tags
 

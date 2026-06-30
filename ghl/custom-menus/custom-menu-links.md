@@ -2,6 +2,7 @@
 title: "Custom Menu Links"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/custom-menus/custom-menu-links
 version: v3
+summary: "Documentation for Custom menus API"
 ---
 Documentation for Custom menus API
 

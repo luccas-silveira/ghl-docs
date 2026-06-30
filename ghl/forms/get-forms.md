@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/forms/get-forms
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/forms
+summary: "Limit Per Page records count. will allow maximum up to 50 and default will be 10"
 ---
 # Get Forms
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/create-
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/conversation-ai/agents
+summary: "Creates a new AI agent for the location. The agent will be created with the specified configuration including name, role, actions, and behavior settings"
 ---
 # Create an Agent
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/funnels/fetch-redirects
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/funnels/lookup/redirect/list
+summary: "Retrieves a list of all URL redirects based on the given query parameters"
 ---
 # Fetch List of Redirects
 

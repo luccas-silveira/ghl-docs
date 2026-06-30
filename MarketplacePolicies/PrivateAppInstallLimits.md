@@ -2,6 +2,7 @@
 title: "Privateappinstalllimits"
 source_url: https://marketplace.gohighlevel.com/docs/MarketplacePolicies/PrivateAppInstallLimits
 version: v3
+summary: "Applies to Private apps created on or after **18 November 2025**"
 ---
 ## Effective date
 

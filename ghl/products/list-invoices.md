@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/products/list-invoices
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/products
+summary: "The maximum number of items to be included in a single page of results"
 ---
 # List Products
 

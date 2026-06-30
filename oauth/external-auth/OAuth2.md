@@ -2,6 +2,7 @@
 title: "Oauth2"
 source_url: https://marketplace.gohighlevel.com/docs/oauth/external-auth/OAuth2
 version: v3
+summary: "1. The user installs your app and is redirected to your **Authorization URL**"
 ---
 OAuth v2 is the **recommended** External Authentication method. HighLevel redirects the user to your authorization page, where they grant access. Your provider returns an authorization code, HighLevel exchanges it for an access/refresh token pair, stores the tokens securely, and includes them in the external calls your app makes (for example, in your [Workflow Actions and Triggers](https://marketplace.gohighlevel.com/docs/marketplace-modules/WorkflowActionsAndTriggers)).
 

@@ -2,6 +2,7 @@
 title: "Affiliate Manager API"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/affiliate-manager/affiliate-manager-api
 version: v3
+summary: "Documentation for Affiliate Manager API"
 ---
 Version: 1.0
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/create-task
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/contacts/:contactId/tasks
+summary: "Title of the task"
 ---
 # Create Task
 

@@ -2,6 +2,7 @@
 title: "Payments"
 source_url: https://marketplace.gohighlevel.com/docs/marketplace-modules/Payments
 version: v3
+summary: "Before you begin, ensure you have:"
 ---
 Integrating your preferred payment gateway into HighLevel allows for streamlined transactions, automated processes, and an enhanced customer payment experience. Whether you're working with a niche payment processor or developing a tailored solution, this guide will walk you through the setup, testing, and implementation phases.
 

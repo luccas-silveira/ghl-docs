@@ -2,6 +2,7 @@
 title: "Custom Field"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/custom-field
 version: v3
+summary: "Documentation for Sub-Account (Formerly location) API"
 ---
 Documentation for Sub-Account (Formerly location) API
 

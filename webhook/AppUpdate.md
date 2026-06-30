@@ -2,6 +2,7 @@
 title: "Appupdate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/AppUpdate
 version: v3
+summary: "Called whenever an app is updated to a new version"
 ---
 Called whenever an app is updated to a new version
 

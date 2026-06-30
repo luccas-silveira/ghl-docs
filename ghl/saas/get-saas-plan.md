@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/saas/get-saas-plan
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/saas/saas-plan/:planId
+summary: "Fetch a specific SaaS plan by plan ID"
 ---
 # Get SaaS Plan
 

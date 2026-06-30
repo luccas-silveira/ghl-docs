@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/objects/create-object-r
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/objects/:schemaKey/records
+summary: "Successful response"
 ---
 # Create Record
 

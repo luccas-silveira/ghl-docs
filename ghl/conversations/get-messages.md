@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversations/get-messa
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/conversations/:conversationId/messages
+summary: "Get messages by conversation id"
 ---
 # Get messages by conversation id
 

@@ -2,6 +2,7 @@
 title: "Recordcreate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/RecordCreate
 version: v3
+summary: "This webhook response is triggered when a new record or business is created"
 ---
 ## Overview
 

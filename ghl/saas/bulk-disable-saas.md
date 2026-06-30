@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/saas/bulk-disable-saas
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/saas/bulk-disable-saas/:companyId
+summary: "Disable SaaS for locations for given locationIds"
 ---
 # Disable SaaS for locations
 

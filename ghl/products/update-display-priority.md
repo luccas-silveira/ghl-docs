@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/products/update-display
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/products/store/:storeId/priority
+summary: "API to set the display priority of products in a store"
 ---
 # Update product display priorities in store
 

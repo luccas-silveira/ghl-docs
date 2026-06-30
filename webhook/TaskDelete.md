@@ -2,6 +2,7 @@
 title: "Taskdelete"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/TaskDelete
 version: v3
+summary: "Called whenever a task is deleted"
 ---
 Called whenever a task is deleted
 

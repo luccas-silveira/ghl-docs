@@ -2,695 +2,695 @@
 
 692 pages.
 
-- [Affiliate Manager API](affiliate-manager/affiliate-manager-api.md)
-- [Affiliates](affiliate-manager/affiliates.md)
-- [Commissions](affiliate-manager/commissions.md)
-- [Get Affiliate](affiliate-manager/get-affiliate.md)
-- [List Affiliates](affiliate-manager/list-affiliates.md)
-- [List Commissions](affiliate-manager/list-commissions.md)
-- [List Payouts](affiliate-manager/list-payouts.md)
-- [Payouts](affiliate-manager/payouts.md)
-- [Agent Studio APIs](agent-studio/agent-studio-apis.md)
-- [Agents](agent-studio/agents.md)
-- [Create Agent](agent-studio/create-agent.md)
-- [Delete Agent](agent-studio/delete-agent.md)
-- [Execute Agent (Deprecated)](agent-studio/execute-agent-deprecated.md)
-- [Execute Agent](agent-studio/execute-agent.md)
-- [Get Agent (Deprecated)](agent-studio/get-agent-by-id-deprecated.md)
-- [Get Agent](agent-studio/get-agent-by-id.md)
-- [List Agents (Deprecated)](agent-studio/get-agents-deprecated.md)
-- [List Agents](agent-studio/get-agents.md)
-- [Promote to Production](agent-studio/promote-and-publish.md)
-- [Update Agent Metadata](agent-studio/update-agent-metadata.md)
-- [Update Agent](agent-studio/update-agent-version.md)
-- [Associations API](associations/associations-api.md)
-- [Associations](associations/associations.md)
-- [Create Association](associations/create-association.md)
-- [Create Relation for you associated entities.](associations/create-relation.md)
-- [Delete Association](associations/delete-association.md)
-- [Delete Relation](associations/delete-relation.md)
-- [Get all associations for a sub-account / location](associations/find-associations.md)
-- [Get association by ID](associations/get-association-by-id.md)
-- [Get association by object keys](associations/get-association-by-object-keys.md)
-- [Get association key by key name](associations/get-association-key-by-key-name.md)
-- [Get all relations By record Id](associations/get-relations-by-record-id.md)
-- [Relations](associations/relations.md)
-- [Update Association By Id](associations/update-association.md)
-- [Blogs API](blogs/blogs-api.md)
-- [Blogs](blogs/blogs.md)
-- [Check url slug](blogs/check-url-slug-exists.md)
-- [Create Blog Post](blogs/create-blog-post.md)
-- [Get all authors](blogs/get-all-blog-authors-by-location.md)
-- [Get all categories](blogs/get-all-categories-by-location.md)
-- [Get Blog posts by Blog ID](blogs/get-blog-post.md)
-- [Get Blogs by Location ID](blogs/get-blogs.md)
-- [Update Blog Post](blogs/update-blog-post.md)
-- [Brand Boards API v3](brand-boards/brand-boards-api-v-3.md)
-- [Brand Boards](brand-boards/brand-boards.md)
-- [Brand Voices](brand-boards/brand-voices.md)
-- [Create a new brand board](brand-boards/create-brand-board.md)
-- [Create Brand Voice](brand-boards/create-brand-voice.md)
-- [Delete a Brand Board](brand-boards/delete-brand-board.md)
-- [Delete Brand Voice](brand-boards/delete-brand-voice.md)
-- [Get Brand Board](brand-boards/get-brand-board-by-id.md)
-- [Get Brand Boards](brand-boards/get-brand-boards-by-location.md)
-- [Get Brand Voice](brand-boards/get-brand-voice.md)
-- [List Brand Voices](brand-boards/list-brand-voices.md)
-- [Set Default Brand Voice](brand-boards/set-default-brand-voice.md)
-- [Update a Brand Board](brand-boards/update-brand-board.md)
-- [Update Brand Voice](brand-boards/update-brand-voice.md)
-- [Business API](businesses/business-api.md)
-- [Businesses](businesses/businesses.md)
-- [Create Business](businesses/create-business.md)
-- [Delete Business](businesses/delete-business.md)
-- [Get Business](businesses/get-business.md)
-- [Get Businesses by Location](businesses/get-businesses-by-location.md)
-- [Update Business](businesses/update-business.md)
-- [Apply user availability schedule to a calendar](calendars/add-calendar-to-schedule.md)
-- [Appointment Notes](calendars/appointment-notes.md)
-- [Availability](calendars/availability.md)
-- [Calendar Events](calendars/calendar-events.md)
-- [Calendar Groups](calendars/calendar-groups.md)
-- [Calendar Notifications](calendars/calendar-notifications.md)
-- [Calendar Resources Rooms Equipments](calendars/calendar-resources-rooms-equipments.md)
-- [Calendars API](calendars/calendars-api.md)
-- [Calendars](calendars/calendars.md)
-- [Create Note](calendars/create-appointment-note.md)
-- [Create appointment](calendars/create-appointment.md)
-- [Create Block Slot](calendars/create-block-slot.md)
-- [Create Calendar Group](calendars/create-calendar-group.md)
-- [Create Calendar Resource](calendars/create-calendar-resource.md)
-- [Create event calendar availability schedule](calendars/create-calendar-schedule.md)
-- [Create Calendar](calendars/create-calendar.md)
-- [Create notification](calendars/create-event-notification.md)
-- [Create user availability schedule](calendars/create-schedule.md)
-- [Create Service Booking](calendars/create-service-booking.md)
-- [Create Service](calendars/create-service-catalog.md)
-- [Create Service Location](calendars/create-service-location.md)
-- [Delete Note](calendars/delete-appointment-note.md)
-- [Delete Calendar Resource](calendars/delete-calendar-resource.md)
-- [Delete Calendar](calendars/delete-calendar.md)
-- [Delete Notification](calendars/delete-event-notification.md)
-- [Delete Event](calendars/delete-event.md)
-- [Delete Group](calendars/delete-group.md)
-- [Delete user availability schedule](calendars/delete-schedule.md)
-- [Delete Service Booking](calendars/delete-service-booking.md)
-- [Delete Service](calendars/delete-service-catalog.md)
-- [Delete Service Location](calendars/delete-service-location.md)
-- [Disable Group](calendars/disable-group.md)
-- [Update Appointment](calendars/edit-appointment.md)
-- [Update Block Slot](calendars/edit-block-slot.md)
-- [Update Group](calendars/edit-group.md)
-- [List Calendar Resources](calendars/fetch-calendar-resources.md)
-- [Get notification](calendars/find-event-notification.md)
-- [List user availability schedule](calendars/get-all-schedules.md)
-- [Get Notes](calendars/get-appointment-notes.md)
-- [Get Appointment](calendars/get-appointment.md)
-- [Get Blocked Slots](calendars/get-blocked-slots.md)
-- [Get Calendar Events](calendars/get-calendar-events.md)
-- [Get Calendar Resource](calendars/get-calendar-resource.md)
-- [Get event calendar availability schedule](calendars/get-calendar-schedule.md)
-- [Get Calendar](calendars/get-calendar.md)
-- [Get Calendars](calendars/get-calendars.md)
-- [Get notifications](calendars/get-event-notification.md)
-- [Get Groups](calendars/get-groups.md)
-- [Get user availability schedule](calendars/get-schedule-by-id.md)
-- [Get Service Booking by ID](calendars/get-service-booking-by-id.md)
-- [Get Service Bookings](calendars/get-service-bookings.md)
-- [Get Service by ID](calendars/get-service-catalog-by-id.md)
-- [Get Service Location by ID](calendars/get-service-location-by-id.md)
-- [Get Service Locations](calendars/get-service-locations.md)
-- [Get Services](calendars/get-services-catalog.md)
-- [Get Free Slots](calendars/get-slots.md)
-- [Remove user availability schedule from a calendar](calendars/remove-calendar-from-schedule.md)
-- [Service Bookings](calendars/service-bookings.md)
-- [Service Locations](calendars/service-locations.md)
-- [Services](calendars/services.md)
-- [Update Note](calendars/update-appointment-note.md)
-- [Update Calendar Resource](calendars/update-calendar-resource.md)
-- [Update event calendar availability schedule](calendars/update-calendar-schedule.md)
-- [Update Calendar](calendars/update-calendar.md)
-- [Update notification](calendars/update-event-notification.md)
-- [Update user availability schedule](calendars/update-schedule.md)
-- [Update Service Booking](calendars/update-service-booking.md)
-- [Update Service](calendars/update-service-catalog.md)
-- [Update Service Location](calendars/update-service-location.md)
-- [Validate group slug](calendars/validate-groups-slug.md)
-- [Campaigns API](campaigns/campaigns-api.md)
-- [Campaigns](campaigns/campaigns.md)
-- [Get Campaigns](campaigns/get-campaigns.md)
-- [Chat Widget API](chat-widget/chat-widget-api.md)
-- [Chat Widget](chat-widget/chat-widget.md)
-- [Clone Chat Widget](chat-widget/clone-chat-widget.md)
-- [Create Chat Widget](chat-widget/create-chat-widget.md)
-- [Delete Chat Widget](chat-widget/delete.md)
-- [Get Chat Widget](chat-widget/get-chat-widget.md)
-- [Get Widget Config](chat-widget/get-widget.md)
-- [List Chat Widgets](chat-widget/list-chat-widget.md)
-- [Patch Chat Widget](chat-widget/patch-chat-widget.md)
-- [Update Chat Widget](chat-widget/update-chat-widget.md)
-- [Companies API](companies/companies-api.md)
-- [Companies](companies/companies.md)
-- [Get Company](companies/get-company.md)
-- [Add Contact to Campaign](contacts/add-contact-to-campaign.md)
-- [Add Contact to Workflow](contacts/add-contact-to-workflow.md)
-- [Add Followers](contacts/add-followers-contact.md)
-- [Add/Remove Contacts From Business](contacts/add-remove-contact-from-business.md)
-- [Add Tags](contacts/add-tags.md)
-- [Appointments](contacts/appointments.md)
-- [Bulk](contacts/bulk.md)
-- [Campaigns](contacts/campaigns.md)
-- [Contacts API v3](contacts/contacts-api-v-3.md)
-- [Contacts](contacts/contacts.md)
-- [Update Contacts Tags](contacts/create-association.md)
-- [Create Contact](contacts/create-contact.md)
-- [Create Note](contacts/create-note.md)
-- [Create Task](contacts/create-task.md)
-- [Delete Contact from Workflow](contacts/delete-contact-from-workflow.md)
-- [Delete Contact](contacts/delete-contact.md)
-- [Delete Note](contacts/delete-note.md)
-- [Delete Task](contacts/delete-task.md)
-- [Followers](contacts/followers.md)
-- [Get All Notes](contacts/get-all-notes.md)
-- [Get all Tasks](contacts/get-all-tasks.md)
-- [Get Appointments for Contact](contacts/get-appointments-for-contact.md)
-- [Get Contact](contacts/get-contact.md)
-- [Get Contacts By BusinessId](contacts/get-contacts-by-business-id.md)
-- [Get Duplicate Contact](contacts/get-duplicate-contact.md)
-- [Get Note](contacts/get-note.md)
-- [Get Task](contacts/get-task.md)
-- [Notes](contacts/notes.md)
-- [Remove Contact From Campaign](contacts/remove-contact-from-campaign.md)
-- [Remove Contact From Every Campaign](contacts/remove-contact-from-every-campaign.md)
-- [Remove Followers](contacts/remove-followers-contact.md)
-- [Remove Tags](contacts/remove-tags.md)
-- [Search Contacts](contacts/search-contacts-advanced.md)
-- [Search](contacts/search.md)
-- [Tags](contacts/tags.md)
-- [Tasks](contacts/tasks.md)
-- [Update Contact](contacts/update-contact.md)
-- [Update Note](contacts/update-note.md)
-- [Update Task Completed](contacts/update-task-completed.md)
-- [Update Task](contacts/update-task.md)
-- [Upsert Contact](contacts/upsert-contact.md)
-- [Workflow](contacts/workflow.md)
-- [Actions](conversation-ai/actions.md)
-- [Agents](conversation-ai/agents.md)
-- [Conversation AI API](conversation-ai/conversation-ai-api.md)
-- [Attach Action to Agent](conversation-ai/create-action.md)
-- [Create an Agent](conversation-ai/create-agent.md)
-- [Remove Action from Agent](conversation-ai/delete-action.md)
-- [Delete Agent](conversation-ai/delete-agent.md)
-- [Generations](conversation-ai/generations.md)
-- [Get Action by ID](conversation-ai/get-action-by-id.md)
-- [Get Agent](conversation-ai/get-agent.md)
-- [Get the generation details](conversation-ai/get-generation-details.md)
-- [List Actions for an Agent](conversation-ai/list-actions.md)
-- [Search Agents](conversation-ai/search-agent.md)
-- [Update Action](conversation-ai/update-action.md)
-- [Update Agent](conversation-ai/update-agent.md)
-- [Update Followup Settings](conversation-ai/update-followup-settings.md)
-- [Add an inbound message](conversations/add-an-inbound-message.md)
-- [Add an external outbound call](conversations/add-an-outbound-message.md)
-- [Add message attachments](conversations/add-message-attachments.md)
-- [Cancel a scheduled email message.](conversations/cancel-scheduled-email-message.md)
-- [Cancel a scheduled message.](conversations/cancel-scheduled-message.md)
-- [Conversations API](conversations/conversations-api.md)
-- [Conversations](conversations/conversations.md)
-- [Create Conversation](conversations/create-conversation.md)
-- [Delete Conversation](conversations/delete-conversation.md)
-- [Download transcription by Message ID](conversations/download-message-transcription.md)
-- [Email](conversations/email.md)
-- [Export messages by location ID](conversations/export-messages-by-location.md)
-- [Get Conversation](conversations/get-conversation.md)
-- [Get email by Id](conversations/get-email-by-id.md)
-- [Get Recording by Message ID](conversations/get-message-recording.md)
-- [Get transcription by Message ID](conversations/get-message-transcription.md)
-- [Get message by message id](conversations/get-message.md)
-- [Get messages by conversation id](conversations/get-messages.md)
-- [Agent/Ai-Bot is typing a message indicator for live chat](conversations/live-chat-agent-typing.md)
-- [Messages](conversations/messages.md)
-- [Providers](conversations/providers.md)
-- [Search Conversations](conversations/search-conversation.md)
-- [Search](conversations/search.md)
-- [Send a new message](conversations/send-a-new-message.md)
-- [Update Conversation](conversations/update-conversation.md)
-- [Update email message status](conversations/update-email-message-status.md)
-- [Update message status](conversations/update-message-status.md)
-- [Upload file attachments](conversations/upload-file-attachments.md)
-- [Import Courses](courses/import-courses.md)
-- [MEMBERSHIPS API](courses/memberships-api.md)
-- [Create Custom Field Folder](custom-fields/create-custom-field-folder.md)
-- [Create Custom Field](custom-fields/create-custom-field.md)
-- [Custom Fields V2 API](custom-fields/custom-fields-v-2-api.md)
+- [Affiliate Manager API](affiliate-manager/affiliate-manager-api.md) — Documentation for Affiliate Manager API
+- [Affiliates](affiliate-manager/affiliates.md) — Documentation for Affiliate Manager API
+- [Commissions](affiliate-manager/commissions.md) — Documentation for Affiliate Manager API
+- [Get Affiliate](affiliate-manager/get-affiliate.md) — Retrieve a single affiliate by id for a location
+- [List Affiliates](affiliate-manager/list-affiliates.md) — Retrieve the list of affiliates for a location
+- [List Commissions](affiliate-manager/list-commissions.md) — Retrieve the list of commissions for a location
+- [List Payouts](affiliate-manager/list-payouts.md) — Retrieve the list of payouts for a location
+- [Payouts](affiliate-manager/payouts.md) — Documentation for Affiliate Manager API
+- [Agent Studio APIs](agent-studio/agent-studio-apis.md) — Documentation for Agent Studio APIs
+- [Agents](agent-studio/agents.md) — Documentation for Agent Studio APIs
+- [Create Agent](agent-studio/create-agent.md) — Creates a new agent with staging version. The agent will be created with an initial staging version that can later be promoted to production
+- [Delete Agent](agent-studio/delete-agent.md) — Deletes an agent and all its versions
+- [Execute Agent (Deprecated)](agent-studio/execute-agent-deprecated.md) — This endpoint has been deprecated and may be replaced or removed in future versions of the API
+- [Execute Agent](agent-studio/execute-agent.md) — Message to send to the agent
+- [Get Agent (Deprecated)](agent-studio/get-agent-by-id-deprecated.md) — This endpoint has been deprecated and may be replaced or removed in future versions of the API
+- [Get Agent](agent-studio/get-agent-by-id.md) — Agent retrieved successfully
+- [List Agents (Deprecated)](agent-studio/get-agents-deprecated.md) — This endpoint has been deprecated and may be replaced or removed in future versions of the API
+- [List Agents](agent-studio/get-agents.md) — Optional filter to return only agents with a published production version
+- [Promote to Production](agent-studio/promote-and-publish.md) — Promotes a draft version to production
+- [Update Agent Metadata](agent-studio/update-agent-metadata.md) — Updates agent metadata such as name, description, and status
+- [Update Agent](agent-studio/update-agent-version.md) — Updates a specific agent version by versionId. Supports updating nodes, edges, variables, and configuration
+- [Associations API](associations/associations-api.md) — Documentation for Associations API
+- [Associations](associations/associations.md) — Documentation for Associations API
+- [Create Association](associations/create-association.md) — Association's Unique key
+- [Create Relation for you associated entities.](associations/create-relation.md) — Your Sub Account's ID
+- [Delete Association](associations/delete-association.md) — Delete USER\_DEFINED Association By Id, deleting an association will also all the relations for that association
+- [Delete Relation](associations/delete-relation.md) — Delete Relation
+- [Get all associations for a sub-account / location](associations/find-associations.md) — Get all Associations
+- [Get association by ID](associations/get-association-by-id.md) — Using this api you can get SYSTEM\_DEFINED / USER\_DEFINED association by id
+- [Get association by object keys](associations/get-association-by-object-keys.md) — Successful response
+- [Get association key by key name](associations/get-association-key-by-key-name.md) — Using this api you can get standard / user defined association by key
+- [Get all relations By record Id](associations/get-relations-by-record-id.md) — Get all relations by record Id
+- [Relations](associations/relations.md) — Documentation for Associations API
+- [Update Association By Id](associations/update-association.md) — Successful response
+- [Blogs API](blogs/blogs-api.md) — Documentation for Blog public API
+- [Blogs](blogs/blogs.md) — Documentation for Blogs
+- [Check url slug](blogs/check-url-slug-exists.md) — The "Check url slug" API allows check the blog slug validation which is needed before publishing any blog post. Please use blogs/check-slug.readonly. you can find the POST ID from the post edit url
+- [Create Blog Post](blogs/create-blog-post.md) — The "Create Blog Post" API allows you create blog post for any given blog site. Please use blogs/post.write
+- [Get all authors](blogs/get-all-blog-authors-by-location.md) — The "Get all authors" Api return the blog authors for a given location ID. Please use "blogs/author.readonly"
+- [Get all categories](blogs/get-all-categories-by-location.md) — The "Get all categories" Api return the blog categoies for a given location ID. Please use "blogs/category.readonly"
+- [Get Blog posts by Blog ID](blogs/get-blog-post.md) — The "Get Blog posts by Blog ID" API allows you get blog posts for any given blog site using blog ID.Please use blogs/posts.readonly
+- [Get Blogs by Location ID](blogs/get-blogs.md) — The "Get Blogs by Location ID" API allows you get blogs using Location ID.Please use blogs/list.readonly
+- [Update Blog Post](blogs/update-blog-post.md) — The "Update Blog Post" API allows you update blog post for any given blog site. Please use blogs/post-update.write
+- [Brand Boards API v3](brand-boards/brand-boards-api-v-3.md) — Documentation for Brand Boards API
+- [Brand Boards](brand-boards/brand-boards.md) — Documentation for Brand Boards API
+- [Brand Voices](brand-boards/brand-voices.md) — Documentation for Brand Boards API
+- [Create a new brand board](brand-boards/create-brand-board.md) — Creates a new brand board with logos, colors, and fonts
+- [Create Brand Voice](brand-boards/create-brand-voice.md) — Create a brand voice for a location
+- [Delete a Brand Board](brand-boards/delete-brand-board.md) — Deletes a Brand Board
+- [Delete Brand Voice](brand-boards/delete-brand-voice.md) — Delete a brand voice by ID
+- [Get Brand Board](brand-boards/get-brand-board-by-id.md) — Retrieves a specific Brand Board by its ID
+- [Get Brand Boards](brand-boards/get-brand-boards-by-location.md) — Retrieves all Brand Boards for a specific location
+- [Get Brand Voice](brand-boards/get-brand-voice.md) — Get a brand voice by ID
+- [List Brand Voices](brand-boards/list-brand-voices.md) — Get list of brand voices for a location
+- [Set Default Brand Voice](brand-boards/set-default-brand-voice.md) — Set a brand voice as the default for a location. The previous default will be unset
+- [Update a Brand Board](brand-boards/update-brand-board.md) — Updates an existing Brand Board
+- [Update Brand Voice](brand-boards/update-brand-voice.md) — Update a brand voice by ID
+- [Business API](businesses/business-api.md) — Documentation for business API
+- [Businesses](businesses/businesses.md) — Documentation for business API
+- [Create Business](businesses/create-business.md) — Create Business
+- [Delete Business](businesses/delete-business.md) — Delete Business
+- [Get Business](businesses/get-business.md) — Get Business
+- [Get Businesses by Location](businesses/get-businesses-by-location.md) — Get Businesses by Location
+- [Update Business](businesses/update-business.md) — Update Business
+- [Apply user availability schedule to a calendar](calendars/add-calendar-to-schedule.md) — Associates a calendar with the given schedule by adding the calendarId to a schedule
+- [Appointment Notes](calendars/appointment-notes.md) — Documentation for Calendars API
+- [Availability](calendars/availability.md) — Documentation for Calendars API
+- [Calendar Events](calendars/calendar-events.md) — Documentation for Calendars API
+- [Calendar Groups](calendars/calendar-groups.md) — Documentation for Calendars API
+- [Calendar Notifications](calendars/calendar-notifications.md) — Documentation for Calendars API
+- [Calendar Resources Rooms Equipments](calendars/calendar-resources-rooms-equipments.md) — Documentation for Calendars API
+- [Calendars API](calendars/calendars-api.md) — Documentation for Calendars API
+- [Calendars](calendars/calendars.md) — Documentation for Calendars API
+- [Create Note](calendars/create-appointment-note.md) — Appointment ID
+- [Create appointment](calendars/create-appointment.md) — Create appointment
+- [Create Block Slot](calendars/create-block-slot.md) — Create block slot
+- [Create Calendar Group](calendars/create-calendar-group.md) — Create Calendar Group
+- [Create Calendar Resource](calendars/create-calendar-resource.md) — This endpoint has been deprecated and may be replaced or removed in future versions of the API
+- [Create event calendar availability schedule](calendars/create-calendar-schedule.md) — Create a new availability schedule specifically for an event calendar. The calendar ID is provided in the path, and schedule rules and timezone are provided in the request body
+- [Create Calendar](calendars/create-calendar.md) — Create calendar in a location
+- [Create notification](calendars/create-event-notification.md) — Create Calendar notifications, either one or multiple. All notification settings must be for single calendar only
+- [Create user availability schedule](calendars/create-schedule.md) — Create new schedule with specified rules, timezone, location, user and calendar associations
+- [Create Service Booking](calendars/create-service-booking.md) — Create a new service booking
+- [Create Service](calendars/create-service-catalog.md) — Create new service in a location
+- [Create Service Location](calendars/create-service-location.md) — Create a new service location
+- [Delete Note](calendars/delete-appointment-note.md) — Appointment ID
+- [Delete Calendar Resource](calendars/delete-calendar-resource.md) — This endpoint has been deprecated and may be replaced or removed in future versions of the API
+- [Delete Calendar](calendars/delete-calendar.md) — Delete calendar by ID
+- [Delete Notification](calendars/delete-event-notification.md) — Delete notification
+- [Delete Event](calendars/delete-event.md) — Delete event by ID
+- [Delete Group](calendars/delete-group.md) — Delete Group
+- [Delete user availability schedule](calendars/delete-schedule.md) — Permanently remove a schedule and all its associated rules. This action cannot be undone
+- [Delete Service Booking](calendars/delete-service-booking.md) — Delete a service booking by ID
+- [Delete Service](calendars/delete-service-catalog.md) — Delete service by ID
+- [Delete Service Location](calendars/delete-service-location.md) — Delete a service location by ID
+- [Disable Group](calendars/disable-group.md) — Disable Group
+- [Update Appointment](calendars/edit-appointment.md) — Update appointment
+- [Update Block Slot](calendars/edit-block-slot.md) — Update block slot by ID
+- [Update Group](calendars/edit-group.md) — Update Group by group ID
+- [List Calendar Resources](calendars/fetch-calendar-resources.md) — This endpoint has been deprecated and may be replaced or removed in future versions of the API
+- [Get notification](calendars/find-event-notification.md) — Find Event notification by notificationId
+- [List user availability schedule](calendars/get-all-schedules.md) — Retrieve user availability schedules based on various filters including location, calendar, and user. Supports pagination
+- [Get Notes](calendars/get-appointment-notes.md) — Get Appointment Notes
+- [Get Appointment](calendars/get-appointment.md) — Get appointment by ID
+- [Get Blocked Slots](calendars/get-blocked-slots.md) — Get Blocked Slots
+- [Get Calendar Events](calendars/get-calendar-events.md) — Get Calendar Events
+- [Get Calendar Resource](calendars/get-calendar-resource.md) — This endpoint has been deprecated and may be replaced or removed in future versions of the API
+- [Get event calendar availability schedule](calendars/get-calendar-schedule.md) — Retrieve the availability schedule for a specific event calendar. Returns the schedule associated with the calendar ID provided in the path
+- [Get Calendar](calendars/get-calendar.md) — Get calendar by ID
+- [Get Calendars](calendars/get-calendars.md) — Get all calendars in a location
+- [Get notifications](calendars/get-event-notification.md) — Get calendar notifications based on query
+- [Get Groups](calendars/get-groups.md) — Get all calendar groups in a location
+- [Get user availability schedule](calendars/get-schedule-by-id.md) — Retrieve a specific schedule by its unique identifier. Returns detailed information including rules, timezone, and associated calendars/users
+- [Get Service Booking by ID](calendars/get-service-booking-by-id.md) — Get a specific service booking by ID
+- [Get Service Bookings](calendars/get-service-bookings.md) — Retrieve service bookings for a location within a given date range, with an optional service location filter
+- [Get Service by ID](calendars/get-service-catalog-by-id.md) — Get service by ID
+- [Get Service Location by ID](calendars/get-service-location-by-id.md) — Get service location by ID
+- [Get Service Locations](calendars/get-service-locations.md) — Get all service locations
+- [Get Services](calendars/get-services-catalog.md) — Get all services in a location
+- [Get Free Slots](calendars/get-slots.md) — Get free slots for a calendar between a date range. Optionally a consumer can also request free slots in a particular timezone and also for a particular user
+- [Remove user availability schedule from a calendar](calendars/remove-calendar-from-schedule.md) — Removes the association between a team calendar and the given schedule by removing the calendarId from the schedule
+- [Service Bookings](calendars/service-bookings.md) — Documentation for Calendars API
+- [Service Locations](calendars/service-locations.md) — Documentation for Calendars API
+- [Services](calendars/services.md) — Documentation for Calendars API
+- [Update Note](calendars/update-appointment-note.md) — Appointment ID
+- [Update Calendar Resource](calendars/update-calendar-resource.md) — This endpoint has been deprecated and may be replaced or removed in future versions of the API
+- [Update event calendar availability schedule](calendars/update-calendar-schedule.md) — Update the availability schedule for a specific event calendar. Only provided fields will be updated. The calendar ID is provided in the path
+- [Update Calendar](calendars/update-calendar.md) — Update calendar by ID
+- [Update notification](calendars/update-event-notification.md) — Update Event notification by id
+- [Update user availability schedule](calendars/update-schedule.md) — Modify an existing schedule by updating its rules, timezone, and name All fields are optional - only provided fields will be updated
+- [Update Service Booking](calendars/update-service-booking.md) — Update an existing service booking
+- [Update Service](calendars/update-service-catalog.md) — Update service by ID
+- [Update Service Location](calendars/update-service-location.md) — Update an existing service location
+- [Validate group slug](calendars/validate-groups-slug.md) — Validate if group slug is available or not
+- [Campaigns API](campaigns/campaigns-api.md) — Documentation for campaigns API
+- [Campaigns](campaigns/campaigns.md) — Documentation for campaigns API
+- [Get Campaigns](campaigns/get-campaigns.md) — Get Campaigns
+- [Chat Widget API](chat-widget/chat-widget-api.md) — Documentation for Chat Widget API
+- [Chat Widget](chat-widget/chat-widget.md) — Documentation for Chat Widget API
+- [Clone Chat Widget](chat-widget/clone-chat-widget.md) — Creates a copy of an existing chat widget in the same sub-account
+- [Create Chat Widget](chat-widget/create-chat-widget.md) — Creates a new chat widget for the given sub-account
+- [Delete Chat Widget](chat-widget/delete.md) — Soft-deletes a chat widget. If it was the default, another widget may be promoted
+- [Get Chat Widget](chat-widget/get-chat-widget.md) — Returns a single chat widget by ID
+- [Get Widget Config](chat-widget/get-widget.md) — Returns widget configuration by ID
+- [List Chat Widgets](chat-widget/list-chat-widget.md) — Returns chat widgets for the sub-account with pagination and optional filters
+- [Patch Chat Widget](chat-widget/patch-chat-widget.md) — Partial update of a chat widget resource
+- [Update Chat Widget](chat-widget/update-chat-widget.md) — Full update of a chat widget resource
+- [Companies API](companies/companies-api.md) — Documentation for Companies API
+- [Companies](companies/companies.md) — Documentation for Companies API
+- [Get Company](companies/get-company.md) — Successful response
+- [Add Contact to Campaign](contacts/add-contact-to-campaign.md) — Add contact to Campaign
+- [Add Contact to Workflow](contacts/add-contact-to-workflow.md) — Add Contact to Workflow
+- [Add Followers](contacts/add-followers-contact.md) — Add Followers
+- [Add/Remove Contacts From Business](contacts/add-remove-contact-from-business.md) — Add/Remove Contacts From Business . Passing a `null` businessId will remove the businessId from the contacts
+- [Add Tags](contacts/add-tags.md) — List of tags to add or remove
+- [Appointments](contacts/appointments.md) — Documentation for Contacts API
+- [Bulk](contacts/bulk.md) — Documentation for Contacts API
+- [Campaigns](contacts/campaigns.md) — Documentation for Contacts API
+- [Contacts API v3](contacts/contacts-api-v-3.md) — Documentation for Contacts API
+- [Contacts](contacts/contacts.md) — Documentation for Contacts API
+- [Update Contacts Tags](contacts/create-association.md) — Allows you to update tags to multiple contacts at once, you can add or remove tags from the contacts
+- [Create Contact](contacts/create-contact.md) — Create a new contact
+- [Create Note](contacts/create-note.md) — User Id of the note author
+- [Create Task](contacts/create-task.md) — Title of the task
+- [Delete Contact from Workflow](contacts/delete-contact-from-workflow.md) — Delete Contact from Workflow
+- [Delete Contact](contacts/delete-contact.md) — Delete Contact
+- [Delete Note](contacts/delete-note.md) — Successful response
+- [Delete Task](contacts/delete-task.md) — Successful response
+- [Followers](contacts/followers.md) — Documentation for Contacts API
+- [Get All Notes](contacts/get-all-notes.md) — Get All Notes
+- [Get all Tasks](contacts/get-all-tasks.md) — Get all Tasks
+- [Get Appointments for Contact](contacts/get-appointments-for-contact.md) — Get Appointments for Contact
+- [Get Contact](contacts/get-contact.md) — Retrieves a contact by its unique identifier
+- [Get Contacts By BusinessId](contacts/get-contacts-by-business-id.md) — Get Contacts By BusinessId
+- [Get Duplicate Contact](contacts/get-duplicate-contact.md) — Get Duplicate Contact
+- [Get Note](contacts/get-note.md) — Successful response
+- [Get Task](contacts/get-task.md) — Successful response
+- [Notes](contacts/notes.md) — Documentation for Contacts API
+- [Remove Contact From Campaign](contacts/remove-contact-from-campaign.md) — Remove Contact From Campaign
+- [Remove Contact From Every Campaign](contacts/remove-contact-from-every-campaign.md) — Removes the contact from every campaign it is enrolled in
+- [Remove Followers](contacts/remove-followers-contact.md) — Remove Followers
+- [Remove Tags](contacts/remove-tags.md) — List of tags to add or remove
+- [Search Contacts](contacts/search-contacts-advanced.md) — Unauthorized
+- [Search](contacts/search.md) — Documentation for Contacts API
+- [Tags](contacts/tags.md) — Documentation for Contacts API
+- [Tasks](contacts/tasks.md) — Documentation for Contacts API
+- [Update Contact](contacts/update-contact.md) — Update a contact using contactId
+- [Update Note](contacts/update-note.md) — User Id of the note author
+- [Update Task Completed](contacts/update-task-completed.md) — Update Task Completed
+- [Update Task](contacts/update-task.md) — Title of the task
+- [Upsert Contact](contacts/upsert-contact.md) — First name of the contact
+- [Workflow](contacts/workflow.md) — Documentation for Contacts API
+- [Actions](conversation-ai/actions.md) — Documentation for AI Employees API
+- [Agents](conversation-ai/agents.md) — Documentation for AI Employees API
+- [Conversation AI API](conversation-ai/conversation-ai-api.md) — Documentation for AI Employees API
+- [Attach Action to Agent](conversation-ai/create-action.md) — Creates and attach a new action for an AI agent. Actions define specific tasks or behaviors that the agent can perform, such as booking appointments, sending follow-ups, or collecting information
+- [Create an Agent](conversation-ai/create-agent.md) — Creates a new AI agent for the location. The agent will be created with the specified configuration including name, role, actions, and behavior settings
+- [Remove Action from Agent](conversation-ai/delete-action.md) — Permanently deletes an action. This will remove the action from all associated agents and cannot be undone
+- [Delete Agent](conversation-ai/delete-agent.md) — Deletes an AI agent permanently. This action cannot be undone. All associated configurations and conversation history will be removed
+- [Generations](conversation-ai/generations.md) — Documentation for AI Employees API
+- [Get Action by ID](conversation-ai/get-action-by-id.md) — Retrieves detailed information about a specific action using its unique identifier. Returns the action configuration, associated agents, and performance metrics
+- [Get Agent](conversation-ai/get-agent.md) — Retrieves a specific AI agent by its ID. Returns the complete agent configuration including name, status, actions, and settings
+- [Get the generation details](conversation-ai/get-generation-details.md) — Retrieves detailed information about AI responses including the System Prompt, Conversation history, Knowledge base, website, FAQ chunks, and Rich Text chunks
+- [List Actions for an Agent](conversation-ai/list-actions.md) — List for actions for an agent
+- [Search Agents](conversation-ai/search-agent.md) — Searches for AI agents based on various criteria including name, status, and configuration. Supports advanced filtering and full-text search capabilities
+- [Update Action](conversation-ai/update-action.md) — Updates an existing action's configuration. This includes modifying the action name, description, trigger conditions, and behavior settings
+- [Update Agent](conversation-ai/update-agent.md) — Updates an existing AI agent's configuration. All fields in the agent configuration can be updated including name, status, actions, and behavior settings
+- [Update Followup Settings](conversation-ai/update-followup-settings.md) — Update the followup settings for an action
+- [Add an inbound message](conversations/add-an-inbound-message.md) — Post the necessary fields for the API to add a new inbound message
+- [Add an external outbound call](conversations/add-an-outbound-message.md) — Post the necessary fields for the API to add a new outbound call
+- [Add message attachments](conversations/add-message-attachments.md) — Set attachments on an existing message (replaces existing). Maximum 5 URLs. Supported for Custom Call message type
+- [Cancel a scheduled email message.](conversations/cancel-scheduled-email-message.md) — Post the messageId for the API to delete a scheduled email message
+- [Cancel a scheduled message.](conversations/cancel-scheduled-message.md) — Post the messageId for the API to delete a scheduled message
+- [Conversations API](conversations/conversations-api.md) — Documentation for Conversations API
+- [Conversations](conversations/conversations.md) — Documentation for Conversations API
+- [Create Conversation](conversations/create-conversation.md) — Creates a new conversation with the data provided
+- [Delete Conversation](conversations/delete-conversation.md) — Delete the conversation details based on the conversation ID
+- [Download transcription by Message ID](conversations/download-message-transcription.md) — Download the recording transcription for a message by passing the message id
+- [Email](conversations/email.md) — Documentation for Conversations API
+- [Export messages by location ID](conversations/export-messages-by-location.md) — Export messages for a specific location with cursor-based pagination support
+- [Get Conversation](conversations/get-conversation.md) — Get the conversation details based on the conversation ID
+- [Get email by Id](conversations/get-email-by-id.md) — Get email by Id
+- [Get Recording by Message ID](conversations/get-message-recording.md) — Get the recording for a message by passing the message id
+- [Get transcription by Message ID](conversations/get-message-transcription.md) — Get the recording transcription for a message by passing the message id
+- [Get message by message id](conversations/get-message.md) — Get message by message id
+- [Get messages by conversation id](conversations/get-messages.md) — Get messages by conversation id
+- [Agent/Ai-Bot is typing a message indicator for live chat](conversations/live-chat-agent-typing.md) — Agent/AI-Bot will call this when they are typing a message in live chat message
+- [Messages](conversations/messages.md) — Documentation for Conversations API
+- [Providers](conversations/providers.md) — Documentation for Conversations API
+- [Search Conversations](conversations/search-conversation.md) — Returns a list of all conversations matching the search criteria along with the sort and filter options selected
+- [Search](conversations/search.md) — Documentation for Conversations API
+- [Send a new message](conversations/send-a-new-message.md) — Post the necessary fields for the API to send a new message
+- [Update Conversation](conversations/update-conversation.md) — Update the conversation details based on the conversation ID
+- [Update email message status](conversations/update-email-message-status.md) — Update delivery events, per-recipient statuses, and the overall message status for an email sent via a custom conversation provider
+- [Update message status](conversations/update-message-status.md) — Post the necessary fields for the API to update message status
+- [Upload file attachments](conversations/upload-file-attachments.md) — Post the necessary fields for the API to upload files. The files need to be a buffer with the key "fileAttachment"
+- [Import Courses](courses/import-courses.md) — Import Courses through public channels
+- [MEMBERSHIPS API](courses/memberships-api.md) — API Service for Courses and Memberships
+- [Create Custom Field Folder](custom-fields/create-custom-field-folder.md) — Create Custom Field Folder
+- [Create Custom Field](custom-fields/create-custom-field.md) — Create Custom Field
+- [Custom Fields V2 API](custom-fields/custom-fields-v-2-api.md) — Use the Access Token generated with user type as Sub-Account (OR) Private Integration Token of Sub-Account
 - [Custom Fields V 2](custom-fields/custom-fields-v-2.md)
-- [Delete Custom Field Folder](custom-fields/delete-custom-field-folder.md)
-- [Delete Custom Field By Id](custom-fields/delete-custom-field.md)
-- [Get Custom Field / Folder By Id](custom-fields/get-custom-field-by-id.md)
-- [Get Custom Fields By Object Key](custom-fields/get-custom-fields-by-object-key.md)
-- [Update Custom Field Folder Name](custom-fields/update-custom-field-folder.md)
-- [Update Custom Field By Id](custom-fields/update-custom-field.md)
-- [Create Custom Menu Link](custom-menus/create-custom-menu.md)
-- [Custom Menu Links](custom-menus/custom-menu-links.md)
-- [Custom menus API](custom-menus/custom-menus-api.md)
-- [Delete Custom Menu Link](custom-menus/delete-custom-menu.md)
-- [Get Custom Menu Link](custom-menus/get-custom-menu-by-id.md)
-- [Get Custom Menu Links](custom-menus/get-custom-menus.md)
-- [Update Custom Menu Link](custom-menus/update-custom-menu.md)
-- [Email ISV API v3](email-isv/email-isv-api-v-3.md)
-- [Email Verification](email-isv/email-verification.md)
-- [Email Verification](email-isv/verify-email.md)
-- [Campaigns](emails/campaigns.md)
-- [Create Email Campaign](emails/create-email-campaign.md)
-- [Create an email template](emails/create-email-template.md)
-- [Create a template folder](emails/create-template-folder.md)
-- [Delete Campaign](emails/delete-campaign.md)
-- [Delete a template](emails/delete-email-template.md)
-- [Email API v3](emails/email-api-v-3.md)
-- [Get Bulk Action Campaign by ID](emails/get-bulk-action-campaign.md)
-- [Get Campaign Statistics](emails/get-campaign-stats.md)
-- [Get Email Campaign by ID](emails/get-email-campaign.md)
-- [Get Email Template by ID](emails/get-email-template.md)
-- [Get Workflow Campaign by ID](emails/get-workflow-campaign.md)
-- [Import an email template](emails/import-email-template.md)
-- [List Bulk Action Campaigns](emails/list-bulk-action-campaigns.md)
-- [List Email Campaigns](emails/list-email-campaigns.md)
-- [List templates](emails/list-email-templates.md)
-- [List Workflow Campaigns](emails/list-workflow-campaigns.md)
-- [Schedule Campaign](emails/schedule-campaign.md)
-- [Statistics](emails/statistics.md)
-- [Templates](emails/templates.md)
-- [Update Email Campaign](emails/update-email-campaign.md)
-- [Update an email template](emails/update-email-template.md)
-- [Forms API](forms/forms-api.md)
-- [Forms](forms/forms.md)
-- [Get Forms Submissions](forms/get-forms-submissions.md)
-- [Get Forms](forms/get-forms.md)
-- [Upload files to custom fields](forms/upload-to-custom-fields.md)
-- [Create Redirect](funnels/create-redirect.md)
-- [Delete Redirect By Id](funnels/delete-redirect-by-id.md)
-- [Fetch List of Redirects](funnels/fetch-redirects-list.md)
-- [Funnel](funnels/funnel.md)
-- [Funnels API](funnels/funnels-api.md)
-- [Fetch List of Funnels](funnels/get-funnels.md)
-- [Fetch list of funnel pages](funnels/get-pages-by-funnel-id.md)
-- [Fetch count of funnel pages](funnels/get-pages-count-by-funnel-id.md)
-- [Redirect](funnels/redirect.md)
-- [Update Redirect By Id](funnels/update-redirect-by-id.md)
-- [Manage Auto payment for an schedule invoice](invoices/auto-payment-invoice-schedule.md)
-- [Cancel an scheduled invoice](invoices/cancel-invoice-schedule.md)
-- [Create Estimate Template](invoices/create-estimate-template.md)
-- [Create Invoice from Estimate](invoices/create-invoice-from-estimate.md)
-- [Create Invoice Schedule](invoices/create-invoice-schedule.md)
-- [Create template](invoices/create-invoice-template.md)
-- [Create Invoice](invoices/create-invoice.md)
-- [Create New Estimate](invoices/create-new-estimate.md)
-- [Delete Estimate Template](invoices/delete-estimate-template.md)
-- [Delete Estimate](invoices/delete-estimate.md)
-- [Delete schedule](invoices/delete-invoice-schedule.md)
-- [Delete template](invoices/delete-invoice-template.md)
-- [Delete invoice](invoices/delete-invoice.md)
-- [Estimate](invoices/estimate.md)
-- [Generate Estimate Number](invoices/generate-estimate-number.md)
-- [Generate Invoice Number](invoices/generate-invoice-number.md)
-- [Get an schedule](invoices/get-invoice-schedule.md)
-- [Get Invoice Settings](invoices/get-invoice-settings.md)
-- [Get an template](invoices/get-invoice-template.md)
-- [Get invoice](invoices/get-invoice.md)
-- [Invoice API](invoices/invoice-api.md)
-- [Invoice](invoices/invoice.md)
-- [List Estimate Templates](invoices/list-estimate-templates.md)
-- [List Estimates](invoices/list-estimates.md)
-- [List schedules](invoices/list-invoice-schedules.md)
-- [List templates](invoices/list-invoice-templates.md)
-- [List invoices](invoices/list-invoices.md)
-- [Preview Estimate Template](invoices/preview-estimate-template.md)
-- [Record a manual payment for an invoice](invoices/record-invoice.md)
-- [Schedule an schedule invoice](invoices/schedule-invoice-schedule.md)
-- [Schedule](invoices/schedule.md)
-- [Send Estimate](invoices/send-estimate.md)
-- [Send invoice](invoices/send-invoice.md)
-- [Template](invoices/template.md)
-- [Create & Send](invoices/text-2-pay-invoice.md)
-- [Text 2 Pay](invoices/text-2-pay.md)
-- [Update scheduled recurring invoice](invoices/update-and-schedule-invoice-schedule.md)
-- [Update estimate last visited at](invoices/update-estimate-last-visited-at.md)
-- [Update Estimate Template](invoices/update-estimate-template.md)
-- [Update Estimate](invoices/update-estimate.md)
-- [Update invoice last visited at](invoices/update-invoice-last-visited-at.md)
-- [Update invoice late fees configuration](invoices/update-invoice-late-fees-configuration.md)
-- [Update template late fees configuration](invoices/update-invoice-payment-methods-configuration.md)
-- [Update schedule](invoices/update-invoice-schedule.md)
-- [Update template late fees configuration](invoices/update-invoice-template-late-fees-configuration.md)
-- [Update template](invoices/update-invoice-template.md)
-- [Update invoice](invoices/update-invoice.md)
-- [Void invoice](invoices/void-invoice.md)
-- [Create a new knowledge base (max 15 knowledge bases per location)](knowledge-base/create-knowledge-base.md)
-- [Create a new FAQ inside knowledge base](knowledge-base/create.md)
-- [Delete a knowledge base](knowledge-base/delete-knowledge-base.md)
-- [Delete trained pages](knowledge-base/delete-trained-urls-for-knowledge-base.md)
-- [Delete an existing knowledge base FAQ](knowledge-base/delete.md)
-- [Start crawling and discover pages for training](knowledge-base/discover-website.md)
-- [Faqs](knowledge-base/faqs.md)
-- [Get all trained page links by knowledge base](knowledge-base/get-all-website-urls-data-by-knowledge-base.md)
-- [Get crawling status for the latest operation](knowledge-base/get-crawling-status-for-latest-operation.md)
-- [Get knowledge base by ID](knowledge-base/get-knowledge-base-by-id.md)
-- [Knowledge Base API](knowledge-base/knowledge-base-api.md)
-- [Knowledge Base](knowledge-base/knowledge-base.md)
-- [Get all knowledge bases for a location by location Id (paginated)](knowledge-base/list-all-knowledge-bases-paginated.md)
-- [Get all FAQs by knowledge base with pagination support](knowledge-base/list.md)
-- [Train discovered website pages and ingest into the knowledge base](knowledge-base/train-discovered-urls.md)
-- [Update a knowledge base](knowledge-base/update-knowledge-base.md)
-- [Update an existing knowledge base FAQ](knowledge-base/update.md)
-- [Web Crawler](knowledge-base/web-crawler.md)
-- [Create Link](links/create-link.md)
-- [Delete Link](links/delete-link.md)
-- [Get Link by ID](links/get-link-by-id.md)
-- [Get Links](links/get-links.md)
-- [Search Trigger Links](links/search-trigger-links.md)
-- [Trigger Links API](links/trigger-links-api.md)
-- [Trigger Links Search](links/trigger-links-search.md)
-- [Trigger Links](links/trigger-links.md)
-- [Update Link](links/update-link.md)
-- [Conversation Channel](locations/conversation-channel.md)
-- [Create Custom Field](locations/create-custom-field.md)
-- [Create Custom Value](locations/create-custom-value.md)
-- [Create Sub-Account (Formerly Location)](locations/create-location.md)
-- [Create Recurring Task](locations/create-recurring-task.md)
-- [Create Tag](locations/create-tag.md)
-- [Custom Field](locations/custom-field.md)
-- [Custom Value](locations/custom-value.md)
-- [DELETE an email/sms template](locations/delete-an-email-sms-template.md)
-- [Delete Custom Field](locations/delete-custom-field.md)
-- [Delete Custom Value](locations/delete-custom-value.md)
-- [Delete Sub-Account (Formerly Location)](locations/delete-location.md)
-- [Delete Recurring Task](locations/delete-recurring-task.md)
-- [Delete tag](locations/delete-tag.md)
-- [GET all or email/sms templates](locations/get-all-or-email-sms-templates.md)
-- [Get Conversation Channel](locations/get-conversation-channel.md)
-- [Get Custom Field](locations/get-custom-field.md)
-- [Get Custom Fields](locations/get-custom-fields.md)
-- [Get Custom Value](locations/get-custom-value.md)
-- [Get Custom Values](locations/get-custom-values.md)
-- [Get Permissions](locations/get-location-permissions.md)
-- [Get Tags](locations/get-location-tags.md)
-- [Get Sub-Account (Formerly Location)](locations/get-location.md)
-- [Get Recurring Task By Id](locations/get-recurring-task-by-id.md)
-- [Get tag by id](locations/get-tag-by-id.md)
-- [Fetch Timezones](locations/get-timezones.md)
-- [Permissions](locations/permissions.md)
-- [Put Sub-Account (Formerly Location)](locations/put-location.md)
-- [Recurring Tasks](locations/recurring-tasks.md)
-- [Search](locations/search-locations.md)
-- [Search](locations/search.md)
-- [Sub-Account (Formerly location) API](locations/sub-account-formerly-location-api.md)
-- [Sub Account Formerly Location](locations/sub-account-formerly-location.md)
-- [Tags](locations/tags.md)
-- [Task Search Filter](locations/task-search.md)
-- [Tasks Search](locations/tasks-search.md)
-- [Template](locations/template.md)
-- [Timezone](locations/timezone.md)
-- [Update Custom Field](locations/update-custom-field.md)
-- [Update Custom Value](locations/update-custom-value.md)
-- [Update Permissions](locations/update-location-permissions.md)
-- [Update Recurring Task](locations/update-recurring-task.md)
-- [Update tag](locations/update-tag.md)
-- [Uploads File to customFields](locations/upload-file-custom-fields.md)
-- [App Billing Management](marketplace/app-billing-management.md)
-- [App Management](marketplace/app-management.md)
-- [Create a new wallet charge](marketplace/charge.md)
-- [Delete a wallet charge](marketplace/delete-charge.md)
-- [Developer marketplace API](marketplace/developer-marketplace-api.md)
-- [External Auth Migration](marketplace/external-auth-migration.md)
-- [Get all wallet charges](marketplace/get-charges.md)
-- [Get Installer Details](marketplace/get-installer-details.md)
-- [Get rebilling config for an app subscription and usage plans](marketplace/get-rebilling-config-for-app.md)
-- [Get specific wallet charge details](marketplace/get-specific-charge.md)
-- [Check if account has sufficient funds](marketplace/has-funds.md)
-- [Migrate external authentication connection](marketplace/migrate-connection.md)
-- [Uninstall an application](marketplace/uninstall-application.md)
-- [Wallet Charges](marketplace/wallet-charges.md)
-- [Bulk Delete / Trash Files or Folders](medias/bulk-delete-media-objects.md)
-- [Bulk Update Files/ Folders](medias/bulk-update-media-objects.md)
-- [Create Folder](medias/create-media-folder.md)
-- [Delete File or Folder](medias/delete-media-content.md)
-- [Get List of Files/ Folders](medias/fetch-media-content.md)
-- [Media Storage API](medias/media-storage-api.md)
-- [Medias](medias/medias.md)
-- [Update File/ Folder](medias/update-media-object.md)
-- [Upload File into Media Storage](medias/upload-media-content.md)
-- [Get Access Token](oauth/get-access-token.md)
-- [Get Location where app is installed](oauth/get-installed-location.md)
-- [Get Location Access Token from Agency Token](oauth/get-location-access-token.md)
-- [O Auth 2 0](oauth/o-auth-2-0.md)
-- [OAuth 2.0 v3](oauth/oauth-2-0-v-3.md)
-- [Create Custom Object](objects/create-custom-object-schema.md)
-- [Create Record](objects/create-object-record.md)
-- [CUSTOM\_OBJECTS API](objects/custom-objects-api.md)
-- [Delete Record](objects/delete-object-record.md)
-- [Get all objects for a location](objects/get-object-by-location-id.md)
-- [Get Object Schema by key / id](objects/get-object-schema-by-key.md)
-- [Get Record By Id](objects/get-record-by-id.md)
+- [Delete Custom Field Folder](custom-fields/delete-custom-field-folder.md) — Create Custom Field Folder
+- [Delete Custom Field By Id](custom-fields/delete-custom-field.md) — Delete Custom Field By Id
+- [Get Custom Field / Folder By Id](custom-fields/get-custom-field-by-id.md) — Get Custom Field / Folder By Id
+- [Get Custom Fields By Object Key](custom-fields/get-custom-fields-by-object-key.md) — Get Custom Fields By Object Key
+- [Update Custom Field Folder Name](custom-fields/update-custom-field-folder.md) — Create Custom Field Folder
+- [Update Custom Field By Id](custom-fields/update-custom-field.md) — Update Custom Field By Id
+- [Create Custom Menu Link](custom-menus/create-custom-menu.md) — Title of the custom menu
+- [Custom Menu Links](custom-menus/custom-menu-links.md) — Documentation for Custom menus API
+- [Custom menus API](custom-menus/custom-menus-api.md) — Documentation for Custom menus API
+- [Delete Custom Menu Link](custom-menus/delete-custom-menu.md) — ID of the custom menu to delete
+- [Get Custom Menu Link](custom-menus/get-custom-menu-by-id.md) — Fetches a single custom menus based on id. This endpoint allows clients to retrieve custom menu configurations, which may include menu items, categories, and associated metadata
+- [Get Custom Menu Links](custom-menus/get-custom-menus.md) — Unique identifier of the location
+- [Update Custom Menu Link](custom-menus/update-custom-menu.md) — Updates an existing custom menu for a given company. Requires authentication and proper permissions
+- [Email ISV API v3](email-isv/email-isv-api-v-3.md) — Documentation for Email ISV API
+- [Email Verification](email-isv/email-verification.md) — Documentation for Email ISV API
+- [Email Verification](email-isv/verify-email.md) — Verify Email
+- [Campaigns](emails/campaigns.md) — Documentation for emails API
+- [Create Email Campaign](emails/create-email-campaign.md) — Create a new email campaign
+- [Create an email template](emails/create-email-template.md) — Create a new email template
+- [Create a template folder](emails/create-template-folder.md) — Create a new template folder
+- [Delete Campaign](emails/delete-campaign.md) — Delete a campaign
+- [Delete a template](emails/delete-email-template.md) — Delete a template
+- [Email API v3](emails/email-api-v-3.md) — Documentation for emails API
+- [Get Bulk Action Campaign by ID](emails/get-bulk-action-campaign.md) — Get a single bulk action campaign by its ID
+- [Get Campaign Statistics](emails/get-campaign-stats.md) — Get statistics for email campaigns, workflows, or bulk actions
+- [Get Email Campaign by ID](emails/get-email-campaign.md) — Get a single email campaign by its ID
+- [Get Email Template by ID](emails/get-email-template.md) — Get a single email template by its ID
+- [Get Workflow Campaign by ID](emails/get-workflow-campaign.md) — Get a single workflow campaign by its ID
+- [Import an email template](emails/import-email-template.md) — Import a template from a provider URL
+- [List Bulk Action Campaigns](emails/list-bulk-action-campaigns.md) — Get list of bulk action campaigns for a location
+- [List Email Campaigns](emails/list-email-campaigns.md) — Get list of email campaigns for a location
+- [List templates](emails/list-email-templates.md) — Get list of templates by location
+- [List Workflow Campaigns](emails/list-workflow-campaigns.md) — Get list of workflow campaigns for a location
+- [Schedule Campaign](emails/schedule-campaign.md) — Schedule or start an email campaign. The campaign must be in draft, cancelled, or paused status
+- [Statistics](emails/statistics.md) — Documentation for emails API
+- [Templates](emails/templates.md) — Documentation for emails API
+- [Update Email Campaign](emails/update-email-campaign.md) — Update an email campaign draft
+- [Update an email template](emails/update-email-template.md) — Update email template
+- [Forms API](forms/forms-api.md) — Documentation for forms API
+- [Forms](forms/forms.md) — Documentation for forms API
+- [Get Forms Submissions](forms/get-forms-submissions.md) — Get Forms Submissions
+- [Get Forms](forms/get-forms.md) — Limit Per Page records count. will allow maximum up to 50 and default will be 10
+- [Upload files to custom fields](forms/upload-to-custom-fields.md) — Post the necessary fields for the API to upload files. The files need to be a buffer with the key "< custom\_field\_id >\_< file\_id >"
+- [Create Redirect](funnels/create-redirect.md) — Successful response
+- [Delete Redirect By Id](funnels/delete-redirect-by-id.md) — Successful response - URL redirect deleted successfully
+- [Fetch List of Redirects](funnels/fetch-redirects-list.md) — Retrieves a list of all URL redirects based on the given query parameters
+- [Funnel](funnels/funnel.md) — Documentation for funnels API
+- [Funnels API](funnels/funnels-api.md) — Documentation for funnels API
+- [Fetch List of Funnels](funnels/get-funnels.md) — Retrieves a list of all funnels based on the given query parameters
+- [Fetch list of funnel pages](funnels/get-pages-by-funnel-id.md) — Retrieves a list of all funnel pages based on the given query parameters
+- [Fetch count of funnel pages](funnels/get-pages-count-by-funnel-id.md) — Retrieves count of all funnel pages based on the given query parameters
+- [Redirect](funnels/redirect.md) — Documentation for funnels API
+- [Update Redirect By Id](funnels/update-redirect-by-id.md) — The "Update Redirect By Id" API Allows updating an existing URL redirect in the system. Use this endpoint to modify a URL redirect with the specified ID using details provided in the request payload
+- [Manage Auto payment for an schedule invoice](invoices/auto-payment-invoice-schedule.md) — API to manage auto payment for a schedule
+- [Cancel an scheduled invoice](invoices/cancel-invoice-schedule.md) — API to cancel a scheduled invoice by schedule id
+- [Create Estimate Template](invoices/create-estimate-template.md) — Create a new estimate template
+- [Create Invoice from Estimate](invoices/create-invoice-from-estimate.md) — Create a new invoice from an existing estimate
+- [Create Invoice Schedule](invoices/create-invoice-schedule.md) — API to create an invoice Schedule
+- [Create template](invoices/create-invoice-template.md) — API to create a template
+- [Create Invoice](invoices/create-invoice.md) — API to create an invoice
+- [Create New Estimate](invoices/create-new-estimate.md) — Create a new estimate with the provided details
+- [Delete Estimate Template](invoices/delete-estimate-template.md) — Delete an existing estimate template
+- [Delete Estimate](invoices/delete-estimate.md) — Delete an existing estimate
+- [Delete schedule](invoices/delete-invoice-schedule.md) — API to delete an schedule by schedule id
+- [Delete template](invoices/delete-invoice-template.md) — API to update an template by template id
+- [Delete invoice](invoices/delete-invoice.md) — API to delete invoice by invoice id
+- [Estimate](invoices/estimate.md) — Documentation for invoice API
+- [Generate Estimate Number](invoices/generate-estimate-number.md) — Get the next estimate number for the given location
+- [Generate Invoice Number](invoices/generate-invoice-number.md) — Get the next invoice number for the given location
+- [Get an schedule](invoices/get-invoice-schedule.md) — API to get an schedule by schedule id
+- [Get Invoice Settings](invoices/get-invoice-settings.md) — Get the invoice settings for the given location
+- [Get an template](invoices/get-invoice-template.md) — API to get an template by template id
+- [Get invoice](invoices/get-invoice.md) — API to get invoice by invoice id
+- [Invoice API](invoices/invoice-api.md) — Documentation for invoice API
+- [Invoice](invoices/invoice.md) — Documentation for invoice API
+- [List Estimate Templates](invoices/list-estimate-templates.md) — Get a list of estimate templates or a specific template by ID
+- [List Estimates](invoices/list-estimates.md) — Get a paginated list of estimates
+- [List schedules](invoices/list-invoice-schedules.md) — API to get list of schedules
+- [List templates](invoices/list-invoice-templates.md) — API to get list of templates
+- [List invoices](invoices/list-invoices.md) — API to get list of invoices
+- [Preview Estimate Template](invoices/preview-estimate-template.md) — Get a preview of an estimate template
+- [Record a manual payment for an invoice](invoices/record-invoice.md) — API to record manual payment for an invoice by invoice id
+- [Schedule an schedule invoice](invoices/schedule-invoice-schedule.md) — API to schedule an schedule invoice to start sending to the customer
+- [Schedule](invoices/schedule.md) — Documentation for invoice API
+- [Send Estimate](invoices/send-estimate.md) — API to send estimate by estimate id
+- [Send invoice](invoices/send-invoice.md) — API to send invoice by invoice id
+- [Template](invoices/template.md) — Documentation for invoice API
+- [Create & Send](invoices/text-2-pay-invoice.md) — API to create or update a text2pay invoice
+- [Text 2 Pay](invoices/text-2-pay.md) — Documentation for invoice API
+- [Update scheduled recurring invoice](invoices/update-and-schedule-invoice-schedule.md) — API to update scheduled recurring invoice
+- [Update estimate last visited at](invoices/update-estimate-last-visited-at.md) — API to update estimate last visited at by estimate id
+- [Update Estimate Template](invoices/update-estimate-template.md) — Update an existing estimate template
+- [Update Estimate](invoices/update-estimate.md) — Update an existing estimate with new details
+- [Update invoice last visited at](invoices/update-invoice-last-visited-at.md) — API to update invoice last visited at by invoice id
+- [Update invoice late fees configuration](invoices/update-invoice-late-fees-configuration.md) — API to update invoice late fees configuration by invoice id
+- [Update template late fees configuration](invoices/update-invoice-payment-methods-configuration.md) — API to update template late fees configuration by template id
+- [Update schedule](invoices/update-invoice-schedule.md) — API to update an schedule by schedule id
+- [Update template late fees configuration](invoices/update-invoice-template-late-fees-configuration.md) — API to update template late fees configuration by template id
+- [Update template](invoices/update-invoice-template.md) — API to update an template by template id
+- [Update invoice](invoices/update-invoice.md) — API to update invoice by invoice id
+- [Void invoice](invoices/void-invoice.md) — API to delete invoice by invoice id
+- [Create a new knowledge base (max 15 knowledge bases per location)](knowledge-base/create-knowledge-base.md) — Create a new knowledge base (max 15 knowledge bases per location)
+- [Create a new FAQ inside knowledge base](knowledge-base/create.md) — Create a new FAQ inside knowledge base
+- [Delete a knowledge base](knowledge-base/delete-knowledge-base.md) — Delete a knowledge base
+- [Delete trained pages](knowledge-base/delete-trained-urls-for-knowledge-base.md) — Delete trained pages
+- [Delete an existing knowledge base FAQ](knowledge-base/delete.md) — Delete an existing knowledge base FAQ
+- [Start crawling and discover pages for training](knowledge-base/discover-website.md) — Start crawling and discover pages for training
+- [Faqs](knowledge-base/faqs.md) — Documentation for Knowledge Base API
+- [Get all trained page links by knowledge base](knowledge-base/get-all-website-urls-data-by-knowledge-base.md) — Get all trained page links by knowledge base
+- [Get crawling status for the latest operation](knowledge-base/get-crawling-status-for-latest-operation.md) — Get crawling status for the latest operation
+- [Get knowledge base by ID](knowledge-base/get-knowledge-base-by-id.md) — Get knowledge base by ID
+- [Knowledge Base API](knowledge-base/knowledge-base-api.md) — Documentation for Knowledge Base API
+- [Knowledge Base](knowledge-base/knowledge-base.md) — Documentation for Knowledge Base API
+- [Get all knowledge bases for a location by location Id (paginated)](knowledge-base/list-all-knowledge-bases-paginated.md) — Get all knowledge bases for a location by location Id (paginated)
+- [Get all FAQs by knowledge base with pagination support](knowledge-base/list.md) — Retrieves FAQs for a knowledge base. Supports pagination using limit and lastFaqId parameters
+- [Train discovered website pages and ingest into the knowledge base](knowledge-base/train-discovered-urls.md) — Train discovered website pages and ingest into the knowledge base
+- [Update a knowledge base](knowledge-base/update-knowledge-base.md) — Update a knowledge base
+- [Update an existing knowledge base FAQ](knowledge-base/update.md) — Update an existing knowledge base FAQ
+- [Web Crawler](knowledge-base/web-crawler.md) — Documentation for Knowledge Base API
+- [Create Link](links/create-link.md) — Location ID of the business profile
+- [Delete Link](links/delete-link.md) — Successful response
+- [Get Link by ID](links/get-link-by-id.md) — Get a single link by its ID
+- [Get Links](links/get-links.md) — Location ID of the business profile
+- [Search Trigger Links](links/search-trigger-links.md) — Get list of links by searching
+- [Trigger Links API](links/trigger-links-api.md) — Documentation for links API
+- [Trigger Links Search](links/trigger-links-search.md) — Documentation for links API
+- [Trigger Links](links/trigger-links.md) — Documentation for links API
+- [Update Link](links/update-link.md) — Display name of the trigger link
+- [Conversation Channel](locations/conversation-channel.md) — Documentation for Sub-Account (Formerly location) API
+- [Create Custom Field](locations/create-custom-field.md) — Create Custom Field
+- [Create Custom Value](locations/create-custom-value.md) — Create Custom Value
+- [Create Sub-Account (Formerly Location)](locations/create-location.md) — Create a new Sub-Account (Formerly Location) based on the data provided
+- [Create Recurring Task](locations/create-recurring-task.md) — Create Recurring Task
+- [Create Tag](locations/create-tag.md) — Successful response
+- [Custom Field](locations/custom-field.md) — Documentation for Sub-Account (Formerly location) API
+- [Custom Value](locations/custom-value.md) — Documentation for Sub-Account (Formerly location) API
+- [DELETE an email/sms template](locations/delete-an-email-sms-template.md) — DELETE an email/sms template
+- [Delete Custom Field](locations/delete-custom-field.md) — Delete Custom Field
+- [Delete Custom Value](locations/delete-custom-value.md) — Delete Custom Value
+- [Delete Sub-Account (Formerly Location)](locations/delete-location.md) — Delete a Sub-Account (Formerly Location) from the Agency
+- [Delete Recurring Task](locations/delete-recurring-task.md) — Delete Recurring Task
+- [Delete tag](locations/delete-tag.md) — Successful response
+- [GET all or email/sms templates](locations/get-all-or-email-sms-templates.md) — GET all or email/sms templates
+- [Get Conversation Channel](locations/get-conversation-channel.md) — Get the conversation channel providers configured for a location by type (SMS or Email)
+- [Get Custom Field](locations/get-custom-field.md) — Get Custom Field
+- [Get Custom Fields](locations/get-custom-fields.md) — Get Custom Fields
+- [Get Custom Value](locations/get-custom-value.md) — Get Custom Value
+- [Get Custom Values](locations/get-custom-values.md) — Get Custom Values
+- [Get Permissions](locations/get-location-permissions.md) — Get Sub-Account (Formerly Location) permissions
+- [Get Tags](locations/get-location-tags.md) — Get Sub-Account (Formerly Location) Tags
+- [Get Sub-Account (Formerly Location)](locations/get-location.md) — Get details of a Sub-Account (Formerly Location) by passing the sub-account id
+- [Get Recurring Task By Id](locations/get-recurring-task-by-id.md) — Get Recurring Task By Id
+- [Get tag by id](locations/get-tag-by-id.md) — Get tag by id
+- [Fetch Timezones](locations/get-timezones.md) — Fetch the available timezones
+- [Permissions](locations/permissions.md) — Documentation for Sub-Account (Formerly location) API
+- [Put Sub-Account (Formerly Location)](locations/put-location.md) — Update a Sub-Account (Formerly Location) based on the data provided
+- [Recurring Tasks](locations/recurring-tasks.md) — Documentation for Sub-Account (Formerly location) API
+- [Search](locations/search-locations.md) — Search Sub-Account (Formerly Location)
+- [Search](locations/search.md) — Documentation for Sub-Account (Formerly location) API
+- [Sub-Account (Formerly location) API](locations/sub-account-formerly-location-api.md) — Documentation for Sub-Account (Formerly location) API
+- [Sub Account Formerly Location](locations/sub-account-formerly-location.md) — Documentation for Sub-Account (Formerly location) API
+- [Tags](locations/tags.md) — Documentation for Sub-Account (Formerly location) API
+- [Task Search Filter](locations/task-search.md) — Task Completed Or Pending
+- [Tasks Search](locations/tasks-search.md) — Documentation for Sub-Account (Formerly location) API
+- [Template](locations/template.md) — Documentation for Sub-Account (Formerly location) API
+- [Timezone](locations/timezone.md) — Documentation for Sub-Account (Formerly location) API
+- [Update Custom Field](locations/update-custom-field.md) — Update Custom Field
+- [Update Custom Value](locations/update-custom-value.md) — Update Custom Value
+- [Update Permissions](locations/update-location-permissions.md) — Update Sub-Account (Formerly Location) permissions
+- [Update Recurring Task](locations/update-recurring-task.md) — Update Recurring Task
+- [Update tag](locations/update-tag.md) — Successful response
+- [Uploads File to customFields](locations/upload-file-custom-fields.md) — Uploads File to customFields
+- [App Billing Management](marketplace/app-billing-management.md) — Documentation for Marketplace API
+- [App Management](marketplace/app-management.md) — Documentation for Marketplace API
+- [Create a new wallet charge](marketplace/charge.md) — Create a new wallet charge
+- [Delete a wallet charge](marketplace/delete-charge.md) — Delete a wallet charge
+- [Developer marketplace API](marketplace/developer-marketplace-api.md) — Documentation for Marketplace API
+- [External Auth Migration](marketplace/external-auth-migration.md) — Documentation for Marketplace API
+- [Get all wallet charges](marketplace/get-charges.md) — Get all wallet charges
+- [Get Installer Details](marketplace/get-installer-details.md) — Fetches installer details for the authenticated user. This endpoint returns information about the company, location, user, and installation details associated with the current OAuth token
+- [Get rebilling config for an app subscription and usage plans](marketplace/get-rebilling-config-for-app.md) — Get rebilling config for an app subscription and usage plans for the authenticated sub-account. This endpoint returns the subscription and usage plans for an app
+- [Get specific wallet charge details](marketplace/get-specific-charge.md) — Get specific wallet charge details
+- [Check if account has sufficient funds](marketplace/has-funds.md) — Check if account has sufficient funds
+- [Migrate external authentication connection](marketplace/migrate-connection.md) — Type of authentication - basic or oauth2
+- [Uninstall an application](marketplace/uninstall-application.md) — Uninstalls an application from your company or a specific location. This will remove the application\`s access and stop all its functionalities
+- [Wallet Charges](marketplace/wallet-charges.md) — Documentation for Marketplace API
+- [Bulk Delete / Trash Files or Folders](medias/bulk-delete-media-objects.md) — Soft-deletes or trashes multiple files and folders in a single request
+- [Bulk Update Files/ Folders](medias/bulk-update-media-objects.md) — Updates metadata or status of multiple files and folders
+- [Create Folder](medias/create-media-folder.md) — Creates a new folder in the media storage
+- [Delete File or Folder](medias/delete-media-content.md) — Deletes specific file or folder from the media storage
+- [Get List of Files/ Folders](medias/fetch-media-content.md) — Fetches list of files and folders from the media storage
+- [Media Storage API](medias/media-storage-api.md) — Documentation for Files API
+- [Medias](medias/medias.md) — Documentation for Files API
+- [Update File/ Folder](medias/update-media-object.md) — Updates a single file or folder by ID
+- [Upload File into Media Storage](medias/upload-media-content.md) — If hosted is set to true then fileUrl is required. Else file is required. If adding a file, maximum allowed is 25 MB. For video files, the maximum allowed size is 500 MB
+- [Get Access Token](oauth/get-access-token.md) — Use Access Tokens to access CRM resources on behalf of an authenticated location/company
+- [Get Location where app is installed](oauth/get-installed-location.md) — This API allows you fetch location where app is installed upon
+- [Get Location Access Token from Agency Token](oauth/get-location-access-token.md) — This API allows you to generate locationAccessToken from AgencyAccessToken
+- [O Auth 2 0](oauth/o-auth-2-0.md) — Documentation for OAuth 2.0 API
+- [OAuth 2.0 v3](oauth/oauth-2-0-v-3.md) — Documentation for OAuth 2.0 API
+- [Create Custom Object](objects/create-custom-object-schema.md) — This is what your custom object will be called. These labels will be used to display your custom object on the UI
+- [Create Record](objects/create-object-record.md) — Successful response
+- [CUSTOM\_OBJECTS API](objects/custom-objects-api.md) — Use the Access Token generated with user type as Sub-Account (OR) Private Integration Token of Sub-Account
+- [Delete Record](objects/delete-object-record.md) — Delete Record By Id . Supported Objects are business and custom objects
+- [Get all objects for a location](objects/get-object-by-location-id.md) — Successful response
+- [Get Object Schema by key / id](objects/get-object-schema-by-key.md) — key of the custom or standard object. For custom objects, the key must include the prefix “custom\_objects.”. This key can be found on the Object Details page under Settings in the UI
+- [Get Record By Id](objects/get-record-by-id.md) — Allows you to get a Standard Object like business and custom object record by Id
 - [Object Schema](objects/object-schema.md)
 - [Records](objects/records.md)
-- [Search Object Records](objects/search-object-records.md)
-- [Update Object Schema By Key / Id](objects/update-custom-object.md)
-- [Update Record](objects/update-object-record.md)
-- [Add Followers](opportunities/add-followers-opportunity.md)
-- [Create Opportunity](opportunities/create-opportunity.md)
-- [Delete Opportunity](opportunities/delete-opportunity.md)
-- [Followers](opportunities/followers.md)
-- [Get lost reason](opportunities/get-lost-reason.md)
-- [Get Opportunity](opportunities/get-opportunity.md)
-- [Get Pipelines](opportunities/get-pipelines.md)
-- [Lost Reason](opportunities/lost-reason.md)
-- [Opportunities API v3](opportunities/opportunities-api-v-3.md)
-- [Opportunities](opportunities/opportunities.md)
-- [Pipelines](opportunities/pipelines.md)
-- [Remove Followers](opportunities/remove-followers-opportunity.md)
-- [Search Opportunities](opportunities/search-opportunities-advanced.md)
-- [Search Opportunity](opportunities/search-opportunity.md)
-- [Search](opportunities/search.md)
-- [Update Opportunity Status](opportunities/update-opportunity-status.md)
-- [Update Opportunity](opportunities/update-opportunity.md)
-- [Upsert Opportunity](opportunities/upsert-opportunity.md)
-- [Coupons](payments/coupons.md)
-- [Create new provider config](payments/create-config.md)
-- [Create Coupon](payments/create-coupon.md)
-- [Create White-label Integration Provider](payments/create-integration-provider.md)
-- [Create new integration](payments/create-integration.md)
-- [Create order fulfillment](payments/create-order-fulfillment.md)
-- [Custom-provider marketplace app update capabilities](payments/custom-provider-marketplace-app-update-capabilities.md)
-- [Custom Provider](payments/custom-provider.md)
-- [Delete Coupon](payments/delete-coupon.md)
-- [Deleting an existing integration](payments/delete-integration.md)
-- [Disconnect existing provider config](payments/disconnect-config.md)
-- [Fetch given provider config](payments/fetch-config.md)
-- [Fetch Coupon](payments/get-coupon.md)
-- [Get Order by ID](payments/get-order-by-id.md)
-- [Get Subscription by ID](payments/get-subscription-by-id.md)
-- [Get Transaction by ID](payments/get-transaction-by-id.md)
-- [Integrations](payments/integrations.md)
-- [List Coupons](payments/list-coupons.md)
-- [List White-label Integration Providers](payments/list-integration-providers.md)
-- [List fulfillment](payments/list-order-fulfillment.md)
-- [List Order Notes](payments/list-order-notes.md)
-- [List Orders](payments/list-orders.md)
-- [List Subscriptions](payments/list-subscriptions.md)
-- [List Transactions](payments/list-transactions.md)
-- [Order Fulfillments](payments/order-fulfillments.md)
-- [Order Notes](payments/order-notes.md)
-- [Orders](payments/orders.md)
-- [Payments API](payments/payments-api.md)
-- [Record Order Payment](payments/record-order-payment.md)
-- [Subscriptions](payments/subscriptions.md)
-- [Transactions](payments/transactions.md)
-- [Update Coupon](payments/update-coupon.md)
-- [List active numbers](phone-system/active-numbers.md)
-- [List number pools](phone-system/get-number-pool-list.md)
-- [LC Phone API v3](phone-system/lc-phone-api-v-3.md)
-- [Lc Phone](phone-system/lc-phone.md)
-- [List available phone numbers](phone-system/list-available-numbers-for-a-country.md)
-- [Purchase number for location](phone-system/purchase-number-for-location.md)
-- [Bulk Edit Products and Prices](products/bulk-edit.md)
-- [Update Product Reviews](products/bulk-update-product-review.md)
-- [Bulk Update Products](products/bulk-update.md)
-- [Collections](products/collections.md)
-- [Create Price for a Product](products/create-price-for-product.md)
-- [Create Product Collection](products/create-product-collection.md)
-- [Create Product](products/create-product.md)
-- [Delete Price by ID for a Product](products/delete-price-by-id-for-product.md)
-- [Delete Product by ID](products/delete-product-by-id.md)
-- [Delete Product Collection](products/delete-product-collection.md)
-- [Delete Product Review](products/delete-product-review.md)
-- [List Inventory](products/get-list-inventory.md)
-- [Get Price by ID for a Product](products/get-price-by-id-for-product.md)
-- [Get Product by ID](products/get-product-by-id.md)
-- [Get Details about individual product collection](products/get-product-collection-id.md)
-- [Fetch Product Collections](products/get-product-collection.md)
-- [Fetch Product Reviews](products/get-product-reviews.md)
-- [Fetch Product Store Stats](products/get-product-store-stats.md)
-- [Fetch Review Count as per status](products/get-reviews-count.md)
-- [List Products](products/list-invoices.md)
-- [List Prices for a Product](products/list-prices-for-product.md)
-- [Prices](products/prices.md)
-- [Products API](products/products-api.md)
-- [Products](products/products.md)
-- [Reviews](products/reviews.md)
-- [Store](products/store.md)
-- [Update product display priorities in store](products/update-display-priority.md)
-- [Update Inventory](products/update-inventory.md)
-- [Update Price by ID for a Product](products/update-price-by-id-for-product.md)
-- [Update Product by ID](products/update-product-by-id.md)
-- [Update Product Collection](products/update-product-collection.md)
-- [Update Product Reviews](products/update-product-review.md)
-- [Action to include/exclude the product in store](products/update-store-status.md)
-- [Documents and Contracts API](proposals/documents-and-contracts-api.md)
-- [Documents](proposals/documents.md)
-- [List templates](proposals/list-documents-contracts-templates.md)
-- [List documents](proposals/list-documents-contracts.md)
-- [Send template](proposals/send-documents-contracts-template.md)
-- [Send document](proposals/send-documents-contracts.md)
-- [Templates](proposals/templates.md)
-- [Allow Attach Rebilling](saas/allow-attach-rebilling.md)
-- [Disable SaaS for locations](saas/bulk-disable-saas-deprecated.md)
-- [Disable SaaS for locations](saas/bulk-disable-saas.md)
-- [Bulk Enable SaaS](saas/bulk-enable-saas-deprecated.md)
-- [Bulk Enable SaaS](saas/bulk-enable-saas.md)
-- [Enable SaaS for Sub-Account (Formerly Location)](saas/enable-saas-location-deprecated.md)
-- [Enable SaaS for Sub-Account (Formerly Location)](saas/enable-saas-location.md)
-- [Update SaaS subscription](saas/generate-payment-link-deprecated.md)
-- [Update SaaS subscription](saas/generate-payment-link.md)
-- [Get Agency Plans](saas/get-agency-plans-deprecated.md)
-- [Get Agency Plans](saas/get-agency-plans.md)
-- [Get Location Subscription Details](saas/get-location-subscription-deprecated.md)
-- [Get Location Subscription Details](saas/get-location-subscription.md)
-- [Get Location Wallet Balance](saas/get-location-wallet-balance.md)
-- [Get SaaS Locations](saas/get-saas-locations-deprecated.md)
-- [Get SaaS Locations](saas/get-saas-locations.md)
-- [Get SaaS Plan](saas/get-saas-plan-deprecated.md)
-- [Get SaaS Plan](saas/get-saas-plan.md)
-- [Get locations by stripeId with companyId](saas/locations-deprecated.md)
-- [Get locations by stripeId with companyId](saas/locations.md)
-- [Pause location](saas/pause-location-deprecated.md)
-- [Pause location](saas/pause-location.md)
-- [SaaS API](saas/saas-api.md)
-- [Saas](saas/saas.md)
-- [Update Location Wallet Balance](saas/update-location-wallet-balance.md)
-- [Update Rebilling](saas/update-rebilling-deprecated.md)
-- [Update Rebilling](saas/update-rebilling.md)
-- [Create Snapshot Share Link](snapshots/create-snapshot-share-link.md)
-- [Get Snapshots](snapshots/get-custom-snapshots.md)
-- [Get Last Snapshot Push](snapshots/get-latest-snapshot-push.md)
-- [Get Snapshot Push between Dates](snapshots/get-snapshot-push.md)
-- [Snapshots API](snapshots/snapshots-api.md)
-- [Snapshots](snapshots/snapshots.md)
-- [Account](social-planner/account.md)
-- [Connect Account (Step 3 of 3)](social-planner/attach-oauth-accounts.md)
-- [Bulk Delete Social Planner Posts](social-planner/bulk-delete-social-planner-posts.md)
-- [Category Queue](social-planner/category-queue.md)
-- [Category](social-planner/category.md)
-- [Clone a queue item](social-planner/clone-queue-item.md)
-- [Comments](social-planner/comments.md)
-- [Create a comment or reply](social-planner/create-comment.md)
-- [Like a comment](social-planner/create-like.md)
-- [Create post](social-planner/create-post.md)
-- [Create a new item in the queue](social-planner/create-queue-item.md)
-- [Create a new category queue](social-planner/create-queue.md)
-- [Csv](social-planner/csv.md)
-- [Delete Account](social-planner/delete-account.md)
-- [Delete CSV Post](social-planner/delete-csv-post.md)
-- [Delete CSV](social-planner/delete-csv.md)
-- [Delete an active post and schedule the next one](social-planner/delete-current-active-post-and-schedule-next.md)
-- [Unlike a comment](social-planner/delete-like.md)
-- [Delete Post](social-planner/delete-post.md)
-- [Delete an item from a queue](social-planner/delete-queue-item.md)
-- [Discard edit session changes](social-planner/discard-edit-session.md)
-- [Edit post](social-planner/edit-post.md)
-- [Get all categories with their queue status](social-planner/fetch-available-categories.md)
-- [Get scheduled posts calendar view](social-planner/fetch-calendar-list.md)
-- [Fetch calendar view for an edit session](social-planner/fetch-edit-session-calendar.md)
-- [Fetch a category queue by ID](social-planner/fetch-queue-by-id.md)
-- [Fetch items from a queue](social-planner/fetch-queue-items.md)
-- [Fetch category queues for a location](social-planner/fetch-queues.md)
-- [Fetch slot information for queue items](social-planner/fetch-slots.md)
-- [Get Accounts](social-planner/get-account.md)
-- [Get categories by id](social-planner/get-categories-id.md)
-- [Get categories by location id](social-planner/get-categories-location-id.md)
-- [List comments for a post or thread](social-planner/get-comment-list.md)
-- [Get CSV Post](social-planner/get-csv-post.md)
-- [Get Available Accounts (Step 2 of 3)](social-planner/get-oauth-accounts.md)
-- [Get post](social-planner/get-post.md)
-- [Get posts](social-planner/get-posts.md)
-- [Get Social Media Statistics](social-planner/get-statistics.md)
-- [Get tags by ids](social-planner/get-tags-by-ids.md)
-- [Get tags by location id](social-planner/get-tags-location-id.md)
-- [Get Upload Status](social-planner/get-upload-status.md)
-- [O Auth Generic](social-planner/o-auth-generic.md)
-- [Post](social-planner/post.md)
-- [Reset an item in a queue](social-planner/reset-queue-item.md)
-- [Save edit session changes](social-planner/save-edit-session.md)
-- [Set Accounts](social-planner/set-accounts.md)
-- [Social Media Posting API](social-planner/social-media-posting-api.md)
-- [Start CSV Finalize](social-planner/start-csv-finalize.md)
-- [Start or resume an edit session](social-planner/start-edit-session.md)
-- [Start OAuth Flow (Step 1 of 3)](social-planner/start-oauth.md)
-- [Statistics](social-planner/statistics.md)
-- [Tag](social-planner/tag.md)
-- [Update an item in a queue](social-planner/update-queue-item.md)
-- [Update queue settings or status](social-planner/update-queue.md)
-- [Upload CSV](social-planner/upload-csv.md)
-- [Create Shipping Carrier](store/create-shipping-carrier.md)
-- [Create Shipping Rate](store/create-shipping-rate.md)
-- [Create Shipping Zone](store/create-shipping-zone.md)
-- [Create/Update Store Settings](store/create-store-setting.md)
-- [Delete shipping carrier](store/delete-shipping-carrier.md)
-- [Delete shipping rate](store/delete-shipping-rate.md)
-- [Delete shipping zone](store/delete-shipping-zone.md)
-- [Get available shipping rates](store/get-available-shipping-zones.md)
-- [Get Shipping Carrier](store/get-shipping-carriers.md)
-- [Get Shipping Rate](store/get-shipping-rates.md)
-- [Get Shipping Zone](store/get-shipping-zones.md)
-- [Get Store Settings](store/get-store-settings.md)
-- [List Shipping Carriers](store/list-shipping-carriers.md)
-- [List Shipping Rates](store/list-shipping-rates.md)
-- [List Shipping Zones](store/list-shipping-zones.md)
-- [Shipping Carrier](store/shipping-carrier.md)
-- [Shipping Zone Rates](store/shipping-zone-rates.md)
-- [Shipping Zone](store/shipping-zone.md)
-- [Store API](store/store-api.md)
-- [Store Setting](store/store-setting.md)
-- [Update Shipping Carrier](store/update-shipping-carrier.md)
-- [Update Shipping Rate](store/update-shipping-rate.md)
-- [Update Shipping Zone](store/update-shipping-zone.md)
-- [Get Surveys Submissions](surveys/get-surveys-submissions.md)
-- [Get Surveys](surveys/get-surveys.md)
-- [Surveys API](surveys/surveys-api.md)
-- [Surveys](surveys/surveys.md)
-- [Create User](users/create-user.md)
-- [Delete User](users/delete-user.md)
-- [Filter Users by Email](users/filter-users-by-email.md)
-- [Get User](users/get-user.md)
-- [Search Users](users/search-users.md)
-- [Search](users/search.md)
-- [Update User](users/update-user.md)
-- [Users API v3](users/users-api-v-3.md)
-- [Users](users/users.md)
-- [Actions](voice-ai/actions.md)
-- [Agents](voice-ai/agents.md)
-- [Create Agent Action](voice-ai/create-action.md)
-- [Create Agent](voice-ai/create-agent.md)
-- [Dashboard](voice-ai/dashboard.md)
-- [Delete Agent Action](voice-ai/delete-action.md)
-- [Delete Agent](voice-ai/delete-agent.md)
-- [Get Agent Action](voice-ai/get-action.md)
-- [Get Agent](voice-ai/get-agent.md)
-- [List Agents](voice-ai/get-agents.md)
-- [Get Call Log](voice-ai/get-call-log.md)
-- [List Call Logs](voice-ai/get-call-logs.md)
-- [Patch Agent](voice-ai/patch-agent.md)
-- [Update Agent Action](voice-ai/update-action.md)
-- [Voice AI API](voice-ai/voice-ai-api.md)
-- [Get Workflow](workflows/get-workflow.md)
-- [workflows API](workflows/workflows-api.md)
-- [Workflows](workflows/workflows.md)
+- [Search Object Records](objects/search-object-records.md) — custom object key
+- [Update Object Schema By Key / Id](objects/update-custom-object.md) — key of the custom or standard object. For custom objects, the key must include the prefix “custom\_objects.”. This key can be found on the Object Details page under Settings in the UI
+- [Update Record](objects/update-object-record.md) — id of the record to be updated. Available on the Record details page under the 3 dots or in the url
+- [Add Followers](opportunities/add-followers-opportunity.md) — Add Followers
+- [Create Opportunity](opportunities/create-opportunity.md) — Create Opportunity
+- [Delete Opportunity](opportunities/delete-opportunity.md) — Delete Opportunity
+- [Followers](opportunities/followers.md) — Documentation for Opportunities API
+- [Get lost reason](opportunities/get-lost-reason.md) — Get lost reason
+- [Get Opportunity](opportunities/get-opportunity.md) — Get Opportunity
+- [Get Pipelines](opportunities/get-pipelines.md) — Get Pipelines
+- [Lost Reason](opportunities/lost-reason.md) — Documentation for Opportunities API
+- [Opportunities API v3](opportunities/opportunities-api-v-3.md) — Documentation for Opportunities API
+- [Opportunities](opportunities/opportunities.md) — Documentation for Opportunities API
+- [Pipelines](opportunities/pipelines.md) — Documentation for Opportunities API
+- [Remove Followers](opportunities/remove-followers-opportunity.md) — Allows removal of one or all followers from an opportunity
+- [Search Opportunities](opportunities/search-opportunities-advanced.md) — Full-text search query string (max 75 characters)
+- [Search Opportunity](opportunities/search-opportunity.md) — Search Opportunity
+- [Search](opportunities/search.md) — Documentation for Opportunities API
+- [Update Opportunity Status](opportunities/update-opportunity-status.md) — Update Opportunity Status
+- [Update Opportunity](opportunities/update-opportunity.md) — Update Opportunity
+- [Upsert Opportunity](opportunities/upsert-opportunity.md) — Upsert Opportunity
+- [Coupons](payments/coupons.md) — Documentation for payments API
+- [Create new provider config](payments/create-config.md) — API to create a new payment config for given location
+- [Create Coupon](payments/create-coupon.md) — Discount Type
+- [Create White-label Integration Provider](payments/create-integration-provider.md) — location Id / company Id based on altType
+- [Create new integration](payments/create-integration.md) — API to create a new association for an app and location
+- [Create order fulfillment](payments/create-order-fulfillment.md) — The "Order Fulfillment" API facilitates the process of fulfilling an order
+- [Custom-provider marketplace app update capabilities](payments/custom-provider-marketplace-app-update-capabilities.md) — Toggle capabilities for the marketplace app tied to the OAuth client
+- [Custom Provider](payments/custom-provider.md) — Documentation for payments API
+- [Delete Coupon](payments/delete-coupon.md) — Successful response
+- [Deleting an existing integration](payments/delete-integration.md) — API to delete an association for an app and location
+- [Disconnect existing provider config](payments/disconnect-config.md) — API to disconnect an existing payment config for given location
+- [Fetch given provider config](payments/fetch-config.md) — API for fetching an existing payment config for given location
+- [Fetch Coupon](payments/get-coupon.md) — Successful response
+- [Get Order by ID](payments/get-order-by-id.md) — The "Get Order by ID" API allows to retrieve information for a specific order using its unique identifier. Use this endpoint to fetch details for a single order based on the provided order ID
+- [Get Subscription by ID](payments/get-subscription-by-id.md) — ID of the subscription that needs to be returned
+- [Get Transaction by ID](payments/get-transaction-by-id.md) — ID of the transaction that needs to be returned
+- [Integrations](payments/integrations.md) — Documentation for payments API
+- [List Coupons](payments/list-coupons.md) — The "List Coupons" API allows you to retrieve a list of all coupons available in your location. Use this endpoint to view all promotional offers and special discounts for your customers
+- [List White-label Integration Providers](payments/list-integration-providers.md) — location Id / company Id based on altType
+- [List fulfillment](payments/list-order-fulfillment.md) — List all fulfillment history of an order
+- [List Order Notes](payments/list-order-notes.md) — List all notes of an order
+- [List Orders](payments/list-orders.md) — LocationId is the id of the sub-account
+- [List Subscriptions](payments/list-subscriptions.md) — AltId is the unique identifier e.g: location id
+- [List Transactions](payments/list-transactions.md) — LocationId is the id of the sub-account
+- [Order Fulfillments](payments/order-fulfillments.md) — Documentation for payments API
+- [Order Notes](payments/order-notes.md) — Documentation for payments API
+- [Orders](payments/orders.md) — Documentation for payments API
+- [Payments API](payments/payments-api.md) — Documentation for payments API
+- [Record Order Payment](payments/record-order-payment.md) — The "Record Order Payment" API allows to record a payment for an order. Use this endpoint to record payment for an order and update the order status to "Paid"
+- [Subscriptions](payments/subscriptions.md) — Documentation for payments API
+- [Transactions](payments/transactions.md) — Documentation for payments API
+- [Update Coupon](payments/update-coupon.md) — Discount Type
+- [List active numbers](phone-system/active-numbers.md) — Send `v3` to use the v3 response contract (AIP). This is the supported version value for these endpoints
+- [List number pools](phone-system/get-number-pool-list.md) — Returns number pools for the location. Requires locationId as a query parameter
+- [LC Phone API v3](phone-system/lc-phone-api-v-3.md) — API Service for LC Phone - version v3
+- [Lc Phone](phone-system/lc-phone.md) — API Service for LC Phone
+- [List available phone numbers](phone-system/list-available-numbers-for-a-country.md) — Search Twilio inventory for purchasable phone numbers in a country for the given location
+- [Purchase number for location](phone-system/purchase-number-for-location.md) — Send `v3` to use the v3 response contract (AIP). This is the supported version value for these endpoints
+- [Bulk Edit Products and Prices](products/bulk-edit.md) — API to bulk edit products and their associated prices (max 30 entities)
+- [Update Product Reviews](products/bulk-update-product-review.md) — Update one or multiple product reviews: status, reply, etc
+- [Bulk Update Products](products/bulk-update.md) — API to bulk update products (price, availability, collections, delete)
+- [Collections](products/collections.md) — Documentation for products API
+- [Create Price for a Product](products/create-price-for-product.md) — ID of the product that needs to be used
+- [Create Product Collection](products/create-product-collection.md) — Create a new Product Collection for a specific location
+- [Create Product](products/create-product.md) — The name of the product
+- [Delete Price by ID for a Product](products/delete-price-by-id-for-product.md) — The "Delete Price by ID for a Product" API allows deleting a specific price associated with a particular product using its unique identifier. Use this endpoint to remove a price from the system
+- [Delete Product by ID](products/delete-product-by-id.md) — The "Delete Product by ID" API allows deleting a specific product using its unique identifier. Use this endpoint to remove a product from the system
+- [Delete Product Collection](products/delete-product-collection.md) — Delete specific product collection with Id :collectionId
+- [Delete Product Review](products/delete-product-review.md) — Delete specific product review
+- [List Inventory](products/get-list-inventory.md) — The "List Inventory API allows the user to retrieve a paginated list of inventory items. Use this endpoint to fetch details for multiple items in the inventory based on the provided query parameters
+- [Get Price by ID for a Product](products/get-price-by-id-for-product.md) — ID of the product that needs to be used
+- [Get Product by ID](products/get-product-by-id.md) — The "Get Product by ID" API allows to retrieve information for a specific product using its unique identifier. Use this endpoint to fetch details for a single product based on the provided product ID
+- [Get Details about individual product collection](products/get-product-collection-id.md) — Get Details about individual product collection
+- [Fetch Product Collections](products/get-product-collection.md) — Internal API to fetch the Product Collections
+- [Fetch Product Reviews](products/get-product-reviews.md) — API to fetch the Product Reviews
+- [Fetch Product Store Stats](products/get-product-store-stats.md) — API to fetch the total number of products, included in the store, and excluded from the store and other stats
+- [Fetch Review Count as per status](products/get-reviews-count.md) — API to fetch the Review Count as per status
+- [List Products](products/list-invoices.md) — The maximum number of items to be included in a single page of results
+- [List Prices for a Product](products/list-prices-for-product.md) — ID of the product that needs to be used
+- [Prices](products/prices.md) — Documentation for products API
+- [Products API](products/products-api.md) — Documentation for products API
+- [Products](products/products.md) — Documentation for products API
+- [Reviews](products/reviews.md) — Documentation for products API
+- [Store](products/store.md) — Documentation for products API
+- [Update product display priorities in store](products/update-display-priority.md) — API to set the display priority of products in a store
+- [Update Inventory](products/update-inventory.md) — Location Id or Agency Id
+- [Update Price by ID for a Product](products/update-price-by-id-for-product.md) — ID of the product that needs to be used
+- [Update Product by ID](products/update-product-by-id.md) — ID or the slug of the product that needs to be returned
+- [Update Product Collection](products/update-product-collection.md) — Update a specific product collection with Id :collectionId
+- [Update Product Reviews](products/update-product-review.md) — Update status, reply, etc of a particular review
+- [Action to include/exclude the product in store](products/update-store-status.md) — API to update the status of products in a particular store
+- [Documents and Contracts API](proposals/documents-and-contracts-api.md) — Documentation for Documents and Contracts API
+- [Documents](proposals/documents.md) — Documentation for Documents and Contracts API
+- [List templates](proposals/list-documents-contracts-templates.md) — List document contract templates for a location
+- [List documents](proposals/list-documents-contracts.md) — List documents for a location
+- [Send template](proposals/send-documents-contracts-template.md) — Send template to a client
+- [Send document](proposals/send-documents-contracts.md) — Send document to a client
+- [Templates](proposals/templates.md) — Documentation for Documents and Contracts API
+- [Allow Attach Rebilling](saas/allow-attach-rebilling.md) — Location ID (Sub-account) to allow attach rebilling for
+- [Disable SaaS for locations](saas/bulk-disable-saas-deprecated.md) — This endpoint has been deprecated and may be replaced or removed in future versions of the API
+- [Disable SaaS for locations](saas/bulk-disable-saas.md) — Disable SaaS for locations for given locationIds
+- [Bulk Enable SaaS](saas/bulk-enable-saas-deprecated.md) — This endpoint has been deprecated and may be replaced or removed in future versions of the API
+- [Bulk Enable SaaS](saas/bulk-enable-saas.md) — Enable SaaS mode for multiple locations with support for both SaaS v1 and v2
+- [Enable SaaS for Sub-Account (Formerly Location)](saas/enable-saas-location-deprecated.md) — This endpoint has been deprecated and may be replaced or removed in future versions of the API
+- [Enable SaaS for Sub-Account (Formerly Location)](saas/enable-saas-location.md) — Enable SaaS for Sub-Account (Formerly Location) based on the data provided
+- [Update SaaS subscription](saas/generate-payment-link-deprecated.md) — This endpoint has been deprecated and may be replaced or removed in future versions of the API
+- [Update SaaS subscription](saas/generate-payment-link.md) — Update SaaS subscription for given locationId and customerId
+- [Get Agency Plans](saas/get-agency-plans-deprecated.md) — This endpoint has been deprecated and may be replaced or removed in future versions of the API
+- [Get Agency Plans](saas/get-agency-plans.md) — Fetch all agency subscription plans for a given company ID
+- [Get Location Subscription Details](saas/get-location-subscription-deprecated.md) — This endpoint has been deprecated and may be replaced or removed in future versions of the API
+- [Get Location Subscription Details](saas/get-location-subscription.md) — Fetch subscription details for a specific location from location metadata
+- [Get Location Wallet Balance](saas/get-location-wallet-balance.md) — Fetch the wallet balance for a specific location. Returns a resource object with balance details
+- [Get SaaS Locations](saas/get-saas-locations-deprecated.md) — This endpoint has been deprecated and may be replaced or removed in future versions of the API
+- [Get SaaS Locations](saas/get-saas-locations.md) — Fetch all SaaS-activated locations for a company with pagination
+- [Get SaaS Plan](saas/get-saas-plan-deprecated.md) — This endpoint has been deprecated and may be replaced or removed in future versions of the API
+- [Get SaaS Plan](saas/get-saas-plan.md) — Fetch a specific SaaS plan by plan ID
+- [Get locations by stripeId with companyId](saas/locations-deprecated.md) — This endpoint has been deprecated and may be replaced or removed in future versions of the API
+- [Get locations by stripeId with companyId](saas/locations.md) — Get locations by stripeCustomerId or stripeSubscriptionId with companyId
+- [Pause location](saas/pause-location-deprecated.md) — This endpoint has been deprecated and may be replaced or removed in future versions of the API
+- [Pause location](saas/pause-location.md) — Pause Sub account for given locationId
+- [SaaS API](saas/saas-api.md) — API Service for SaaS
+- [Saas](saas/saas.md) — API Service for SaaS
+- [Update Location Wallet Balance](saas/update-location-wallet-balance.md) — Update the wallet balance or complimentary credit settings for a specific location. Supports partial updates via updateMask field (AIP-134 compliant)
+- [Update Rebilling](saas/update-rebilling-deprecated.md) — This endpoint has been deprecated and may be replaced or removed in future versions of the API
+- [Update Rebilling](saas/update-rebilling.md) — Bulk update rebilling for given locationIds
+- [Create Snapshot Share Link](snapshots/create-snapshot-share-link.md) — Create a share link for snapshot
+- [Get Snapshots](snapshots/get-custom-snapshots.md) — Get a list of all own and imported Snapshots
+- [Get Last Snapshot Push](snapshots/get-latest-snapshot-push.md) — Get Latest Snapshot Push Status for a location id
+- [Get Snapshot Push between Dates](snapshots/get-snapshot-push.md) — Get list of sub-accounts snapshot pushed in time period
+- [Snapshots API](snapshots/snapshots-api.md) — Documentation for Snapshots API
+- [Snapshots](snapshots/snapshots.md) — Documentation for Snapshots API
+- [Account](social-planner/account.md) — Documentation for Social Media Posting API
+- [Connect Account (Step 3 of 3)](social-planner/attach-oauth-accounts.md) — This is the final step in the OAuth flow. After retrieving available accounts (Step 2), use this endpoint to connect the selected account to your location
+- [Bulk Delete Social Planner Posts](social-planner/bulk-delete-social-planner-posts.md) — Deletes multiple posts based on the provided list of post IDs
+- [Category Queue](social-planner/category-queue.md) — Documentation for Social Media Posting API
+- [Category](social-planner/category.md) — Documentation for Social Media Posting API
+- [Clone a queue item](social-planner/clone-queue-item.md) — Duplicates an existing queue item at a specified order position. Requires an active edit session
+- [Comments](social-planner/comments.md) — Documentation for Social Media Posting API
+- [Create a comment or reply](social-planner/create-comment.md) — Supported Comments Platforms
+- [Like a comment](social-planner/create-like.md) — Like a comment by its **Highlevel** comment ID (the `_id` returned by the list-comments endpoint — not the native platform ID)
+- [Create post](social-planner/create-post.md) — The content and media limitations, as well as platform rate limiters corresponding to the respective platforms, are provided in the following reference link:
+- [Create a new item in the queue](social-planner/create-queue-item.md) — Adds a new post item to a queue. Use sessionId for edit session or directToQueue for immediate addition
+- [Create a new category queue](social-planner/create-queue.md) — Creates a queue in draft status for a category. Published posts are auto-added. Use update endpoint to activate
+- [Csv](social-planner/csv.md) — Documentation for Social Media Posting API
+- [Delete Account](social-planner/delete-account.md) — Delete account and account from group
+- [Delete CSV Post](social-planner/delete-csv-post.md) — Delete a specific post from a CSV import
+- [Delete CSV](social-planner/delete-csv.md) — Delete a CSV import and all its associated posts
+- [Delete an active post and schedule the next one](social-planner/delete-current-active-post-and-schedule-next.md) — Deletes a post that is currently scheduled and automatically triggers the scheduling of the next available post in the queue
+- [Unlike a comment](social-planner/delete-like.md) — Remove a like from a comment by its **Highlevel** comment ID (the `_id` returned by the list-comments endpoint — not the native platform ID)
+- [Delete Post](social-planner/delete-post.md) — Successful response
+- [Delete an item from a queue](social-planner/delete-queue-item.md) — Deletes an item from a specific category queue
+- [Discard edit session changes](social-planner/discard-edit-session.md) — Cancels the edit session and deletes all staged changes without affecting the live queue
+- [Edit post](social-planner/edit-post.md) — The content and media limitations, as well as platform rate limiters corresponding to the respective platforms, are provided in the following reference link:
+- [Get all categories with their queue status](social-planner/fetch-available-categories.md) — Returns categories with status: "available" (no queue), "in\_queue" (active/paused queue), or "draft" (queue in draft)
+- [Get scheduled posts calendar view](social-planner/fetch-calendar-list.md) — Returns scheduled posts from active queues within a date range. Supports filtering by categories and accounts
+- [Fetch calendar view for an edit session](social-planner/fetch-edit-session-calendar.md) — Retrieves a calendar preview of scheduled posts based on draft items within an edit session. This shows how posts would be scheduled if changes were saved
+- [Fetch a category queue by ID](social-planner/fetch-queue-by-id.md) — Retrieves the details of a single category queue by its unique ID. The response includes a count of posts within the queue that have errors
+- [Fetch items from a queue](social-planner/fetch-queue-items.md) — Returns paginated queue items. Pass sessionId to get draft items from an edit session instead of live items
+- [Fetch category queues for a location](social-planner/fetch-queues.md) — Retrieves a paginated list of all category queues for a given location, excluding any that have been marked as deleted
+- [Fetch slot information for queue items](social-planner/fetch-slots.md) — Returns paginated slot information (scheduledDateTime, isSkipped) for queue items. Pass sessionId to get slots for draft items, or omit for live items. Call this after mutations to refresh slot data
+- [Get Accounts](social-planner/get-account.md) — Get list of accounts and groups
+- [Get categories by id](social-planner/get-categories-id.md) — Retrieve a specific category by its ID
+- [Get categories by location id](social-planner/get-categories-location-id.md) — Retrieve all categories for a specific location with optional search and pagination
+- [List comments for a post or thread](social-planner/get-comment-list.md) — Supported Comments Platforms
+- [Get CSV Post](social-planner/get-csv-post.md) — Get details of a specific CSV import including its posts
+- [Get Available Accounts (Step 2 of 3)](social-planner/get-oauth-accounts.md) — After completing OAuth authentication (Step 1), use this endpoint to retrieve the list of available pages, channels, or locations that can be connected
+- [Get post](social-planner/get-post.md) — Successful response
+- [Get posts](social-planner/get-posts.md) — Successful response
+- [Get Social Media Statistics](social-planner/get-statistics.md) — Array of connected social media account IDs to fetch analytics for. This can be found as 'profileId' in /accounts api
+- [Get tags by ids](social-planner/get-tags-by-ids.md) — Retrieve specific tags by their IDs
+- [Get tags by location id](social-planner/get-tags-location-id.md) — Retrieve all tags for a specific location with optional search and pagination
+- [Get Upload Status](social-planner/get-upload-status.md) — Get the status of all CSV imports for a location
+- [O Auth Generic](social-planner/o-auth-generic.md) — Documentation for Social Media Posting API
+- [Post](social-planner/post.md) — Documentation for Social Media Posting API
+- [Reset an item in a queue](social-planner/reset-queue-item.md) — Resets a specific queue item to its original state, discarding any modifications made
+- [Save edit session changes](social-planner/save-edit-session.md) — Applies all staged changes to the live queue and closes the edit session
+- [Set Accounts](social-planner/set-accounts.md) — Set social media accounts for a CSV import to publish posts to
+- [Social Media Posting API](social-planner/social-media-posting-api.md) — Documentation for Social Media Posting API
+- [Start CSV Finalize](social-planner/start-csv-finalize.md) — Finalize a CSV import and schedule all posts for publishing
+- [Start or resume an edit session](social-planner/start-edit-session.md) — Creates a draft copy of queue items for editing. Changes are staged until saved or discarded
+- [Start OAuth Flow (Step 1 of 3)](social-planner/start-oauth.md) — This is the first step in the 3-step OAuth flow to connect a social media account:
+- [Statistics](social-planner/statistics.md) — Documentation for Social Media Posting API
+- [Tag](social-planner/tag.md) — Documentation for Social Media Posting API
+- [Update an item in a queue](social-planner/update-queue-item.md) — Updates the content or variations of a specific item within a category queue
+- [Update queue settings or status](social-planner/update-queue.md) — Updates queue status (active/paused/deleted), time slots, or skip dates
+- [Upload CSV](social-planner/upload-csv.md) — Upload a CSV file containing social media posts for bulk scheduling
+- [Create Shipping Carrier](store/create-shipping-carrier.md) — The "Create Shipping Carrier" API allows adding a new shipping carrier
+- [Create Shipping Rate](store/create-shipping-rate.md) — The "Create Shipping Rate" API allows adding a new shipping rate
+- [Create Shipping Zone](store/create-shipping-zone.md) — The "Create Shipping Zone" API allows adding a new shipping zone
+- [Create/Update Store Settings](store/create-store-setting.md) — Create or update store settings by altId and altType
+- [Delete shipping carrier](store/delete-shipping-carrier.md) — Delete specific shipping carrier with Id :shippingCarrierId
+- [Delete shipping rate](store/delete-shipping-rate.md) — Delete specific shipping rate with Id :shippingRateId
+- [Delete shipping zone](store/delete-shipping-zone.md) — Delete specific shipping zone with Id :shippingZoneId
+- [Get available shipping rates](store/get-available-shipping-zones.md) — This return available shipping rates for country based on order amount
+- [Get Shipping Carrier](store/get-shipping-carriers.md) — The "List Shipping Carrier" API allows to retrieve a paginated list of shipping carrier
+- [Get Shipping Rate](store/get-shipping-rates.md) — The "List Shipping Rate" API allows to retrieve a paginated list of shipping rate
+- [Get Shipping Zone](store/get-shipping-zones.md) — The "List Shipping Zone" API allows to retrieve a paginated list of shipping zone
+- [Get Store Settings](store/get-store-settings.md) — Get store settings by altId and altType
+- [List Shipping Carriers](store/list-shipping-carriers.md) — The "List Shipping Carrier" API allows to retrieve a list of shipping carrier
+- [List Shipping Rates](store/list-shipping-rates.md) — The "List Shipping Rate" API allows to retrieve a list of shipping rate
+- [List Shipping Zones](store/list-shipping-zones.md) — The "List Shipping Zone" API allows to retrieve a list of shipping zone
+- [Shipping Carrier](store/shipping-carrier.md) — Documentation for store API
+- [Shipping Zone Rates](store/shipping-zone-rates.md) — Documentation for store API
+- [Shipping Zone](store/shipping-zone.md) — Documentation for store API
+- [Store API](store/store-api.md) — Documentation for store API
+- [Store Setting](store/store-setting.md) — Documentation for store API
+- [Update Shipping Carrier](store/update-shipping-carrier.md) — The "update Shipping Carrier" API allows update a shipping carrier to the system
+- [Update Shipping Rate](store/update-shipping-rate.md) — The "update Shipping Rate" API allows update a shipping rate to the system
+- [Update Shipping Zone](store/update-shipping-zone.md) — The "update Shipping Zone" API allows update a shipping zone to the system
+- [Get Surveys Submissions](surveys/get-surveys-submissions.md) — Get Surveys Submissions
+- [Get Surveys](surveys/get-surveys.md) — Limit Per Page records count. will allow maximum up to 50 and default will be 10
+- [Surveys API](surveys/surveys-api.md) — Documentation for surveys API
+- [Surveys](surveys/surveys.md) — Documentation for surveys API
+- [Create User](users/create-user.md) — Company/Agency ID to associate the user with
+- [Delete User](users/delete-user.md) — Successful response
+- [Filter Users by Email](users/filter-users-by-email.md) — Filter users by company ID, deleted status, and email array
+- [Get User](users/get-user.md) — Successful response
+- [Search Users](users/search-users.md) — Search Users
+- [Search](users/search.md) — Documentation for users API
+- [Update User](users/update-user.md) — First name of the user
+- [Users API v3](users/users-api-v-3.md) — Documentation for users API
+- [Users](users/users.md) — Documentation for users API
+- [Actions](voice-ai/actions.md) — Documentation for Voice AI API
+- [Agents](voice-ai/agents.md) — Documentation for Voice AI API
+- [Create Agent Action](voice-ai/create-action.md) — Create a new action for a voice AI agent. Actions define specific behaviors and capabilities for the agent during calls
+- [Create Agent](voice-ai/create-agent.md) — Create a new voice AI agent configuration and settings
+- [Dashboard](voice-ai/dashboard.md) — Documentation for Voice AI API
+- [Delete Agent Action](voice-ai/delete-action.md) — Delete an existing action from a voice AI agent. This permanently removes the action and its configuration
+- [Delete Agent](voice-ai/delete-agent.md) — Delete a voice AI agent and all its configurations
+- [Get Agent Action](voice-ai/get-action.md) — Retrieve details of a specific action by its ID. Returns the action configuration including actionParameters
+- [Get Agent](voice-ai/get-agent.md) — Retrieve detailed configuration and settings for a specific voice AI agent
+- [List Agents](voice-ai/get-agents.md) — Retrieve a paginated list of agents for given location
+- [Get Call Log](voice-ai/get-call-log.md) — Returns a call log by callId
+- [List Call Logs](voice-ai/get-call-logs.md) — Location identifier. Filters results to this location
+- [Patch Agent](voice-ai/patch-agent.md) — Partially update an existing voice AI agent
+- [Update Agent Action](voice-ai/update-action.md) — Update an existing action for a voice AI agent. Modifies the behavior and configuration of an agent action
+- [Voice AI API](voice-ai/voice-ai-api.md) — Documentation for Voice AI API
+- [Get Workflow](workflows/get-workflow.md) — Get Workflow
+- [workflows API](workflows/workflows-api.md) — Documentation for workflows API
+- [Workflows](workflows/workflows.md) — Documentation for workflows API

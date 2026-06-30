@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/chat-widget/patch-chat-
 version: v3
 method: PATCH
 endpoint: https://services.leadconnectorhq.com/chat-widget/data/:locationId/:id
+summary: "Partial update of a chat widget resource"
 ---
 # Patch Chat Widget
 

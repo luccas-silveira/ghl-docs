@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/voice-ai/create-agent
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/voice-ai/agents
+summary: "Create a new voice AI agent configuration and settings"
 ---
 # Create Agent
 

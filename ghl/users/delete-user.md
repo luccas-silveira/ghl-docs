@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/users/delete-user
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/users/:userId
+summary: "Successful response"
 ---
 # Delete User
 

@@ -2,6 +2,7 @@
 title: "Conversationproviders"
 source_url: https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders
 version: v3
+summary: "HighLevel provides conversation providers in marketplace applications for creating custom SMS, Email, and Call providers"
 ---
 HighLevel provides conversation providers in marketplace applications for creating custom SMS, Email, and Call providers.
 

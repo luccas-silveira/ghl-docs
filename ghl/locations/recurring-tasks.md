@@ -2,6 +2,7 @@
 title: "Recurring Tasks"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/recurring-tasks
 version: v3
+summary: "Documentation for Sub-Account (Formerly location) API"
 ---
 Documentation for Sub-Account (Formerly location) API
 

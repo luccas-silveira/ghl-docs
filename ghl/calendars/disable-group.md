@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/disable-group
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/calendars/groups/:groupId/status
+summary: "Disable Group"
 ---
 # Disable Group
 

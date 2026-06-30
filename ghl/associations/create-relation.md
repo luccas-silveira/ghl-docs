@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/associations/create-rel
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/associations/relations
+summary: "Your Sub Account's ID"
 ---
 # Create Relation for you associated entities.
 

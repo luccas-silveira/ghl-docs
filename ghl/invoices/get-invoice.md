@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/get-invoice
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/invoices/:invoiceId
+summary: "API to get invoice by invoice id"
 ---
 # Get invoice
 

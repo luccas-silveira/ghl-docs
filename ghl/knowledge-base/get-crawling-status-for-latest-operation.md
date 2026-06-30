@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/get-craw
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/knowledge-bases/crawler/status
+summary: "Get crawling status for the latest operation"
 ---
 # Get crawling status for the latest operation
 

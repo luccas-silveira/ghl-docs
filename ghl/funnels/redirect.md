@@ -2,6 +2,7 @@
 title: "Redirect"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/funnels/redirect
 version: v3
+summary: "Documentation for funnels API"
 ---
 Documentation for funnels API
 

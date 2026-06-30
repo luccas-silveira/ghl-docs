@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/reset-qu
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/social-media-posting/category/queues/:queueId/items/:itemId/reset
+summary: "Resets a specific queue item to its original state, discarding any modifications made"
 ---
 # Reset an item in a queue
 

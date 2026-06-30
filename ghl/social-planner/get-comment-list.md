@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-comm
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/social-media-posting/comments/:platform/list
+summary: "Supported Comments Platforms"
 ---
 # List comments for a post or thread
 

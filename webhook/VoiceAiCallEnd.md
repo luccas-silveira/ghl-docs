@@ -2,6 +2,7 @@
 title: "Voiceaicallend"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/VoiceAiCallEnd
 version: v3
+summary: "Called whenever a Voice AI call ends for a sub-account"
 ---
 Called whenever a Voice AI call ends for a sub-account.
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/products/get-price-by-i
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/products/:productId/price/:priceId
+summary: "ID of the product that needs to be used"
 ---
 # Get Price by ID for a Product
 

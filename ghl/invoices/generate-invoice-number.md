@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/generate-invoi
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/invoices/generate-invoice-number
+summary: "Get the next invoice number for the given location"
 ---
 # Generate Invoice Number
 

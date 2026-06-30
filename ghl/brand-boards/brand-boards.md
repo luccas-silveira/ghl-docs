@@ -2,6 +2,7 @@
 title: "Brand Boards"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/brand-boards/brand-boards
 version: v3
+summary: "Documentation for Brand Boards API"
 ---
 Documentation for Brand Boards API
 

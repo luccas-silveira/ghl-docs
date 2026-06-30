@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/auto-payment-i
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/invoices/schedule/:scheduleId/auto-payment
+summary: "API to manage auto payment for a schedule"
 ---
 # Manage Auto payment for an schedule invoice
 

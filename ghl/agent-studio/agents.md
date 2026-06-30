@@ -2,6 +2,7 @@
 title: "Agents"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/agent-studio/agents
 version: v3
+summary: "Documentation for Agent Studio APIs"
 ---
 Documentation for Agent Studio APIs
 

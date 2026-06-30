@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/links/create-link
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/links
+summary: "Location ID of the business profile"
 ---
 # Create Link
 

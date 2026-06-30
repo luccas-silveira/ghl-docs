@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/create-estimat
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/invoices/estimate/template
+summary: "Create a new estimate template"
 ---
 # Create Estimate Template
 

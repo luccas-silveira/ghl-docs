@@ -2,6 +2,7 @@
 title: "Planchange"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/PlanChange
 version: v3
+summary: "Called whenever user changes the plan for a paid app"
 ---
 Called whenever user changes the plan for a paid app.
 

@@ -2,6 +2,7 @@
 title: "Pricedelete"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/PriceDelete
 version: v3
+summary: "Called whenever a price is deleted"
 ---
 Called whenever a price is deleted
 

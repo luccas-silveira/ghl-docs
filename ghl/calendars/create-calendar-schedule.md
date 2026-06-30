@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/create-calend
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/calendars/schedules/event-calendar/:calendarId
+summary: "Create a new availability schedule specifically for an event calendar. The calendar ID is provided in the path, and schedule rules and timezone are provided in the request body"
 ---
 # Create event calendar availability schedule
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/users/search-users
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/users/search
+summary: "Search Users"
 ---
 # Search Users
 

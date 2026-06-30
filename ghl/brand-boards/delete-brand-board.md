@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/brand-boards/delete-bra
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/brand-boards/:locationId/:id
+summary: "Deletes a Brand Board"
 ---
 # Delete a Brand Board
 

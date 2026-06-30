@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/objects/get-object-sche
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/objects/:key
+summary: "key of the custom or standard object. For custom objects, the key must include the prefix “custom\_objects.”. This key can be found on the Object Details page under Settings in the UI"
 ---
 # Get Object Schema by key / id
 

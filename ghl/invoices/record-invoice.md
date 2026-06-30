@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/record-invoice
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/invoices/:invoiceId/record-payment
+summary: "API to record manual payment for an invoice by invoice id"
 ---
 # Record a manual payment for an invoice
 

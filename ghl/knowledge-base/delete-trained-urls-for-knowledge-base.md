@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/delete-t
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/knowledge-bases/crawler
+summary: "Delete trained pages"
 ---
 # Delete trained pages
 

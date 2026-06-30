@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/payments/get-coupon
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/payments/coupon
+summary: "Successful response"
 ---
 # Fetch Coupon
 

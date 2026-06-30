@@ -2,6 +2,7 @@
 title: "O Auth 2 0"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/oauth/o-auth-2-0
 version: v3
+summary: "Documentation for OAuth 2.0 API"
 ---
 Documentation for OAuth 2.0 API
 

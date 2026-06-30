@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/snapshots/get-snapshot-
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/snapshots/snapshot-status/:snapshotId
+summary: "Get list of sub-accounts snapshot pushed in time period"
 ---
 # Get Snapshot Push between Dates
 

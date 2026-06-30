@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/voice-ai/update-action
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/voice-ai/actions/:actionId
+summary: "Update an existing action for a voice AI agent. Modifies the behavior and configuration of an agent action"
 ---
 # Update Agent Action
 

@@ -2,6 +2,7 @@
 title: "Objectschemaupdate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/ObjectSchemaUpdate
 version: v3
+summary: "The **Update Custom Object** is triggered whenever a custom object is Updated. This webhook allows systems to listen for new custom objects and take appropriate actions based on the event"
 ---
 ## Overview
 

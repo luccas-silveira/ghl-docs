@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/agent-studio/get-agent-
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/agent-studio/agent/:agentId
+summary: "Agent retrieved successfully"
 ---
 # Get Agent
 

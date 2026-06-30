@@ -2,6 +2,7 @@
 title: "Taskcomplete"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/TaskComplete
 version: v3
+summary: "Called whenever a task is completed"
 ---
 Called whenever a task is completed
 

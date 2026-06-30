@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/get-service-c
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/calendars/services/catalog/:serviceId
+summary: "Get service by ID"
 ---
 # Get Service by ID
 

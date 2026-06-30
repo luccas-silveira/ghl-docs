@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/voice-ai/get-call-log
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/voice-ai/dashboard/call-logs/:callId
+summary: "Returns a call log by callId"
 ---
 # Get Call Log
 

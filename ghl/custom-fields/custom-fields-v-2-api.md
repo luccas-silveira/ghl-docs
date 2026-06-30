@@ -2,6 +2,7 @@
 title: "Custom Fields V2 API"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/custom-fields/custom-fields-v-2-api
 version: v3
+summary: "Use the Access Token generated with user type as Sub-Account (OR) Private Integration Token of Sub-Account"
 ---
 Version: 1.0
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/store/delete-shipping-c
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/store/shipping-carrier/:shippingCarrierId
+summary: "Delete specific shipping carrier with Id :shippingCarrierId"
 ---
 # Delete shipping carrier
 

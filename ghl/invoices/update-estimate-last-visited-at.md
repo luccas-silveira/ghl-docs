@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/update-estimat
 version: v3
 method: PATCH
 endpoint: https://services.leadconnectorhq.com/invoices/estimate/stats/last-visited-at
+summary: "API to update estimate last visited at by estimate id"
 ---
 # Update estimate last visited at
 

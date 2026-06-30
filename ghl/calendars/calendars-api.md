@@ -2,6 +2,7 @@
 title: "Calendars API"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/calendars-api
 version: v3
+summary: "Documentation for Calendars API"
 ---
 Version: 1.0
 

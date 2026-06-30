@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/store/create-store-sett
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/store/store-setting
+summary: "Create or update store settings by altId and altType"
 ---
 # Create/Update Store Settings
 

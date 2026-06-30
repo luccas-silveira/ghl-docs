@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversations/get-conve
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/conversations/:conversationId
+summary: "Get the conversation details based on the conversation ID"
 ---
 # Get Conversation
 

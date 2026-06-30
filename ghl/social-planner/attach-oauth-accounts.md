@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/attach-o
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/social-media-posting/oauth/:locationId/:platform/accounts/:accountId
+summary: "This is the final step in the OAuth flow. After retrieving available accounts (Step 2), use this endpoint to connect the selected account to your location"
 ---
 # Connect Account (Step 3 of 3)
 

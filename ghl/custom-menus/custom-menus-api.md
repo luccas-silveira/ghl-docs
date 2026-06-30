@@ -2,6 +2,7 @@
 title: "Custom menus API"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/custom-menus/custom-menus-api
 version: v3
+summary: "Documentation for Custom menus API"
 ---
 Version: 1.0
 

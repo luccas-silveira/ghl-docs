@@ -2,6 +2,7 @@
 title: "Appuninstall"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/AppUninstall
 version: v3
+summary: "Called whenever an app is uninstalled"
 ---
 Called whenever an app is uninstalled
 

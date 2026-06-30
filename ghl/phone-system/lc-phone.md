@@ -2,6 +2,7 @@
 title: "Lc Phone"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/phone-system/lc-phone
 version: v3
+summary: "API Service for LC Phone"
 ---
 API Service for LC Phone
 

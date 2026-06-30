@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/update-invoice
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/invoices/:invoiceId
+summary: "API to update invoice by invoice id"
 ---
 # Update invoice
 

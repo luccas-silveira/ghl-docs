@@ -2,6 +2,7 @@
 title: "workflows API"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/workflows/workflows-api
 version: v3
+summary: "Documentation for workflows API"
 ---
 Version: 1.0
 

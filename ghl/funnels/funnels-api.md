@@ -2,6 +2,7 @@
 title: "Funnels API"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/funnels/funnels-api
 version: v3
+summary: "Documentation for funnels API"
 ---
 Version: 1.0
 

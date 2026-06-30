@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/set-acco
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/social-media-posting/:locationId/set-accounts
+summary: "Set social media accounts for a CSV import to publish posts to"
 ---
 # Set Accounts
 

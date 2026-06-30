@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/payments/create-integra
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/payments/custom-provider/provider
+summary: "API to create a new association for an app and location"
 ---
 # Create new integration
 

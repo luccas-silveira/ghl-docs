@@ -2,6 +2,7 @@
 title: "Widgets"
 source_url: https://marketplace.gohighlevel.com/docs/marketplace-modules/Widgets
 version: v3
+summary: "Custom widgets allow you to extend functionalities of a funnel builder by embedding custom elements like price banners or other interactive components"
 ---
 This guide aims to help developers create custom widgets for use in funnel builder and integrate them seamlessly. We will cover how to create, set up, and render custom widgets using HTML, CSS, and JavaScript or any JS frameworks like Angular, React, Vue along with communication between your custom widget application and the funnel builder.
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/emails/update-email-cam
 version: v3
 method: PATCH
 endpoint: https://services.leadconnectorhq.com/emails/locations/:locationId/campaigns/emails/:campaignId
+summary: "Update an email campaign draft"
 ---
 # Update Email Campaign
 

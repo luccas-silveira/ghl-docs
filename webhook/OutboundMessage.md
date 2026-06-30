@@ -2,6 +2,7 @@
 title: "Outboundmessage"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/OutboundMessage
 version: v3
+summary: "Called whenever a user sends a message to a contact"
 ---
 Called whenever a user sends a message to a contact.
 

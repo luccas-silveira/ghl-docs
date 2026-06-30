@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/saas/get-location-walle
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/saas-api/public-api/companies/:companyId/locations/:locationId/wallet-balance
+summary: "Fetch the wallet balance for a specific location. Returns a resource object with balance details"
 ---
 # Get Location Wallet Balance
 

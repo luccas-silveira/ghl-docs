@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/create-invoice
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/invoices/schedule
+summary: "API to create an invoice Schedule"
 ---
 # Create Invoice Schedule
 

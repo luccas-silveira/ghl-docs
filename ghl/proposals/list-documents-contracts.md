@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/proposals/list-document
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/proposals/document
+summary: "List documents for a location"
 ---
 # List documents
 

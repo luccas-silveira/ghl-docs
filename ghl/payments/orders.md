@@ -2,6 +2,7 @@
 title: "Orders"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/payments/orders
 version: v3
+summary: "Documentation for payments API"
 ---
 Documentation for payments API
 

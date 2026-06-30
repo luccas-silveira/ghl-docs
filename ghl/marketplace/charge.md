@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/marketplace/charge
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/marketplace/billing/charges
+summary: "Create a new wallet charge"
 ---
 # Create a new wallet charge
 

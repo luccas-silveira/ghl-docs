@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/get-appointme
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/calendars/appointments/:appointmentId/notes
+summary: "Get Appointment Notes"
 ---
 # Get Notes
 

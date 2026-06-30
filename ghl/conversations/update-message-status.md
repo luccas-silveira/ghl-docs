@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversations/update-me
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/conversations/messages/:messageId/status
+summary: "Post the necessary fields for the API to update message status"
 ---
 # Update message status
 

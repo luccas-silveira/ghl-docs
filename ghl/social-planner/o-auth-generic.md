@@ -2,6 +2,7 @@
 title: "O Auth Generic"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/o-auth-generic
 version: v3
+summary: "Documentation for Social Media Posting API"
 ---
 Documentation for Social Media Posting API
 

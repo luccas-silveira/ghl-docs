@@ -2,6 +2,7 @@
 title: "Recordupdate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/RecordUpdate
 version: v3
+summary: "This webhook response is triggered when a record or business is updated"
 ---
 ## Overview
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/agent-studio/update-age
 version: v3
 method: PATCH
 endpoint: https://services.leadconnectorhq.com/agent-studio/agent/:agentId
+summary: "Updates agent metadata such as name, description, and status"
 ---
 # Update Agent Metadata
 

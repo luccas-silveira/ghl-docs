@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/edit-block-sl
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/calendars/events/block-slots/:eventId
+summary: "Update block slot by ID"
 ---
 # Update Block Slot
 

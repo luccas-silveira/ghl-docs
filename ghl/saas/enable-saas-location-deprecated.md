@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/saas/enable-saas-locati
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/saas-api/public-api/enable-saas/:locationId
+summary: "This endpoint has been deprecated and may be replaced or removed in future versions of the API"
 ---
 # Enable SaaS for Sub-Account (Formerly Location)
 

@@ -2,6 +2,7 @@
 title: "Conversationupdate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/ConversationUpdate
 version: v3
+summary: "Called whenever a live chat conversation is merged into another conversation due to contact identification (e.g. a visitor provides their email or phone number matching an existing contact)"
 ---
 Called whenever a live chat conversation is merged into another conversation due to contact identification (e.g. a visitor provides their email or phone number matching an existing contact).
 

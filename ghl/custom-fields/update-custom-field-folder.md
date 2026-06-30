@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/custom-fields/update-cu
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/custom-fields/folder/:id
+summary: "Create Custom Field Folder"
 ---
 # Update Custom Field Folder Name
 

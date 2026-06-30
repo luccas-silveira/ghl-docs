@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/update-custom
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/locations/:locationId/customValues/:id
+summary: "Update Custom Value"
 ---
 # Update Custom Value
 

@@ -2,6 +2,7 @@
 title: "Objectschemacreate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/ObjectSchemaCreate
 version: v3
+summary: "The **Object Schema Create** is triggered whenever a custom object is created. This webhook allows systems to listen for new custom objects and take appropriate actions based on the event"
 ---
 ## Overview
 

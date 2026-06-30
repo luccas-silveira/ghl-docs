@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversations/add-messa
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/conversations/messages/:messageId/attachments
+summary: "Set attachments on an existing message (replaces existing). Maximum 5 URLs. Supported for Custom Call message type"
 ---
 # Add message attachments
 

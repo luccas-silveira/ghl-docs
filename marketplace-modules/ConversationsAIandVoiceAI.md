@@ -2,6 +2,7 @@
 title: "Conversationsaiandvoiceai"
 source_url: https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationsAIandVoiceAI
 version: v3
+summary: "In this help document we will help you with the steps that you need to take to get started"
 ---
 We are thrilled to announce a game-changing feature: the ability to sell Conversation AI & Voice AI templates in the App Marketplace! This exciting release empowers agencies to monetize their expertise by offering Conversation AI & Voice AI templates to other agencies, while also simplifying app creation for Conversation AI & Voice AI templates creators.
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/create-calend
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/calendars
+summary: "Create calendar in a location"
 ---
 # Create Calendar
 

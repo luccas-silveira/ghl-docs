@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/opportunities/search-op
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/opportunities/search
+summary: "Full-text search query string (max 75 characters)"
 ---
 # Search Opportunities
 

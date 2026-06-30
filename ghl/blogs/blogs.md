@@ -2,6 +2,7 @@
 title: "Blogs"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/blogs/blogs
 version: v3
+summary: "Documentation for Blogs"
 ---
 Documentation for Blogs
 

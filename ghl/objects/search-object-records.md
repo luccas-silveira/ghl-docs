@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/objects/search-object-r
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/objects/:schemaKey/records/search
+summary: "custom object key"
 ---
 # Search Object Records
 

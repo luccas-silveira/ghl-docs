@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/opportunities/update-op
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/opportunities/:id
+summary: "Update Opportunity"
 ---
 # Update Opportunity
 

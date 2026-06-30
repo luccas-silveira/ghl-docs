@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/remove-followe
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/contacts/:contactId/followers
+summary: "Remove Followers"
 ---
 # Remove Followers
 

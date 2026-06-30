@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/update-q
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/social-media-posting/category/queues/:queueId
+summary: "Updates queue status (active/paused/deleted), time slots, or skip dates"
 ---
 # Update queue settings or status
 

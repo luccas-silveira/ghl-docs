@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/chat-widget/update-chat
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/chat-widget/data/:locationId/:id
+summary: "Full update of a chat widget resource"
 ---
 # Update Chat Widget
 

@@ -2,6 +2,7 @@
 title: "Sub-Account (Formerly location) API"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/sub-account-formerly-location-api
 version: v3
+summary: "Documentation for Sub-Account (Formerly location) API"
 ---
 Version: 1.0
 

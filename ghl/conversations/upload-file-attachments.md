@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversations/upload-fi
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/conversations/messages/upload
+summary: "Post the necessary fields for the API to upload files. The files need to be a buffer with the key 'fileAttachment'"
 ---
 # Upload file attachments
 

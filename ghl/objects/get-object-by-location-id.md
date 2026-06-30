@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/objects/get-object-by-l
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/objects
+summary: "Successful response"
 ---
 # Get all objects for a location
 

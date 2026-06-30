@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/users/update-user
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/users/:userId
+summary: "First name of the user"
 ---
 # Update User
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/products/bulk-edit
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/products/bulk-update/edit
+summary: "API to bulk edit products and their associated prices (max 30 entities)"
 ---
 # Bulk Edit Products and Prices
 

@@ -2,6 +2,7 @@
 title: "Companies API"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/companies/companies-api
 version: v3
+summary: "Documentation for Companies API"
 ---
 Version: 1.0
 

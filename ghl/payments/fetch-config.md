@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/payments/fetch-config
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/payments/custom-provider/connect
+summary: "API for fetching an existing payment config for given location"
 ---
 # Fetch given provider config
 

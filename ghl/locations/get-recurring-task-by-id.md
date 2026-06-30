@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/get-recurring
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/locations/:locationId/recurring-tasks/:id
+summary: "Get Recurring Task By Id"
 ---
 # Get Recurring Task By Id
 

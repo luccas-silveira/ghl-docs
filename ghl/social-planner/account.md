@@ -2,6 +2,7 @@
 title: "Account"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/account
 version: v3
+summary: "Documentation for Social Media Posting API"
 ---
 Documentation for Social Media Posting API
 

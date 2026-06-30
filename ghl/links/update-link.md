@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/links/update-link
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/links/:linkId
+summary: "Display name of the trigger link"
 ---
 # Update Link
 

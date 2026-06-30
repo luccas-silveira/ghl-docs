@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/create-invoice
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/invoices/template
+summary: "API to create a template"
 ---
 # Create template
 

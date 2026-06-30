@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/store/get-available-shi
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/store/shipping-zone/shipping-rates
+summary: "This return available shipping rates for country based on order amount"
 ---
 # Get available shipping rates
 

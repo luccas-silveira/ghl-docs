@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/custom-menus/get-custom
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/custom-menus/:customMenuId
+summary: "Fetches a single custom menus based on id. This endpoint allows clients to retrieve custom menu configurations, which may include menu items, categories, and associated metadata"
 ---
 # Get Custom Menu Link
 

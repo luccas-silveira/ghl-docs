@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/payments/get-order-by-i
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/payments/orders/:orderId
+summary: "The 'Get Order by ID' API allows to retrieve information for a specific order using its unique identifier. Use this endpoint to fetch details for a single order based on the provided order ID"
 ---
 # Get Order by ID
 

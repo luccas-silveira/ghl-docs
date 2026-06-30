@@ -2,6 +2,7 @@
 title: "Products API"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/products/products-api
 version: v3
+summary: "Documentation for products API"
 ---
 Version: 1.0
 

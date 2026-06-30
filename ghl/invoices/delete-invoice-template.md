@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/delete-invoice
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/invoices/template/:templateId
+summary: "API to update an template by template id"
 ---
 # Delete template
 

@@ -2,6 +2,7 @@
 title: "Appcreationguide"
 source_url: https://marketplace.gohighlevel.com/docs/oauth/AppCreationGuide
 version: v3
+summary: "By the end of this document, you will have:"
 ---
 This guide walks you through creating a Marketplace App in HighLevel, from registering as a developer to setting up OAuth (scopes, redirect URLs, and client keys). It’s written to be practical and easy to follow, so you can build and test quickly, then publish when you’re ready.
 

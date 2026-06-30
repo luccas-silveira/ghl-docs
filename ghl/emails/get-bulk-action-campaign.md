@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/emails/get-bulk-action-
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/emails/locations/:locationId/campaigns/bulk-actions/:campaignId
+summary: "Get a single bulk action campaign by its ID"
 ---
 # Get Bulk Action Campaign by ID
 

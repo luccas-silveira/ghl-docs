@@ -2,6 +2,7 @@
 title: "Externalauthconnected"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/ExternalAuthConnected
 version: v3
+summary: "Called whenever external authentication (OAuth2 or Basic) is connected successfully for an app/location/company"
 ---
 Called whenever external authentication (OAuth2 or Basic) is connected successfully for an app/location/company.
 

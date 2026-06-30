@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/create-recurr
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/locations/:locationId/recurring-tasks
+summary: "Create Recurring Task"
 ---
 # Create Recurring Task
 

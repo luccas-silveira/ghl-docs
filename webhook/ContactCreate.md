@@ -2,6 +2,7 @@
 title: "Contactcreate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/ContactCreate
 version: v3
+summary: "Called whenever a contact is created"
 ---
 Called whenever a contact is created
 

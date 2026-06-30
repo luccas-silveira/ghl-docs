@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/voice-ai/get-action
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/voice-ai/actions/:actionId
+summary: "Retrieve details of a specific action by its ID. Returns the action configuration including actionParameters"
 ---
 # Get Agent Action
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/store/delete-shipping-z
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/store/shipping-zone/:shippingZoneId
+summary: "Delete specific shipping zone with Id :shippingZoneId"
 ---
 # Delete shipping zone
 

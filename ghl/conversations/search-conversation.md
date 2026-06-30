@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversations/search-co
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/conversations/search
+summary: "Returns a list of all conversations matching the search criteria along with the sort and filter options selected"
 ---
 # Search Conversations
 

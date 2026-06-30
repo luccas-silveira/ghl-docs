@@ -2,6 +2,7 @@
 title: "Productcreate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/ProductCreate
 version: v3
+summary: "Called whenever a product is created"
 ---
 Called whenever a product is created
 

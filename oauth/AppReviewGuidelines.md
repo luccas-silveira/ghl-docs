@@ -2,6 +2,7 @@
 title: "Appreviewguidelines"
 source_url: https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines
 version: v3
+summary: "They apply to both Standard and Whitelabel apps, with specific branding requirements called out where applicable"
 ---
 **App review guidelines to make your app public and gain discovery via the HighLevel Platform.**
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversations/live-chat
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/conversations/providers/live-chat/typing
+summary: "Agent/AI-Bot will call this when they are typing a message in live chat message"
 ---
 # Agent/Ai-Bot is typing a message indicator for live chat
 

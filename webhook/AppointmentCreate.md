@@ -2,6 +2,7 @@
 title: "Appointmentcreate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/AppointmentCreate
 version: v3
+summary: "Called whenever an appointment is created"
 ---
 Called whenever an appointment is created
 

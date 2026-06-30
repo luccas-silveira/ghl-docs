@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/fetch-ca
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/social-media-posting/category/queues/list/calendar
+summary: "Returns scheduled posts from active queues within a date range. Supports filtering by categories and accounts"
 ---
 # Get scheduled posts calendar view
 

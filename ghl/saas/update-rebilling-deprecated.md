@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/saas/update-rebilling-d
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/saas-api/public-api/update-rebilling/:companyId
+summary: "This endpoint has been deprecated and may be replaced or removed in future versions of the API"
 ---
 # Update Rebilling
 

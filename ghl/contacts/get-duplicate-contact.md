@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/get-duplicate-
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/contacts/search/duplicate
+summary: "Get Duplicate Contact"
 ---
 # Get Duplicate Contact
 

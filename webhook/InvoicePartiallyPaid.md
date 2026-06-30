@@ -2,6 +2,7 @@
 title: "Invoicepartiallypaid"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/InvoicePartiallyPaid
 version: v3
+summary: "Called whenever an invoice is partially paid"
 ---
 Called whenever an invoice is partially paid
 

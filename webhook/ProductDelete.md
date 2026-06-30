@@ -2,6 +2,7 @@
 title: "Productdelete"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/ProductDelete
 version: v3
+summary: "Called whenever a product is deleted"
 ---
 Called whenever a product is deleted
 

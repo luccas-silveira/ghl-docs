@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/associations/get-relati
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/associations/relations/:recordId
+summary: "Get all relations by record Id"
 ---
 # Get all relations By record Id
 

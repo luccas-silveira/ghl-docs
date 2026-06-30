@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/delete-note
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/contacts/:contactId/notes/:id
+summary: "Successful response"
 ---
 # Delete Note
 

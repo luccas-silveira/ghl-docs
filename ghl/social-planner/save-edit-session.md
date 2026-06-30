@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/save-edi
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/social-media-posting/category/queues/:queueId/edit/save
+summary: "Applies all staged changes to the live queue and closes the edit session"
 ---
 # Save edit session changes
 

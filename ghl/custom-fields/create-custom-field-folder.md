@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/custom-fields/create-cu
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/custom-fields/folder
+summary: "Create Custom Field Folder"
 ---
 # Create Custom Field Folder
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/delete-locati
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/locations/:locationId
+summary: "Delete a Sub-Account (Formerly Location) from the Agency"
 ---
 # Delete Sub-Account (Formerly Location)
 

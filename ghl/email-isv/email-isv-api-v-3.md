@@ -2,6 +2,7 @@
 title: "Email ISV API v3"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/email-isv/email-isv-api-v-3
 version: v3
+summary: "Documentation for Email ISV API"
 ---
 # Email ISV API v3
 

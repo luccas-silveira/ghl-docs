@@ -2,6 +2,7 @@
 title: "Store"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/products/store
 version: v3
+summary: "Documentation for products API"
 ---
 Documentation for products API
 

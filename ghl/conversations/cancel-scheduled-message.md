@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversations/cancel-sc
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/conversations/messages/:messageId/schedule
+summary: "Post the messageId for the API to delete a scheduled message"
 ---
 # Cancel a scheduled message.
 

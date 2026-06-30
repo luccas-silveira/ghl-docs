@@ -2,6 +2,7 @@
 title: "Snapshots"
 source_url: https://marketplace.gohighlevel.com/docs/marketplace-modules/Snapshots
 version: v3
+summary: "The App Marketplace allows agency admins to to monetize their CRM expertise and package their configurations into a scalable product!"
 ---
 We are thrilled to announce a game-changing feature: the ability to sell Snapshots in the App Marketplace! This exciting release empowers agencies to monetize their expertise by offering Snapshots to other agencies, while also simplifying app creation for Snapshot creators.
 

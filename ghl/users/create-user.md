@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/users/create-user
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/users
+summary: "Company/Agency ID to associate the user with"
 ---
 # Create User
 

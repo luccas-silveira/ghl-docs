@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/update-
 version: v3
 method: PATCH
 endpoint: https://services.leadconnectorhq.com/conversation-ai/agents/:agentId/followup-settings
+summary: "Update the followup settings for an action"
 ---
 # Update Followup Settings
 

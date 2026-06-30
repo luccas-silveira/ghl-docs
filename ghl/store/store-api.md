@@ -2,6 +2,7 @@
 title: "Store API"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/store/store-api
 version: v3
+summary: "Documentation for store API"
 ---
 Version: 1.0
 

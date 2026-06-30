@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/upload-c
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/social-media-posting/:locationId/csv
+summary: "Upload a CSV file containing social media posts for bulk scheduling"
 ---
 # Upload CSV
 

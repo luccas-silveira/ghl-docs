@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/get-location-
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/locations/:locationId/permissions
+summary: "Get Sub-Account (Formerly Location) permissions"
 ---
 # Get Permissions
 

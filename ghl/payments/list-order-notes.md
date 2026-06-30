@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/payments/list-order-not
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/payments/orders/:orderId/notes
+summary: "List all notes of an order"
 ---
 # List Order Notes
 

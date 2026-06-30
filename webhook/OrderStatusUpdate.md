@@ -2,6 +2,7 @@
 title: "Orderstatusupdate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/OrderStatusUpdate
 version: v3
+summary: "Called whenever an order's status field updated"
 ---
 Called whenever an order's status field updated
 

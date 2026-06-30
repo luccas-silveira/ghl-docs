@@ -2,6 +2,7 @@
 title: "Notedelete"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/NoteDelete
 version: v3
+summary: "Called whenever a note is deleted"
 ---
 Called whenever a note is deleted
 

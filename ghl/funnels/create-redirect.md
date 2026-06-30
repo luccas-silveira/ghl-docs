@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/funnels/create-redirect
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/funnels/lookup/redirect
+summary: "Successful response"
 ---
 # Create Redirect
 

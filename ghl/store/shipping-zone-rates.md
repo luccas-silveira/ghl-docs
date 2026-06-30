@@ -2,6 +2,7 @@
 title: "Shipping Zone Rates"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/store/shipping-zone-rates
 version: v3
+summary: "Documentation for store API"
 ---
 Documentation for store API
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/affiliate-manager/list-
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/affiliate-manager/:locationId/commissions
+summary: "Retrieve the list of commissions for a location"
 ---
 # List Commissions
 

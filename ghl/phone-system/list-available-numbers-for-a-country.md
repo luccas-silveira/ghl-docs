@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/phone-system/list-avail
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/phone-system/numbers/location/:locationId/available
+summary: "Search Twilio inventory for purchasable phone numbers in a country for the given location"
 ---
 # List available phone numbers
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/edit-appointm
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/calendars/events/appointments/:eventId
+summary: "Update appointment"
 ---
 # Update Appointment
 

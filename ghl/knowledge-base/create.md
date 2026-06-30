@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/create
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/knowledge-bases/faqs
+summary: "Create a new FAQ inside knowledge base"
 ---
 # Create a new FAQ inside knowledge base
 

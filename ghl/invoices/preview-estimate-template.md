@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/preview-estima
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/invoices/estimate/template/preview
+summary: "Get a preview of an estimate template"
 ---
 # Preview Estimate Template
 

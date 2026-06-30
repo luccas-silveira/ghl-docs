@@ -2,6 +2,7 @@
 title: "Conversation AI API"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/conversation-ai-api
 version: v3
+summary: "Documentation for AI Employees API"
 ---
 Version: 1.0
 

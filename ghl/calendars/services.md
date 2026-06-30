@@ -2,6 +2,7 @@
 title: "Services"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/services
 version: v3
+summary: "Documentation for Calendars API"
 ---
 Documentation for Calendars API
 

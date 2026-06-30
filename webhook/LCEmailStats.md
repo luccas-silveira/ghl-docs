@@ -2,6 +2,7 @@
 title: "Lcemailstats"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/LCEmailStats
 version: v3
+summary: "Called whenever an email is sent, gives the statistics of the said email"
 ---
 Called whenever an email is sent, gives the statistics of the said email.
 

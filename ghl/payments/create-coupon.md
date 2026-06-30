@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/payments/create-coupon
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/payments/coupon
+summary: "Discount Type"
 ---
 # Create Coupon
 

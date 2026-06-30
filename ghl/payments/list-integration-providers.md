@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/payments/list-integrati
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/payments/integrations/provider/whitelabel
+summary: "location Id / company Id based on altType"
 ---
 # List White-label Integration Providers
 

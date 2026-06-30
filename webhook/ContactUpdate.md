@@ -2,6 +2,7 @@
 title: "Contactupdate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/ContactUpdate
 version: v3
+summary: "Called whenever the specific fields in contact is updated"
 ---
 Called whenever the specific fields in contact is updated
 

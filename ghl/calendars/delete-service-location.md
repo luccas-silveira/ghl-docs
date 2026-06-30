@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/delete-servic
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/calendars/services/locations/:serviceLocationId
+summary: "Delete a service location by ID"
 ---
 # Delete Service Location
 

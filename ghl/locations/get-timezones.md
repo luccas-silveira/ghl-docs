@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/get-timezones
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/locations/:locationId/timezones
+summary: "Fetch the available timezones"
 ---
 # Fetch Timezones
 

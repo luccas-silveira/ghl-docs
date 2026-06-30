@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/associations/get-associ
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/associations/objectKey/:objectKey
+summary: "Successful response"
 ---
 # Get association by object keys
 

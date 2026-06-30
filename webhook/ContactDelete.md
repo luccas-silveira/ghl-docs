@@ -2,6 +2,7 @@
 title: "Contactdelete"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/ContactDelete
 version: v3
+summary: "Called whenever a contact is deleted"
 ---
 Called whenever a contact is deleted
 

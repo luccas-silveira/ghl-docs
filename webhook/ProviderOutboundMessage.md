@@ -2,6 +2,7 @@
 title: "Provideroutboundmessage"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/ProviderOutboundMessage
 version: v3
+summary: "Called whenever a user sends a message to a contact and has a custom provider as the default channel in the settings"
 ---
 Called whenever a user sends a message to a contact and has a custom provider as the default channel in the settings.
 

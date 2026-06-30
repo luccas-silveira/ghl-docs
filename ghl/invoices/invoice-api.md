@@ -2,6 +2,7 @@
 title: "Invoice API"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/invoice-api
 version: v3
+summary: "Documentation for invoice API"
 ---
 Version: 1.0
 

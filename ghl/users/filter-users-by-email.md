@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/users/filter-users-by-e
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/users/search/filter-by-email
+summary: "Filter users by company ID, deleted status, and email array"
 ---
 # Filter Users by Email
 

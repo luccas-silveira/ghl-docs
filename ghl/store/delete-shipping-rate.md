@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/store/delete-shipping-r
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/store/shipping-zone/:shippingZoneId/shipping-rate/:shippingRateId
+summary: "Delete specific shipping rate with Id :shippingRateId"
 ---
 # Delete shipping rate
 

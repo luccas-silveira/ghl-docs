@@ -2,6 +2,7 @@
 title: "Targetusersubaccount"
 source_url: https://marketplace.gohighlevel.com/docs/Authorization/TargetUserSubAccount
 version: v3
+summary: "This document explains how to manage Access Tokens when your app’s Target User is set to Sub-Account"
 ---
 This document explains how to manage Access Tokens when your app’s Target User is set to Sub-Account.
 

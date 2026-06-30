@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/list-ac
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/conversation-ai/agents/:agentId/actions/list
+summary: "List for actions for an agent"
 ---
 # List Actions for an Agent
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/saas/update-rebilling
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/saas/update-rebilling/:companyId
+summary: "Bulk update rebilling for given locationIds"
 ---
 # Update Rebilling
 

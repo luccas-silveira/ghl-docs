@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/payments/get-transactio
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/payments/transactions/:transactionId
+summary: "ID of the transaction that needs to be returned"
 ---
 # Get Transaction by ID
 

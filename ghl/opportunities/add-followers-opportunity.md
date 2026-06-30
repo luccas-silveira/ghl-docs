@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/opportunities/add-follo
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/opportunities/:id/followers
+summary: "Add Followers"
 ---
 # Add Followers
 

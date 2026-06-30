@@ -2,6 +2,7 @@
 title: "Email API v3"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/emails/email-api-v-3
 version: v3
+summary: "Documentation for emails API"
 ---
 # Email API v3
 

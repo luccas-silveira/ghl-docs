@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/create-servic
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/calendars/services/bookings
+summary: "Create a new service booking"
 ---
 # Create Service Booking
 

@@ -2,6 +2,7 @@
 title: "Createmarketplaceapp"
 source_url: https://marketplace.gohighlevel.com/docs/oauth/CreateMarketplaceApp
 version: v3
+summary: "2. After logging in, go to My Apps"
 ---
 This section walks you through creating a Marketplace App in HighLevel—from creating the app record in the Developer Portal, to completing your listing, generating OAuth credentials, and installing the app for testing.
 

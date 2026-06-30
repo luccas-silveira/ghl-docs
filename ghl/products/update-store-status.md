@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/products/update-store-s
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/products/store/:storeId
+summary: "API to update the status of products in a particular store"
 ---
 # Action to include/exclude the product in store
 

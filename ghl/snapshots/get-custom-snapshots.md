@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/snapshots/get-custom-sn
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/snapshots
+summary: "Get a list of all own and imported Snapshots"
 ---
 # Get Snapshots
 

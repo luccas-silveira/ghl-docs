@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/saas/get-location-subsc
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/saas/get-saas-subscription/:locationId
+summary: "Fetch subscription details for a specific location from location metadata"
 ---
 # Get Location Subscription Details
 

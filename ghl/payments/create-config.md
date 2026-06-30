@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/payments/create-config
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/payments/custom-provider/connect
+summary: "API to create a new payment config for given location"
 ---
 # Create new provider config
 

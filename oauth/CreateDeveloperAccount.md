@@ -2,6 +2,7 @@
 title: "Createdeveloperaccount"
 source_url: https://marketplace.gohighlevel.com/docs/oauth/CreateDeveloperAccount
 version: v3
+summary: "Here’s how to create your Developer Account:"
 ---
 Before you can create or publish a Marketplace app, you need access to the [**Marketplace Developer Portal**](https://marketplace.gohighlevel.com/). This is where you manage your apps, team access, OAuth settings, and submission workflow.
 

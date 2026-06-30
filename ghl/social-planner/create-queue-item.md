@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/create-q
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/social-media-posting/category/queues/:queueId/create/item
+summary: "Adds a new post item to a queue. Use sessionId for edit session or directToQueue for immediate addition"
 ---
 # Create a new item in the queue
 

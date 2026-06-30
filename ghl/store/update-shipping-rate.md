@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/store/update-shipping-r
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/store/shipping-zone/:shippingZoneId/shipping-rate/:shippingRateId
+summary: "The 'update Shipping Rate' API allows update a shipping rate to the system"
 ---
 # Update Shipping Rate
 

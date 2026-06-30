@@ -2,6 +2,7 @@
 title: "Codemode"
 source_url: https://marketplace.gohighlevel.com/docs/oauth/external-auth/CodeMode
 version: v3
+summary: "Reach for Code Mode when you need to do things the form can't express, such as:"
 ---
 Code Mode lets you write JavaScript to fully customize an OAuth request when the form builder isn't flexible enough. Instead of filling in fields for the URL, headers, params, and body, you write a short script that builds the request (or the authorization URL), runs it, and returns the result.
 

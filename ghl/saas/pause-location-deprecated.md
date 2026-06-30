@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/saas/pause-location-dep
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/saas-api/public-api/pause/:locationId
+summary: "This endpoint has been deprecated and may be replaced or removed in future versions of the API"
 ---
 # Pause location
 

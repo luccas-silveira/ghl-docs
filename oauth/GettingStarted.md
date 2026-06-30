@@ -2,6 +2,7 @@
 title: "Gettingstarted"
 source_url: https://marketplace.gohighlevel.com/docs/oauth/GettingStarted
 version: v3
+summary: "The Developer Marketplace is a platform provided by HighLevel where developers can create and distribute their custom applications and integrations for use with the HighLevel CRM"
 ---
 **HighLevel** is growing at a rapid scale. We have over 70000+ agencies 600,000+ businesses actively using our product.
 

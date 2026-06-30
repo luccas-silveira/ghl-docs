@@ -2,6 +2,7 @@
 title: "Campaignstatusupdate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/CampaignStatusUpdate
 version: v3
+summary: "Called whenever a campaign status is updated"
 ---
 Called whenever a campaign status is updated
 

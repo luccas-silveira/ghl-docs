@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/create-servic
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/calendars/services/locations
+summary: "Create a new service location"
 ---
 # Create Service Location
 

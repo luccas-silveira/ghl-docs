@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/brand-boards/update-bra
 version: v3
 method: PATCH
 endpoint: https://services.leadconnectorhq.com/brand-boards/locations/:locationId/brand-voices/:brandVoiceId
+summary: "Update a brand voice by ID"
 ---
 # Update Brand Voice
 

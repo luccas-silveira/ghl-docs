@@ -2,6 +2,7 @@
 title: "LC Phone API v3"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/phone-system/lc-phone-api-v-3
 version: v3
+summary: "API Service for LC Phone - version v3"
 ---
 # LC Phone API v3
 

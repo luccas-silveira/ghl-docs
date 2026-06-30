@@ -2,6 +2,7 @@
 title: "Userupdate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/UserUpdate
 version: v3
+summary: "Called whenever a user is updated"
 ---
 Called whenever a user is updated
 

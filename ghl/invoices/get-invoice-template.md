@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/get-invoice-te
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/invoices/template/:templateId
+summary: "API to get an template by template id"
 ---
 # Get an template
 

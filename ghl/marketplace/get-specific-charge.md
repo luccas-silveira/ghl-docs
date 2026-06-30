@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/marketplace/get-specifi
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/marketplace/billing/charges/:chargeId
+summary: "Get specific wallet charge details"
 ---
 # Get specific wallet charge details
 

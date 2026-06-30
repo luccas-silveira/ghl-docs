@@ -2,6 +2,7 @@
 title: "Users"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/users/users
 version: v3
+summary: "Documentation for users API"
 ---
 Documentation for users API
 

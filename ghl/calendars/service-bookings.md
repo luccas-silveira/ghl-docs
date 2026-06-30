@@ -2,6 +2,7 @@
 title: "Service Bookings"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/service-bookings
 version: v3
+summary: "Documentation for Calendars API"
 ---
 Documentation for Calendars API
 

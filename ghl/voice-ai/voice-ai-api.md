@@ -2,6 +2,7 @@
 title: "Voice AI API"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/voice-ai/voice-ai-api
 version: v3
+summary: "Documentation for Voice AI API"
 ---
 Version: 1.0
 

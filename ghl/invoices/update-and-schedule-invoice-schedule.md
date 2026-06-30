@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/update-and-sch
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/invoices/schedule/:scheduleId/updateAndSchedule
+summary: "API to update scheduled recurring invoice"
 ---
 # Update scheduled recurring invoice
 

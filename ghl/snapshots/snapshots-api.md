@@ -2,6 +2,7 @@
 title: "Snapshots API"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/snapshots/snapshots-api
 version: v3
+summary: "Documentation for Snapshots API"
 ---
 Version: 1.0
 

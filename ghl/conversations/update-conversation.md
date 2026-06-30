@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversations/update-co
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/conversations/:conversationId
+summary: "Update the conversation details based on the conversation ID"
 ---
 # Update Conversation
 

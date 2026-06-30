@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/saas/get-location-subsc
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/saas-api/public-api/get-saas-subscription/:locationId
+summary: "This endpoint has been deprecated and may be replaced or removed in future versions of the API"
 ---
 # Get Location Subscription Details
 

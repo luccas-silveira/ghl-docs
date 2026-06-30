@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/get-know
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/knowledge-bases/:knowledgeBaseId
+summary: "Get knowledge base by ID"
 ---
 # Get knowledge base by ID
 

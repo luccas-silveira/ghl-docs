@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/brand-boards/get-brand-
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/brand-boards/:locationId
+summary: "Retrieves all Brand Boards for a specific location"
 ---
 # Get Brand Boards
 

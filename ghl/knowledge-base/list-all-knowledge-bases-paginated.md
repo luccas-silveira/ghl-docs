@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/list-all
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/knowledge-bases
+summary: "Get all knowledge bases for a location by location Id (paginated)"
 ---
 # Get all knowledge bases for a location by location Id (paginated)
 

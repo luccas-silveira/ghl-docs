@@ -2,6 +2,7 @@
 title: "Templatelibrary"
 source_url: https://marketplace.gohighlevel.com/docs/marketplace-modules/TemplateLibrary
 version: v3
+summary: "The **Template Library** is integrated with the Marketplace, allowing agencies to **discover, preview, and install templates**, including paid ones"
 ---
 The **Template Library** is integrated with the Marketplace, allowing agencies to **discover, preview, and install templates**, including paid ones.
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/put-location
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/locations/:locationId
+summary: "Update a Sub-Account (Formerly Location) based on the data provided"
 ---
 # Put Sub-Account (Formerly Location)
 

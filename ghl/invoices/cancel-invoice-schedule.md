@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/cancel-invoice
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/invoices/schedule/:scheduleId/cancel
+summary: "API to cancel a scheduled invoice by schedule id"
 ---
 # Cancel an scheduled invoice
 

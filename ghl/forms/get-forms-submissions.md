@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/forms/get-forms-submiss
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/forms/submissions
+summary: "Get Forms Submissions"
 ---
 # Get Forms Submissions
 

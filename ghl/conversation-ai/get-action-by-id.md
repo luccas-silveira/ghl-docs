@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/get-act
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/conversation-ai/agents/:agentId/actions/:actionId
+summary: "Retrieves detailed information about a specific action using its unique identifier. Returns the action configuration, associated agents, and performance metrics"
 ---
 # Get Action by ID
 

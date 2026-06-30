@@ -2,6 +2,7 @@
 title: "Payments API"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/payments/payments-api
 version: v3
+summary: "Documentation for payments API"
 ---
 Version: 1.0
 

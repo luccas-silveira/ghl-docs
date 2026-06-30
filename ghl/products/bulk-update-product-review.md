@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/products/bulk-update-pr
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/products/reviews/bulk-update
+summary: "Update one or multiple product reviews: status, reply, etc"
 ---
 # Update Product Reviews
 

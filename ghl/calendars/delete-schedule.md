@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/delete-schedu
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/calendars/schedules/:id
+summary: "Permanently remove a schedule and all its associated rules. This action cannot be undone"
 ---
 # Delete user availability schedule
 

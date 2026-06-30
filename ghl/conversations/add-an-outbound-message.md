@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversations/add-an-ou
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/conversations/messages/outbound
+summary: "Post the necessary fields for the API to add a new outbound call"
 ---
 # Add an external outbound call
 

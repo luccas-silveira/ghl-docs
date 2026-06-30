@@ -2,6 +2,7 @@
 title: "Actions"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/actions
 version: v3
+summary: "Documentation for AI Employees API"
 ---
 Documentation for AI Employees API
 

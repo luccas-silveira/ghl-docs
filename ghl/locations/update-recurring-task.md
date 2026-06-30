@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/update-recurr
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/locations/:locationId/recurring-tasks/:id
+summary: "Update Recurring Task"
 ---
 # Update Recurring Task
 

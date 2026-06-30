@@ -2,6 +2,7 @@
 title: "Contactdndupdate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/ContactDndUpdate
 version: v3
+summary: "Called whenever a contact's dnd field is updated"
 ---
 Called whenever a contact's dnd field is updated
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/medias/create-media-fol
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/medias/folder
+summary: "Creates a new folder in the media storage"
 ---
 # Create Folder
 

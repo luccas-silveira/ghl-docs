@@ -2,6 +2,7 @@
 title: "Php"
 source_url: https://marketplace.gohighlevel.com/docs/sdk/php
 version: v3
+summary: "Use `HighLevel\Storage\MongoDBSessionStorage` provided by SDK to use mongo as storage or extend it to store tokens in MySQL, PostgreSQL, Redis, etc:"
 ---
 The `gohighlevel/api-client` composer package is the officially supported SDK for PHP 7.4+ projects. It wraps the full HighLevel API with PSR-18 friendly services, automatic OAuth token rotation, webhook helpers, and pluggable session storage.
 

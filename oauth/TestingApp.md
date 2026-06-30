@@ -2,6 +2,7 @@
 title: "Testingapp"
 source_url: https://marketplace.gohighlevel.com/docs/oauth/TestingApp
 version: v3
+summary: "This section explains how to generate a **Test Link** for a specific app version in the **Developer Marketplace** and use it to **install the app into a specific location/agency account** for testing"
 ---
 This section explains how to generate a **Test Link** for a specific app version in the **Developer Marketplace** and use it to **install the app into a specific location/agency account** for testing.
 

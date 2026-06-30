@@ -2,6 +2,7 @@
 title: "Knowledgebaserichtextchange"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/KnowledgeBaseRichTextChange
 version: v3
+summary: "Called whenever a knowledge base **rich text** asset is created, updated or deleted"
 ---
 Called whenever a knowledge base **rich text** asset is created, updated or deleted
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/send-estimate
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/invoices/estimate/:estimateId/send
+summary: "API to send estimate by estimate id"
 ---
 # Send Estimate
 

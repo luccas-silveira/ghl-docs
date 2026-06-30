@@ -2,6 +2,7 @@
 title: "Saas"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/saas/saas
 version: v3
+summary: "API Service for SaaS"
 ---
 API Service for SaaS
 

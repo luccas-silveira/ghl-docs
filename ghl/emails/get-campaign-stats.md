@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/emails/get-campaign-sta
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/emails/locations/:locationId/campaigns/stats/:source/:sourceId
+summary: "Get statistics for email campaigns, workflows, or bulk actions"
 ---
 # Get Campaign Statistics
 

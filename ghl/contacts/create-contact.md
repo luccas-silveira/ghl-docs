@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/create-contact
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/contacts
+summary: "Create a new contact"
 ---
 # Create Contact
 

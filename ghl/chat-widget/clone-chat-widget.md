@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/chat-widget/clone-chat-
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/chat-widget/clone
+summary: "Creates a copy of an existing chat widget in the same sub-account"
 ---
 # Clone Chat Widget
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/payments/list-subscript
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/payments/subscriptions
+summary: "AltId is the unique identifier e.g: location id"
 ---
 # List Subscriptions
 

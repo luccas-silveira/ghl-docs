@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/businesses/update-busin
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/businesses/:businessId
+summary: "Update Business"
 ---
 # Update Business
 

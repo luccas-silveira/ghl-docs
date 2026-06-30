@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/store/create-shipping-c
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/store/shipping-carrier
+summary: "The 'Create Shipping Carrier' API allows adding a new shipping carrier"
 ---
 # Create Shipping Carrier
 

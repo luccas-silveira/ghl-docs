@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/emails/create-template-
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/emails/locations/:locationId/templates/folders
+summary: "Create a new template folder"
 ---
 # Create a template folder
 

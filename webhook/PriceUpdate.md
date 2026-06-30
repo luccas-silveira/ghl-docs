@@ -2,6 +2,7 @@
 title: "Priceupdate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/PriceUpdate
 version: v3
+summary: "Called whenever a price is updated"
 ---
 Called whenever a price is updated
 

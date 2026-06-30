@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/brand-boards/set-defaul
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/brand-boards/locations/:locationId/brand-voices/:brandVoiceId/default
+summary: "Set a brand voice as the default for a location. The previous default will be unset"
 ---
 # Set Default Brand Voice
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/delete
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/knowledge-bases/faqs/:id
+summary: "Delete an existing knowledge base FAQ"
 ---
 # Delete an existing knowledge base FAQ
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/create-invoice
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/invoices/estimate/:estimateId/invoice
+summary: "Create a new invoice from an existing estimate"
 ---
 # Create Invoice from Estimate
 

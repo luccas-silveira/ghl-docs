@@ -2,6 +2,7 @@
 title: "Businesses"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/businesses/businesses
 version: v3
+summary: "Documentation for business API"
 ---
 Documentation for business API
 

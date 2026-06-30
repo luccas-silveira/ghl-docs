@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/products/get-list-inven
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/products/inventory
+summary: "The 'List Inventory API allows the user to retrieve a paginated list of inventory items. Use this endpoint to fetch details for multiple items in the inventory based on the provided query parameters"
 ---
 # List Inventory
 

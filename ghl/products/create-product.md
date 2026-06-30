@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/products/create-product
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/products
+summary: "The name of the product"
 ---
 # Create Product
 

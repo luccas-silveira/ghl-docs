@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/delete-q
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/social-media-posting/category/queues/:queueId/items/:itemId
+summary: "Deletes an item from a specific category queue"
 ---
 # Delete an item from a queue
 

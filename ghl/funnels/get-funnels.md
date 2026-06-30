@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/funnels/get-funnels
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/funnels/funnel/list
+summary: "Retrieves a list of all funnels based on the given query parameters"
 ---
 # Fetch List of Funnels
 

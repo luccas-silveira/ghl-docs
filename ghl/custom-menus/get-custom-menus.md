@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/custom-menus/get-custom
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/custom-menus
+summary: "Unique identifier of the location"
 ---
 # Get Custom Menu Links
 

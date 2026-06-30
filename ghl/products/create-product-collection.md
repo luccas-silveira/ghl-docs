@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/products/create-product
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/products/collections
+summary: "Create a new Product Collection for a specific location"
 ---
 # Create Product Collection
 

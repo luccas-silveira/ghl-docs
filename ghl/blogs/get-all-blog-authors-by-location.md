@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/blogs/get-all-blog-auth
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/blogs/authors
+summary: "The 'Get all authors' Api return the blog authors for a given location ID. Please use 'blogs/author.readonly'"
 ---
 # Get all authors
 

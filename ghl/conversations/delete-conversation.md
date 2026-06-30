@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversations/delete-co
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/conversations/:conversationId
+summary: "Delete the conversation details based on the conversation ID"
 ---
 # Delete Conversation
 

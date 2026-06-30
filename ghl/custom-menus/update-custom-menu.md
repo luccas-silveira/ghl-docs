@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/custom-menus/update-cus
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/custom-menus/:customMenuId
+summary: "Updates an existing custom menu for a given company. Requires authentication and proper permissions"
 ---
 # Update Custom Menu Link
 

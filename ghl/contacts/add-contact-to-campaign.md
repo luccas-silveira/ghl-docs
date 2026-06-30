@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/add-contact-to
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/contacts/:contactId/campaigns/:campaignId
+summary: "Add contact to Campaign"
 ---
 # Add Contact to Campaign
 

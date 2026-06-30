@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/marketplace/get-rebilli
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/marketplace/app/:appId/rebilling-config/location/:locationId
+summary: "Get rebilling config for an app subscription and usage plans for the authenticated sub-account. This endpoint returns the subscription and usage plans for an app"
 ---
 # Get rebilling config for an app subscription and usage plans
 

@@ -2,6 +2,7 @@
 title: "Locationupdate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/LocationUpdate
 version: v3
+summary: "Called whenever a location is updated"
 ---
 Called whenever a location is updated.
 

@@ -2,6 +2,7 @@
 title: "Refundpolicy"
 source_url: https://marketplace.gohighlevel.com/docs/MarketplacePolicies/RefundPolicy
 version: v3
+summary: "Welcome to the HighLevel App Marketplace (“Marketplace”). This Refund Policy (“Policy”) explains how we handle refund requests for:"
 ---
 Welcome to the HighLevel App Marketplace (“Marketplace”). This Refund Policy (“Policy”) explains how we handle refund requests for:
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/marketplace/migrate-con
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/marketplace/external-auth/migration
+summary: "Type of authentication - basic or oauth2"
 ---
 # Migrate external authentication connection
 

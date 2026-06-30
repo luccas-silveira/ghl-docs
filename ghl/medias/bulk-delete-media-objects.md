@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/medias/bulk-delete-medi
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/medias/delete-files
+summary: "Soft-deletes or trashes multiple files and folders in a single request"
 ---
 # Bulk Delete / Trash Files or Folders
 

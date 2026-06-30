@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/marketplace/uninstall-a
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/marketplace/app/:appId/installations
+summary: "Uninstalls an application from your company or a specific location. This will remove the application\`s access and stop all its functionalities"
 ---
 # Uninstall an application
 

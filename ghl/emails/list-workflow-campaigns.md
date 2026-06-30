@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/emails/list-workflow-ca
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/emails/locations/:locationId/campaigns/workflows
+summary: "Get list of workflow campaigns for a location"
 ---
 # List Workflow Campaigns
 

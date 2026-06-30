@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/associations/update-ass
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/associations/:associationId
+summary: "Successful response"
 ---
 # Update Association By Id
 

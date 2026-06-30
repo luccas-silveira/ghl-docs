@@ -2,6 +2,7 @@
 title: "Invoicedelete"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/InvoiceDelete
 version: v3
+summary: "Called whenever an invoice is deleted"
 ---
 Called whenever an invoice is deleted
 

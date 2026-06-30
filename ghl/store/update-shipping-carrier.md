@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/store/update-shipping-c
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/store/shipping-carrier/:shippingCarrierId
+summary: "The 'update Shipping Carrier' API allows update a shipping carrier to the system"
 ---
 # Update Shipping Carrier
 

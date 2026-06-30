@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/search-
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/conversation-ai/agents/search
+summary: "Searches for AI agents based on various criteria including name, status, and configuration. Supports advanced filtering and full-text search capabilities"
 ---
 # Search Agents
 

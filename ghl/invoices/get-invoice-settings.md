@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/get-invoice-se
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/invoices/settings
+summary: "Get the invoice settings for the given location"
 ---
 # Get Invoice Settings
 

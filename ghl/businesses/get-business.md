@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/businesses/get-business
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/businesses/:businessId
+summary: "Get Business"
 ---
 # Get Business
 

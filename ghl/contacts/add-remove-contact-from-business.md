@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/add-remove-con
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/contacts/bulk/business
+summary: "Add/Remove Contacts From Business . Passing a `null` businessId will remove the businessId from the contacts"
 ---
 # Add/Remove Contacts From Business
 

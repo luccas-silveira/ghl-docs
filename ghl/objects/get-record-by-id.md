@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/objects/get-record-by-i
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/objects/:schemaKey/records/:id
+summary: "Allows you to get a Standard Object like business and custom object record by Id"
 ---
 # Get Record By Id
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/chat-widget/list-chat-w
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/chat-widget/list
+summary: "Returns chat widgets for the sub-account with pagination and optional filters"
 ---
 # List Chat Widgets
 

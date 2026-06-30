@@ -2,6 +2,7 @@
 title: "Configureyourfields"
 source_url: https://marketplace.gohighlevel.com/docs/oauth/external-auth/ConfigureYourFields
 version: v3
+summary: "Many providers don't have a single, fixed API URL. The endpoint depends on something unique to each user's account, such as a store domain or a region"
 ---
 **Configure Your Fields** lets you collect custom inputs from the user during installation. These inputs become available to every request your app makes through External Authentication, so you can tailor URLs, headers, parameters, and request bodies to each individual user.
 

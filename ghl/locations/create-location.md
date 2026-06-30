@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/create-locati
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/locations
+summary: "Create a new Sub-Account (Formerly Location) based on the data provided"
 ---
 # Create Sub-Account (Formerly Location)
 

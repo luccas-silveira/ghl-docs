@@ -2,6 +2,7 @@
 title: "Social Media Posting API"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/social-media-posting-api
 version: v3
+summary: "Documentation for Social Media Posting API"
 ---
 Version: 1.0
 

@@ -2,6 +2,7 @@
 title: "Agencyvssubaccount"
 source_url: https://marketplace.gohighlevel.com/docs/oauth/AgencyVsSubAccount
 version: v3
+summary: "HighLevel is not a standalone SaaS platform sold directly to end-users. Instead, our core customers are digital marketing agencies and consultants who:"
 ---
 HighLevel is not a standalone SaaS platform sold directly to end-users. Instead, our core customers are digital marketing agencies and consultants who:
 

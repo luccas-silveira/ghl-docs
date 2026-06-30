@@ -2,6 +2,7 @@
 title: "Webhooklogsdashboard"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard
 version: v3
+summary: "The Webhook Logs Dashboard enables you to:"
 ---
 The Webhook Logs Dashboard provides comprehensive monitoring and troubleshooting capabilities for webhook deliveries in your marketplace application. This guide covers how to access, navigate, and effectively use the dashboard to monitor your webhook integrations.
 

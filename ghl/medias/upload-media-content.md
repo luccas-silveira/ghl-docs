@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/medias/upload-media-con
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/medias/upload-file
+summary: "If hosted is set to true then fileUrl is required. Else file is required. If adding a file, maximum allowed is 25 MB. For video files, the maximum allowed size is 500 MB"
 ---
 # Upload File into Media Storage
 

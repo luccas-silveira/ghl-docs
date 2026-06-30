@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/create-block-
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/calendars/events/block-slots
+summary: "Create block slot"
 ---
 # Create Block Slot
 

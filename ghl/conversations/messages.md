@@ -2,6 +2,7 @@
 title: "Messages"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/conversations/messages
 version: v3
+summary: "Documentation for Conversations API"
 ---
 Documentation for Conversations API
 

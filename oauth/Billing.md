@@ -2,6 +2,7 @@
 title: "Billing"
 source_url: https://marketplace.gohighlevel.com/docs/oauth/Billing
 version: v3
+summary: "This webhook is essential for externally billed apps within our marketplace. It must be accessed by developers to authorize the installation of the app"
 ---
 This webhook is essential for externally billed apps within our marketplace. It must be accessed by developers to authorize the installation of the app.
 

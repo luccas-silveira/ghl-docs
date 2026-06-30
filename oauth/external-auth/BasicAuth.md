@@ -2,6 +2,7 @@
 title: "Basicauth"
 source_url: https://marketplace.gohighlevel.com/docs/oauth/external-auth/BasicAuth
 version: v3
+summary: "A Basic Auth setup has three parts:"
 ---
 Use **API Key / Basic Auth** when your provider authenticates requests with a username and password, an API key, or other custom credentials sent on each call. During installation, HighLevel collects the credentials you ask for and sends them to your **authentication endpoint** to verify them. If the endpoint responds with a success status, the install proceeds and the credentials are stored for later use.
 

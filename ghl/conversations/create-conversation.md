@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversations/create-co
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/conversations
+summary: "Creates a new conversation with the data provided"
 ---
 # Create Conversation
 

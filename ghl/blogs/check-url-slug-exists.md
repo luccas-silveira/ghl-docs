@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/blogs/check-url-slug-ex
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/blogs/posts/url-slug-exists
+summary: "The 'Check url slug' API allows check the blog slug validation which is needed before publishing any blog post. Please use blogs/check-slug.readonly. you can find the POST ID from the post edit url"
 ---
 # Check url slug
 

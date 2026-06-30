@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/get-conversat
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/locations/:locationId/conversationChannels/:type
+summary: "Get the conversation channel providers configured for a location by type (SMS or Email)"
 ---
 # Get Conversation Channel
 

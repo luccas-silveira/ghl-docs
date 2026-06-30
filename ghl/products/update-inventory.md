@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/products/update-invento
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/products/inventory
+summary: "Location Id or Agency Id"
 ---
 # Update Inventory
 

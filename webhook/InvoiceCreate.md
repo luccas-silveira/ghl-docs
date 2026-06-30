@@ -2,6 +2,7 @@
 title: "Invoicecreate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/InvoiceCreate
 version: v3
+summary: "Called whenever an invoice is created"
 ---
 Called whenever an invoice is created
 

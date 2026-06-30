@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/get-custom-fi
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/locations/:locationId/customFields/:id
+summary: "Get Custom Field"
 ---
 # Get Custom Field
 

@@ -2,6 +2,7 @@
 title: "MEMBERSHIPS API"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/courses/memberships-api
 version: v3
+summary: "API Service for Courses and Memberships"
 ---
 Version: 1.0
 

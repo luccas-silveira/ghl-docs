@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/saas/pause-location
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/saas/pause/:locationId
+summary: "Pause Sub account for given locationId"
 ---
 # Pause location
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/saas/locations-deprecat
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/saas-api/public-api/locations
+summary: "This endpoint has been deprecated and may be replaced or removed in future versions of the API"
 ---
 # Get locations by stripeId with companyId
 

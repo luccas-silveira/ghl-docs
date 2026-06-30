@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-stat
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/social-media-posting/statistics
+summary: "Array of connected social media account IDs to fetch analytics for. This can be found as 'profileId' in /accounts api"
 ---
 # Get Social Media Statistics
 

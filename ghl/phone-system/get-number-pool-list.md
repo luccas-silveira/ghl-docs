@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/phone-system/get-number
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/phone-system/number-pools
+summary: "Returns number pools for the location. Requires locationId as a query parameter"
 ---
 # List number pools
 

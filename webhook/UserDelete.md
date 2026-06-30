@@ -2,6 +2,7 @@
 title: "Userdelete"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/UserDelete
 version: v3
+summary: "Called whenever a user is deleted"
 ---
 Called whenever a user is deleted
 

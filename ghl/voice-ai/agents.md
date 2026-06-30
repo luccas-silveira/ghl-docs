@@ -2,6 +2,7 @@
 title: "Agents"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/voice-ai/agents
 version: v3
+summary: "Documentation for Voice AI API"
 ---
 Documentation for Voice AI API
 

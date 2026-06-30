@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-acco
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/social-media-posting/:locationId/accounts
+summary: "Get list of accounts and groups"
 ---
 # Get Accounts
 

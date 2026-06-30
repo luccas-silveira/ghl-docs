@@ -2,6 +2,7 @@
 title: "Versioning"
 source_url: https://marketplace.gohighlevel.com/docs/Versioning
 version: v3
+summary: "We have used two versioning schemes over time:"
 ---
 The HighLevel Public API is versioned to ensure developers have a stable surface to build on while the platform continues to evolve. The version is specified per-request using the `Version` request header.
 

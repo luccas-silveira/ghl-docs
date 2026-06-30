@@ -2,6 +2,7 @@
 title: "Sandboxaccount"
 source_url: https://marketplace.gohighlevel.com/docs/oauth/SandboxAccount
 version: v3
+summary: "Sandbox accounts are:"
 ---
 ## Overview
 

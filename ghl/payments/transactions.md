@@ -2,6 +2,7 @@
 title: "Transactions"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/payments/transactions
 version: v3
+summary: "Documentation for payments API"
 ---
 Documentation for payments API
 

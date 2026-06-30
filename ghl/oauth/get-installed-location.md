@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/oauth/get-installed-loc
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/oauth/installed-locations
+summary: "This API allows you fetch location where app is installed upon"
 ---
 # Get Location where app is installed
 

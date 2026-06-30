@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/chat-widget/get-widget
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/chat-widget/public/config/:id
+summary: "Returns widget configuration by ID"
 ---
 # Get Widget Config
 

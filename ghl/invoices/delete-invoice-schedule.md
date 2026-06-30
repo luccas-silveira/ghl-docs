@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/delete-invoice
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/invoices/schedule/:scheduleId
+summary: "API to delete an schedule by schedule id"
 ---
 # Delete schedule
 

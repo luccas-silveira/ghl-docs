@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/delete-c
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/social-media-posting/:locationId/csv/:csvId/post/:postId
+summary: "Delete a specific post from a CSV import"
 ---
 # Delete CSV Post
 

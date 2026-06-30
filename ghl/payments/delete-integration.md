@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/payments/delete-integra
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/payments/custom-provider/provider
+summary: "API to delete an association for an app and location"
 ---
 # Deleting an existing integration
 

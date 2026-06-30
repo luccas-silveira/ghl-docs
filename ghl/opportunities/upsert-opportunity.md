@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/opportunities/upsert-op
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/opportunities/upsert
+summary: "Upsert Opportunity"
 ---
 # Upsert Opportunity
 

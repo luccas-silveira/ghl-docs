@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/snapshots/get-latest-sn
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/snapshots/snapshot-status/:snapshotId/location/:locationId
+summary: "Get Latest Snapshot Push Status for a location id"
 ---
 # Get Last Snapshot Push
 

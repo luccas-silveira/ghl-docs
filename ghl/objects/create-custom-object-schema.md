@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/objects/create-custom-o
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/objects
+summary: "This is what your custom object will be called. These labels will be used to display your custom object on the UI"
 ---
 # Create Custom Object
 

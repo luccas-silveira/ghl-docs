@@ -2,6 +2,7 @@
 title: "Blogs API"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/blogs/blogs-api
 version: v3
+summary: "Documentation for Blog public API"
 ---
 Version: 1.0
 

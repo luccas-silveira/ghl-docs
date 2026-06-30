@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/medias/update-media-obj
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/medias/:id
+summary: "Updates a single file or folder by ID"
 ---
 # Update File/ Folder
 

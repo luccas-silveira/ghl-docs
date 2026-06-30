@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/delete-estimat
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/invoices/estimate/:estimateId
+summary: "Delete an existing estimate"
 ---
 # Delete Estimate
 

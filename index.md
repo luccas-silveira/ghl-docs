@@ -1,6 +1,6 @@
 # GoHighLevel Marketplace Docs
 
-828 pages, organized by section.
+828 pages. See **[ENDPOINTS.md](ENDPOINTS.md)** for the full API surface in one table.
 
 - **[Authorization](Authorization/README.md)** — 8 pages
 - **[MarketplacePolicies](MarketplacePolicies/README.md)** — 3 pages
@@ -12,11 +12,3 @@
 - **[sdk](sdk/README.md)** — 4 pages
 - **[tags](tags/README.md)** — 4 pages
 - **[webhook](webhook/README.md)** — 75 pages
-
-## Top-level
-
-- [Changelog](Changelog.md)
-- [Versioning](Versioning.md)
-- [Intro](intro.md)
-- [Markdown Page](markdown-page.md)
-- [Tags](tags.md)

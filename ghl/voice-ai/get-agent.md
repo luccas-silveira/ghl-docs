@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/voice-ai/get-agent
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/voice-ai/agents/:agentId
+summary: "Retrieve detailed configuration and settings for a specific voice AI agent"
 ---
 # Get Agent
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/chat-widget/create-chat
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/chat-widget
+summary: "Creates a new chat widget for the given sub-account"
 ---
 # Create Chat Widget
 

@@ -2,6 +2,7 @@
 title: "Knowledgebasecreate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/KnowledgeBaseCreate
 version: v3
+summary: "Called whenever a knowledge base is created"
 ---
 Called whenever a knowledge base is created
 

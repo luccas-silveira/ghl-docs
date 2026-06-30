@@ -2,6 +2,7 @@
 title: "Media Storage API"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/medias/media-storage-api
 version: v3
+summary: "Documentation for Files API"
 ---
 Version: 1.0
 

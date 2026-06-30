@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/products/update-price-b
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/products/:productId/price/:priceId
+summary: "ID of the product that needs to be used"
 ---
 # Update Price by ID for a Product
 

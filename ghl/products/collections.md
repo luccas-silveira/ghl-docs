@@ -2,6 +2,7 @@
 title: "Collections"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/products/collections
 version: v3
+summary: "Documentation for products API"
 ---
 Documentation for products API
 

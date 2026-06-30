@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/phone-system/active-num
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/phone-system/numbers/location/:locationId
+summary: "Send `v3` to use the v3 response contract (AIP). This is the supported version value for these endpoints"
 ---
 # List active numbers
 

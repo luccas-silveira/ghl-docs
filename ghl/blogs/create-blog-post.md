@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/blogs/create-blog-post
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/blogs/posts
+summary: "The 'Create Blog Post' API allows you create blog post for any given blog site. Please use blogs/post.write"
 ---
 # Create Blog Post
 

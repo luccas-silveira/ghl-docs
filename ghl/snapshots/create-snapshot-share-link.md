@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/snapshots/create-snapsh
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/snapshots/share/link
+summary: "Create a share link for snapshot"
 ---
 # Create Snapshot Share Link
 

@@ -2,6 +2,7 @@
 title: "Associationupdate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/AssociationUpdate
 version: v3
+summary: "For example, in a real estate system, a company may want to associate potential buyers with specific properties. In this case:"
 ---
 ## Overview
 

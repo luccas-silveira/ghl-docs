@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-tags
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/social-media-posting/:locationId/tags/details
+summary: "Retrieve specific tags by their IDs"
 ---
 # Get tags by ids
 

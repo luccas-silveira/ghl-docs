@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/get-services-
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/calendars/services/catalog
+summary: "Get all services in a location"
 ---
 # Get Services
 

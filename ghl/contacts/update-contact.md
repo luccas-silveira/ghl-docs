@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/update-contact
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/contacts/:contactId
+summary: "Update a contact using contactId"
 ---
 # Update Contact
 

@@ -2,6 +2,7 @@
 title: "Documents and Contracts API"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/proposals/documents-and-contracts-api
 version: v3
+summary: "Documentation for Documents and Contracts API"
 ---
 Version: 1.0
 

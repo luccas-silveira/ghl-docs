@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/delete-p
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/social-media-posting/:locationId/posts/:id
+summary: "Successful response"
 ---
 # Delete Post
 

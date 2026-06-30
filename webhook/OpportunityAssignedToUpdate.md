@@ -2,6 +2,7 @@
 title: "Opportunityassignedtoupdate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/OpportunityAssignedToUpdate
 version: v3
+summary: "Called whenever an opportunity's AssignedTo field is updated"
 ---
 Called whenever an opportunity's AssignedTo field is updated
 

@@ -2,6 +2,7 @@
 title: "Associations"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/associations/associations
 version: v3
+summary: "Documentation for Associations API"
 ---
 Documentation for Associations API
 

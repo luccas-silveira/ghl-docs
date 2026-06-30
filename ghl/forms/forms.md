@@ -2,6 +2,7 @@
 title: "Forms"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/forms/forms
 version: v3
+summary: "Documentation for forms API"
 ---
 Documentation for forms API
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/voice-ai/create-action
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/voice-ai/actions
+summary: "Create a new action for a voice AI agent. Actions define specific behaviors and capabilities for the agent during calls"
 ---
 # Create Agent Action
 

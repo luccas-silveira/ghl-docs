@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/brand-boards/create-bra
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/brand-boards
+summary: "Creates a new brand board with logos, colors, and fonts"
 ---
 # Create a new brand board
 

@@ -2,6 +2,7 @@
 title: "Targetuseragency"
 source_url: https://marketplace.gohighlevel.com/docs/Authorization/TargetUserAgency
 version: v3
+summary: "This guide explains how the installation flow works for the Agency targeted APPs , how to obtain the access token"
 ---
 This guide explains how the installation flow works for the Agency targeted APPs , how to obtain the access token.
 

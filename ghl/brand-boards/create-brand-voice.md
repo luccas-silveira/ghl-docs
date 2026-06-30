@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/brand-boards/create-bra
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/brand-boards/locations/:locationId/brand-voices
+summary: "Create a brand voice for a location"
 ---
 # Create Brand Voice
 

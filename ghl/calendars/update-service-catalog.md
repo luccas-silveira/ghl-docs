@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/update-servic
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/calendars/services/catalog/:serviceId
+summary: "Update service by ID"
 ---
 # Update Service
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/emails/update-email-tem
 version: v3
 method: PATCH
 endpoint: https://services.leadconnectorhq.com/emails/locations/:locationId/templates/:templateId
+summary: "Update email template"
 ---
 # Update an email template
 

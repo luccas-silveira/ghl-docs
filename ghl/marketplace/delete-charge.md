@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/marketplace/delete-char
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/marketplace/billing/charges/:chargeId
+summary: "Delete a wallet charge"
 ---
 # Delete a wallet charge
 

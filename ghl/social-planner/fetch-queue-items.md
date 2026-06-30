@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/fetch-qu
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/social-media-posting/category/queues/:queueId/items
+summary: "Returns paginated queue items. Pass sessionId to get draft items from an edit session instead of live items"
 ---
 # Fetch items from a queue
 

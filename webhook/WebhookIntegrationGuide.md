@@ -2,6 +2,7 @@
 title: "Webhookintegrationguide"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide
 version: v3
+summary: "Webhooks are a way for applications to communicate in real-time. Think of them as **automatic notifications** that are sent to your application when something happens in our platform"
 ---
 ## What are Webhooks?
 

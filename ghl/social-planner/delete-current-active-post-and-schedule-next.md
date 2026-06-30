@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/delete-c
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/social-media-posting/category/queues/:postId/active-post
+summary: "Deletes a post that is currently scheduled and automatically triggers the scheduling of the next available post in the queue"
 ---
 # Delete an active post and schedule the next one
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/get-schedule-
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/calendars/schedules/:id
+summary: "Retrieve a specific schedule by its unique identifier. Returns detailed information including rules, timezone, and associated calendars/users"
 ---
 # Get user availability schedule
 

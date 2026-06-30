@@ -2,6 +2,7 @@
 title: "Surveys API"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/surveys/surveys-api
 version: v3
+summary: "Documentation for surveys API"
 ---
 Version: 1.0
 

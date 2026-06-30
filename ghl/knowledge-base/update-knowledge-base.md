@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/update-k
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/knowledge-bases/:id
+summary: "Update a knowledge base"
 ---
 # Update a knowledge base
 

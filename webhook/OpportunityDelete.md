@@ -2,6 +2,7 @@
 title: "Opportunitydelete"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/OpportunityDelete
 version: v3
+summary: "Called whenever an opportunity is deleted"
 ---
 Called whenever an opportunity is deleted
 

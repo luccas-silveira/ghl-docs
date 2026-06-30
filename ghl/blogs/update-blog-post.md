@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/blogs/update-blog-post
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/blogs/posts/:postId
+summary: "The 'Update Blog Post' API allows you update blog post for any given blog site. Please use blogs/post-update.write"
 ---
 # Update Blog Post
 

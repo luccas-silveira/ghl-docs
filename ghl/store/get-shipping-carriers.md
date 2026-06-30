@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/store/get-shipping-carr
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/store/shipping-carrier/:shippingCarrierId
+summary: "The 'List Shipping Carrier' API allows to retrieve a paginated list of shipping carrier"
 ---
 # Get Shipping Carrier
 

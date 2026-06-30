@@ -2,6 +2,7 @@
 title: "Multiaccountsupport"
 source_url: https://marketplace.gohighlevel.com/docs/oauth/external-auth/MultiAccountSupport
 version: v3
+summary: "After the user info request runs, you tell HighLevel where to find each value in the response using dot notation for nested paths"
 ---
 This section covers two related capabilities that work for both [OAuth 2.0](https://marketplace.gohighlevel.com/docs/oauth/external-auth/OAuth2) and [API Key / Basic Auth](https://marketplace.gohighlevel.com/docs/oauth/external-auth/BasicAuth):
 

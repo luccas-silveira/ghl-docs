@@ -2,6 +2,7 @@
 title: "Relationcreate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/RelationCreate
 version: v3
+summary: "This webhook response is triggered when an relation between objects is created"
 ---
 ## Overview
 

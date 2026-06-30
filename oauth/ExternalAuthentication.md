@@ -2,6 +2,7 @@
 title: "Externalauthentication"
 source_url: https://marketplace.gohighlevel.com/docs/oauth/ExternalAuthentication
 version: v3
+summary: "Imagine you're building an app that syncs orders from a merchant's store into HighLevel:"
 ---
 ## What is External Authentication?
 

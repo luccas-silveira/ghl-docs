@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/update-task
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/contacts/:contactId/tasks/:taskId
+summary: "Title of the task"
 ---
 # Update Task
 

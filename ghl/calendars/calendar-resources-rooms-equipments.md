@@ -2,6 +2,7 @@
 title: "Calendar Resources Rooms Equipments"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/calendar-resources-rooms-equipments
 version: v3
+summary: "Documentation for Calendars API"
 ---
 Documentation for Calendars API
 

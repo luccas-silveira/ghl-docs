@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/forms/upload-to-custom-
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/forms/upload-custom-files
+summary: "Post the necessary fields for the API to upload files. The files need to be a buffer with the key '< custom\_field\_id >\_< file\_id >'"
 ---
 # Upload files to custom fields
 

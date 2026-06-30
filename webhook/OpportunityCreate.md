@@ -2,6 +2,7 @@
 title: "Opportunitycreate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/OpportunityCreate
 version: v3
+summary: "Called whenever an opportunity is created"
 ---
 Called whenever an opportunity is created
 

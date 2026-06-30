@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/objects/update-object-r
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/objects/:schemaKey/records/:id
+summary: "id of the record to be updated. Available on the Record details page under the 3 dots or in the url"
 ---
 # Update Record
 

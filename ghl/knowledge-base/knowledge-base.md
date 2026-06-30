@@ -2,6 +2,7 @@
 title: "Knowledge Base"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/knowledge-base
 version: v3
+summary: "Documentation for Knowledge Base API"
 ---
 Documentation for Knowledge Base API
 

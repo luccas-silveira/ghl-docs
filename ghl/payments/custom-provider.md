@@ -2,6 +2,7 @@
 title: "Custom Provider"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/payments/custom-provider
 version: v3
+summary: "Documentation for payments API"
 ---
 Documentation for payments API
 

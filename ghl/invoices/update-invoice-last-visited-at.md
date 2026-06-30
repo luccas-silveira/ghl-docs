@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/update-invoice
 version: v3
 method: PATCH
 endpoint: https://services.leadconnectorhq.com/invoices/stats/last-visited-at
+summary: "API to update invoice last visited at by invoice id"
 ---
 # Update invoice last visited at
 

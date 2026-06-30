@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/saas/allow-attach-rebil
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/saas/allow-attach-rebilling/:locationId
+summary: "Location ID (Sub-account) to allow attach rebilling for"
 ---
 # Allow Attach Rebilling
 

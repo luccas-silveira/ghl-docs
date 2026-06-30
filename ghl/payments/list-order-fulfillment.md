@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/payments/list-order-ful
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/payments/orders/:orderId/fulfillments
+summary: "List all fulfillment history of an order"
 ---
 # List fulfillment
 

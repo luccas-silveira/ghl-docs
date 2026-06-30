@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/links/get-link-by-id
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/links/id/:linkId
+summary: "Get a single link by its ID"
 ---
 # Get Link by ID
 

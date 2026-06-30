@@ -2,6 +2,7 @@
 title: "Node"
 source_url: https://marketplace.gohighlevel.com/docs/sdk/node
 version: v3
+summary: "The SDK supports any modern Node.js runtime (v18+) and works with npm, yarn, or pnpm. Install it as a regular dependency so it is available anywhere you need to talk to HighLevel"
 ---
 The official `@gohighlevel/api-client` package wraps every HighLevel REST endpoint with a typed, promise-based interface. You get automatic OAuth handling, token rotation, retries, and consistent errors without re-implementing request plumbing.
 

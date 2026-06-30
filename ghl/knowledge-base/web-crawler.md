@@ -2,6 +2,7 @@
 title: "Web Crawler"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/web-crawler
 version: v3
+summary: "Documentation for Knowledge Base API"
 ---
 Documentation for Knowledge Base API
 

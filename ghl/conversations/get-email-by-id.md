@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversations/get-email
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/conversations/messages/email/:id
+summary: "Get email by Id"
 ---
 # Get email by Id
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/create-schedu
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/calendars/schedules
+summary: "Create new schedule with specified rules, timezone, location, user and calendar associations"
 ---
 # Create user availability schedule
 

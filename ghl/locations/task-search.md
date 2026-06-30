@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/task-search
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/locations/:locationId/tasks/search
+summary: "Task Completed Or Pending"
 ---
 # Task Search Filter
 

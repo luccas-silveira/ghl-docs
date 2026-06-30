@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/blogs/get-blogs
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/blogs/site/all
+summary: "The 'Get Blogs by Location ID' API allows you get blogs using Location ID.Please use blogs/list.readonly"
 ---
 # Get Blogs by Location ID
 

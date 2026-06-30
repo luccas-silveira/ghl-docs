@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/start-cs
 version: v3
 method: PATCH
 endpoint: https://services.leadconnectorhq.com/social-media-posting/:locationId/csv/:id
+summary: "Finalize a CSV import and schedule all posts for publishing"
 ---
 # Start CSV Finalize
 

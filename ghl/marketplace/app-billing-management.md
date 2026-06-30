@@ -2,6 +2,7 @@
 title: "App Billing Management"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/marketplace/app-billing-management
 version: v3
+summary: "Documentation for Marketplace API"
 ---
 Documentation for Marketplace API
 

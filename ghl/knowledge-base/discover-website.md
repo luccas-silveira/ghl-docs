@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/discover
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/knowledge-bases/crawler
+summary: "Start crawling and discover pages for training"
 ---
 # Start crawling and discover pages for training
 

@@ -2,6 +2,7 @@
 title: "Pricecreate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/PriceCreate
 version: v3
+summary: "Called whenever a price is created"
 ---
 Called whenever a price is created
 

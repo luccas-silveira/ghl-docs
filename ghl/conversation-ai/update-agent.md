@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/update-
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/conversation-ai/agents/:agentId
+summary: "Updates an existing AI agent's configuration. All fields in the agent configuration can be updated including name, status, actions, and behavior settings"
 ---
 # Update Agent
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/voice-ai/delete-action
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/voice-ai/actions/:actionId
+summary: "Delete an existing action from a voice AI agent. This permanently removes the action and its configuration"
 ---
 # Delete Agent Action
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/update-event-
 version: v3
 method: PUT
 endpoint: https://services.leadconnectorhq.com/calendars/:calendarId/notifications/:notificationId
+summary: "Update Event notification by id"
 ---
 # Update notification
 

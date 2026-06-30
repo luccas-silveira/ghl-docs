@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/store/get-shipping-zone
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/store/shipping-zone/:shippingZoneId
+summary: "The 'List Shipping Zone' API allows to retrieve a paginated list of shipping zone"
 ---
 # Get Shipping Zone
 

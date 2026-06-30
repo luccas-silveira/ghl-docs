@@ -2,6 +2,7 @@
 title: "Campaigns"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/campaigns
 version: v3
+summary: "Documentation for Contacts API"
 ---
 Documentation for Contacts API
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/opportunities/remove-fo
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/opportunities/:id/followers
+summary: "Allows removal of one or all followers from an opportunity"
 ---
 # Remove Followers
 

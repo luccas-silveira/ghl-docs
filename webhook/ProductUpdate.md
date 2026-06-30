@@ -2,6 +2,7 @@
 title: "Productupdate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/ProductUpdate
 version: v3
+summary: "Called whenever a product is updated"
 ---
 Called whenever a product is updated
 

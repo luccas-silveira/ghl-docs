@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/custom-menus/create-cus
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/custom-menus
+summary: "Title of the custom menu"
 ---
 # Create Custom Menu Link
 

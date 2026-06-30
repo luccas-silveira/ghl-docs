@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/funnels/update-redirect
 version: v3
 method: PATCH
 endpoint: https://services.leadconnectorhq.com/funnels/lookup/redirect/:id
+summary: "The 'Update Redirect By Id' API Allows updating an existing URL redirect in the system. Use this endpoint to modify a URL redirect with the specified ID using details provided in the request payload"
 ---
 # Update Redirect By Id
 

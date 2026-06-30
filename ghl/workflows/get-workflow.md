@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/workflows/get-workflow
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/workflows
+summary: "Get Workflow"
 ---
 # Get Workflow
 

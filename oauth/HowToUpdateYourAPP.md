@@ -2,6 +2,7 @@
 title: "Howtoupdateyourapp"
 source_url: https://marketplace.gohighlevel.com/docs/oauth/HowToUpdateYourAPP
 version: v3
+summary: "This document explains how app versioning and updates work in the HighLevel Marketplace, using simple language and clear steps. It is meant for developers publishing or updating apps"
 ---
 This document explains how app versioning and updates work in the HighLevel Marketplace, using simple language and clear steps. It is meant for developers publishing or updating apps.
 

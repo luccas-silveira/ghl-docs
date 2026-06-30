@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/courses/import-courses
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/courses/courses-exporter/public/import
+summary: "Import Courses through public channels"
 ---
 # Import Courses
 

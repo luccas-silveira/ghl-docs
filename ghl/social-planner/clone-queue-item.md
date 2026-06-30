@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/clone-qu
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/social-media-posting/category/queues/:queueId/items/:itemId/clone
+summary: "Duplicates an existing queue item at a specified order position. Requires an active edit session"
 ---
 # Clone a queue item
 

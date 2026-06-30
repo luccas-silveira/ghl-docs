@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/marketplace/has-funds
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/marketplace/billing/charges/has-funds
+summary: "Check if account has sufficient funds"
 ---
 # Check if account has sufficient funds
 

@@ -2,6 +2,7 @@
 title: "Custompages"
 source_url: https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomPages
 version: v3
+summary: "These pages can be designed with your own frontend stack, tested in real time, and surfaced directly inside HighLevel after installation"
 ---
 Custom Pages let Marketplace app developers build tailored in-app experiences for installed customers. You can use them to create onboarding flows, settings screens, dashboards, or any other custom UI that complements your app.
 

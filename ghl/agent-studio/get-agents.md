@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/agent-studio/get-agents
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/agent-studio/agent
+summary: "Optional filter to return only agents with a published production version"
 ---
 # List Agents
 

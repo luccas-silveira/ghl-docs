@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/opportunities/get-lost-
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/opportunities/lost-reason
+summary: "Get lost reason"
 ---
 # Get lost reason
 

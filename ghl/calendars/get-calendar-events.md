@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/get-calendar-
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/calendars/events
+summary: "Get Calendar Events"
 ---
 # Get Calendar Events
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/locations/upload-file-c
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/locations/:locationId/customFields/upload
+summary: "Uploads File to customFields"
 ---
 # Uploads File to customFields
 

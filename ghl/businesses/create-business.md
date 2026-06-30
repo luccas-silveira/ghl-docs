@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/businesses/create-busin
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/businesses
+summary: "Create Business"
 ---
 # Create Business
 

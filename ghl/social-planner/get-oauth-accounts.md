@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-oaut
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/social-media-posting/oauth/:locationId/:platform/accounts/:accountId
+summary: "After completing OAuth authentication (Step 1), use this endpoint to retrieve the list of available pages, channels, or locations that can be connected"
 ---
 # Get Available Accounts (Step 2 of 3)
 

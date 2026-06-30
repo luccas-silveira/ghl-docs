@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/add-followers-
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/contacts/:contactId/followers
+summary: "Add Followers"
 ---
 # Add Followers
 

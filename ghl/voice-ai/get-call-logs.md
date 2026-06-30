@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/voice-ai/get-call-logs
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/voice-ai/dashboard/call-logs
+summary: "Location identifier. Filters results to this location"
 ---
 # List Call Logs
 

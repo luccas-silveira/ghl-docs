@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/send-invoice
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/invoices/:invoiceId/send
+summary: "API to send invoice by invoice id"
 ---
 # Send invoice
 

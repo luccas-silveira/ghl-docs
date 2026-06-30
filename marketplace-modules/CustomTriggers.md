@@ -2,6 +2,7 @@
 title: "Customtriggers"
 source_url: https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomTriggers
 version: v3
+summary: "Select one of the following option types:"
 ---
 Marketplace Workflow Triggers are the customizable workflow triggers managed in [Marketplace](https://marketplace.gohighlevel.com/). You will be able to create custom triggers to push data from your application/API to a workflow.
 

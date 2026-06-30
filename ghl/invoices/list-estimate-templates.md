@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/list-estimate-
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/invoices/estimate/template
+summary: "Get a list of estimate templates or a specific template by ID"
 ---
 # List Estimate Templates
 

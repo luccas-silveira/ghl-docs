@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/phone-system/purchase-n
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/phone-system/numbers/location/:locationId/purchase
+summary: "Send `v3` to use the v3 response contract (AIP). This is the supported version value for these endpoints"
 ---
 # Purchase number for location
 

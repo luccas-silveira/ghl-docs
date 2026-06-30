@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/blogs/get-blog-post
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/blogs/posts/all
+summary: "The 'Get Blog posts by Blog ID' API allows you get blog posts for any given blog site using blog ID.Please use blogs/posts.readonly"
 ---
 # Get Blog posts by Blog ID
 

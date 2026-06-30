@@ -2,6 +2,7 @@
 title: "Campaigns"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/emails/campaigns
 version: v3
+summary: "Documentation for emails API"
 ---
 Documentation for emails API
 

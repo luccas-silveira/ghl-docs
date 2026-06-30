@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/saas/bulk-enable-saas-d
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/saas-api/public-api/bulk-enable-saas/:companyId
+summary: "This endpoint has been deprecated and may be replaced or removed in future versions of the API"
 ---
 # Bulk Enable SaaS
 

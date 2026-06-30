@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/oauth/get-access-token
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/oauth/token
+summary: "Use Access Tokens to access CRM resources on behalf of an authenticated location/company"
 ---
 # Get Access Token
 

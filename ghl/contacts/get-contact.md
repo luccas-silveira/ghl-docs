@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/get-contact
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/contacts/:contactId
+summary: "Retrieves a contact by its unique identifier"
 ---
 # Get Contact
 

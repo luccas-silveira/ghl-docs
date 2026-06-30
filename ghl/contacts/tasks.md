@@ -2,6 +2,7 @@
 title: "Tasks"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/tasks
 version: v3
+summary: "Documentation for Contacts API"
 ---
 Documentation for Contacts API
 

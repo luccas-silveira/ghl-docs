@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/emails/get-workflow-cam
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/emails/locations/:locationId/campaigns/workflows/:campaignId
+summary: "Get a single workflow campaign by its ID"
 ---
 # Get Workflow Campaign by ID
 

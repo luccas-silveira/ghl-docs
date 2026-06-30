@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/get-age
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/conversation-ai/agents/:agentId
+summary: "Retrieves a specific AI agent by its ID. Returns the complete agent configuration including name, status, actions, and settings"
 ---
 # Get Agent
 

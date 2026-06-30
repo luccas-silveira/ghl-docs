@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/agent-studio/delete-age
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/agent-studio/agent/:agentId
+summary: "Deletes an agent and all its versions"
 ---
 # Delete Agent
 

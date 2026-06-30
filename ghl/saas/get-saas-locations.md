@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/saas/get-saas-locations
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/saas/saas-locations/:companyId
+summary: "Fetch all SaaS-activated locations for a company with pagination"
 ---
 # Get SaaS Locations
 

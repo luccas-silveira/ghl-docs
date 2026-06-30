@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/text-2-pay-inv
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/invoices/text2pay
+summary: "API to create or update a text2pay invoice"
 ---
 # Create & Send
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/products/bulk-update
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/products/bulk-update
+summary: "API to bulk update products (price, availability, collections, delete)"
 ---
 # Bulk Update Products
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/store/create-shipping-z
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/store/shipping-zone
+summary: "The 'Create Shipping Zone' API allows adding a new shipping zone"
 ---
 # Create Shipping Zone
 

@@ -2,6 +2,7 @@
 title: "Medias"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/medias/medias
 version: v3
+summary: "Documentation for Files API"
 ---
 Documentation for Files API
 

@@ -2,6 +2,7 @@
 title: "Tags"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/tags
 version: v3
+summary: "Documentation for Contacts API"
 ---
 Documentation for Contacts API
 

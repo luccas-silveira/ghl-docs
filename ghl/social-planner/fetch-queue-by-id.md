@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/fetch-qu
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/social-media-posting/category/queues/:queueId
+summary: "Retrieves the details of a single category queue by its unique ID. The response includes a count of posts within the queue that have errors"
 ---
 # Fetch a category queue by ID
 

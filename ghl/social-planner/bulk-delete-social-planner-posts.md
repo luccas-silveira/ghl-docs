@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/bulk-del
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/social-media-posting/:locationId/posts/bulk-delete
+summary: "Deletes multiple posts based on the provided list of post IDs"
 ---
 # Bulk Delete Social Planner Posts
 

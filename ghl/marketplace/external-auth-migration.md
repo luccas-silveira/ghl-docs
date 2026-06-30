@@ -2,6 +2,7 @@
 title: "External Auth Migration"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/marketplace/external-auth-migration
 version: v3
+summary: "Documentation for Marketplace API"
 ---
 Documentation for Marketplace API
 

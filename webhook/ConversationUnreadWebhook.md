@@ -2,6 +2,7 @@
 title: "Conversationunreadwebhook"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/ConversationUnreadWebhook
 version: v3
+summary: "Called whenever a conversations unread status is updated"
 ---
 Called whenever a conversations unread status is updated
 

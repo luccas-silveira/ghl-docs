@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/agent-studio/create-age
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/agent-studio/agent
+summary: "Creates a new agent with staging version. The agent will be created with an initial staging version that can later be promoted to production"
 ---
 # Create Agent
 

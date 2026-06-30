@@ -2,6 +2,7 @@
 title: "Search"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/opportunities/search
 version: v3
+summary: "Documentation for Opportunities API"
 ---
 Documentation for Opportunities API
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/products/get-product-by
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/products/:productId
+summary: "The 'Get Product by ID' API allows to retrieve information for a specific product using its unique identifier. Use this endpoint to fetch details for a single product based on the provided product ID"
 ---
 # Get Product by ID
 

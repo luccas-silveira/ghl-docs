@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/get-all-notes
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/contacts/:contactId/notes
+summary: "Get All Notes"
 ---
 # Get All Notes
 

@@ -2,6 +2,7 @@
 title: "Custom Js"
 source_url: https://marketplace.gohighlevel.com/docs/marketplace-modules/custom-js
 version: v3
+summary: "HighLevel provides functions to render contextual data & some utilities that can help developers customize experience for the user. These are available via the global `AppUtils` object"
 ---
 ## Wrapper functions
 

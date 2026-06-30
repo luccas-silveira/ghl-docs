@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/custom-fields/delete-cu
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/custom-fields/folder/:id
+summary: "Create Custom Field Folder"
 ---
 # Delete Custom Field Folder
 

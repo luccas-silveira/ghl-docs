@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/chat-widget/delete
 version: v3
 method: DELETE
 endpoint: https://services.leadconnectorhq.com/chat-widget/:locationId/:id
+summary: "Soft-deletes a chat widget. If it was the default, another widget may be promoted"
 ---
 # Delete Chat Widget
 

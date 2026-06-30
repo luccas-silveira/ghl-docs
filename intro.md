@@ -2,6 +2,7 @@
 title: "Intro"
 source_url: https://marketplace.gohighlevel.com/docs/intro
 version: v3
+summary: "Welcome to the API documentation. This developer portal is your reference for"
 ---
 Welcome to the API documentation. This developer portal is your reference for
 integrating with our platform programmatically — automating workflows, syncing

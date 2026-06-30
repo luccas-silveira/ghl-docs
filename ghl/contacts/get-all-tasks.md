@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/get-all-tasks
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/contacts/:contactId/tasks
+summary: "Get all Tasks"
 ---
 # Get all Tasks
 

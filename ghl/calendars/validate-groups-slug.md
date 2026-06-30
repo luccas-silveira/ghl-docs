@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/validate-grou
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/calendars/groups/validate-slug
+summary: "Validate if group slug is available or not"
 ---
 # Validate group slug
 

@@ -2,6 +2,7 @@
 title: "Email"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/conversations/email
 version: v3
+summary: "Documentation for Conversations API"
 ---
 Documentation for Conversations API
 

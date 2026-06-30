@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/agent-studio/promote-an
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/agent-studio/agent/versions/:versionId/publish
+summary: "Promotes a draft version to production"
 ---
 # Promote to Production
 

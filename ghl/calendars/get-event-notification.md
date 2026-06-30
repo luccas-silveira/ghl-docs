@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/get-event-not
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/calendars/:calendarId/notifications
+summary: "Get calendar notifications based on query"
 ---
 # Get notifications
 

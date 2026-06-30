@@ -2,6 +2,7 @@
 title: "Brand Voices"
 source_url: https://marketplace.gohighlevel.com/docs/ghl/brand-boards/brand-voices
 version: v3
+summary: "Documentation for Brand Boards API"
 ---
 Documentation for Brand Boards API
 

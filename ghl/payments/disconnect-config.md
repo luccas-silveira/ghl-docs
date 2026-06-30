@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/payments/disconnect-con
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/payments/custom-provider/disconnect
+summary: "API to disconnect an existing payment config for given location"
 ---
 # Disconnect existing provider config
 

@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/opportunities/search-op
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/opportunities/search
+summary: "Search Opportunity"
 ---
 # Search Opportunity
 

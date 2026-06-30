@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/social-planner/create-q
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/social-media-posting/category/queues
+summary: "Creates a queue in draft status for a category. Published posts are auto-added. Use update endpoint to activate"
 ---
 # Create a new category queue
 

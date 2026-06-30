@@ -2,6 +2,7 @@
 title: "Opportunitystageupdate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/OpportunityStageUpdate
 version: v3
+summary: "Called whenever an opportunity's stage field is updated"
 ---
 Called whenever an opportunity's stage field is updated
 

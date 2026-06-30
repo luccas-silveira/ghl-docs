@@ -2,6 +2,7 @@
 title: "Invoiceupdate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/InvoiceUpdate
 version: v3
+summary: "Called whenever an invoice is updated"
 ---
 Called whenever an invoice is updated
 

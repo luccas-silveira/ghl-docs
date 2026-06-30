@@ -2,6 +2,7 @@
 title: "Invoicepaid"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/InvoicePaid
 version: v3
+summary: "Called whenever an invoice is paid"
 ---
 Called whenever an invoice is paid
 

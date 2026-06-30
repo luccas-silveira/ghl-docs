@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/invoices/list-estimates
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/invoices/estimate/list
+summary: "Get a paginated list of estimates"
 ---
 # List Estimates
 

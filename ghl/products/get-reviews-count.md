@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/products/get-reviews-co
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/products/reviews/count
+summary: "API to fetch the Review Count as per status"
 ---
 # Fetch Review Count as per status
 

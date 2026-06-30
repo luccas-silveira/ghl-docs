@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/contacts/create-note
 version: v3
 method: POST
 endpoint: https://services.leadconnectorhq.com/contacts/:contactId/notes
+summary: "User Id of the note author"
 ---
 # Create Note
 

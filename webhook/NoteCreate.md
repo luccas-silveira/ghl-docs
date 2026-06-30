@@ -2,6 +2,7 @@
 title: "Notecreate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/NoteCreate
 version: v3
+summary: "Called whenever a note is created"
 ---
 Called whenever a note is created
 

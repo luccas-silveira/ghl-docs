@@ -4,6 +4,7 @@ source_url: https://marketplace.gohighlevel.com/docs/ghl/chat-widget/get-chat-wi
 version: v3
 method: GET
 endpoint: https://services.leadconnectorhq.com/chat-widget/data/:locationId/:id
+summary: "Returns a single chat widget by ID"
 ---
 # Get Chat Widget
 
