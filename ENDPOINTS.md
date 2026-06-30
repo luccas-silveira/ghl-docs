@@ -2,7 +2,7 @@
 
 Every documented endpoint, grouped by resource. 529 endpoints.
 
-## ghl
+## ghl/affiliate-manager
 
 | Method | Path | Endpoint | Scope | File |
 |---|---|---|---|---|
@@ -10,6 +10,11 @@ Every documented endpoint, grouped by resource. 529 endpoints.
 | GET | `/affiliate-manager/:locationId/affiliates` | List Affiliates | affiliate-manager.readonly | [list-affiliates.md](ghl/affiliate-manager/list-affiliates.md) |
 | GET | `/affiliate-manager/:locationId/commissions` | List Commissions | affiliate-manager.readonly | [list-commissions.md](ghl/affiliate-manager/list-commissions.md) |
 | GET | `/affiliate-manager/:locationId/payouts` | List Payouts | affiliate-manager.readonly | [list-payouts.md](ghl/affiliate-manager/list-payouts.md) |
+
+## ghl/agent-studio
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/agent-studio/agent` | Create Agent | agent-studio.write | [create-agent.md](ghl/agent-studio/create-agent.md) |
 | DELETE | `/agent-studio/agent/:agentId` | Delete Agent | agent-studio.write | [delete-agent.md](ghl/agent-studio/delete-agent.md) |
 | POST | `/agent-studio/public-api/agents/:agentId/execute` | Execute Agent (Deprecated) | agent-studio.write | [execute-agent-deprecated.md](ghl/agent-studio/execute-agent-deprecated.md) |
@@ -21,6 +26,11 @@ Every documented endpoint, grouped by resource. 529 endpoints.
 | POST | `/agent-studio/agent/versions/:versionId/publish` | Promote to Production | agent-studio.write | [promote-and-publish.md](ghl/agent-studio/promote-and-publish.md) |
 | PATCH | `/agent-studio/agent/:agentId` | Update Agent Metadata | agent-studio.write | [update-agent-metadata.md](ghl/agent-studio/update-agent-metadata.md) |
 | PATCH | `/agent-studio/agent/versions/:versionId` | Update Agent | agent-studio.write | [update-agent-version.md](ghl/agent-studio/update-agent-version.md) |
+
+## ghl/associations
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/associations` | Create Association | associations.write | [create-association.md](ghl/associations/create-association.md) |
 | POST | `/associations/relations` | Create Relation for you associated entities. | associations/relation.write | [create-relation.md](ghl/associations/create-relation.md) |
 | DELETE | `/associations/:associationId` | Delete Association | associations.write | [delete-association.md](ghl/associations/delete-association.md) |
@@ -31,6 +41,11 @@ Every documented endpoint, grouped by resource. 529 endpoints.
 | GET | `/associations/key/:key_name` | Get association key by key name | associations.readonly | [get-association-key-by-key-name.md](ghl/associations/get-association-key-by-key-name.md) |
 | GET | `/associations/relations/:recordId` | Get all relations By record Id | associations/relation.readonly | [get-relations-by-record-id.md](ghl/associations/get-relations-by-record-id.md) |
 | PUT | `/associations/:associationId` | Update Association By Id | associations.write | [update-association.md](ghl/associations/update-association.md) |
+
+## ghl/blogs
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | GET | `/blogs/posts/url-slug-exists` | Check url slug | blogs/check-slug.readonly | [check-url-slug-exists.md](ghl/blogs/check-url-slug-exists.md) |
 | POST | `/blogs/posts` | Create Blog Post | blogs/post.write | [create-blog-post.md](ghl/blogs/create-blog-post.md) |
 | GET | `/blogs/authors` | Get all authors | blogs/author.readonly | [get-all-blog-authors-by-location.md](ghl/blogs/get-all-blog-authors-by-location.md) |
@@ -38,6 +53,11 @@ Every documented endpoint, grouped by resource. 529 endpoints.
 | GET | `/blogs/posts/all` | Get Blog posts by Blog ID | blogs/posts.readonly | [get-blog-post.md](ghl/blogs/get-blog-post.md) |
 | GET | `/blogs/site/all` | Get Blogs by Location ID | blogs/list.readonly | [get-blogs.md](ghl/blogs/get-blogs.md) |
 | PUT | `/blogs/posts/:postId` | Update Blog Post | blogs/post-update.write | [update-blog-post.md](ghl/blogs/update-blog-post.md) |
+
+## ghl/brand-boards
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/brand-boards` | Create a new brand board | brand-boards/design-kit.write | [create-brand-board.md](ghl/brand-boards/create-brand-board.md) |
 | POST | `/brand-boards/locations/:locationId/brand-voices` | Create Brand Voice |  | [create-brand-voice.md](ghl/brand-boards/create-brand-voice.md) |
 | DELETE | `/brand-boards/:locationId/:id` | Delete a Brand Board | brand-boards/design-kit.write | [delete-brand-board.md](ghl/brand-boards/delete-brand-board.md) |
@@ -49,11 +69,21 @@ Every documented endpoint, grouped by resource. 529 endpoints.
 | POST | `/brand-boards/locations/:locationId/brand-voices/:brandVoiceId/default` | Set Default Brand Voice |  | [set-default-brand-voice.md](ghl/brand-boards/set-default-brand-voice.md) |
 | PATCH | `/brand-boards/:locationId/:id` | Update a Brand Board | brand-boards/design-kit.write | [update-brand-board.md](ghl/brand-boards/update-brand-board.md) |
 | PATCH | `/brand-boards/locations/:locationId/brand-voices/:brandVoiceId` | Update Brand Voice |  | [update-brand-voice.md](ghl/brand-boards/update-brand-voice.md) |
+
+## ghl/businesses
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/businesses` | Create Business | businesses.write | [create-business.md](ghl/businesses/create-business.md) |
 | DELETE | `/businesses/:businessId` | Delete Business | businesses.write | [delete-business.md](ghl/businesses/delete-business.md) |
 | GET | `/businesses/:businessId` | Get Business | businesses.readonly | [get-business.md](ghl/businesses/get-business.md) |
 | GET | `/businesses` | Get Businesses by Location | businesses.readonly | [get-businesses-by-location.md](ghl/businesses/get-businesses-by-location.md) |
 | PUT | `/businesses/:businessId` | Update Business | businesses.write | [update-business.md](ghl/businesses/update-business.md) |
+
+## ghl/calendars
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | PUT | `/calendars/schedules/:id/associations/:calendarId` | Apply user availability schedule to a calendar | calendars.write | [add-calendar-to-schedule.md](ghl/calendars/add-calendar-to-schedule.md) |
 | POST | `/calendars/appointments/:appointmentId/notes` | Create Note | calendars/events.write | [create-appointment-note.md](ghl/calendars/create-appointment-note.md) |
 | POST | `/calendars/events/appointments` | Create appointment | calendars/events.write | [create-appointment.md](ghl/calendars/create-appointment.md) |
@@ -113,7 +143,17 @@ Every documented endpoint, grouped by resource. 529 endpoints.
 | PUT | `/calendars/services/catalog/:serviceId` | Update Service | calendars.write | [update-service-catalog.md](ghl/calendars/update-service-catalog.md) |
 | PUT | `/calendars/services/locations/:serviceLocationId` | Update Service Location | calendars.write | [update-service-location.md](ghl/calendars/update-service-location.md) |
 | POST | `/calendars/groups/validate-slug` | Validate group slug | calendars/groups.write | [validate-groups-slug.md](ghl/calendars/validate-groups-slug.md) |
+
+## ghl/campaigns
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | GET | `/campaigns` | Get Campaigns | campaigns.readonly | [get-campaigns.md](ghl/campaigns/get-campaigns.md) |
+
+## ghl/chat-widget
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/chat-widget/clone` | Clone Chat Widget | chat-widget.write | [clone-chat-widget.md](ghl/chat-widget/clone-chat-widget.md) |
 | POST | `/chat-widget` | Create Chat Widget | chat-widget.write | [create-chat-widget.md](ghl/chat-widget/create-chat-widget.md) |
 | DELETE | `/chat-widget/:locationId/:id` | Delete Chat Widget | chat-widget.write | [delete.md](ghl/chat-widget/delete.md) |
@@ -122,7 +162,17 @@ Every documented endpoint, grouped by resource. 529 endpoints.
 | GET | `/chat-widget/list` | List Chat Widgets | chat-widget.readonly | [list-chat-widget.md](ghl/chat-widget/list-chat-widget.md) |
 | PATCH | `/chat-widget/data/:locationId/:id` | Patch Chat Widget | chat-widget.write | [patch-chat-widget.md](ghl/chat-widget/patch-chat-widget.md) |
 | PUT | `/chat-widget/data/:locationId/:id` | Update Chat Widget | chat-widget.write | [update-chat-widget.md](ghl/chat-widget/update-chat-widget.md) |
+
+## ghl/companies
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | GET | `/companies/:companyId` | Get Company | companies.readonly | [get-company.md](ghl/companies/get-company.md) |
+
+## ghl/contacts
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/contacts/:contactId/campaigns/:campaignId` | Add Contact to Campaign | contacts.write | [add-contact-to-campaign.md](ghl/contacts/add-contact-to-campaign.md) |
 | POST | `/contacts/:contactId/workflow/:workflowId` | Add Contact to Workflow | contacts.write | [add-contact-to-workflow.md](ghl/contacts/add-contact-to-workflow.md) |
 | POST | `/contacts/:contactId/followers` | Add Followers | contacts.write | [add-followers-contact.md](ghl/contacts/add-followers-contact.md) |
@@ -154,6 +204,11 @@ Every documented endpoint, grouped by resource. 529 endpoints.
 | PUT | `/contacts/:contactId/tasks/:taskId/completed` | Update Task Completed | contacts.write | [update-task-completed.md](ghl/contacts/update-task-completed.md) |
 | PUT | `/contacts/:contactId/tasks/:taskId` | Update Task | contacts.write | [update-task.md](ghl/contacts/update-task.md) |
 | POST | `/contacts/upsert` | Upsert Contact | contacts.write | [upsert-contact.md](ghl/contacts/upsert-contact.md) |
+
+## ghl/conversation-ai
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/conversation-ai/agents/:agentId/actions` | Attach Action to Agent | conversation-ai.write | [create-action.md](ghl/conversation-ai/create-action.md) |
 | POST | `/conversation-ai/agents` | Create an Agent | conversation-ai.write | [create-agent.md](ghl/conversation-ai/create-agent.md) |
 | DELETE | `/conversation-ai/agents/:agentId/actions/:actionId` | Remove Action from Agent | conversation-ai.write | [delete-action.md](ghl/conversation-ai/delete-action.md) |
@@ -166,6 +221,11 @@ Every documented endpoint, grouped by resource. 529 endpoints.
 | PUT | `/conversation-ai/agents/:agentId/actions/:actionId` | Update Action | conversation-ai.write | [update-action.md](ghl/conversation-ai/update-action.md) |
 | PUT | `/conversation-ai/agents/:agentId` | Update Agent | conversation-ai.write | [update-agent.md](ghl/conversation-ai/update-agent.md) |
 | PATCH | `/conversation-ai/agents/:agentId/followup-settings` | Update Followup Settings | conversation-ai.write | [update-followup-settings.md](ghl/conversation-ai/update-followup-settings.md) |
+
+## ghl/conversations
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/conversations/messages/inbound` | Add an inbound message | conversations/message.write | [add-an-inbound-message.md](ghl/conversations/add-an-inbound-message.md) |
 | POST | `/conversations/messages/outbound` | Add an external outbound call | conversations/message.write | [add-an-outbound-message.md](ghl/conversations/add-an-outbound-message.md) |
 | PUT | `/conversations/messages/:messageId/attachments` | Add message attachments | conversations/message.write | [add-message-attachments.md](ghl/conversations/add-message-attachments.md) |
@@ -188,7 +248,17 @@ Every documented endpoint, grouped by resource. 529 endpoints.
 | PUT | `/conversations/messages/email/:emailMessageId/status` | Update email message status | conversations/message.write | [update-email-message-status.md](ghl/conversations/update-email-message-status.md) |
 | PUT | `/conversations/messages/:messageId/status` | Update message status | conversations/message.write | [update-message-status.md](ghl/conversations/update-message-status.md) |
 | POST | `/conversations/messages/upload` | Upload file attachments | conversations/message.write | [upload-file-attachments.md](ghl/conversations/upload-file-attachments.md) |
+
+## ghl/courses
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/courses/courses-exporter/public/import` | Import Courses |  | [import-courses.md](ghl/courses/import-courses.md) |
+
+## ghl/custom-fields
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/custom-fields/folder` | Create Custom Field Folder | locations/customFields.write | [create-custom-field-folder.md](ghl/custom-fields/create-custom-field-folder.md) |
 | POST | `/custom-fields` | Create Custom Field | locations/customFields.write | [create-custom-field.md](ghl/custom-fields/create-custom-field.md) |
 | DELETE | `/custom-fields/folder/:id` | Delete Custom Field Folder | locations/customFields.write | [delete-custom-field-folder.md](ghl/custom-fields/delete-custom-field-folder.md) |
@@ -197,12 +267,27 @@ Every documented endpoint, grouped by resource. 529 endpoints.
 | GET | `/custom-fields/object-key/:objectKey` | Get Custom Fields By Object Key | locations/customFields.readonly | [get-custom-fields-by-object-key.md](ghl/custom-fields/get-custom-fields-by-object-key.md) |
 | PUT | `/custom-fields/folder/:id` | Update Custom Field Folder Name | locations/customFields.write | [update-custom-field-folder.md](ghl/custom-fields/update-custom-field-folder.md) |
 | PUT | `/custom-fields/:id` | Update Custom Field By Id | locations/customFields.write | [update-custom-field.md](ghl/custom-fields/update-custom-field.md) |
+
+## ghl/custom-menus
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/custom-menus` | Create Custom Menu Link | custom-menu-link.write | [create-custom-menu.md](ghl/custom-menus/create-custom-menu.md) |
 | DELETE | `/custom-menus/:customMenuId` | Delete Custom Menu Link | custom-menu-link.write | [delete-custom-menu.md](ghl/custom-menus/delete-custom-menu.md) |
 | GET | `/custom-menus/:customMenuId` | Get Custom Menu Link | custom-menu-link.readonly | [get-custom-menu-by-id.md](ghl/custom-menus/get-custom-menu-by-id.md) |
 | GET | `/custom-menus` | Get Custom Menu Links | custom-menu-link.readonly | [get-custom-menus.md](ghl/custom-menus/get-custom-menus.md) |
 | PUT | `/custom-menus/:customMenuId` | Update Custom Menu Link | custom-menu-link.write | [update-custom-menu.md](ghl/custom-menus/update-custom-menu.md) |
+
+## ghl/email-isv
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/email/verify` | Email Verification | lc-email.readonly | [verify-email.md](ghl/email-isv/verify-email.md) |
+
+## ghl/emails
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/emails/locations/:locationId/campaigns/emails` | Create Email Campaign | emails/campaigns.write | [create-email-campaign.md](ghl/emails/create-email-campaign.md) |
 | POST | `/emails/locations/:locationId/templates` | Create an email template | emails/templates.write | [create-email-template.md](ghl/emails/create-email-template.md) |
 | POST | `/emails/locations/:locationId/templates/folders` | Create a template folder | emails/templates.write | [create-template-folder.md](ghl/emails/create-template-folder.md) |
@@ -221,9 +306,19 @@ Every documented endpoint, grouped by resource. 529 endpoints.
 | POST | `/emails/locations/:locationId/campaigns/emails/:campaignId/schedule` | Schedule Campaign | emails/campaigns.write | [schedule-campaign.md](ghl/emails/schedule-campaign.md) |
 | PATCH | `/emails/locations/:locationId/campaigns/emails/:campaignId` | Update Email Campaign | emails/campaigns.write | [update-email-campaign.md](ghl/emails/update-email-campaign.md) |
 | PATCH | `/emails/locations/:locationId/templates/:templateId` | Update an email template | emails/templates.write | [update-email-template.md](ghl/emails/update-email-template.md) |
+
+## ghl/forms
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | GET | `/forms/submissions` | Get Forms Submissions | forms.readonly | [get-forms-submissions.md](ghl/forms/get-forms-submissions.md) |
 | GET | `/forms` | Get Forms | forms.readonly | [get-forms.md](ghl/forms/get-forms.md) |
 | POST | `/forms/upload-custom-files` | Upload files to custom fields | forms.write | [upload-to-custom-fields.md](ghl/forms/upload-to-custom-fields.md) |
+
+## ghl/funnels
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/funnels/lookup/redirect` | Create Redirect | funnels/redirect.write | [create-redirect.md](ghl/funnels/create-redirect.md) |
 | DELETE | `/funnels/lookup/redirect/:id` | Delete Redirect By Id | funnels/redirect.write | [delete-redirect-by-id.md](ghl/funnels/delete-redirect-by-id.md) |
 | GET | `/funnels/lookup/redirect/list` | Fetch List of Redirects | funnels/redirect.readonly | [fetch-redirects-list.md](ghl/funnels/fetch-redirects-list.md) |
@@ -231,6 +326,11 @@ Every documented endpoint, grouped by resource. 529 endpoints.
 | GET | `/funnels/page` | Fetch list of funnel pages |  | [get-pages-by-funnel-id.md](ghl/funnels/get-pages-by-funnel-id.md) |
 | GET | `/funnels/page/count` | Fetch count of funnel pages |  | [get-pages-count-by-funnel-id.md](ghl/funnels/get-pages-count-by-funnel-id.md) |
 | PATCH | `/funnels/lookup/redirect/:id` | Update Redirect By Id | funnels/redirect.write | [update-redirect-by-id.md](ghl/funnels/update-redirect-by-id.md) |
+
+## ghl/invoices
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/invoices/schedule/:scheduleId/auto-payment` | Manage Auto payment for an schedule invoice | invoices/schedule.write | [auto-payment-invoice-schedule.md](ghl/invoices/auto-payment-invoice-schedule.md) |
 | POST | `/invoices/schedule/:scheduleId/cancel` | Cancel an scheduled invoice | invoices/schedule.write | [cancel-invoice-schedule.md](ghl/invoices/cancel-invoice-schedule.md) |
 | POST | `/invoices/estimate/template` | Create Estimate Template | invoices/estimate.write | [create-estimate-template.md](ghl/invoices/create-estimate-template.md) |
@@ -273,6 +373,11 @@ Every documented endpoint, grouped by resource. 529 endpoints.
 | PUT | `/invoices/template/:templateId` | Update template | invoices/template.write | [update-invoice-template.md](ghl/invoices/update-invoice-template.md) |
 | PUT | `/invoices/:invoiceId` | Update invoice | invoices.write | [update-invoice.md](ghl/invoices/update-invoice.md) |
 | POST | `/invoices/:invoiceId/void` | Void invoice | invoices.write | [void-invoice.md](ghl/invoices/void-invoice.md) |
+
+## ghl/knowledge-base
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/knowledge-bases` | Create a new knowledge base (max 15 knowledge bases per location) |  | [create-knowledge-base.md](ghl/knowledge-base/create-knowledge-base.md) |
 | POST | `/knowledge-bases/faqs` | Create a new FAQ inside knowledge base |  | [create.md](ghl/knowledge-base/create.md) |
 | DELETE | `/knowledge-bases/:knowledgeBaseId` | Delete a knowledge base |  | [delete-knowledge-base.md](ghl/knowledge-base/delete-knowledge-base.md) |
@@ -287,12 +392,22 @@ Every documented endpoint, grouped by resource. 529 endpoints.
 | POST | `/knowledge-bases/crawler/train` | Train discovered website pages and ingest into the knowledge base |  | [train-discovered-urls.md](ghl/knowledge-base/train-discovered-urls.md) |
 | PUT | `/knowledge-bases/:id` | Update a knowledge base |  | [update-knowledge-base.md](ghl/knowledge-base/update-knowledge-base.md) |
 | PUT | `/knowledge-bases/faqs/:id` | Update an existing knowledge base FAQ |  | [update.md](ghl/knowledge-base/update.md) |
+
+## ghl/links
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/links` | Create Link | links.write | [create-link.md](ghl/links/create-link.md) |
 | DELETE | `/links/:linkId` | Delete Link | links.write | [delete-link.md](ghl/links/delete-link.md) |
 | GET | `/links/id/:linkId` | Get Link by ID | links.readonly | [get-link-by-id.md](ghl/links/get-link-by-id.md) |
 | GET | `/links` | Get Links | links.readonly | [get-links.md](ghl/links/get-links.md) |
 | GET | `/links/search` | Search Trigger Links | links.readonly | [search-trigger-links.md](ghl/links/search-trigger-links.md) |
 | PUT | `/links/:linkId` | Update Link | links.write | [update-link.md](ghl/links/update-link.md) |
+
+## ghl/locations
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/locations/:locationId/customFields` | Create Custom Field | locations/customFields.write | [create-custom-field.md](ghl/locations/create-custom-field.md) |
 | POST | `/locations/:locationId/customValues` | Create Custom Value | locations/customValues.write | [create-custom-value.md](ghl/locations/create-custom-value.md) |
 | POST | `/locations` | Create Sub-Account (Formerly Location) | locations.write | [create-location.md](ghl/locations/create-location.md) |
@@ -325,6 +440,11 @@ Every documented endpoint, grouped by resource. 529 endpoints.
 | PUT | `/locations/:locationId/recurring-tasks/:id` | Update Recurring Task |  | [update-recurring-task.md](ghl/locations/update-recurring-task.md) |
 | PUT | `/locations/:locationId/tags/:tagId` | Update tag |  | [update-tag.md](ghl/locations/update-tag.md) |
 | POST | `/locations/:locationId/customFields/upload` | Uploads File to customFields | locations/customFields.write | [upload-file-custom-fields.md](ghl/locations/upload-file-custom-fields.md) |
+
+## ghl/marketplace
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/marketplace/billing/charges` | Create a new wallet charge | charges.write | [charge.md](ghl/marketplace/charge.md) |
 | DELETE | `/marketplace/billing/charges/:chargeId` | Delete a wallet charge | charges.write | [delete-charge.md](ghl/marketplace/delete-charge.md) |
 | GET | `/marketplace/billing/charges` | Get all wallet charges | charges.readonly | [get-charges.md](ghl/marketplace/get-charges.md) |
@@ -334,6 +454,11 @@ Every documented endpoint, grouped by resource. 529 endpoints.
 | GET | `/marketplace/billing/charges/has-funds` | Check if account has sufficient funds | charges.readonly | [has-funds.md](ghl/marketplace/has-funds.md) |
 | POST | `/marketplace/external-auth/migration` | Migrate external authentication connection | marketplace-external-auth-migration.write | [migrate-connection.md](ghl/marketplace/migrate-connection.md) |
 | DELETE | `/marketplace/app/:appId/installations` | Uninstall an application | oauth.write | [uninstall-application.md](ghl/marketplace/uninstall-application.md) |
+
+## ghl/medias
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | PUT | `/medias/delete-files` | Bulk Delete / Trash Files or Folders |  | [bulk-delete-media-objects.md](ghl/medias/bulk-delete-media-objects.md) |
 | PUT | `/medias/update-files` | Bulk Update Files/ Folders |  | [bulk-update-media-objects.md](ghl/medias/bulk-update-media-objects.md) |
 | POST | `/medias/folder` | Create Folder |  | [create-media-folder.md](ghl/medias/create-media-folder.md) |
@@ -341,9 +466,19 @@ Every documented endpoint, grouped by resource. 529 endpoints.
 | GET | `/medias/files` | Get List of Files/ Folders | medias.readonly | [fetch-media-content.md](ghl/medias/fetch-media-content.md) |
 | POST | `/medias/:id` | Update File/ Folder |  | [update-media-object.md](ghl/medias/update-media-object.md) |
 | POST | `/medias/upload-file` | Upload File into Media Storage | medias.write | [upload-media-content.md](ghl/medias/upload-media-content.md) |
+
+## ghl/oauth
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/oauth/token` | Get Access Token |  | [get-access-token.md](ghl/oauth/get-access-token.md) |
 | GET | `/oauth/installed-locations` | Get Location where app is installed | oauth.readonly | [get-installed-location.md](ghl/oauth/get-installed-location.md) |
 | POST | `/oauth/location-token` | Get Location Access Token from Agency Token | oauth.write | [get-location-access-token.md](ghl/oauth/get-location-access-token.md) |
+
+## ghl/objects
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/objects` | Create Custom Object | objects/schema.write | [create-custom-object-schema.md](ghl/objects/create-custom-object-schema.md) |
 | POST | `/objects/:schemaKey/records` | Create Record | objects/record.write | [create-object-record.md](ghl/objects/create-object-record.md) |
 | DELETE | `/objects/:schemaKey/records/:id` | Delete Record |  | [delete-object-record.md](ghl/objects/delete-object-record.md) |
@@ -353,6 +488,11 @@ Every documented endpoint, grouped by resource. 529 endpoints.
 | POST | `/objects/:schemaKey/records/search` | Search Object Records | objects/record.readonly | [search-object-records.md](ghl/objects/search-object-records.md) |
 | PUT | `/objects/:key` | Update Object Schema By Key / Id | objects/schema.write | [update-custom-object.md](ghl/objects/update-custom-object.md) |
 | PUT | `/objects/:schemaKey/records/:id` | Update Record |  | [update-object-record.md](ghl/objects/update-object-record.md) |
+
+## ghl/opportunities
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/opportunities/:id/followers` | Add Followers | opportunities.write | [add-followers-opportunity.md](ghl/opportunities/add-followers-opportunity.md) |
 | POST | `/opportunities` | Create Opportunity | opportunities.write | [create-opportunity.md](ghl/opportunities/create-opportunity.md) |
 | DELETE | `/opportunities/:id` | Delete Opportunity | opportunities.write | [delete-opportunity.md](ghl/opportunities/delete-opportunity.md) |
@@ -365,6 +505,11 @@ Every documented endpoint, grouped by resource. 529 endpoints.
 | PUT | `/opportunities/:id/status` | Update Opportunity Status | opportunities.write | [update-opportunity-status.md](ghl/opportunities/update-opportunity-status.md) |
 | PUT | `/opportunities/:id` | Update Opportunity | opportunities.write | [update-opportunity.md](ghl/opportunities/update-opportunity.md) |
 | POST | `/opportunities/upsert` | Upsert Opportunity | opportunities.write | [upsert-opportunity.md](ghl/opportunities/upsert-opportunity.md) |
+
+## ghl/payments
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/payments/custom-provider/connect` | Create new provider config | payments/custom-provider.write | [create-config.md](ghl/payments/create-config.md) |
 | POST | `/payments/coupon` | Create Coupon | payments/coupons.write | [create-coupon.md](ghl/payments/create-coupon.md) |
 | POST | `/payments/integrations/provider/whitelabel` | Create White-label Integration Provider | payments/integration.write | [create-integration-provider.md](ghl/payments/create-integration-provider.md) |
@@ -388,10 +533,20 @@ Every documented endpoint, grouped by resource. 529 endpoints.
 | GET | `/payments/transactions` | List Transactions | payments/transactions.readonly | [list-transactions.md](ghl/payments/list-transactions.md) |
 | POST | `/payments/orders/:orderId/record-payment` | Record Order Payment | payments/orders.collectPayment | [record-order-payment.md](ghl/payments/record-order-payment.md) |
 | PUT | `/payments/coupon` | Update Coupon | payments/coupons.write | [update-coupon.md](ghl/payments/update-coupon.md) |
+
+## ghl/phone-system
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | GET | `/phone-system/numbers/location/:locationId` | List active numbers | phonenumbers.read | [active-numbers.md](ghl/phone-system/active-numbers.md) |
 | GET | `/phone-system/number-pools` | List number pools | numberpools.read | [get-number-pool-list.md](ghl/phone-system/get-number-pool-list.md) |
 | GET | `/phone-system/numbers/location/:locationId/available` | List available phone numbers | phonenumbers.read | [list-available-numbers-for-a-country.md](ghl/phone-system/list-available-numbers-for-a-country.md) |
 | POST | `/phone-system/numbers/location/:locationId/purchase` | Purchase number for location | phonenumbers.write | [purchase-number-for-location.md](ghl/phone-system/purchase-number-for-location.md) |
+
+## ghl/products
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/products/bulk-update/edit` | Bulk Edit Products and Prices |  | [bulk-edit.md](ghl/products/bulk-edit.md) |
 | POST | `/products/reviews/bulk-update` | Update Product Reviews | products.write | [bulk-update-product-review.md](ghl/products/bulk-update-product-review.md) |
 | POST | `/products/bulk-update` | Bulk Update Products | products.write | [bulk-update.md](ghl/products/bulk-update.md) |
@@ -419,10 +574,20 @@ Every documented endpoint, grouped by resource. 529 endpoints.
 | PUT | `/products/collections/:collectionId` | Update Product Collection | products/collection.write | [update-product-collection.md](ghl/products/update-product-collection.md) |
 | PUT | `/products/reviews/:reviewId` | Update Product Reviews | products.write | [update-product-review.md](ghl/products/update-product-review.md) |
 | POST | `/products/store/:storeId` | Action to include/exclude the product in store | products.write | [update-store-status.md](ghl/products/update-store-status.md) |
+
+## ghl/proposals
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | GET | `/proposals/templates` | List templates |  | [list-documents-contracts-templates.md](ghl/proposals/list-documents-contracts-templates.md) |
 | GET | `/proposals/document` | List documents |  | [list-documents-contracts.md](ghl/proposals/list-documents-contracts.md) |
 | POST | `/proposals/templates/send` | Send template |  | [send-documents-contracts-template.md](ghl/proposals/send-documents-contracts-template.md) |
 | POST | `/proposals/document/send` | Send document |  | [send-documents-contracts.md](ghl/proposals/send-documents-contracts.md) |
+
+## ghl/saas
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/saas/allow-attach-rebilling/:locationId` | Allow Attach Rebilling | saas/company.read | [allow-attach-rebilling.md](ghl/saas/allow-attach-rebilling.md) |
 | POST | `/saas-api/public-api/bulk-disable-saas/:companyId` | Disable SaaS for locations |  | [bulk-disable-saas-deprecated.md](ghl/saas/bulk-disable-saas-deprecated.md) |
 | POST | `/saas/bulk-disable-saas/:companyId` | Disable SaaS for locations |  | [bulk-disable-saas.md](ghl/saas/bulk-disable-saas.md) |
@@ -448,10 +613,20 @@ Every documented endpoint, grouped by resource. 529 endpoints.
 | POST | `/saas-api/public-api/companies/:companyId/locations/:locationId/wallet-balance/complimentary-credits` | Update Location Wallet Balance | saas/company.write | [update-location-wallet-balance.md](ghl/saas/update-location-wallet-balance.md) |
 | POST | `/saas-api/public-api/update-rebilling/:companyId` | Update Rebilling |  | [update-rebilling-deprecated.md](ghl/saas/update-rebilling-deprecated.md) |
 | POST | `/saas/update-rebilling/:companyId` | Update Rebilling |  | [update-rebilling.md](ghl/saas/update-rebilling.md) |
+
+## ghl/snapshots
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/snapshots/share/link` | Create Snapshot Share Link |  | [create-snapshot-share-link.md](ghl/snapshots/create-snapshot-share-link.md) |
 | GET | `/snapshots` | Get Snapshots |  | [get-custom-snapshots.md](ghl/snapshots/get-custom-snapshots.md) |
 | GET | `/snapshots/snapshot-status/:snapshotId/location/:locationId` | Get Last Snapshot Push |  | [get-latest-snapshot-push.md](ghl/snapshots/get-latest-snapshot-push.md) |
 | GET | `/snapshots/snapshot-status/:snapshotId` | Get Snapshot Push between Dates |  | [get-snapshot-push.md](ghl/snapshots/get-snapshot-push.md) |
+
+## ghl/social-planner
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/social-media-posting/oauth/:locationId/:platform/accounts/:accountId` | Connect Account (Step 3 of 3) |  | [attach-oauth-accounts.md](ghl/social-planner/attach-oauth-accounts.md) |
 | POST | `/social-media-posting/:locationId/posts/bulk-delete` | Bulk Delete Social Planner Posts |  | [bulk-delete-social-planner-posts.md](ghl/social-planner/bulk-delete-social-planner-posts.md) |
 | POST | `/social-media-posting/category/queues/:queueId/items/:itemId/clone` | Clone a queue item | socialplanner/category.write | [clone-queue-item.md](ghl/social-planner/clone-queue-item.md) |
@@ -497,6 +672,11 @@ Every documented endpoint, grouped by resource. 529 endpoints.
 | PUT | `/social-media-posting/category/queues/:queueId/items/:itemId` | Update an item in a queue |  | [update-queue-item.md](ghl/social-planner/update-queue-item.md) |
 | PUT | `/social-media-posting/category/queues/:queueId` | Update queue settings or status | socialplanner/category.write | [update-queue.md](ghl/social-planner/update-queue.md) |
 | POST | `/social-media-posting/:locationId/csv` | Upload CSV | socialplanner/csv.write | [upload-csv.md](ghl/social-planner/upload-csv.md) |
+
+## ghl/store
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/store/shipping-carrier` | Create Shipping Carrier |  | [create-shipping-carrier.md](ghl/store/create-shipping-carrier.md) |
 | POST | `/store/shipping-zone/:shippingZoneId/shipping-rate` | Create Shipping Rate |  | [create-shipping-rate.md](ghl/store/create-shipping-rate.md) |
 | POST | `/store/shipping-zone` | Create Shipping Zone |  | [create-shipping-zone.md](ghl/store/create-shipping-zone.md) |
@@ -515,14 +695,29 @@ Every documented endpoint, grouped by resource. 529 endpoints.
 | PUT | `/store/shipping-carrier/:shippingCarrierId` | Update Shipping Carrier |  | [update-shipping-carrier.md](ghl/store/update-shipping-carrier.md) |
 | PUT | `/store/shipping-zone/:shippingZoneId/shipping-rate/:shippingRateId` | Update Shipping Rate |  | [update-shipping-rate.md](ghl/store/update-shipping-rate.md) |
 | PUT | `/store/shipping-zone/:shippingZoneId` | Update Shipping Zone |  | [update-shipping-zone.md](ghl/store/update-shipping-zone.md) |
+
+## ghl/surveys
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | GET | `/surveys/submissions` | Get Surveys Submissions | surveys.readonly | [get-surveys-submissions.md](ghl/surveys/get-surveys-submissions.md) |
 | GET | `/surveys` | Get Surveys | surveys.readonly | [get-surveys.md](ghl/surveys/get-surveys.md) |
+
+## ghl/users
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/users` | Create User | users.write | [create-user.md](ghl/users/create-user.md) |
 | DELETE | `/users/:userId` | Delete User | users.write | [delete-user.md](ghl/users/delete-user.md) |
 | POST | `/users/search/filter-by-email` | Filter Users by Email | users.readonly | [filter-users-by-email.md](ghl/users/filter-users-by-email.md) |
 | GET | `/users/:userId` | Get User | users.readonly | [get-user.md](ghl/users/get-user.md) |
 | GET | `/users/search` | Search Users | users.readonly | [search-users.md](ghl/users/search-users.md) |
 | PUT | `/users/:userId` | Update User | users.write | [update-user.md](ghl/users/update-user.md) |
+
+## ghl/voice-ai
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | POST | `/voice-ai/actions` | Create Agent Action | voice-ai-agent-goals.write | [create-action.md](ghl/voice-ai/create-action.md) |
 | POST | `/voice-ai/agents` | Create Agent | voice-ai-agents.write | [create-agent.md](ghl/voice-ai/create-agent.md) |
 | DELETE | `/voice-ai/actions/:actionId` | Delete Agent Action | voice-ai-agent-goals.write | [delete-action.md](ghl/voice-ai/delete-action.md) |
@@ -534,5 +729,10 @@ Every documented endpoint, grouped by resource. 529 endpoints.
 | GET | `/voice-ai/dashboard/call-logs` | List Call Logs | voice-ai-dashboard.readonly | [get-call-logs.md](ghl/voice-ai/get-call-logs.md) |
 | PATCH | `/voice-ai/agents/:agentId` | Patch Agent | voice-ai-agents.write | [patch-agent.md](ghl/voice-ai/patch-agent.md) |
 | PUT | `/voice-ai/actions/:actionId` | Update Agent Action | voice-ai-agent-goals.write | [update-action.md](ghl/voice-ai/update-action.md) |
+
+## ghl/workflows
+
+| Method | Path | Endpoint | Scope | File |
+|---|---|---|---|---|
 | GET | `/workflows` | Get Workflow | workflows.readonly | [get-workflow.md](ghl/workflows/get-workflow.md) |
 
