@@ -1,0 +1,275 @@
+---
+title: "Get event calendar availability schedule"
+source_url: https://marketplace.gohighlevel.com/docs/ghl/calendars/get-calendar-schedule
+version: v3
+method: GET
+endpoint: https://services.leadconnectorhq.com/calendars/schedules/event-calendar/:calendarId
+---
+# Get event calendar availability schedule
+
+```
+GET https://services.leadconnectorhq.com/calendars/schedules/event-calendar/:calendarId
+```
+
+
+Retrieve the availability schedule for a specific event calendar. Returns the schedule associated with the calendar ID provided in the path.
+
+### Requirements
+
+#### Scope(s)
+
+`calendars.readonly`
+
+#### Auth Method(s)
+
+`OAuth Access Token``Private Integration Token`
+
+#### Token Type(s)
+
+`Sub-Account Token`
+
+## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-calendar-schedule/\#request "Direct link to Request")
+
+### Header Parameters
+
+**Version** stringrequired
+
+**Possible values:** \[`v3`\]
+
+API Version
+
+### Path Parameters
+
+**calendarId** stringrequired
+
+Unique identifier of the event calendar
+
+Example: WvVX9LpvlBO6K506xLbp
+
+## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-calendar-schedule/\#responses "Direct link to Responses")
+
+- 200
+- 400
+- 401
+- 404
+
+Schedule retrieved successfully for the event calendar
+
+- application/json
+
+- Schema
+- Example (auto)
+
+**Schema**
+
+**schedule** object
+
+The event calendar schedule
+
+**timezone** stringrequired
+
+Timezone for the schedule (IANA timezone identifier)
+
+Example:`America/New_York`
+
+**rules** object\[\]required
+
+Schedule rules defining when the schedule is active
+
+Array \[\
+\
+**type** stringrequired\
+\
+Type of schedule rule - weekday (recurring) or date (specific date)\
+\
+**Possible values:** \[`wday`, `date`\]\
+\
+Example:`wday`\
+\
+**intervals** object\[\]required\
+\
+Time intervals for the rule (e.g., 9 AM to 5 PM)\
+\
+Array \[\
+\
+**from** stringrequired\
+\
+Start time in HH:MM format (24-hour format)\
+\
+**Possible values:** Value must match regular expression `^([01]?[0-9]|2[0-3]):[0-5][0-9]$`\
+\
+Example:`09:00`\
+\
+**to** stringrequired\
+\
+End time in HH:MM format (24-hour format)\
+\
+**Possible values:** Value must match regular expression `^([01]?[0-9]|2[0-3]):[0-5][0-9]$`\
+\
+Example:`17:00`\
+\
+\]\
+\
+**date** string\
+\
+Specific date in YYYY-MM-DD format (only for date-type rules)\
+\
+**Possible values:** Value must match regular expression `^\d{4}-\d{2}-\d{2}$`\
+\
+Example:`2023-04-15`\
+\
+**day** string\
+\
+Day of week (only for weekday-type rules)\
+\
+**Possible values:** \[`sunday`, `monday`, `tuesday`, `wednesday`, `thursday`, `friday`, `saturday`\]\
+\
+Example:`monday`\
+\
+\]
+
+**calendarId** stringrequired
+
+Calendar ID associated with the schedule
+
+Example:`WvVX9LpvlBO6K506xLbp`
+
+**dateAdded** string
+
+Information about who created the schedule
+
+**dateUpdated** string
+
+Information about who last updated the schedule
+
+```json
+{
+  "schedule": {
+    "timezone": "America/New_York",
+    "rules": [\
+      {\
+        "type": "wday",\
+        "intervals": [\
+          {\
+            "from": "09:00",\
+            "to": "17:00"\
+          }\
+        ],\
+        "date": "2023-04-15",\
+        "day": "monday"\
+      }\
+    ],
+    "calendarId": "WvVX9LpvlBO6K506xLbp",
+    "dateAdded": "string",
+    "dateUpdated": "string"
+  }
+}
+```
+
+Invalid request parameters
+
+- application/json
+
+- Schema
+- Example (auto)
+
+**Schema**
+
+**statusCode** number
+
+Example:`400`
+
+**message** string
+
+Example:`Bad Request`
+
+```json
+{
+  "statusCode": 400,
+  "message": "Bad Request"
+}
+```
+
+User not authenticated
+
+- application/json
+
+- Schema
+- Example (auto)
+
+**Schema**
+
+**statusCode** number
+
+Example:`401`
+
+**message** string
+
+Example:`Invalid token: access token is invalid`
+
+**error** string
+
+Example:`Unauthorized`
+
+```json
+{
+  "statusCode": 401,
+  "message": "Invalid token: access token is invalid",
+  "error": "Unauthorized"
+}
+```
+
+Event calendar or schedule with the specified ID was not found
+
+## Share your feedback
+
+★★★★★
+
+#### Authorization: Authorization
+
+```
+name: Authorizationtype: httpscopes: calendars.readonlyscheme: bearerbearerFormat: JWTin: headerdescription: Use the Access Token generated with user type as Sub-Account (OR) Private Integration Token of Sub-Account.
+```
+
+- curl
+- nodejs
+- python
+- php
+- java
+- go
+- ruby
+- powershell
+
+- CURL
+
+```bash
+curl -L 'https://services.leadconnectorhq.com/calendars/schedules/event-calendar/:calendarId' \
+-H 'Accept: application/json' \
+-H 'Authorization: Bearer <TOKEN>'
+```
+
+Request Collapse all
+
+Base URL
+
+Edit
+
+https://services.leadconnectorhq.com
+
+Auth
+
+Bearer Token
+
+Parameters
+
+calendarId — pathrequired
+
+Version — headerrequired
+
+\-\-\-v3
+
+Send API Request
+
+ResponseClear
+
+Click the `Send API Request` button above and see the response here!
