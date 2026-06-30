@@ -28,7 +28,7 @@ Post the messageId for the API to delete a scheduled message.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/cancel-scheduled-message/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -46,7 +46,7 @@ Message Id
 
 Example: ve9EPM428h8vShlRW1KT
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/cancel-scheduled-message/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

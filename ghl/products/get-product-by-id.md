@@ -28,7 +28,7 @@ The "Get Product by ID" API allows to retrieve information for a specific produc
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/products/get-product-by-id/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -60,7 +60,7 @@ Parameter which will decide whether to show the wishlisting status of products
 
 Example:
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/products/get-product-by-id/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

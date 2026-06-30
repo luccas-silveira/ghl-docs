@@ -28,7 +28,7 @@ Soft-deletes a chat widget. If it was the default, another widget may be promote
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/chat-widget/delete/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -54,7 +54,7 @@ The location ID
 
 Example: ve9EPM428h8vShlRWsss
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/chat-widget/delete/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

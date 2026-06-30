@@ -28,7 +28,7 @@ Get list of bulk action campaigns for a location
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/emails/list-bulk-action-campaigns/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -96,7 +96,7 @@ Filter by status
 
 Example: complete
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/emails/list-bulk-action-campaigns/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

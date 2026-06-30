@@ -28,7 +28,7 @@ Create a new invoice from an existing estimate
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/create-invoice-from-estimate/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -74,7 +74,7 @@ Version of the update request
 
 Example:`v2`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/create-invoice-from-estimate/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

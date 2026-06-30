@@ -24,7 +24,7 @@ API to update estimate last visited at by estimate id
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/update-estimate-last-visited-at/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -44,7 +44,7 @@ Estimate Id
 
 Example:`5f9d6d8b1b2d2c001f2d9e4b`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/update-estimate-last-visited-at/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

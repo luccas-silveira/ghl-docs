@@ -27,7 +27,7 @@ Add Tags
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/add-tags/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -57,7 +57,7 @@ List of tags to add or remove
 
 Example:`["minim","velit magna"]`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/add-tags/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

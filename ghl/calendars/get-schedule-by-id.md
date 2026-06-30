@@ -28,7 +28,7 @@ Retrieve a specific schedule by its unique identifier. Returns detailed informat
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-schedule-by-id/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -46,7 +46,7 @@ Unique identifier of the schedule
 
 Example: IkqiJlXJ7o9h61tCHHod
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-schedule-by-id/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

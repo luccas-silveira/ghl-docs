@@ -28,7 +28,7 @@ The "Create Blog Post" API allows you create blog post for any given blog site. 
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/blogs/create-blog-post/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -108,7 +108,7 @@ Provide ISO timestamp
 
 Example:`2025-02-05T18:30:47.000Z`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/blogs/create-blog-post/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

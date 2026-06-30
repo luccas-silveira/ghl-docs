@@ -28,7 +28,7 @@ Retrieves a paginated list of all category queues for a given location, excludin
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/fetch-queues/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -62,7 +62,7 @@ Maximum number of items to return
 
 Example:`10`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/fetch-queues/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

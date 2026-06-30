@@ -28,7 +28,7 @@ Delete event by ID
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/delete-event/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -63,7 +63,7 @@ Example:`ocQHyuzHvysMo5N5VsXc_1729821600000_1800`
 
 object
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/delete-event/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

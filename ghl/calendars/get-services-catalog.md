@@ -28,7 +28,7 @@ Get all services in a location.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-services-catalog/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -56,7 +56,7 @@ Example: 65e5f6dfacf123513228d384
 
 Filter services: true = private only, false = public only, unset = all services
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-services-catalog/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

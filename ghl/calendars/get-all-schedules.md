@@ -28,7 +28,7 @@ Retrieve user availability schedules based on various filters including location
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-all-schedules/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -76,7 +76,7 @@ Default value:`50`
 
 Example: 50
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-all-schedules/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

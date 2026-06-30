@@ -28,7 +28,7 @@ Create Business
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/businesses/create-business/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -86,7 +86,7 @@ Example:`us`
 
 Example:`business description`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/businesses/create-business/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

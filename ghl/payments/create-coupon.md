@@ -28,7 +28,7 @@ The "Create Coupon" API allows you to create a new promotional coupon with custo
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/payments/create-coupon/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -160,7 +160,7 @@ Limits whether a coupon can be redeemed only once per customer.
 
 Example:`true`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/payments/create-coupon/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 422

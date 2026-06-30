@@ -27,7 +27,7 @@ Toggle capabilities for the marketplace app tied to the OAuth client
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/payments/custom-provider-marketplace-app-update-capabilities/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -59,7 +59,7 @@ Location / Sub-account id. Mandatory if companyId is not provided
 
 Example:`Yjnwuduw83e8x30sm0`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/payments/custom-provider-marketplace-app-update-capabilities/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

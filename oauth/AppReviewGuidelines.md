@@ -5,7 +5,7 @@ version: v3
 ---
 **App review guidelines to make your app public and gain discovery via the HighLevel Platform.**
 
-## Overview [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#overview "Direct link to Overview")
+## Overview
 
 his document outlines the requirements for apps listed in the HighLevel App Marketplace. These requirements are designed to ensure consistency, security, performance, whitelabel compliance, and a high-quality user experience.
 
@@ -13,11 +13,11 @@ They apply to both Standard and Whitelabel apps, with specific branding requirem
 
 * * *
 
-## 1\. App Type Guidelines: Standard vs Whitelabel Apps [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#1-app-type-guidelines-standard-vs-whitelabel-apps "Direct link to 1. App Type Guidelines: Standard vs Whitelabel Apps")
+## 1\. App Type Guidelines: Standard vs Whitelabel Apps
 
 Before submitting your app, identify whether it is intended for:
 
-### 1.1 Standard / Non-Whitelabel Apps [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#11-standard--non-whitelabel-apps "Direct link to 1.1 Standard / Non-Whitelabel Apps")
+### 1.1 Standard / Non-Whitelabel Apps
 
 Standard apps are shown in the HighLevel Marketplace experience.
 
@@ -28,7 +28,7 @@ For Standard apps:
 - HighLevel or GHL logos, marks, and brand assets must not be used unless authorization has been provided.
 - Public-facing content must remain accurate, professional, and non-misleading.
 
-### 1.2 Whitelabel Apps [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#12-whitelabel-apps "Direct link to 1.2 Whitelabel Apps")
+### 1.2 Whitelabel Apps
 
 Whitelabel apps are shown in whitelabelled customer experiences where HighLevel branding must not appear.
 
@@ -49,9 +49,9 @@ Whitelabel compliance applies to all user-facing surfaces, including marketplace
 
 * * *
 
-## 2\. App Catalog Requirements [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#2-app-catalog-requirements "Direct link to 2. App Catalog Requirements")
+## 2\. App Catalog Requirements
 
-### 2.1 Naming & Branding [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#21-naming--branding "Direct link to 2.1 Naming & Branding")
+### 2.1 Naming & Branding
 
 App names must not impersonate or replicate third-party brands unless authorization has been provided.
 
@@ -69,7 +69,7 @@ For unofficial integrations, avoid names that suggest the app is owned or operat
 
 * * *
 
-### 2.2 Logos & Visual Identity [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#22-logos--visual-identity "Direct link to 2.2 Logos & Visual Identity")
+### 2.2 Logos & Visual Identity
 
 Third-party logos are restricted to authorized entities only.
 
@@ -93,7 +93,7 @@ For Standard apps:
 
 * * *
 
-### 2.3 Disclaimers [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#23-disclaimers "Direct link to 2.3 Disclaimers")
+### 2.3 Disclaimers
 
 Unofficial integrations must include a clear disclaimer.
 
@@ -105,7 +105,7 @@ The disclaimer should be visible in the app listing where users can reasonably u
 
 * * *
 
-### 2.4 App Description [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#24-app-description "Direct link to 2.4 App Description")
+### 2.4 App Description
 
 The app description must clearly explain:
 
@@ -124,7 +124,7 @@ The app description must not include:
 - False partnership or endorsement claims
 - Internal HighLevel terminology in public-facing copy
 
-#### Internal terminology replacements [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#internal-terminology-replacements "Direct link to Internal terminology replacements")
+#### Internal terminology replacements
 
 Avoid internal terminology in marketplace-facing or end-user-facing content.
 
@@ -157,7 +157,7 @@ Use:
 
 * * *
 
-### 2.5 Media: Images & Videos [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#25-media-images--videos "Direct link to 2.5 Media: Images & Videos")
+### 2.5 Media: Images & Videos
 
 Images and videos must reflect the app’s actual functionality.
 
@@ -191,7 +191,7 @@ For Standard apps, factual HighLevel references are acceptable where relevant, p
 
 * * *
 
-## 3\. Installation & Setup [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#3-installation--setup "Direct link to 3. Installation & Setup")
+## 3\. Installation & Setup
 
 Installation must complete without errors.
 
@@ -213,7 +213,7 @@ Redirect URLs must:
 - Be stable and production-ready
 - Not redirect users through untrusted or unrelated domains
 
-### 3.1 Whitelabel Installation Requirements [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#31-whitelabel-installation-requirements "Direct link to 3.1 Whitelabel Installation Requirements")
+### 3.1 Whitelabel Installation Requirements
 
 For Whitelabel apps:
 
@@ -221,7 +221,7 @@ For Whitelabel apps:
 - Installation screens should use neutral terms such as **CRM**, **your CRM**, or **LeadConnector**, where appropriate.
 - The app must not expose HighLevel-branded URLs, copy, visuals, or references to end users in Whitelabel contexts.
 
-### 3.2 Standard Installation Requirements [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#32-standard-installation-requirements "Direct link to 3.2 Standard Installation Requirements")
+### 3.2 Standard Installation Requirements
 
 For Standard apps:
 
@@ -230,9 +230,9 @@ For Standard apps:
 
 * * *
 
-## 4\. Submission Review Materials [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#4-submission-review-materials "Direct link to 4. Submission Review Materials")
+## 4\. Submission Review Materials
 
-### 4.1 Loom Demo Requirement [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#41-loom-demo-requirement "Direct link to 4.1 Loom Demo Requirement")
+### 4.1 Loom Demo Requirement
 
 A Loom demo is required as the final step in the app submission flow.
 
@@ -260,9 +260,9 @@ The Loom demo should be easy for the review team to follow without requiring add
 
 * * *
 
-## 5\. Performance & Reliability [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#5-performance--reliability "Direct link to 5. Performance & Reliability")
+## 5\. Performance & Reliability
 
-### 5.1 Core Functionality [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#51-core-functionality "Direct link to 5.1 Core Functionality")
+### 5.1 Core Functionality
 
 The app must work consistently as described in the marketplace listing.
 
@@ -278,7 +278,7 @@ Apps may be rejected if the listed functionality:
 
 * * *
 
-### 5.2 Performance Standards [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#52-performance-standards "Direct link to 5.2 Performance Standards")
+### 5.2 Performance Standards
 
 The app UI must be responsive.
 
@@ -295,7 +295,7 @@ Apps should avoid:
 
 * * *
 
-### 5.3 Data Sync Apps [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#53-data-sync-apps "Direct link to 5.3 Data Sync Apps")
+### 5.3 Data Sync Apps
 
 Data sync apps must ensure:
 
@@ -307,7 +307,7 @@ Data sync apps must ensure:
 
 * * *
 
-### 5.4 Embedded Apps: iFrame / Custom Cards [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#54-embedded-apps-iframe--custom-cards "Direct link to 5.4 Embedded Apps: iFrame / Custom Cards")
+### 5.4 Embedded Apps: iFrame / Custom Cards
 
 Embedded apps must be fully responsive.
 
@@ -324,9 +324,9 @@ For Whitelabel apps, embedded experiences must not expose HighLevel or GHL brand
 
 * * *
 
-## 6\. Security, Privacy & Compliance [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#6-security-privacy--compliance "Direct link to 6. Security, Privacy & Compliance")
+## 6\. Security, Privacy & Compliance
 
-### 6.1 Access Control [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#61-access-control "Direct link to 6.1 Access Control")
+### 6.1 Access Control
 
 Apps must follow the Principle of Least Privilege.
 
@@ -338,7 +338,7 @@ Apps may be rejected if they request broad or unnecessary permissions without a 
 
 * * *
 
-### 6.2 Data Security [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#62-data-security "Direct link to 6.2 Data Security")
+### 6.2 Data Security
 
 Secrets must not be exposed in client-side code.
 
@@ -364,7 +364,7 @@ Apps must not leak customer data through logs, browser consoles, public URLs, or
 
 * * *
 
-### 6.3 Embedded App Verification [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#63-embedded-app-verification "Direct link to 6.3 Embedded App Verification")
+### 6.3 Embedded App Verification
 
 Embedded apps must validate the parent frame using a secure context.
 
@@ -374,7 +374,7 @@ Embedded apps must not trust client-side context alone for sensitive authorizati
 
 * * *
 
-### 6.4 Legal Documentation [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#64-legal-documentation "Direct link to 6.4 Legal Documentation")
+### 6.4 Legal Documentation
 
 Privacy Policy and Terms of Service are not mandatory fields in the current submission flow.
 
@@ -401,7 +401,7 @@ HighLevel may request additional legal documentation during review depending on 
 
 * * *
 
-## 7\. Support Requirements [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#7-support-requirements "Direct link to 7. Support Requirements")
+## 7\. Support Requirements
 
 Apps must provide at least one direct support channel.
 
@@ -422,7 +422,7 @@ Support information must be accurate, active, and visible to users.
 
 * * *
 
-## 8\. Uninstallation & Disconnection [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#8-uninstallation--disconnection "Direct link to 8. Uninstallation & Disconnection")
+## 8\. Uninstallation & Disconnection
 
 Users must be clearly informed when the app is disconnected or uninstalled.
 
@@ -441,7 +441,7 @@ For Whitelabel apps, disconnect messaging must not expose HighLevel or GHL brand
 
 * * *
 
-## 9\. Prohibited Apps [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#9-prohibited-apps "Direct link to 9. Prohibited Apps")
+## 9\. Prohibited Apps
 
 The following app types are not allowed:
 
@@ -459,7 +459,7 @@ Apps may also be rejected if they create user confusion, platform risk, security
 
 * * *
 
-## 10\. Fraud Prevention & Verification [​](https://marketplace.gohighlevel.com/docs/oauth/AppReviewGuidelines/\#10-fraud-prevention--verification "Direct link to 10. Fraud Prevention & Verification")
+## 10\. Fraud Prevention & Verification
 
 HighLevel may verify developer identity and app ownership during review.
 

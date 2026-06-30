@@ -28,7 +28,7 @@ The "Create White-label Integration Provider" API allows adding a new payment pr
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/payments/create-integration-provider/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -88,7 +88,7 @@ The URL to an image representing the integration provider. The imageUrl should s
 
 Example:`https://example.com/image.jpg`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/payments/create-integration-provider/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

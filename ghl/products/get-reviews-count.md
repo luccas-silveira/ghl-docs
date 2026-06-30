@@ -28,7 +28,7 @@ API to fetch the Review Count as per status
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/products/get-reviews-count/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -80,7 +80,7 @@ Comma-separated list of store IDs
 
 Example: 60d21b4667d0d8992e610c85,60d21b4667d0d8992e610c86,60d21b4667d0d8992e610c87
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/products/get-reviews-count/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

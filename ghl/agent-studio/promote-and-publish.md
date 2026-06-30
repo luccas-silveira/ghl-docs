@@ -28,7 +28,7 @@ Promotes a draft version to production.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/agent-studio/promote-and-publish/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -78,7 +78,7 @@ User email performing the promotion action
 
 Example:`john.doe@example.com`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/agent-studio/promote-and-publish/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -24,7 +24,7 @@ Delete a knowledge base
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/delete-knowledge-base/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -44,7 +44,7 @@ API Version
 
 **knowledgeBaseId** stringrequired
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/delete-knowledge-base/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -28,7 +28,7 @@ Returns number pools for the location. Requires locationId as a query parameter.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/phone-system/get-number-pool-list/\#request "Direct link to Request")
+## Request
 
 ### Query Parameters
 
@@ -38,7 +38,7 @@ Location ID to scope the number pool list
 
 Example: ve9EPM428h8vShlRW1KT
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/phone-system/get-number-pool-list/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 

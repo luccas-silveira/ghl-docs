@@ -34,7 +34,7 @@ Lists all active agents that have a published production version for the specifi
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/agent-studio/get-agents-deprecated/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -62,7 +62,7 @@ Example: 0
 
 Example: api
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/agent-studio/get-agents-deprecated/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

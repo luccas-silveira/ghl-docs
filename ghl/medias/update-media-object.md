@@ -24,7 +24,7 @@ Updates a single file or folder by ID
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/medias/update-media-object/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -66,7 +66,7 @@ Location identifier that owns the file or folder
 
 Example:`sx6wyHhbFdRXh302LLNR`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/medias/update-media-object/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 

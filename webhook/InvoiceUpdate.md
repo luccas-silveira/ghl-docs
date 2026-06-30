@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever an invoice is updated
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/InvoiceUpdate/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -203,7 +203,7 @@ Called whenever an invoice is updated
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/InvoiceUpdate/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

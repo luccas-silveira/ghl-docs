@@ -28,7 +28,7 @@ Update appointment
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/edit-appointment/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -162,7 +162,7 @@ End Time
 
 Example:`2021-06-23T04:30:00+05:30`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/edit-appointment/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

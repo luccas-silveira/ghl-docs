@@ -28,7 +28,7 @@ API to record manual payment for an invoice by invoice id
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/record-invoice/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -112,7 +112,7 @@ Updated At to be recorded against the invoice.
 
 Example:`2025-03-19T05:03:00.000Z`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/record-invoice/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

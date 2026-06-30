@@ -28,7 +28,7 @@ Delete an existing estimate
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/delete-estimate/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -60,7 +60,7 @@ Example:`6578278e879ad2646715ba9c`
 
 **Possible values:** \[`location`\]
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/delete-estimate/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

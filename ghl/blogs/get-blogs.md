@@ -28,7 +28,7 @@ The "Get Blogs by Location ID" API allows you get blogs using Location ID.Please
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/blogs/get-blogs/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -58,7 +58,7 @@ search for any post by name
 
 Example: ai news
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/blogs/get-blogs/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

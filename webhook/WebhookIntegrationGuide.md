@@ -3,11 +3,11 @@ title: "Webhookintegrationguide"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide
 version: v3
 ---
-## What are Webhooks? [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#what-are-webhooks "Direct link to What are Webhooks?")
+## What are Webhooks?
 
 Webhooks are a way for applications to communicate in real-time. Think of them as **automatic notifications** that are sent to your application when something happens in our platform.
 
-### Real-World Example [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#real-world-example "Direct link to Real-World Example")
+### Real-World Example
 
 Imagine you're building an e-commerce app:
 
@@ -17,30 +17,30 @@ Imagine you're building an e-commerce app:
 
 This way, your app stays updated without constantly asking "has anything changed?"
 
-## Getting Started [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#getting-started "Direct link to Getting Started")
+## Getting Started
 
-### Step 1: Create Your Webhook Endpoint [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#step-1-create-your-webhook-endpoint "Direct link to Step 1: Create Your Webhook Endpoint")
+### Step 1: Create Your Webhook Endpoint
 
 First, you need a public URL that can receive webhook notifications. Here are some options:
 
-#### Option A: Use a Cloud Service [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#option-a-use-a-cloud-service "Direct link to Option A: Use a Cloud Service")
+#### Option A: Use a Cloud Service
 
 - **Heroku**: Deploy a simple web app
 - **AWS Lambda**: Serverless function
 - **Google Cloud Functions**: Serverless function
 - **Vercel**: Easy deployment platform
 
-#### Option B: Use a Webhook Testing Service [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#option-b-use-a-webhook-testing-service "Direct link to Option B: Use a Webhook Testing Service")
+#### Option B: Use a Webhook Testing Service
 
 - **webhook.site**: Get a temporary URL for testing
 - **ngrok**: Expose your local server to the internet
 
-#### Option C: Use Your Own Server [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#option-c-use-your-own-server "Direct link to Option C: Use Your Own Server")
+#### Option C: Use Your Own Server
 
 - Deploy a web application on your server
 - Ensure it's accessible via HTTPS
 
-### Step 2: Create a Simple Webhook Handler [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#step-2-create-a-simple-webhook-handler "Direct link to Step 2: Create a Simple Webhook Handler")
+### Step 2: Create a Simple Webhook Handler
 
 Here's a basic example using Node.js and Express:
 
@@ -84,7 +84,7 @@ app.listen(PORT, () => {
 })
 ```
 
-### Step 3: Test Your Endpoint [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#step-3-test-your-endpoint "Direct link to Step 3: Test Your Endpoint")
+### Step 3: Test Your Endpoint
 
 Before connecting to our platform, test your endpoint:
 
@@ -103,11 +103,11 @@ curl -X POST https://your-app.com/webhooks \
   }'
 ```
 
-## Available Webhook Events [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#available-webhook-events "Direct link to Available Webhook Events")
+## Available Webhook Events
 
 We offer a comprehensive set of webhook events that cover all major activities in our platform. Here's a quick overview of the main event categories:
 
-### Event Categories [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#event-categories "Direct link to Event Categories")
+### Event Categories
 
 - **Contact Events**: Contact creation, updates, deletion, and tag changes
 - **Opportunity Events**: Opportunity lifecycle management and status updates
@@ -120,7 +120,7 @@ We offer a comprehensive set of webhook events that cover all major activities i
 - **User Events**: User account management
 - **And many more...**
 
-### Detailed Event Documentation [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#detailed-event-documentation "Direct link to Detailed Event Documentation")
+### Detailed Event Documentation
 
 For complete details about each webhook event, including:
 
@@ -133,13 +133,13 @@ For complete details about each webhook event, including:
 
 This detailed documentation provides comprehensive information about every available webhook event, including exact payload structures, field descriptions, and real-world examples.
 
-## Security: Verifying Webhook Authenticity [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#security-verifying-webhook-authenticity "Direct link to Security: Verifying Webhook Authenticity")
+## Security: Verifying Webhook Authenticity
 
-### Why Verification is Important [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#why-verification-is-important "Direct link to Why Verification is Important")
+### Why Verification is Important
 
 Webhooks can be spoofed by malicious actors. Always verify that webhooks are coming from our platform.
 
-### Signature Headers [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#signature-headers "Direct link to Signature Headers")
+### Signature Headers
 
 We send two signature headers so you can verify the request body:
 
@@ -152,11 +152,11 @@ Legacy signature deprecation
 
 The legacy header **`X-WH-Signature`** will be **deprecated on July 1, 2026**. After that date, webhooks will be signed only with **`X-GHL-Signature`**. Please switch your integration to verify **`X-GHL-Signature`** (using the GHL Ed25519 public key) before the deprecation date to avoid disruption.
 
-### How to Verify [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#how-to-verify "Direct link to How to Verify")
+### How to Verify
 
 We sign the webhook body with our private key. You verify it using the public keys below.
 
-### Legacy (RSA) public key — for `X-WH-Signature` [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#legacy-rsa-public-key--for-x-wh-signature "Direct link to legacy-rsa-public-key--for-x-wh-signature")
+### Legacy (RSA) public key — for `X-WH-Signature`
 
 ```text
 -----BEGIN PUBLIC KEY-----
@@ -194,7 +194,7 @@ function verifyLegacy(payload, signature, publicKeyPem) {
 }
 ```
 
-### GHL Signature (Ed25519) public key — for `X-GHL-Signature` [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#ghl-signature-ed25519-public-key--for-x-ghl-signature "Direct link to ghl-signature-ed25519-public-key--for-x-ghl-signature")
+### GHL Signature (Ed25519) public key — for `X-GHL-Signature`
 
 Use this key to verify the `X-GHL-Signature` header. Prefer this header when present; the legacy header will be deprecated.
 
@@ -225,9 +225,9 @@ function verifyGhl(payload, signature, publicKeyPem) {
 
 **Recommended verification flow:** If `X-GHL-Signature` is present, verify using the Ed25519 public key. If only `X-WH-Signature` is present (during the transition period), verify using the legacy RSA public key. Reject the request if verification fails.
 
-## Setting Up Your Integration [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#setting-up-your-integration "Direct link to Setting Up Your Integration")
+## Setting Up Your Integration
 
-### 1\. Create Your OAuth Application [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#1-create-your-oauth-application "Direct link to 1. Create Your OAuth Application")
+### 1\. Create Your OAuth Application
 
 You'll need to create an OAuth application in our marketplace via the dashboard. This will give you:
 
@@ -235,7 +235,7 @@ You'll need to create an OAuth application in our marketplace via the dashboard.
 - Access to specific data based on scopes
 - Ability to subscribe to specific events
 
-### 2\. Configure Your Webhook URL [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#2-configure-your-webhook-url "Direct link to 2. Configure Your Webhook URL")
+### 2\. Configure Your Webhook URL
 
 After filling in all the mandatory information, head down to the Auth section under the advanced setting.
 
@@ -243,7 +243,7 @@ Select the scope of you application from the drop down
 
 ![OAuth Scopes Configuration](https://storage.googleapis.com/msgsndr/Qniuo6jPp1TLzX8EaAB4/media/6915d12c948ba5390668d1b1.png)
 
-### 3\. Choose Your Events [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#choose-your-events "Direct link to 3. Choose Your Events")
+### 3\. Choose Your Events
 
 After defining the scopes, head to the webhook section under the advanced settings
 
@@ -256,9 +256,9 @@ Scopes and webhook settings
 - **Scopes** can **only be changed while your app is in a draft version**. Once your app is live, scopes are locked and cannot be modified until a new draft is created.
 - **Webhook endpoints and subscribed events** can be **modified at any time**, even when your app is in a live version. This allows you to update which events your webhook endpoint receives without requiring a new app draft.
 
-## Handling Webhooks Reliably [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#handling-webhooks-reliably "Direct link to Handling Webhooks Reliably")
+## Handling Webhooks Reliably
 
-### Best Practices [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#best-practices "Direct link to Best Practices")
+### Best Practices
 
 1. **Always Respond Quickly**
    - Process webhooks asynchronously if needed
@@ -272,7 +272,7 @@ Scopes and webhook settings
    - Log processing results
    - Log errors for debugging
 
-### Example Implementation [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#example-implementation "Direct link to Example Implementation")
+### Example Implementation
 
 This example prefers **X-GHL-Signature** (Ed25519) when present, falling back to the legacy **X-WH-Signature** (RSA) during the transition period.
 
@@ -392,9 +392,9 @@ async function handleNewContact(data) { /* ... */ }
 async function handleContactUpdate(data) { /* ... */ }
 ```
 
-## Error Handling and Retries [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#error-handling-and-retries "Direct link to Error Handling and Retries")
+## Error Handling and Retries
 
-### How Our Retry System Works [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#how-our-retry-system-works "Direct link to How Our Retry System Works")
+### How Our Retry System Works
 
 When a webhook delivery fails, we retry using exponential backoff with random jitter.
 
@@ -404,7 +404,7 @@ When a webhook delivery fails, we retry using exponential backoff with random ji
 
 Retries stop as soon as we receive any `2xx` response.
 
-### Manual Retry [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#manual-retry "Direct link to Manual Retry")
+### Manual Retry
 
 If automatic retries have been exhausted or you've fixed an issue on your end and want to redeliver immediately, you can manually retry a failed webhook from the [Webhook Logs Dashboard](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard).
 
@@ -415,7 +415,7 @@ If automatic retries have been exhausted or you've fixed an issue on your end an
 
 See [Triggering a Manual Retry](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard#triggering-a-manual-retry) for step-by-step instructions.
 
-### Understanding Jitter [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#understanding-jitter "Direct link to Understanding Jitter")
+### Understanding Jitter
 
 **What is Jitter?**
 Jitter is a random delay added to retry attempts to prevent the "thundering herd" problem. When many webhook deliveries need retries around the same time, without jitter they could all retry at exactly the same time, potentially overwhelming your server.
@@ -427,7 +427,7 @@ Jitter is a random delay added to retry attempts to prevent the "thundering herd
 - This spreads out the retry attempts, reducing server load and preventing coordinated retry storms
 - The jitter ensures that even if many webhooks fail simultaneously, their retries will be distributed over time
 
-### What You Should Do [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#what-you-should-do "Direct link to What You Should Do")
+### What You Should Do
 
 1. **Return 200 OK for Success**
 
@@ -463,40 +463,40 @@ try {
 4. **Use Manual Retry for critical failures**
    - If automatic retries are exhausted and you've resolved the issue, use the **Resend** button in the [Webhook Logs Dashboard](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard) to redeliver immediately.
 
-## Webhook URL Health And Circuit Breaker [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#webhook-url-health-and-circuit-breaker "Direct link to Webhook URL Health And Circuit Breaker")
+## Webhook URL Health And Circuit Breaker
 
 We periodically review how reliably your webhook URL accepts deliveries. If your endpoint is receiving a high volume of webhooks but failing too often, we notify you first; if the problem persists, we temporarily stop sending webhooks to your app until you fix the issue and turn delivery back on.
 
-### How The Check Works [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#how-the-check-works "Direct link to How The Check Works")
+### How The Check Works
 
 - **Schedule and scope:** We evaluate each webhook URL about **every 3 days**, using delivery data from the **past 3 days**. The rules below apply only if your URL received **more than 10,000 webhooks** in that same window.
 - **Metric and threshold:** We look at **success rate** — the share of deliveries that completed successfully (for example, your endpoint returned a successful response as defined by our delivery logic). If that rate is **below 90%** for the period, the URL is **flagged** for that check.
 
-### First Flag: Warning Email [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#first-flag-warning-email "Direct link to First Flag: Warning Email")
+### First Flag: Warning Email
 
 If your webhook URL is flagged (high volume **and** success rate under 90%), we send a **warning email** to the developer contact on the app. Use this as a signal to investigate your endpoint, logs, and the [Webhook Logs Dashboard](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard) before the next check.
 
-### Second Flag: Webhooks Paused [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#second-flag-webhooks-paused "Direct link to Second Flag: Webhooks Paused")
+### Second Flag: Webhooks Paused
 
 **Three days later**, we run the check again. If your webhook URL is **flagged again** — still over 10,000 webhooks in the window **and** success rate still **below 90%** — we **pause webhook delivery** to your app for that URL.
 
 While paused, we do not send new webhooks for the affected configuration until you take action.
 
-### Resuming Delivery After A Pause [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#resuming-delivery-after-a-pause "Direct link to Resuming Delivery After A Pause")
+### Resuming Delivery After A Pause
 
 After webhooks are paused, you must **re-enable the events** for your app from the marketplace dashboard. Use the same flow as **[Choose Your Events](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/#choose-your-events)** earlier in this guide. Turning those subscriptions back on restores delivery once your endpoint is ready.
 
-### What you should do [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#what-you-should-do-1 "Direct link to What you should do")
+### What you should do
 
 1. **Keep success rates high** — follow the guidance in [Error Handling and Retries](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/#error-handling-and-retries) (respond quickly, return appropriate status codes, and avoid unnecessary failures).
 2. **Monitor proactively** — use the Webhook Logs Dashboard to spot problems before you receive a warning.
 3. **Act on warning emails** — treat them as a final notice before automatic pausing on the next 3-day check.
 
-## Testing Your Integration [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#testing-your-integration "Direct link to Testing Your Integration")
+## Testing Your Integration
 
 The best way to verify that your webhook integration is working correctly is to use the **Webhook Logs Dashboard**. This dashboard provides comprehensive monitoring and troubleshooting capabilities for all webhook deliveries to your application.
 
-### Using the Webhook Logs Dashboard [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#using-the-webhook-logs-dashboard "Direct link to Using the Webhook Logs Dashboard")
+### Using the Webhook Logs Dashboard
 
 ![Webhook Logs Dashboard](https://assets.cdn.filesafe.space/Qniuo6jPp1TLzX8EaAB4/media/6a0d9d2707a34aa07f7b40a4.png)
 
@@ -522,33 +522,33 @@ From here, you can monitor all webhook deliveries, check their status codes, vie
 
 For detailed information on how to use the Webhook Logs Dashboard, including filtering, searching, and viewing webhook details, please refer to the [Webhook Logs Dashboard guide](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard).
 
-## Common Issues and Solutions [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#common-issues-and-solutions "Direct link to Common Issues and Solutions")
+## Common Issues and Solutions
 
-### Issue: "Invalid signature" errors [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#issue-invalid-signature-errors "Direct link to Issue: \"Invalid signature\" errors")
+### Issue: "Invalid signature" errors
 
 **Solution**: Use the correct public key for each header: Ed25519 public key for `X-GHL-Signature`, RSA public key for `X-WH-Signature`. Prefer verifying the GHL signature when the header is present.
 
-### Issue: Duplicate webhook processing [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#issue-duplicate-webhook-processing "Direct link to Issue: Duplicate webhook processing")
+### Issue: Duplicate webhook processing
 
 **Solution**: Store webhook IDs and check for duplicates before processing.
 
-### Issue: Webhooks timing out [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#issue-webhooks-timing-out "Direct link to Issue: Webhooks timing out")
+### Issue: Webhooks timing out
 
 **Solution**: Process webhooks asynchronously and respond quickly.
 
-### Issue: Missing webhook events [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#issue-missing-webhook-events "Direct link to Issue: Missing webhook events")
+### Issue: Missing webhook events
 
 **Solution**: Check that you've subscribed to the correct events in your OAuth app.
 
-### Issue: Can't access webhook data [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#issue-cant-access-webhook-data "Direct link to Issue: Can't access webhook data")
+### Issue: Can't access webhook data
 
 **Solution**: Ensure your OAuth app has the correct scopes for the data you need.
 
-### Issue: Webhooks stopped after a warning email [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#issue-webhooks-stopped-after-a-warning-email "Direct link to Issue: Webhooks stopped after a warning email")
+### Issue: Webhooks stopped after a warning email
 
 **Solution**: Your webhook URL may have been paused by the [circuit breaker](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/#webhook-url-health-and-circuit-breaker) after two consecutive poor health checks. Fix your endpoint and success rate, then **re-enable the subscribed webhook events** for your app in the marketplace dashboard (OAuth app advanced settings).
 
-## Next Steps [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide/\#next-steps "Direct link to Next Steps")
+## Next Steps
 
 1. **Set up your webhook endpoint** using one of the examples above
 2. **Test with webhook.site** to make sure it's working

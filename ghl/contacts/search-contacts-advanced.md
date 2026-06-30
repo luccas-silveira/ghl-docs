@@ -28,7 +28,7 @@ Search contacts based on combinations of advanced filters. Documentation Link - 
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/search-contacts-advanced/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -46,7 +46,7 @@ Example: v3
 
 object
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/search-contacts-advanced/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

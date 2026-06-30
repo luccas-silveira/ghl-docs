@@ -28,7 +28,7 @@ Retrieve detailed configuration and settings for a specific voice AI agent
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/voice-ai/get-agent/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -54,7 +54,7 @@ Location ID
 
 Example: LOC123456789ABCDEF
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/voice-ai/get-agent/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

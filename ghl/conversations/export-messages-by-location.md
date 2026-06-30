@@ -39,7 +39,7 @@ Export messages for a specific location with cursor-based pagination support.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/export-messages-by-location/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -107,7 +107,7 @@ Start date to filter messages by
 
 End date to filter messages by
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/export-messages-by-location/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

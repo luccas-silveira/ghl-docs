@@ -7,7 +7,7 @@ version: v3
 
 This section is available for **both** [API Key / Basic Auth](https://marketplace.gohighlevel.com/docs/oauth/external-auth/BasicAuth) and [OAuth 2.0](https://marketplace.gohighlevel.com/docs/oauth/external-auth/OAuth2).
 
-## Why custom fields exist: dynamic, per-user endpoints [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/ConfigureYourFields/\#why-custom-fields-exist-dynamic-per-user-endpoints "Direct link to Why custom fields exist: dynamic, per-user endpoints")
+## Why custom fields exist: dynamic, per-user endpoints
 
 Many providers don't have a single, fixed API URL. The endpoint depends on something unique to each user's account, such as a store domain or a region.
 
@@ -29,7 +29,7 @@ At install time the user provides `store_domain = acme-store.myshopify.com`, and
 https://acme-store.myshopify.com/admin/api/2024-01/shop.json
 ```
 
-## Adding a field [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/ConfigureYourFields/\#adding-a-field "Direct link to Adding a field")
+## Adding a field
 
 In **Step 2 → Configure Your Fields**, click **\+ Add Field**. Each field has the following properties:
 
@@ -44,7 +44,7 @@ In **Step 2 → Configure Your Fields**, click **\+ Add Field**. Each field has 
 
 > **Limit:** You can configure a maximum of **three** fields.
 
-## Using field values: the `userData` object [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/ConfigureYourFields/\#using-field-values-the-userdata-object "Direct link to using-field-values-the-userdata-object")
+## Using field values: the `userData` object
 
 Every value the user enters is stored on a `userData` object, keyed by the field **Key**. You reference it anywhere in your endpoint configuration with the template syntax `{{userData.<key>}}`.
 
@@ -59,7 +59,7 @@ When the request is made, HighLevel substitutes each `{{userData.<key>}}` placeh
 
 > Using [Code Mode](https://marketplace.gohighlevel.com/docs/oauth/external-auth/CodeMode)? The same values are available there too - access them through `bundle.inputData.<key>` instead of the `{{userData.<key>}}` template syntax.
 
-## Where the values are sent [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/ConfigureYourFields/\#where-the-values-are-sent "Direct link to Where the values are sent")
+## Where the values are sent
 
 The fields you collect are passed along with the install payload that HighLevel sends to your authentication endpoint:
 

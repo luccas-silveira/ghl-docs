@@ -7,7 +7,7 @@ Called whenever a Voice AI call ends for a sub-account.
 
 > Requires scope: `voice-ai-dashboard.readonly` (Sub-Account apps)
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/VoiceAiCallEnd/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -188,7 +188,7 @@ Called whenever a Voice AI call ends for a sub-account.
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/VoiceAiCallEnd/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

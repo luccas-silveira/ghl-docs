@@ -9,7 +9,7 @@ Version: 1.0
 
 Documentation for business API
 
-## Authentication [​](https://marketplace.gohighlevel.com/docs/ghl/businesses/business-api/\#authentication "Direct link to Authentication")
+## Authentication
 
 - HTTP: Bearer Auth
 - HTTP: Bearer Auth

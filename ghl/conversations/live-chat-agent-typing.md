@@ -28,7 +28,7 @@ Agent/AI-Bot will call this when they are typing a message in live chat message
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/live-chat-agent-typing/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -66,7 +66,7 @@ Conversation Id
 
 Example:`ve9EPM428h8vShlRW1KT`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/live-chat-agent-typing/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

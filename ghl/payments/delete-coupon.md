@@ -28,7 +28,7 @@ The "Delete Coupon" API allows you to permanently remove a coupon from your syst
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/payments/delete-coupon/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -62,7 +62,7 @@ Coupon Id
 
 Example:`6241712be68f7a98102ba272`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/payments/delete-coupon/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 422

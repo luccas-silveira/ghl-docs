@@ -9,7 +9,7 @@ Version: 1.0
 
 Documentation for Documents and Contracts API
 
-## Authentication [​](https://marketplace.gohighlevel.com/docs/ghl/proposals/documents-and-contracts-api/\#authentication "Direct link to Authentication")
+## Authentication
 
 - HTTP: Bearer Auth
 - HTTP: Bearer Auth

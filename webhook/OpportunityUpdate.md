@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever an opportunity is updated
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/OpportunityUpdate/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -54,7 +54,7 @@ Called whenever an opportunity is updated
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/OpportunityUpdate/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

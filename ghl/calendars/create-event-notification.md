@@ -28,7 +28,7 @@ Create Calendar notifications, either one or multiple. All notification settings
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/create-event-notification/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -140,7 +140,7 @@ from number for sms notification\
 \
 \]
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/create-event-notification/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

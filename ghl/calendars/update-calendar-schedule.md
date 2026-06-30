@@ -28,7 +28,7 @@ Update the availability schedule for a specific event calendar. Only provided fi
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/update-calendar-schedule/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -114,7 +114,7 @@ Updated timezone for the schedule (IANA timezone identifier)
 
 Example:`America/Los_Angeles`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/update-calendar-schedule/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -28,7 +28,7 @@ Creates a new agent with staging version. The agent will be created with an init
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/agent-studio/create-agent/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -116,7 +116,7 @@ Edges array (deprecated, prefer using version.edges)
 
 Example:`[]`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/agent-studio/create-agent/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

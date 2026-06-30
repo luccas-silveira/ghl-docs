@@ -28,7 +28,7 @@ Returns a list of all conversations matching the search criteria along with the 
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/search-conversation/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -166,7 +166,7 @@ Maximum value for score
 
 Example: ABCHkzuJQ8ZMd4Te84GK
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/search-conversation/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

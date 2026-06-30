@@ -5,7 +5,7 @@ version: v3
 ---
 This section explains how to generate a **Test Link** for a specific app version in the **Developer Marketplace** and use it to **install the app into a specific location/agency account** for testing.
 
-## Prerequisites [​](https://marketplace.gohighlevel.com/docs/oauth/TestingApp/\#prerequisites "Direct link to Prerequisites")
+## Prerequisites
 
 Before you start, make sure you have:
 
@@ -14,7 +14,7 @@ Before you start, make sure you have:
 
 * * *
 
-## Steps [​](https://marketplace.gohighlevel.com/docs/oauth/TestingApp/\#steps "Direct link to Steps")
+## Steps
 
 01. **Log in** to the **Sandbox account** and the **Developer Marketplace Account**.
 02. Go to **My Apps** and click the **app** you want to test.
@@ -29,7 +29,7 @@ Before you start, make sure you have:
 
 * * *
 
-## Output / Expected Result [​](https://marketplace.gohighlevel.com/docs/oauth/TestingApp/\#output--expected-result "Direct link to Output / Expected Result")
+## Output / Expected Result
 
 - The app version is installed into the **Location ID** you provided.
 - You can now proceed with functional testing (OAuth, API calls, webhooks, custom workflow actions & triggers, custom page, etc.).

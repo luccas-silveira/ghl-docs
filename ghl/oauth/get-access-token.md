@@ -14,7 +14,7 @@ POST https://services.leadconnectorhq.com/oauth/token
 
 Use Access Tokens to access CRM resources on behalf of an authenticated location/company.
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/oauth/get-access-token/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -125,7 +125,7 @@ The redirect URI for your application
 
 Example:`https://myapp.com/oauth/callback/crm`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/oauth/get-access-token/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

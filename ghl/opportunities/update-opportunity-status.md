@@ -28,7 +28,7 @@ Update Opportunity Status
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/opportunities/update-opportunity-status/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -66,7 +66,7 @@ lost reason Id
 
 Example:`CLu7BaljjqrEjBGKTNNe`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/opportunities/update-opportunity-status/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -14,7 +14,7 @@ POST https://services.leadconnectorhq.com/contacts/bulk/business
 
 Add/Remove Contacts From Business . Passing a `null` businessId will remove the businessId from the contacts
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/add-remove-contact-from-business/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -50,7 +50,7 @@ Business Id to assign to contacts. Pass null to remove business association.
 
 Example:`63b7ec34ea409a9a8bd2a4ff`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/add-remove-contact-from-business/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 422

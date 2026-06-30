@@ -28,7 +28,7 @@ Validate if group slug is available or not.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/validate-groups-slug/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -54,7 +54,7 @@ Slug
 
 Example:`calendar-1`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/validate-groups-slug/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

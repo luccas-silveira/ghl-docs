@@ -28,7 +28,7 @@ Allow you to create contact - contact , contact - custom objects associations, w
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/associations/create-association/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -76,7 +76,7 @@ Second Objects Key
 
 Example:`contact`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/associations/create-association/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

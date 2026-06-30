@@ -28,7 +28,7 @@ Get free slots for a calendar between a date range. Optionally a consumer can al
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-slots/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -76,7 +76,7 @@ Example: 082goXVW3lIExEQPOnd3
 
 The users for whom the free slots are returned
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-slots/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -13,38 +13,38 @@ As an app developer in the HighLevel ecosystem, it’s crucial to understand thi
 
 * * *
 
-## 1\. Agencies as HighLevel’s Primary Customers [​](https://marketplace.gohighlevel.com/docs/oauth/AgencyVsSubAccount/\#1-agencies-as-highlevels-primary-customers "Direct link to 1. Agencies as HighLevel’s Primary Customers")
+## 1\. Agencies as HighLevel’s Primary Customers
 
-### License Holders [​](https://marketplace.gohighlevel.com/docs/oauth/AgencyVsSubAccount/\#license-holders "Direct link to License Holders")
+### License Holders
 
 Agencies subscribe to HighLevel’s platform at the agency level. Each agency account can host multiple “sub-accounts” (often one per SMB client).
 
-### Revenue Streams [​](https://marketplace.gohighlevel.com/docs/oauth/AgencyVsSubAccount/\#revenue-streams "Direct link to Revenue Streams")
+### Revenue Streams
 
 - **Platform Subscription:** Agencies pay a monthly fee for HighLevel itself, often tiered by the number of sub-accounts or feature set.
 - **App Marketplace Purchases:** Agencies can purchase third-party apps (built by you) on a per-sub-account or usage-based pricing model.
 - **Add-On Services:** Some agencies offer managed services—campaign setup, consulting, or custom development—for additional fees.
 
-### Scale Through Reselling [​](https://marketplace.gohighlevel.com/docs/oauth/AgencyVsSubAccount/\#scale-through-reselling "Direct link to Scale Through Reselling")
+### Scale Through Reselling
 
 Agencies bundle your app’s functionality into their own service packages.
 
 * * *
 
-## 2\. White-Labeling: Agencies as the Face of the Platform [​](https://marketplace.gohighlevel.com/docs/oauth/AgencyVsSubAccount/\#2-white-labeling-agencies-as-the-face-of-the-platform "Direct link to 2. White-Labeling: Agencies as the Face of the Platform")
+## 2\. White-Labeling: Agencies as the Face of the Platform
 
 HighLevel empowers agencies to present the platform—and any integrated apps—as their own proprietary software:
 
-### Custom Branding [​](https://marketplace.gohighlevel.com/docs/oauth/AgencyVsSubAccount/\#custom-branding "Direct link to Custom Branding")
+### Custom Branding
 
 - **Logo & Color Scheme:** Agencies replace HighLevel’s default logo and colors with their own.
 - **Email & SMS Sender IDs:** Messages are sent from the agency’s branded domains rather than HighLevel’s.
 
-### Custom Domains [​](https://marketplace.gohighlevel.com/docs/oauth/AgencyVsSubAccount/\#custom-domains "Direct link to Custom Domains")
+### Custom Domains
 
 Every agency can map a domain or sub-domain (e.g., `crm.agencyname.com`) so that their clients never see HighLevel’s domain.
 
-### UI Obfuscation [​](https://marketplace.gohighlevel.com/docs/oauth/AgencyVsSubAccount/\#ui-obfuscation "Direct link to UI Obfuscation")
+### UI Obfuscation
 
 Core HighLevel footers, help links, and login screens can be rebranded or removed, further hiding HighLevel from the end client.
 
@@ -52,21 +52,21 @@ Core HighLevel footers, help links, and login screens can be rebranded or remove
 
 * * *
 
-## 3\. What This Means for App Developers [​](https://marketplace.gohighlevel.com/docs/oauth/AgencyVsSubAccount/\#3-what-this-means-for-app-developers "Direct link to 3. What This Means for App Developers")
+## 3\. What This Means for App Developers
 
-### Your Buyer Is the Agency [​](https://marketplace.gohighlevel.com/docs/oauth/AgencyVsSubAccount/\#your-buyer-is-the-agency "Direct link to Your Buyer Is the Agency")
+### Your Buyer Is the Agency
 
 - All communication, billing discussions, and support happen through the agency.
 - Feature requests often come from agencies who want to bundle your app into their own service offerings.
 
-### Revenue Share & Billing [​](https://marketplace.gohighlevel.com/docs/oauth/AgencyVsSubAccount/\#revenue-share--billing "Direct link to Revenue Share & Billing")
+### Revenue Share & Billing
 
 - HighLevel handles billing directly with agencies, collects payment, then remits to you per agreed revenue-share terms.
 - You’ll see payouts based on installations or usage by sub-accounts, but your contract is with HighLevel (the agency’s vendor).
 
 * * *
 
-## 4\. Tips for Thriving in the HighLevel Ecosystem [​](https://marketplace.gohighlevel.com/docs/oauth/AgencyVsSubAccount/\#4-tips-for-thriving-in-the-highlevel-ecosystem "Direct link to 4. Tips for Thriving in the HighLevel Ecosystem")
+## 4\. Tips for Thriving in the HighLevel Ecosystem
 
 - **Pricing Flexibility:** Support usage-based or per-sub-account plans so agencies can profitably resell to businesses of all sizes.
 - **Agency-Centric Documentation:** Write your docs and tutorials with white-label protection in mind—show them how to train their clients quickly.

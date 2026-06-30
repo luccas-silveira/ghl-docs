@@ -23,7 +23,7 @@ Get Custom Field
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/locations/get-custom-field/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -58,7 +58,7 @@ Custom Field Key
 
 Example:`contact.first_name`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/locations/get-custom-field/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

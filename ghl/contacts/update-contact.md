@@ -28,7 +28,7 @@ Update a contact using contactId
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/update-contact/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -560,7 +560,7 @@ DND code or reason
 
 Example:`OPTED_OUT`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/update-contact/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

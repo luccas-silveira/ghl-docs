@@ -24,7 +24,7 @@ Retrieve a specific category by its ID
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-categories-id/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -56,7 +56,7 @@ Location Id
 
 Example: 6284c43d519161e96cc09c13
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-categories-id/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

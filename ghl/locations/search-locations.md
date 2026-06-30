@@ -28,7 +28,7 @@ Search Sub-Account (Formerly Location)
 
 `Agency Token``Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/locations/search-locations/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -74,7 +74,7 @@ Example: asc
 
 Example: johndoe@mail.com
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/locations/search-locations/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

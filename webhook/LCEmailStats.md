@@ -7,7 +7,7 @@ Called whenever an email is sent, gives the statistics of the said email.
 
 > Available only to Location Level Apps.
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/LCEmailStats/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -160,7 +160,7 @@ Called whenever an email is sent, gives the statistics of the said email.
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/LCEmailStats/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

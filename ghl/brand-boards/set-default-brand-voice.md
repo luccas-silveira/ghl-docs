@@ -24,7 +24,7 @@ Set a brand voice as the default for a location. The previous default will be un
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/brand-boards/set-default-brand-voice/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -50,7 +50,7 @@ Brand voice ID
 
 Example: 507f1f77bcf86cd799439011
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/brand-boards/set-default-brand-voice/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

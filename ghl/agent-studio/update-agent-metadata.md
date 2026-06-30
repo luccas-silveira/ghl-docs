@@ -28,7 +28,7 @@ Updates agent metadata such as name, description, and status.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/agent-studio/update-agent-metadata/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -80,7 +80,7 @@ Status of the agent
 
 Example:`active`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/agent-studio/update-agent-metadata/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

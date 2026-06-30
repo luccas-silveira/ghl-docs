@@ -28,7 +28,7 @@ Update the followup settings for an action
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/update-followup-settings/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -118,7 +118,7 @@ Timezone to use for followups, contact or location
 
 **Possible values:** \[`contact`, `business`\]
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/update-followup-settings/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

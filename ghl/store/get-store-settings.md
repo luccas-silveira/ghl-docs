@@ -24,7 +24,7 @@ Get store settings by altId and altType.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/store/get-store-settings/\#request "Direct link to Request")
+## Request
 
 ### Query Parameters
 
@@ -38,7 +38,7 @@ Example: 6578278e879ad2646715ba9c
 
 **Possible values:** \[`location`\]
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/store/get-store-settings/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -5,9 +5,9 @@ version: v3
 ---
 HighLevel provides a secure mechanism for accessing authenticated user information through signed tokens. This guide explains how you can generate and use `Shared Secret` key to access user context in secured manner.
 
-## Setting Up Shared Secret [​](https://marketplace.gohighlevel.com/docs/other/user-context-marketplace-apps/\#setting-up-shared-secret "Direct link to Setting Up Shared Secret")
+## Setting Up Shared Secret
 
-### Generating a Shared Secret Key [​](https://marketplace.gohighlevel.com/docs/other/user-context-marketplace-apps/\#generating-a-shared-secret-key "Direct link to Generating a Shared Secret Key")
+### Generating a Shared Secret Key
 
 First you'll need to generate a Shared Secret key for your application:
 
@@ -17,11 +17,11 @@ First you'll need to generate a Shared Secret key for your application:
 
 ![Shared Secret Key Generation](https://i.imgur.com/Xw3LGpo.png)
 
-## Frontend Implementation Methods [​](https://marketplace.gohighlevel.com/docs/other/user-context-marketplace-apps/\#frontend-implementation-methods "Direct link to Frontend Implementation Methods")
+## Frontend Implementation Methods
 
 There are two ways in which you can access this data in your frontend, depending on where your code runs:
 
-### 1\. Custom JavaScript Implementation [​](https://marketplace.gohighlevel.com/docs/other/user-context-marketplace-apps/\#1-custom-javascript-implementation "Direct link to 1. Custom JavaScript Implementation")
+### 1\. Custom JavaScript Implementation
 
 If you're using custom JavaScript injected into HighLevel pages, use the `exposeSessionDetails` method:
 
@@ -49,7 +49,7 @@ async function getUserData() {
 }
 ```
 
-### 2\. Custom Pages Implementation [​](https://marketplace.gohighlevel.com/docs/other/user-context-marketplace-apps/\#2-custom-pages-implementation "Direct link to 2. Custom Pages Implementation")
+### 2\. Custom Pages Implementation
 
 If you're trying to get user context in custom page, use the `postMessage` method to communicate with the parent window:
 
@@ -89,7 +89,7 @@ async function getUserData() {
 }
 ```
 
-## Backend Implementation [​](https://marketplace.gohighlevel.com/docs/other/user-context-marketplace-apps/\#backend-implementation "Direct link to Backend Implementation")
+## Backend Implementation
 
 Regardless of which frontend method you use, the backend decryption process remains the same:
 
@@ -123,11 +123,11 @@ app.post("/decrypt-user-data", (req, res) => {
 });
 ```
 
-## Decrypted Data Structure [​](https://marketplace.gohighlevel.com/docs/other/user-context-marketplace-apps/\#decrypted-data-structure "Direct link to Decrypted Data Structure")
+## Decrypted Data Structure
 
 After decryption, the data will be returned as a JSON object containing user information. The structure varies based on whether the user is accessing from an Agency or Location context.
 
-### Agency Context [​](https://marketplace.gohighlevel.com/docs/other/user-context-marketplace-apps/\#agency-context "Direct link to Agency Context")
+### Agency Context
 
 When accessing from an Agency context, the decrypted data will have the following structure:
 
@@ -149,7 +149,7 @@ When accessing from an Agency context, the decrypted data will have the followin
 }
 ```
 
-### Location Context [​](https://marketplace.gohighlevel.com/docs/other/user-context-marketplace-apps/\#location-context "Direct link to Location Context")
+### Location Context
 
 When accessing from a Location context, the decrypted data will include an additional `activeLocation` field:
 
@@ -172,7 +172,7 @@ When accessing from a Location context, the decrypted data will include an addit
 }
 ```
 
-### Field Descriptions [​](https://marketplace.gohighlevel.com/docs/other/user-context-marketplace-apps/\#field-descriptions "Direct link to Field Descriptions")
+### Field Descriptions
 
 | Field | Type | Description |
 | --- | --- | --- |
@@ -185,7 +185,7 @@ When accessing from a Location context, the decrypted data will include an addit
 | email | string | User's email address |
 | isAgencyOwner | boolean | If the loggedIn user is agency owner |
 
-### Reference Implementation [​](https://marketplace.gohighlevel.com/docs/other/user-context-marketplace-apps/\#reference-implementation "Direct link to Reference Implementation")
+### Reference Implementation
 
 For a complete example implementation, you can refer to our marketplace app template repository:
 
@@ -193,7 +193,7 @@ For a complete example implementation, you can refer to our marketplace app temp
 
 The relevant implementation can be found in the `/decrypt-sso` endpoint of the template.
 
-### Security Considerations [​](https://marketplace.gohighlevel.com/docs/other/user-context-marketplace-apps/\#security-considerations "Direct link to Security Considerations")
+### Security Considerations
 
 - Never expose your Shared Secret key in client-side code
 - Always perform decryption on your backend

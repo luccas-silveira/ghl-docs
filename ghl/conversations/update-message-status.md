@@ -28,7 +28,7 @@ Post the necessary fields for the API to update message status.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/update-message-status/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -90,7 +90,7 @@ Example:`ve9EPM428h8vShlRW1KT`
 
 Email delivery status for additional email recipients.
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/update-message-status/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

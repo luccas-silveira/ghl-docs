@@ -7,7 +7,7 @@ Called whenever a location is updated.
 
 > Available to Agency Level Apps for all sub-accounts or to specific sub-accounts.
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/LocationUpdate/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -35,7 +35,7 @@ Called whenever a location is updated.
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/LocationUpdate/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

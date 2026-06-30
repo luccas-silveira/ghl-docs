@@ -28,7 +28,7 @@ Fetch the available timezones
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/locations/get-timezones/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -38,7 +38,7 @@ Fetch the available timezones
 
 API Version
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/locations/get-timezones/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

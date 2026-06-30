@@ -5,13 +5,13 @@ version: v3
 ---
 This guide explains how the installation flow works for the Agency targeted APPs , how to obtain the access token.
 
-## Overview [​](https://marketplace.gohighlevel.com/docs/Authorization/TargetUserAgency/\#overview "Direct link to Overview")
+## Overview
 
 For apps whose Target User is set as Agency, the app will only be visible to the Agency Admin/Owner, and only they can install it.
 
 * * *
 
-## Installation Flow [​](https://marketplace.gohighlevel.com/docs/Authorization/TargetUserAgency/\#installation-flow "Direct link to Installation Flow")
+## Installation Flow
 
 1. Install the app on your Agency account.
 2. After installation, the redirect URL will be triggered from our end, and the authorization code will be shared.
@@ -19,7 +19,7 @@ For apps whose Target User is set as Agency, the app will only be visible to the
 
 - **Note:** The Access Token generated will be of user type company(Agency Level Token).
 
-#### Sample Request [​](https://marketplace.gohighlevel.com/docs/Authorization/TargetUserAgency/\#sample-request "Direct link to Sample Request")
+#### Sample Request
 
 ```bash
 curl -X POST   https://services.leadconnectorhq.com/oauth/token
@@ -32,7 +32,7 @@ curl -X POST   https://services.leadconnectorhq.com/oauth/token
 -d 'user_type=Company'
 ```
 
-#### Sample Response [​](https://marketplace.gohighlevel.com/docs/Authorization/TargetUserAgency/\#sample-response "Direct link to Sample Response")
+#### Sample Response
 
 ```json
 {

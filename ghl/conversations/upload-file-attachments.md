@@ -51,7 +51,7 @@ The API will return an object with the URLs
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/upload-file-attachments/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -93,7 +93,7 @@ Example:`ve9EPM428h8vShlRW1KT`
 
 **attachmentUrls** string\[\]required
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/upload-file-attachments/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

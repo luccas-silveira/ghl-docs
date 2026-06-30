@@ -28,7 +28,7 @@ The "List Subscriptions" API allows to retrieve a paginated list of subscription
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/payments/list-subscriptions/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -124,7 +124,7 @@ Get the total payments collected for the subscription.
 
 Example: true
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/payments/list-subscriptions/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

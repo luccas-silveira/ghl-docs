@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever an app is uninstalled
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/AppUninstall/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -27,7 +27,7 @@ Called whenever an app is uninstalled
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/AppUninstall/\#example "Direct link to Example")
+#### Example
 
 - For Location Level App Uninstall
 

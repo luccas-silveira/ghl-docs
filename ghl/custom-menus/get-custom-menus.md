@@ -28,7 +28,7 @@ Fetches a collection of custom menus based on specified criteria. This endpoint 
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/custom-menus/get-custom-menus/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -76,7 +76,7 @@ Filter to show only agency-level menu links. When omitted, fetches both agency a
 
 Example:
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/custom-menus/get-custom-menus/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

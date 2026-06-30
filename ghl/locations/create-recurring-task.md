@@ -24,7 +24,7 @@ Create Recurring Task
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/locations/create-recurring-task/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -134,7 +134,7 @@ Create initial task or not
 
 Example:`true`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/locations/create-recurring-task/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

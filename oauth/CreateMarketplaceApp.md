@@ -5,7 +5,7 @@ version: v3
 ---
 This section walks you through creating a Marketplace App in HighLevel—from creating the app record in the Developer Portal, to completing your listing, generating OAuth credentials, and installing the app for testing.
 
-## 1) Sign in to your Developer Account [​](https://marketplace.gohighlevel.com/docs/oauth/CreateMarketplaceApp/\#1-sign-in-to-your-developer-account "Direct link to 1) Sign in to your Developer Account")
+## 1) Sign in to your Developer Account
 
 1. Go to the [**HighLevel Marketplace**](https://marketplace.gohighlevel.com/) and sign in to your Developer Account.
 2. After logging in, go to My Apps.
@@ -15,24 +15,24 @@ That’s it — you’re now inside the app builder where you’ll configure eve
 
 * * *
 
-## 2) Configure basic app details [​](https://marketplace.gohighlevel.com/docs/oauth/CreateMarketplaceApp/\#2-configure-basic-app-details "Direct link to 2) Configure basic app details")
+## 2) Configure basic app details
 
 When you create your app, HighLevel will ask for core setup details. These choices affect who can install the app and how it appears.
 
-### App Name [​](https://marketplace.gohighlevel.com/docs/oauth/CreateMarketplaceApp/\#app-name "Direct link to App Name")
+### App Name
 
 - Choose a clear, descriptive name.
 - This name is visible to users in the Marketplace (for **Public** apps).
 
-### App Type: Private vs Public [​](https://marketplace.gohighlevel.com/docs/oauth/CreateMarketplaceApp/\#app-type-private-vs-public "Direct link to App Type: Private vs Public")
+### App Type: Private vs Public
 
-#### Private App [​](https://marketplace.gohighlevel.com/docs/oauth/CreateMarketplaceApp/\#private-app "Direct link to Private App")
+#### Private App
 
 - Intended for personal/internal use
 - Not listed in the Marketplace
 - Best for development/testing
 
-#### Public App [​](https://marketplace.gohighlevel.com/docs/oauth/CreateMarketplaceApp/\#public-app "Direct link to Public App")
+#### Public App
 
 - Listed in the Marketplace
 - Installable by all users (once approved)
@@ -41,14 +41,14 @@ When you create your app, HighLevel will ask for core setup details. These choic
 
 Start with **Private** while you build and test. Switch to **Public** only when your app is stable, secure, and ready for wider distribution.
 
-### Target User [​](https://marketplace.gohighlevel.com/docs/oauth/CreateMarketplaceApp/\#target-user "Direct link to Target User")
+### Target User
 
 This defines who the app is built for (who will use it).
 
 - **Recommended for most apps:** **Sub-account**
   - Works well for apps that operate at the individual location level.
 
-### Who Can Install [​](https://marketplace.gohighlevel.com/docs/oauth/CreateMarketplaceApp/\#who-can-install "Direct link to Who Can Install")
+### Who Can Install
 
 Controls who can see/install your app in the Marketplace UI.
 
@@ -57,14 +57,14 @@ Controls who can see/install your app in the Marketplace UI.
 - **Agencies Only**
   - Useful if you’re building a fully white-labeled SaaS feature that agencies manage for their sub-accounts.
 
-### Listing Type [​](https://marketplace.gohighlevel.com/docs/oauth/CreateMarketplaceApp/\#listing-type "Direct link to Listing Type")
+### Listing Type
 
 - **White-label** is commonly recommended (especially for marketing agencies).
 - This helps the app fit naturally into an agency’s branded experience.
 
 * * *
 
-## 3) Understand the app workspace [​](https://marketplace.gohighlevel.com/docs/oauth/CreateMarketplaceApp/\#3-understand-the-app-workspace "Direct link to 3) Understand the app workspace")
+## 3) Understand the app workspace
 
 After you click **Create App**, you’ll land inside your app configuration area.
 
@@ -82,9 +82,9 @@ Think of them like this:
 
 * * *
 
-## 4) Build section [​](https://marketplace.gohighlevel.com/docs/oauth/CreateMarketplaceApp/\#4-build-section "Direct link to 4) Build section")
+## 4) Build section
 
-### 4.1 Profile [​](https://marketplace.gohighlevel.com/docs/oauth/CreateMarketplaceApp/\#41-profile "Direct link to 4.1 Profile")
+### 4.1 Profile
 
 The **Profile** is your Marketplace listing content — what users see before installing.
 
@@ -98,15 +98,15 @@ Typical profile fields include:
 
 **Tip:** Don’t rush this section. Clear text + good visuals reduce confusion and increase installs.
 
-### 4.2 Pricing [​](https://marketplace.gohighlevel.com/docs/oauth/CreateMarketplaceApp/\#42-pricing "Direct link to 4.2 Pricing")
+### 4.2 Pricing
 
 This is where you configure pricing for your app.
 
-### 4.3 Modules [​](https://marketplace.gohighlevel.com/docs/oauth/CreateMarketplaceApp/\#43-modules "Direct link to 4.3 Modules")
+### 4.3 Modules
 
 Marketplace Modules are feature “building blocks” you can enable inside a HighLevel Marketplace App to integrate with specific parts of HighLevel (UI + behavior), not just REST APIs.
 
-### 4.4 Advanced Settings [​](https://marketplace.gohighlevel.com/docs/oauth/CreateMarketplaceApp/\#44-advanced-settings "Direct link to 4.4 Advanced Settings")
+### 4.4 Advanced Settings
 
 This is where you configure the technical plumbing required for authentication and events, including:
 
@@ -117,7 +117,7 @@ This is where you configure the technical plumbing required for authentication a
 
 Advanced Settings includes three key sub-sections:
 
-#### A) Auth (Scopes + Redirect URLs) [​](https://marketplace.gohighlevel.com/docs/oauth/CreateMarketplaceApp/\#a-auth-scopes--redirect-urls "Direct link to A) Auth (Scopes + Redirect URLs)")
+#### A) Auth (Scopes + Redirect URLs)
 
 **What are scopes?**
 
@@ -148,7 +148,7 @@ Your redirect URL should:
 - Be controlled by your backend (not a front-end-only page)
 - Match exactly what your OAuth flow expects (even small differences can break installs)
 
-#### B) Webhooks [​](https://marketplace.gohighlevel.com/docs/oauth/CreateMarketplaceApp/\#b-webhooks "Direct link to B) Webhooks")
+#### B) Webhooks
 
 HighLevel Marketplace allows you to subscribe to multiple webhook events.
 
@@ -157,15 +157,15 @@ In the **Webhooks** section:
 - Add your **Webhook URL**
 - HighLevel will send event notifications in real time to that endpoint
 
-#### C) External Authentication [​](https://marketplace.gohighlevel.com/docs/oauth/CreateMarketplaceApp/\#c-external-authentication "Direct link to C) External Authentication")
+#### C) External Authentication
 
 External Authentication allows developers to authenticate HighLevel users using the developer’s system before they install the application in HighLevel.
 
 * * *
 
-## 5) Manage section [​](https://marketplace.gohighlevel.com/docs/oauth/CreateMarketplaceApp/\#5-manage-section "Direct link to 5) Manage section")
+## 5) Manage section
 
-### 5.1 Versions [​](https://marketplace.gohighlevel.com/docs/oauth/CreateMarketplaceApp/\#51-versions "Direct link to 5.1 Versions")
+### 5.1 Versions
 
 Marketplace supports app versioning so you can create and manage new versions.
 
@@ -179,14 +179,14 @@ You’ll use this for:
 
 Treat versions like real software releases. Track changes, test upgrades, and avoid breaking behavior without a migration plan.
 
-### 5.2 Secrets (Client Keys + Shared Secret Key) [​](https://marketplace.gohighlevel.com/docs/oauth/CreateMarketplaceApp/\#52-secrets-client-keys--shared-secret-key "Direct link to 5.2 Secrets (Client Keys + Shared Secret Key)")
+### 5.2 Secrets (Client Keys + Shared Secret Key)
 
 This section is where you generate and manage:
 
 - **Client Keys** (Client ID + Client Secret)
 - **Shared Secret Key** (used for secure user context access via signed tokens)
 
-#### Client Keys: Generate Client ID & Client Secret [​](https://marketplace.gohighlevel.com/docs/oauth/CreateMarketplaceApp/\#client-keys-generate-client-id--client-secret "Direct link to Client Keys: Generate Client ID & Client Secret")
+#### Client Keys: Generate Client ID & Client Secret
 
 Client credentials identify and authenticate your app during the OAuth token exchange.
 
@@ -205,13 +205,13 @@ HighLevel will generate:
 >
 > Copy and store your **Client Secret** immediately. Once you click **OK**, it will not be shown again. Treat it like a password.
 
-#### Shared Secret Key (Signed token user context) [​](https://marketplace.gohighlevel.com/docs/oauth/CreateMarketplaceApp/\#shared-secret-key-signed-token-user-context "Direct link to Shared Secret Key (Signed token user context)")
+#### Shared Secret Key (Signed token user context)
 
 HighLevel provides a secure mechanism for accessing authenticated user information through signed tokens. The **Shared Secret Key** is used to verify/validate that secured context.
 
 * * *
 
-## 6) Insights section: adoption and usage visibility [​](https://marketplace.gohighlevel.com/docs/oauth/CreateMarketplaceApp/\#6-insights-section-adoption-and-usage-visibility "Direct link to 6) Insights section: adoption and usage visibility")
+## 6) Insights section: adoption and usage visibility
 
 Insights is used for visibility into:
 

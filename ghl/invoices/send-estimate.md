@@ -28,7 +28,7 @@ API to send estimate by estimate id
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/send-estimate/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -98,7 +98,7 @@ estimate name
 
 Example:`Estimate`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/send-estimate/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

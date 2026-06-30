@@ -28,7 +28,7 @@ The "Get Blog posts by Blog ID" API allows you get blog posts for any given blog
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/blogs/get-blog-post/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -68,7 +68,7 @@ Example: ai news
 
 Example: PUBLISHED
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/blogs/get-blog-post/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

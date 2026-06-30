@@ -24,7 +24,7 @@ The "Create Shipping Carrier" API allows adding a new shipping carrier.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/store/create-shipping-carrier/\#request "Direct link to Request")
+## Request
 
 - application/json
 
@@ -78,7 +78,7 @@ The seller can choose multiple services while creating shipping rates if this is
 
 Example:`true`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/store/create-shipping-carrier/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

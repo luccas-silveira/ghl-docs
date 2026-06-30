@@ -9,7 +9,7 @@ Version: 1.0
 
 Custom fields are data points that allow you to capture and store specific information tailored to your business requirements. You can create fields across field types like text, numeric, selection options and special fields like date/time or signature
 
-## Authentication [​](https://marketplace.gohighlevel.com/docs/ghl/custom-fields/custom-fields-v-2-api/\#authentication "Direct link to Authentication")
+## Authentication
 
 - HTTP: Bearer Auth
 - HTTP: Bearer Auth

@@ -30,7 +30,7 @@ If two separate contacts already exist—one with the same email and another wit
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/upsert-contact/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -580,7 +580,7 @@ DND code or reason
 
 Example:`OPTED_OUT`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/upsert-contact/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

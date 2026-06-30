@@ -28,7 +28,7 @@ Delete User
 
 `Agency Token``Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/users/delete-user/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -40,7 +40,7 @@ API Version
 
 Example: v3
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/users/delete-user/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

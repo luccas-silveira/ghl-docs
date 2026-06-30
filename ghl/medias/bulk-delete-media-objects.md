@@ -24,7 +24,7 @@ Soft-deletes or trashes multiple files and folders in a single request
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/medias/bulk-delete-media-objects/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -74,7 +74,7 @@ Status to set for the files (deleted or trashed)
 
 Example:`deleted`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/medias/bulk-delete-media-objects/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 

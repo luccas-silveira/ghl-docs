@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever an opportunity's monetary value field is updated
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/OpportunityMonetaryValueUpdate/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -51,7 +51,7 @@ Called whenever an opportunity's monetary value field is updated
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/OpportunityMonetaryValueUpdate/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

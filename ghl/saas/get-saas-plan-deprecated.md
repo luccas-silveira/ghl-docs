@@ -28,7 +28,7 @@ Fetch a specific SaaS plan by plan ID
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/saas/get-saas-plan-deprecated/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -54,7 +54,7 @@ Company ID to filter SaaS plan
 
 Example: 5DP4iH6HLkQsiKESj6rh
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/saas/get-saas-plan-deprecated/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

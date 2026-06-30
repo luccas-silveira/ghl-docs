@@ -28,7 +28,7 @@ Delete a template
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/emails/delete-email-template/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -54,7 +54,7 @@ Template ID
 
 Example: zYy3YOUuHxgomU1uYJty
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/emails/delete-email-template/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

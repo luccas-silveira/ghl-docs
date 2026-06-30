@@ -24,7 +24,7 @@ Import Courses through public channels
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/courses/import-courses/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -160,7 +160,7 @@ Array \[\
 \
 \]
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/courses/import-courses/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 

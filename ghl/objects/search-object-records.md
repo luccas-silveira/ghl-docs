@@ -28,7 +28,7 @@ Supported Objects are custom objects and standard objects like "business". Docum
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/objects/search-object-records/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -78,7 +78,7 @@ Example:`Buddy`
 
 Example:`["sx6wyHhbFdRXh302Lunr","sx6wyHhbFdRXh302Lunr"]`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/objects/search-object-records/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

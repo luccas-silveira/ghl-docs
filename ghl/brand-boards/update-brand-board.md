@@ -28,7 +28,7 @@ Updates an existing Brand Board
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/brand-boards/update-brand-board/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -184,7 +184,7 @@ Parent folder ID in media library (reserved for future use)
 
 Example:`507f1f77bcf86cd799439011`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/brand-boards/update-brand-board/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

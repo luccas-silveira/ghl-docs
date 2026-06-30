@@ -24,7 +24,7 @@ Get crawling status for the latest operation
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/get-crawling-status-for-latest-operation/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -60,7 +60,7 @@ knowledge base id
 
 Example: jjkkxftgvbhjmn,
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/get-crawling-status-for-latest-operation/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

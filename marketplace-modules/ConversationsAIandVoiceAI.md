@@ -9,7 +9,7 @@ In this help document we will help you with the steps that you need to take to g
 
 * * *
 
-## Watch Demo [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationsAIandVoiceAI/\#watch-demo "Direct link to Watch Demo")
+## Watch Demo
 
 Listing AI Agents on the Marketplace
 
@@ -193,7 +193,7 @@ Comment
 
 C
 
-## Prerequisites [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationsAIandVoiceAI/\#prerequisites "Direct link to Prerequisites")
+## Prerequisites
 
 - A **HighLevel Agency** account.
 If you do not have a HighLevel agency account, you can create one by signing up on [Marketplace Portal](https://marketplace.gohighlevel.com/). Once logged in, head to the **Testing** tab to create a sandbox account.
@@ -207,7 +207,7 @@ If you do not have a HighLevel agency account, you can create one by signing up 
 
 * * *
 
-## Step 1 — Design your agent [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationsAIandVoiceAI/\#step-1--design-your-agent "Direct link to Step 1 — Design your agent")
+## Step 1 — Design your agent
 
 - **Define the job-to-be-done.** “Who does this agent help, and how do we measure success?”
 - **Map the interaction.** Draft happy path + recovery paths (fallback, transfer to human, re-ask, escalate).
@@ -218,13 +218,13 @@ If you do not have a HighLevel agency account, you can create one by signing up 
 
 * * *
 
-## Step 2 — Build in HighLevel [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationsAIandVoiceAI/\#step-2--build-in-highlevel "Direct link to Step 2 — Build in HighLevel")
+## Step 2 — Build in HighLevel
 
 Choose your channel and configure essentials:
 
-### [Creating Conversation AI Agents (chat & messaging)](https://help.gohighlevel.com/support/solutions/articles/155000001335-conversation-ai-bot-explained) [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationsAIandVoiceAI/\#creating-conversation-ai-agents-chat--messaging "Direct link to creating-conversation-ai-agents-chat--messaging")
+### [Creating Conversation AI Agents (chat & messaging)](https://help.gohighlevel.com/support/solutions/articles/155000001335-conversation-ai-bot-explained)
 
-### [Creating Voice AI Agents (phone)](https://help.gohighlevel.com/support/solutions/articles/155000004107-creating-voice-ai-agents) [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationsAIandVoiceAI/\#creating-voice-ai-agents-phone "Direct link to creating-voice-ai-agents-phone")
+### [Creating Voice AI Agents (phone)](https://help.gohighlevel.com/support/solutions/articles/155000004107-creating-voice-ai-agents)
 
 * * *
 
@@ -232,7 +232,7 @@ Choose your channel and configure essentials:
 
 * * *
 
-## Step 3 — Test like a buyer [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationsAIandVoiceAI/\#step-3--test-like-a-buyer "Direct link to Step 3 — Test like a buyer")
+## Step 3 — Test like a buyer
 
 - **Conversation AI:** Run end‑to‑end chats with your suggested questions. Verify outputs, field mapping, workflow triggers, and error messages.
 - **Voice AI:** Place **test calls** from multiple devices; review call history (transcript, audio, summary), tune prompts, and confirm transfers/appointments.
@@ -247,7 +247,7 @@ Choose your channel and configure essentials:
 
 * * *
 
-## Step 4 — Package as a Template and Sell on Marketplace [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationsAIandVoiceAI/\#step-4--package-as-a-template-and-sell-on-marketplace "Direct link to Step 4 — Package as a Template and Sell on Marketplace")
+## Step 4 — Package as a Template and Sell on Marketplace
 
 - Convert your single agent **or** multi‑agent team into a reusable template.
 - In **Conversation AI** or **Voice AI**, choose your agent/template and select **Sell this Template/Agent on Marketplace**.
@@ -263,7 +263,7 @@ Choose your channel and configure essentials:
 - Add **Suggested questions** buyers can try in the Marketplace preview (for chat agents).
 - Review non‑editable **channels** (SMS, email, Instagram, calls) and confirm accuracy.
 
-## Step 5 — Complete **App Details** in the Developer Portal [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationsAIandVoiceAI/\#step-5--complete-app-details-in-the-developer-portal "Direct link to step-5--complete-app-details-in-the-developer-portal")
+## Step 5 — Complete **App Details** in the Developer Portal
 
 **Listing polish tips**
 
@@ -273,7 +273,7 @@ Choose your channel and configure essentials:
 
 * * *
 
-## Step 6 — Finalize & Submit for review [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationsAIandVoiceAI/\#step-6--finalize--submit-for-review "Direct link to Step 6 — Finalize & Submit for review")
+## Step 6 — Finalize & Submit for review
 
 - Complete **Basic Info**, **App Profile**, **Pricing**, and **Support** sections.
 - Submit for **Marketplace review**. Once approved, your listing goes live.

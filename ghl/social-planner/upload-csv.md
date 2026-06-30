@@ -28,7 +28,7 @@ Upload a CSV file containing social media posts for bulk scheduling
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/upload-csv/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -58,7 +58,7 @@ CSV file to upload containing social media posts
 
 Example:`sample.csv`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/upload-csv/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

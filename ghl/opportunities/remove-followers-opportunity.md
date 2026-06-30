@@ -28,7 +28,7 @@ Allows removal of one or all followers from an opportunity.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/opportunities/remove-followers-opportunity/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -64,7 +64,7 @@ Array of user IDs to add or remove as followers (max 10)
 
 Example:`["sx6wyHhbFdRXh302Lunr","sx6wyHhbFdRXh302Lunr"]`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/opportunities/remove-followers-opportunity/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -24,7 +24,7 @@ Update a brand voice by ID
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/brand-boards/update-brand-voice/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -166,7 +166,7 @@ Call to Action
 
 Example:`Schedule a demo today`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/brand-boards/update-brand-voice/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

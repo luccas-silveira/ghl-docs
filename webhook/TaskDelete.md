@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever a task is deleted
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/TaskDelete/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -42,7 +42,7 @@ Called whenever a task is deleted
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/TaskDelete/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

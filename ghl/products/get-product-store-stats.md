@@ -28,7 +28,7 @@ API to fetch the total number of products, included in the store, and excluded f
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/products/get-product-store-stats/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -70,7 +70,7 @@ Filter by product collection Ids. Supports comma separated values
 
 Example: 65c2789a812e52f9bd6ec577,65c2789a812e52de9a6ec576
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/products/get-product-store-stats/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

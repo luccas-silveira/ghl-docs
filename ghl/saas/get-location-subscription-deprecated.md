@@ -28,7 +28,7 @@ Fetch subscription details for a specific location from location metadata
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/saas/get-location-subscription-deprecated/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -54,7 +54,7 @@ Company ID to filter subscription details
 
 Example: 5DP4iH6HLkQsiKESj6rh
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/saas/get-location-subscription-deprecated/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

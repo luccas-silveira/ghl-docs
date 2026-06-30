@@ -20,7 +20,7 @@ Create a top-level comment on a post (`isParentThread: true`, `parentId` = postI
 - `mentions` — supported on **Facebook**, **LinkedIn**, and **Community** only. Ignored on Instagram, TikTok, Bluesky.
 - `notifyAllGroupMembers` — supported on **Community** only. When `true`, all group members get a push/in-app notification (equivalent to an `@everyone` broadcast). Independent of the `mentions` array and of `@everyone` text in `content`. Default `false`.
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/create-comment/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -144,7 +144,7 @@ Defaults to `false` (no broadcast notification). Use `true` only when the commen
 
 Example:`false`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/create-comment/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

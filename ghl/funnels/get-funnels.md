@@ -24,7 +24,7 @@ Retrieves a list of all funnels based on the given query parameters.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/funnels/get-funnels/\#request "Direct link to Request")
+## Request
 
 ### Query Parameters
 
@@ -42,7 +42,7 @@ Retrieves a list of all funnels based on the given query parameters.
 
 **name** string
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/funnels/get-funnels/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 

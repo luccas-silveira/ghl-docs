@@ -28,7 +28,7 @@ API to update scheduled recurring invoice
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/update-and-schedule-invoice-schedule/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -46,7 +46,7 @@ Schedule Id
 
 Example: 6578278e879ad2646715ba9c
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/update-and-schedule-invoice-schedule/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

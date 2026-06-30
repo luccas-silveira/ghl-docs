@@ -13,9 +13,9 @@ POST https://services.leadconnectorhq.com/social-media-posting/category/queues/:
 
 Retrieves a calendar preview of scheduled posts based on draft items within an edit session. This shows how posts would be scheduled if changes were saved.
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/fetch-edit-session-calendar/\#request "Direct link to Request")
+## Request
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/fetch-edit-session-calendar/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

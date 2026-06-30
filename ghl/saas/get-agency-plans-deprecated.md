@@ -28,7 +28,7 @@ Fetch all agency subscription plans for a given company ID
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/saas/get-agency-plans-deprecated/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -46,7 +46,7 @@ Company ID to get agency plans for
 
 Example: 5DP4iH6HLkQsiKESj6rh
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/saas/get-agency-plans-deprecated/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

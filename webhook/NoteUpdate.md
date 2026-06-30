@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever a note is updated
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/NoteUpdate/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -33,7 +33,7 @@ Called whenever a note is updated
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/NoteUpdate/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

@@ -5,15 +5,15 @@ version: v3
 ---
 The `gohighlevel/api-client` composer package is the officially supported SDK for PHP 7.4+ projects. It wraps the full HighLevel API with PSR-18 friendly services, automatic OAuth token rotation, webhook helpers, and pluggable session storage.
 
-## Installation [​](https://marketplace.gohighlevel.com/docs/sdk/php/\#installation "Direct link to Installation")
+## Installation
 
 ```bash
 composer require gohighlevel/api-client
 ```
 
-## Quick Start [​](https://marketplace.gohighlevel.com/docs/sdk/php/\#quick-start "Direct link to Quick Start")
+## Quick Start
 
-### Initialize with a Private Integration Token [​](https://marketplace.gohighlevel.com/docs/sdk/php/\#initialize-with-a-private-integration-token "Direct link to Initialize with a Private Integration Token")
+### Initialize with a Private Integration Token
 
 ```php
 <?php
@@ -30,7 +30,7 @@ $config = new HighLevelConfig([\
 $ghl = new HighLevel($config);
 ```
 
-### Initialize with OAuth credentials [​](https://marketplace.gohighlevel.com/docs/sdk/php/\#initialize-with-oauth-credentials "Direct link to Initialize with OAuth credentials")
+### Initialize with OAuth credentials
 
 ```php
 use HighLevel\HighLevel;
@@ -44,7 +44,7 @@ $config = new HighLevelConfig([\
 $ghl = new HighLevel($config);
 ```
 
-### Make your first API call [​](https://marketplace.gohighlevel.com/docs/sdk/php/\#make-your-first-api-call "Direct link to Make your first API call")
+### Make your first API call
 
 ```php
 use HighLevel\Services\Contacts\Models\SearchBodyV2DTO;
@@ -59,7 +59,7 @@ $contactsResponse = $ghl->contacts->searchContactsAdvanced($body);
 error_log(json_encode($contactsResponse, JSON_PRETTY_PRINT));
 ```
 
-## Session storage [​](https://marketplace.gohighlevel.com/docs/sdk/php/\#session-storage "Direct link to Session storage")
+## Session storage
 
 Use `HighLevel\Storage\MongoDBSessionStorage` provided by SDK to use mongo as storage or extend it to store tokens in MySQL, PostgreSQL, Redis, etc:
 
@@ -82,7 +82,7 @@ $ghl = new HighLevel([\
 ]);
 ```
 
-## Webhook support [​](https://marketplace.gohighlevel.com/docs/sdk/php/\#webhook-support "Direct link to Webhook support")
+## Webhook support
 
 SDK provides webhook support which can be used as shown below. It will handle INSTALL and UNINSTALL events sent by HighLevel. It will generate token and store it in the db.
 
@@ -108,7 +108,7 @@ $ghl->getWebhookManager()->verifySignature(
 );
 ```
 
-## Additional resources [​](https://marketplace.gohighlevel.com/docs/sdk/php/\#additional-resources "Direct link to Additional resources")
+## Additional resources
 
 You can find some SDK & additional examples here:
 

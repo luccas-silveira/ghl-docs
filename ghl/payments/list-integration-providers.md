@@ -28,7 +28,7 @@ The "List White-label Integration Providers" API allows to retrieve a paginated 
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/payments/list-integration-providers/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -70,7 +70,7 @@ Default value:`0`
 
 Example: 0
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/payments/list-integration-providers/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

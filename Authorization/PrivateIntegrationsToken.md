@@ -14,7 +14,7 @@ Private Integrations help you achieve #2 securely.
 
 [Video Walkthrough](https://youtu.be/ssDO6tz6b1w)
 
-## Key Advantages of Private Integrations [​](https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/\#key-advantages-of-private-integrations "Direct link to Key Advantages of Private Integrations")
+## Key Advantages of Private Integrations
 
 - **Simple:** Generate Private Integration tokens from your account settings and manage them with ease.
 - **Secure:** You get to restrict the scopes/permissions that a developer can access on your account.
@@ -23,7 +23,7 @@ Private Integrations are available for both Agencies and Sub-Accounts.
 
 * * *
 
-## What's the difference between Private Integrations and API Keys? [​](https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/\#whats-the-difference-between-private-integrations-and-api-keys "Direct link to What's the difference between Private Integrations and API Keys?")
+## What's the difference between Private Integrations and API Keys?
 
 | Private Integrations | API Keys |
 | --- | --- |
@@ -33,7 +33,7 @@ Private Integrations are available for both Agencies and Sub-Accounts.
 
 * * *
 
-## What's the difference between Private Integrations and OAuth2 Access Tokens? [​](https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/\#whats-the-difference-between-private-integrations-and-oauth2-access-tokens "Direct link to What's the difference between Private Integrations and OAuth2 Access Tokens?")
+## What's the difference between Private Integrations and OAuth2 Access Tokens?
 
 Private Integrations, to put it simply, are static/fixed OAuth2 Access Tokens.
 
@@ -44,7 +44,7 @@ Private Integrations, to put it simply, are static/fixed OAuth2 Access Tokens.
 
 * * *
 
-## How do I use Private Integrations? [​](https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/\#how-do-i-use-private-integrations "Direct link to How do I use Private Integrations?")
+## How do I use Private Integrations?
 
 Private Integration tokens are used in the Authorization header, just like other Access Tokens.
 
@@ -60,7 +60,7 @@ curl --request GET \
 
 * * *
 
-## Testing a Private Integration with API Calls [​](https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/\#testing-a-private-integration-with-api-calls "Direct link to Testing a Private Integration with API Calls")
+## Testing a Private Integration with API Calls
 
 Once your Private Integration is created, you may want to test it by pushing data to an API endpoint. Here’s an example of how to test the integration by adding a new contact:
 
@@ -82,9 +82,9 @@ For a full list of available endpoints and testing capabilities, visit [our offi
 
 * * *
 
-## How do I manage Private Integrations? [​](https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/\#how-do-i-manage-private-integrations "Direct link to How do I manage Private Integrations?")
+## How do I manage Private Integrations?
 
-### Who can create Private Integrations? [​](https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/\#who-can-create-private-integrations "Direct link to Who can create Private Integrations?")
+### Who can create Private Integrations?
 
 By default, all agency admins can create and manage Private Integrations. You can restrict this permission at a user level.
 
@@ -99,7 +99,7 @@ You may apply restrictions at two levels:
 
 * * *
 
-### Where can I find Private Integrations? [​](https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/\#where-can-i-find-private-integrations "Direct link to Where can I find Private Integrations?")
+### Where can I find Private Integrations?
 
 You can find Private Integrations under agency settings.
 
@@ -107,7 +107,7 @@ If you don't find it under settings, please make sure that you have enabled the 
 
 * * *
 
-## How do I create a new Private Integration? [​](https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/\#how-do-i-create-a-new-private-integration "Direct link to How do I create a new Private Integration?")
+## How do I create a new Private Integration?
 
 **Step 1:** Click on "Create new Integration"
 
@@ -123,11 +123,11 @@ If you don't find it under settings, please make sure that you have enabled the 
 
 * * *
 
-## Best Practices to Maintain Security of My Private Integration Token [​](https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/\#best-practices-to-maintain-security-of-my-private-integration-token "Direct link to Best Practices to Maintain Security of My Private Integration Token")
+## Best Practices to Maintain Security of My Private Integration Token
 
 We recommend that you rotate your Private Integration tokens every 90 days.
 
-### How to rotate your token: [​](https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/\#how-to-rotate-your-token "Direct link to How to rotate your token:")
+### How to rotate your token:
 
 **Step 1:** Navigate to Private Integrations under settings, and click on the Private Integration you have created.
 
@@ -146,7 +146,7 @@ During this window, you can:
 
 * * *
 
-## What if my token has been compromised? [​](https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/\#what-if-my-token-has-been-compromised "Direct link to What if my token has been compromised?")
+## What if my token has been compromised?
 
 **Step 1:** Navigate to Private Integrations under settings, and click on the Private Integration you have created.
 
@@ -160,7 +160,7 @@ During this window, you can:
 
 * * *
 
-## Can I edit the Private Integration permissions without updating the token? [​](https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/\#can-i-edit-the-private-integration-permissions-without-updating-the-token "Direct link to Can I edit the Private Integration permissions without updating the token?")
+## Can I edit the Private Integration permissions without updating the token?
 
 Yes, you can edit the Private Integration name, description and scopes/permissions any time after you've created it.
 
@@ -174,7 +174,7 @@ Yes, you can edit the Private Integration name, description and scopes/permissio
 
 * * *
 
-## How do I delete the Private Integration once I no longer need it? [​](https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/\#how-do-i-delete-the-private-integration-once-i-no-longer-need-it "Direct link to How do I delete the Private Integration once I no longer need it?")
+## How do I delete the Private Integration once I no longer need it?
 
 You can delete the Private Integration once you are no longer using the third-party app.
 

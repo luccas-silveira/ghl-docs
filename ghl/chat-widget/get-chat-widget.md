@@ -28,7 +28,7 @@ Returns a single chat widget by ID.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/chat-widget/get-chat-widget/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -54,7 +54,7 @@ The location ID
 
 Example: ve9EPM428h8vShlRWsss
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/chat-widget/get-chat-widget/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

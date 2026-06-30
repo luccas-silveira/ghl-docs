@@ -28,9 +28,9 @@ Check if account has sufficient funds
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/marketplace/has-funds/\#request "Direct link to Request")
+## Request
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/marketplace/has-funds/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 422

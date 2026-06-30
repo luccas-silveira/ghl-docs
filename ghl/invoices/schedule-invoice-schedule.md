@@ -28,7 +28,7 @@ API to schedule an schedule invoice to start sending to the customer
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/schedule-invoice-schedule/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -114,7 +114,7 @@ auto-payment configuration
 
 **provider** object
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/schedule-invoice-schedule/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

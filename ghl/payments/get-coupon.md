@@ -28,7 +28,7 @@ The "Get Coupon Details" API enables you to retrieve comprehensive information a
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/payments/get-coupon/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -66,7 +66,7 @@ Coupon code
 
 Example: DEAL50
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/payments/get-coupon/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 422

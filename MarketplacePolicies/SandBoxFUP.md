@@ -3,13 +3,13 @@ title: "Sandboxfup"
 source_url: https://marketplace.gohighlevel.com/docs/MarketplacePolicies/SandBoxFUP
 version: v3
 ---
-## Purpose [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/SandBoxFUP/\#purpose "Direct link to Purpose")
+## Purpose
 
 The HighLevel Sandbox account is designed to give partners, developers, and customers a safe, non-production environment to explore, build, and test on the HighLevel platform. This Fair Use Policy (“Policy”) ensures equitable access, protects system performance, and maintains the security and stability of the HighLevel ecosystem.
 
 By using the Sandbox, you agree to follow this Policy, which may be updated periodically.
 
-## Acceptable Use [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/SandBoxFUP/\#acceptable-use "Direct link to Acceptable Use")
+## Acceptable Use
 
 You may use your Sandbox account for the following purposes:
 
@@ -17,7 +17,7 @@ You may use your Sandbox account for the following purposes:
 - **Demonstrations & Training:** Simulating features for educational or sales enablement use.
 - **Experimentation:** Safely exploring new platform features without risk to production data.
 
-## Usage Limits [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/SandBoxFUP/\#usage-limits "Direct link to Usage Limits")
+## Usage Limits
 
 Sandbox accounts are subject to strict limits to prevent misuse as a production environment. These limits include:
 
@@ -28,7 +28,7 @@ Sandbox accounts are subject to strict limits to prevent misuse as a production 
 
 HighLevel may adjust or throttle Sandbox limits at its discretion to preserve service quality.
 
-## Prohibited Use [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/SandBoxFUP/\#prohibited-use "Direct link to Prohibited Use")
+## Prohibited Use
 
 You may not use the Sandbox to:
 
@@ -40,13 +40,13 @@ You may not use the Sandbox to:
 - **Harm Performance:** Perform stress testing, penetration testing, or activities that could degrade platform performance without prior authorization.
 - **Illegal Activity:** Engage in any unlawful, abusive, or harmful activity.
 
-## Data & Persistence [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/SandBoxFUP/\#data--persistence "Direct link to Data & Persistence")
+## Data & Persistence
 
 - **Temporary Environment:** Sandbox environments are not intended for permanent data storage. Data may be deleted, reset, or overwritten without notice.
 - **No Guarantees:** HighLevel provides no uptime, availability, or data retention commitments for Sandbox accounts.
 - **Migration:** Sandbox data may not be migrated to production environments.
 
-## Enforcement & Monitoring [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/SandBoxFUP/\#enforcement--monitoring "Direct link to Enforcement & Monitoring")
+## Enforcement & Monitoring
 
 HighLevel reserves the right to actively monitor Sandbox usage to ensure compliance. Specific red flags that may trigger immediate review or suspension include:
 
@@ -59,7 +59,7 @@ In the event of a violation, HighLevel may:
 - Warn, suspend, or terminate accounts.
 - Adjust resource allocations or limits without prior notice.
 
-## Changes to Policy [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/SandBoxFUP/\#changes-to-policy "Direct link to Changes to Policy")
+## Changes to Policy
 
 HighLevel may update this Fair Use Policy from time to time. Continued use of Sandbox accounts after changes indicates your acceptance of the updated terms.
 

@@ -27,7 +27,7 @@ Creates a new custom menu for a company. Requires authentication and proper perm
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/custom-menus/create-custom-menu/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -123,7 +123,7 @@ Whether to allow microphone access (only for iframe mode)
 
 Example:`false`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/custom-menus/create-custom-menu/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

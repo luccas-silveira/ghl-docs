@@ -24,7 +24,7 @@ Get all trained page links by knowledge base
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/get-all-website-urls-data-by-knowledge-base/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -72,7 +72,7 @@ query to filter on url links
 
 Example: www.example.com/
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/get-all-website-urls-data-by-knowledge-base/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

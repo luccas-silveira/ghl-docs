@@ -28,7 +28,7 @@ The "Update Redirect By Id" API Allows updating an existing URL redirect in the 
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/funnels/update-redirect-by-id/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -60,7 +60,7 @@ Example:`URL`
 
 Example:`6p2RxpgtMKQwO3E6IUaT`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/funnels/update-redirect-by-id/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 422

@@ -28,7 +28,7 @@ API to delete invoice by invoice id
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/delete-invoice/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -62,7 +62,7 @@ Alt Type
 
 Example: location
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/delete-invoice/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

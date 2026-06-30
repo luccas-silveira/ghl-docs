@@ -28,7 +28,7 @@ Delete specific product review
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/products/delete-product-review/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -64,7 +64,7 @@ Product Id of the product
 
 Example: 6578278e879ad2646715ba9c
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/products/delete-product-review/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

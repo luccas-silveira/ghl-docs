@@ -13,9 +13,9 @@ POST https://services.leadconnectorhq.com/social-media-posting/:locationId/posts
 
 Get Posts
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-posts/\#request "Direct link to Request")
+## Request
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-posts/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

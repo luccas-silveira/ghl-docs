@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever a contact is created
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/ContactCreate/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -98,7 +98,7 @@ Called whenever a contact is created
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/ContactCreate/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

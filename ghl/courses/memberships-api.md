@@ -9,7 +9,7 @@ Version: 1.0
 
 API Service for Courses and Memberships
 
-## Authentication [​](https://marketplace.gohighlevel.com/docs/ghl/courses/memberships-api/\#authentication "Direct link to Authentication")
+## Authentication
 
 - HTTP: Bearer Auth
 - HTTP: Bearer Auth

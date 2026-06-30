@@ -28,7 +28,7 @@ If hosted is set to true then fileUrl is required. Else file is required. If add
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/medias/upload-media-content/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -52,7 +52,7 @@ API Version
 
 **parentId** string
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/medias/upload-media-content/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 

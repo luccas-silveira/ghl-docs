@@ -27,7 +27,7 @@ Get the conversation details based on the conversation ID
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/get-conversation/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -45,7 +45,7 @@ Conversation ID as string
 
 Example: tDtDnQdgm2LXpyiqYvZ6
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/get-conversation/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

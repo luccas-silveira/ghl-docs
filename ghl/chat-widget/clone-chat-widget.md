@@ -28,7 +28,7 @@ Creates a copy of an existing chat widget in the same sub-account.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/chat-widget/clone-chat-widget/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -62,7 +62,7 @@ Name for the cloned widget
 
 Example:`Chat Widget 1 (copy)`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/chat-widget/clone-chat-widget/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

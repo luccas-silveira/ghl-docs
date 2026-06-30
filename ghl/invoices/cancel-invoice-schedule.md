@@ -28,7 +28,7 @@ API to cancel a scheduled invoice by schedule id
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/cancel-invoice-schedule/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -64,7 +64,7 @@ Alt Type
 
 Example:`location`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/cancel-invoice-schedule/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

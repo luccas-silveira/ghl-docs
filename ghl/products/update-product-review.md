@@ -28,7 +28,7 @@ Update status, reply, etc of a particular review
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/products/update-product-review/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -144,7 +144,7 @@ Detailed Review of the product
 
 Example:`The product is for sure a must and recommended buy`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/products/update-product-review/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

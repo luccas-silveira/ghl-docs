@@ -28,7 +28,7 @@ Returns paginated slot information (scheduledDateTime, isSkipped) for queue item
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/fetch-slots/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -76,7 +76,7 @@ Number of items to return
 
 Example:`20`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/fetch-slots/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

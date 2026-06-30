@@ -23,7 +23,7 @@ Create a share link for snapshot
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/snapshots/create-snapshot-share-link/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -67,7 +67,7 @@ Comma separated Sub-Account ids to create sub-account restricted share link
 
 Example:`l1C08ntBrFjLS0elLIYU, U1C08ntBrFjLS0elKIYP`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/snapshots/create-snapshot-share-link/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

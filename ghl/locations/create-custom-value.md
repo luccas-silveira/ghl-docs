@@ -27,7 +27,7 @@ Create Custom Value
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/locations/create-custom-value/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -57,7 +57,7 @@ Example:`Custom Field Name`
 
 Example:`Value`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/locations/create-custom-value/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

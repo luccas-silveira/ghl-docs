@@ -28,7 +28,7 @@ Creates a draft copy of queue items for editing. Changes are staged until saved 
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/start-edit-session/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -54,7 +54,7 @@ Location ID
 
 Example:`609e126a1c4ae1001291e1b5`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/start-edit-session/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

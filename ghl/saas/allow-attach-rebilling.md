@@ -28,7 +28,7 @@ Marks a SaaS sub-account as awaiting rebilling attach and optionally stores the 
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/saas/allow-attach-rebilling/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -80,7 +80,7 @@ Product price override
 
 Example:`0.0025`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/saas/allow-attach-rebilling/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

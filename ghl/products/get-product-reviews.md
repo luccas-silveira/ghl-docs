@@ -28,7 +28,7 @@ API to fetch the Product Reviews
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/products/get-product-reviews/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -112,7 +112,7 @@ Comma-separated list of store IDs
 
 Example: 60d21b4667d0d8992e610c85,60d21b4667d0d8992e610c86,60d21b4667d0d8992e610c87
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/products/get-product-reviews/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

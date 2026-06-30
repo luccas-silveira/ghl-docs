@@ -7,14 +7,14 @@ Marketplace Workflow Triggers are the customizable workflow triggers managed in 
 
 [Video Walkthrough on How to create Marketplace Workflow Trigger](https://youtu.be/5Ii6NM4iCI8)
 
-## Create a New Trigger [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomTriggers/\#create-a-new-trigger "Direct link to Create a New Trigger")
+## Create a New Trigger
 
 - Navigate to the Workflow section, located under the Modules in the left-hand navigation menu of your app.
 - Click on "Create Trigger" to initiate the process.
 
 ![drawing](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155008571402/original/-akI1I0dRCxxnUB-vS_AXBRwM2lDmLY9zQ.png?1695707381)
 
-## Define Trigger Information [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomTriggers/\#define-trigger-information "Direct link to Define Trigger Information")
+## Define Trigger Information
 
 - **Name:** Provide a descriptive name for your trigger.
 - **Key:** Assign a unique identifier (e.g., `mycustomtrigger`). This key is immutable and used to reference the trigger within workflows.
@@ -24,13 +24,13 @@ Marketplace Workflow Triggers are the customizable workflow triggers managed in 
 
 ![drawing](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155008571484/original/upXNQ8ldHATTzVMFsJA6SDjKyyyXW8Md0A.png?1695707448)
 
-## Configure Trigger Data [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomTriggers/\#configure-trigger-data "Direct link to Configure Trigger Data")
+## Configure Trigger Data
 
 - Input a sample JSON payload that represents the data structure the trigger will handle. This sample is used to configure filters and custom variables.
 
 ![drawing](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155008572394/original/dDTnUzyorTuAP9fwktAjyt8XWSZoNy0ysQ.png?1695708653)
 
-## Manage Filters [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomTriggers/\#manage-filters "Direct link to Manage Filters")
+## Manage Filters
 
 - Filters allow users to define conditions under which the trigger activates.
 
@@ -185,7 +185,7 @@ The form data is sent as payload to the dynamic field API
 }
 ```
 
-## Manage Custom Variables [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomTriggers/\#manage-custom-variables "Direct link to Manage Custom Variables")
+## Manage Custom Variables
 
 - Custom variables allow users to map data from the trigger payload to variables used within the workflow.
 
@@ -196,7 +196,7 @@ The form data is sent as payload to the dynamic field API
 - **Name:** Enter a label for the variable.
 - **Reference:** Select a key from the sample trigger data to bind to this variable.
 
-## Set Up Subscription URL [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomTriggers/\#set-up-subscription-url "Direct link to Set Up Subscription URL")
+## Set Up Subscription URL
 
 - The Subscription URL is an API endpoint that receives trigger configuration details whenever the trigger is created, updated, or deleted in a workflow.
 
@@ -206,7 +206,7 @@ The form data is sent as payload to the dynamic field API
 - **Headers:** Add any required headers for the API call.
 - **Payload Format:** The payload sent to this endpoint will include trigger data, metadata, and additional information such as location ID, workflow ID, and company ID.
 
-#### Trigger "CREATED" in workflow [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomTriggers/\#trigger-created-in-workflow "Direct link to Trigger \"CREATED\" in workflow")
+#### Trigger "CREATED" in workflow
 
 ```json
 {
@@ -222,7 +222,7 @@ The form data is sent as payload to the dynamic field API
 }
 ```
 
-#### Trigger "UPDATED" in workflow [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomTriggers/\#trigger-updated-in-workflow "Direct link to Trigger \"UPDATED\" in workflow")
+#### Trigger "UPDATED" in workflow
 
 ```json
 {
@@ -247,7 +247,7 @@ The form data is sent as payload to the dynamic field API
 }
 ```
 
-#### Trigger "DELETED" in workflow [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomTriggers/\#trigger-deleted-in-workflow "Direct link to Trigger \"DELETED\" in workflow")
+#### Trigger "DELETED" in workflow
 
 ```json
 {
@@ -274,7 +274,7 @@ The form data is sent as payload to the dynamic field API
 
 * * *
 
-## Submit for Review [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomTriggers/\#submit-for-review "Direct link to Submit for Review")
+## Submit for Review
 
 Once the trigger is configured:
 
@@ -291,7 +291,7 @@ Once the trigger is configured:
 
 * * *
 
-## Version Management [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomTriggers/\#version-management "Direct link to Version Management")
+## Version Management
 
 - **Create New Version:** Click on "+ New Version" to create a new draft version of the trigger. This version will prefill all previously published data.
 
@@ -303,7 +303,7 @@ Once the trigger is configured:
 
 * * *
 
-## Delete Trigger [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomTriggers/\#delete-trigger "Direct link to Delete Trigger")
+## Delete Trigger
 
 ![drawing](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155014522319/original/iILsc-HqjeJcvaYLyzPS1DLyWTp-E8ls2w.png?1701862634)
 
@@ -316,7 +316,7 @@ Once the trigger is configured:
 
 * * *
 
-## Can Workflows Execute Without Contact? [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomTriggers/\#can-workflows-execute-without-contact "Direct link to Can Workflows Execute Without Contact?")
+## Can Workflows Execute Without Contact?
 
 - Workflow can run contactless without any Contact data dependency so you can send any payload data via Marketplace Triggers and use it in workflow.
 - You can proceed without contact and use actions that are not dependent on contact information. Custom Webhook, Google Sheet, Slack, ChatGPT and all Internal Tools can be executed without contact.

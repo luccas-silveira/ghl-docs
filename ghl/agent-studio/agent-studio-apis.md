@@ -9,7 +9,7 @@ Version: 1.0
 
 Documentation for Agent Studio APIs
 
-## Authentication [​](https://marketplace.gohighlevel.com/docs/ghl/agent-studio/agent-studio-apis/\#authentication "Direct link to Authentication")
+## Authentication
 
 - HTTP: Bearer Auth
 - HTTP: Bearer Auth

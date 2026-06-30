@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever a knowledge base **trained URL** asset is created, updated or deleted
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/KnowledgeBaseTrainedUrlChange/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -43,7 +43,7 @@ Called whenever a knowledge base **trained URL** asset is created, updated or de
 - Note: `assetType` is always `trained_url` for this event.
 - Note: `status` reflects the crawl/training state of the URL (for example `trained`, `failed` or `aborted`).
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/KnowledgeBaseTrainedUrlChange/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

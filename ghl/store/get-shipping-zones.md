@@ -24,7 +24,7 @@ The "List Shipping Zone" API allows to retrieve a paginated list of shipping zon
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/store/get-shipping-zones/\#request "Direct link to Request")
+## Request
 
 ### Path Parameters
 
@@ -52,7 +52,7 @@ Include shipping rates array
 
 Example:
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/store/get-shipping-zones/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

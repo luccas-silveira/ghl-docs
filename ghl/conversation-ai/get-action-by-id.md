@@ -28,7 +28,7 @@ Retrieves detailed information about a specific action using its unique identifi
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/get-action-by-id/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -46,7 +46,7 @@ The unique identifier of the action ID Attached to the agent
 
 **agentId** stringrequired
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/get-action-by-id/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

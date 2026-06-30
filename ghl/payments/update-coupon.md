@@ -28,7 +28,7 @@ The "Update Coupon" API enables you to modify existing coupon details such as di
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/payments/update-coupon/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -166,7 +166,7 @@ Coupon Id
 
 Example:`6241712be68f7a98102ba272`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/payments/update-coupon/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 422

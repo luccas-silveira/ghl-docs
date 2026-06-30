@@ -9,7 +9,7 @@ Version: 1.0
 
 Documentation for invoice API
 
-## Authentication [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/invoice-api/\#authentication "Direct link to Authentication")
+## Authentication
 
 - HTTP: Bearer Auth
 - HTTP: Bearer Auth

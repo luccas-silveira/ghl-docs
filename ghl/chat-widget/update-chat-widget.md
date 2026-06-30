@@ -28,7 +28,7 @@ Full update of a chat widget resource.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/chat-widget/update-chat-widget/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -704,7 +704,7 @@ Widget Placement
 
 Example:`embedded`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/chat-widget/update-chat-widget/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

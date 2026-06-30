@@ -24,7 +24,7 @@ Update an existing knowledge base FAQ
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/update/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -64,7 +64,7 @@ faq answer as a string
 
 Example:`The capital of France is Paris.`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/update/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -28,7 +28,7 @@ Link: [Platform Limitations](https://help.leadconnectorhq.com/support/solutions/
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/edit-post/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -1023,7 +1023,7 @@ YouTube video format type.
 
 Example:`video`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/edit-post/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

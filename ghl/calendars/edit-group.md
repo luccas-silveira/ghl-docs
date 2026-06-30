@@ -28,7 +28,7 @@ Update Group by group ID
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/edit-group/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -62,7 +62,7 @@ Example:`group description`
 
 Example:`15-mins`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/edit-group/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -28,7 +28,7 @@ Delete service by ID.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/delete-service-catalog/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -46,7 +46,7 @@ Service ID
 
 Example: 65e5f6dfacf123513228d384
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/delete-service-catalog/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -28,7 +28,7 @@ Retrieve details of a specific action by its ID. Returns the action configuratio
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/voice-ai/get-action/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -52,7 +52,7 @@ Location ID
 
 Example: LOC123456789ABCDEF
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/voice-ai/get-action/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

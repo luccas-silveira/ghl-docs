@@ -28,7 +28,7 @@ Get Task
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/get-task/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -54,7 +54,7 @@ Task Id
 
 Example: ocQHyuzHvysMo5N5VsXc
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/get-task/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

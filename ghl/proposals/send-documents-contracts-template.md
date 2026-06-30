@@ -24,7 +24,7 @@ Send template to a client
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/proposals/send-documents-contracts-template/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -74,7 +74,7 @@ Opportunity Id
 
 Example:`hTlkh7t8gujsahgg93`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/proposals/send-documents-contracts-template/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

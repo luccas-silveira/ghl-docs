@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever an appointment is created
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/AppointmentCreate/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -71,7 +71,7 @@ Called whenever an appointment is created
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/AppointmentCreate/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

@@ -30,7 +30,7 @@ Post the necessary fields for the API to add a new inbound message.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/add-an-inbound-message/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -154,7 +154,7 @@ Call status
 
 Example:`completed`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/add-an-inbound-message/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

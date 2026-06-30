@@ -9,7 +9,7 @@ Version: 1.0
 
 API Service for SaaS
 
-## Authentication [​](https://marketplace.gohighlevel.com/docs/ghl/saas/saas-api/\#authentication "Direct link to Authentication")
+## Authentication
 
 - HTTP: Bearer Auth
 - HTTP: Bearer Auth

@@ -28,7 +28,7 @@ Retrieve the list of affiliates for a location.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/affiliate-manager/list-affiliates/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -86,7 +86,7 @@ Example: 2023-10-01
 
 Example: 2023-10-01
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/affiliate-manager/list-affiliates/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

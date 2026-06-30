@@ -9,7 +9,7 @@ Version: 1.0
 
 Documentation for AI Employees API
 
-## Authentication [​](https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/conversation-ai-api/\#authentication "Direct link to Authentication")
+## Authentication
 
 - HTTP: Bearer Auth
 - HTTP: Bearer Auth

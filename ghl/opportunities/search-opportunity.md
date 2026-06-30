@@ -28,7 +28,7 @@ Search Opportunity
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/opportunities/search-opportunity/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -162,7 +162,7 @@ Filter by assigned user identifier
 
 Example: 082goXVW3lIExEQPOnd3
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/opportunities/search-opportunity/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

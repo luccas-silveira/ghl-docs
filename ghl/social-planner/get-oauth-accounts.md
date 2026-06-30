@@ -12,17 +12,17 @@ GET https://services.leadconnectorhq.com/social-media-posting/oauth/:locationId/
 ```
 
 
-## OAuth Connection Flow - Step 2: Get Available Accounts [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-oauth-accounts/\#oauth-connection-flow---step-2-get-available-accounts "Direct link to OAuth Connection Flow - Step 2: Get Available Accounts")
+## OAuth Connection Flow - Step 2: Get Available Accounts
 
 After completing OAuth authentication (Step 1), use this endpoint to retrieve the list of available pages, channels, or locations that can be connected.
 
-### OAuth Flow Position [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-oauth-accounts/\#oauth-flow-position "Direct link to OAuth Flow Position")
+### OAuth Flow Position
 
 1. **Start OAuth** → User authenticates, returns `accountId`
 2. **Get Accounts** (this endpoint) → Lists available pages/channels to connect
 3. **Attach Account** → Connect the selected account
 
-### What This Returns [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-oauth-accounts/\#what-this-returns "Direct link to What This Returns")
+### What This Returns
 
 The response varies by platform:
 
@@ -38,7 +38,7 @@ The response varies by platform:
 | **pinterest** | Pinterest Business accounts and boards |
 | **threads** | Threads profiles |
 
-### Next Step [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-oauth-accounts/\#next-step "Direct link to Next Step")
+### Next Step
 
 From the response, select the account/page you want to connect and use its details in Step 3:
 
@@ -46,7 +46,7 @@ From the response, select the account/page you want to connect and use its detai
 POST /social-media-posting/oauth/{locationId}/{platform}/accounts/{accountId}
 ```
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-oauth-accounts/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -94,7 +94,7 @@ Search term to filter accounts/pages by name. Useful when the user has many page
 
 Example: My Business Page
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-oauth-accounts/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

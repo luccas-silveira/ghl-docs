@@ -24,7 +24,7 @@ Create a brand voice for a location
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/brand-boards/create-brand-voice/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -180,7 +180,7 @@ Call to Action
 
 Example:`Schedule a demo today`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/brand-boards/create-brand-voice/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

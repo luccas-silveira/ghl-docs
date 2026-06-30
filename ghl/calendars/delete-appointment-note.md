@@ -28,7 +28,7 @@ Delete Note
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/delete-appointment-note/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -44,7 +44,7 @@ API Version
 
 Appointment ID
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/delete-appointment-note/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

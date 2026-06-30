@@ -28,7 +28,7 @@ Retrieves detailed information about AI responses including the System Prompt, C
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/get-generation-details/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -52,7 +52,7 @@ Example: messageId123
 
 Example: conversation
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/get-generation-details/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

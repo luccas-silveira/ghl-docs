@@ -28,7 +28,7 @@ The "Update Price by ID for a Product" API allows modifying information for a sp
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/products/update-price-by-id-for-product/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -290,7 +290,7 @@ Example:`true`
 
 Digital delivery options
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/products/update-price-by-id-for-product/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

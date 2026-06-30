@@ -28,7 +28,7 @@ Update email template
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/emails/update-email-template/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -120,7 +120,7 @@ ID of the user performing this action
 
 Example:`507f1f77bcf86cd799439011`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/emails/update-email-template/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

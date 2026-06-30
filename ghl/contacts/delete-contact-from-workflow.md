@@ -28,7 +28,7 @@ Delete Contact from Workflow
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/delete-contact-from-workflow/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -64,7 +64,7 @@ Start time of the workflow event (ISO 8601 format)
 
 Example:`2021-06-23T03:30:00+01:00`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/delete-contact-from-workflow/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

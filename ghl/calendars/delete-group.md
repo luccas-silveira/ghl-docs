@@ -28,7 +28,7 @@ Delete Group
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/delete-group/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -46,7 +46,7 @@ Group Id
 
 Example: ocQHyuzHvysMo5N5VsXc
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/delete-group/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

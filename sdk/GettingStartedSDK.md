@@ -5,7 +5,7 @@ version: v3
 ---
 HighLevel now ships official SDKs for Node.js, Python, and PHP so you can stop hand-rolling API calls. All three clients deliver the same core features—automatic OAuth flows, PIT support, per-location token storage, webhook helpers, auto refresh tokens and typed service methods—so pick the runtime that matches your stack.
 
-## Pick your language [​](https://marketplace.gohighlevel.com/docs/sdk/GettingStartedSDK/\#pick-your-language "Direct link to Pick your language")
+## Pick your language
 
 | SDK | Package | Minimum runtime | Deep dive |
 | --- | --- | --- | --- |
@@ -13,7 +13,7 @@ HighLevel now ships official SDKs for Node.js, Python, and PHP so you can stop h
 | Python | `gohighlevel-api-client` | Python 3.8+ | [Python guide](https://marketplace.gohighlevel.com/docs/sdk/python) |
 | PHP | `gohighlevel/api-client` | PHP 7.4+ | [PHP guide](https://marketplace.gohighlevel.com/docs/sdk/php) |
 
-## Installation quick reference [​](https://marketplace.gohighlevel.com/docs/sdk/GettingStartedSDK/\#installation-quick-reference "Direct link to Installation quick reference")
+## Installation quick reference
 
 - Node.js
 - Python
@@ -43,7 +43,7 @@ composer require gohighlevel/api-client
 
 - Dive into the [PHP guide](https://marketplace.gohighlevel.com/docs/sdk/GettingStartedSDK/php.md).
 
-## What you get out of the box [​](https://marketplace.gohighlevel.com/docs/sdk/GettingStartedSDK/\#what-you-get-out-of-the-box "Direct link to What you get out of the box")
+## What you get out of the box
 
 - **Auto token rotation** – refresh happens transparently once storage is configured.
 - **Webhook utilities** – signature validation plus automatic handling of webhook events (INSTALL and UNINSTALL).

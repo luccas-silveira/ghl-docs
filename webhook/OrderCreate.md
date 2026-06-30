@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever an order is created
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/OrderCreate/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -199,7 +199,7 @@ Called whenever an order is created
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/OrderCreate/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

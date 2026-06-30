@@ -7,7 +7,7 @@ Welcome to the API documentation. This developer portal is your reference for
 integrating with our platform programmatically — automating workflows, syncing
 data, and building custom applications on top of the REST API.
 
-## What you can do [​](https://marketplace.gohighlevel.com/docs/intro/\#what-you-can-do "Direct link to What you can do")
+## What you can do
 
 The API gives you secure, programmatic access to core platform resources, including:
 
@@ -17,7 +17,7 @@ The API gives you secure, programmatic access to core platform resources, includ
 - **Payments** — handle orders, transactions, and subscriptions.
 - **Webhooks** — subscribe to real-time events and react to changes as they happen.
 
-## How it works [​](https://marketplace.gohighlevel.com/docs/intro/\#how-it-works "Direct link to How it works")
+## How it works
 
 The API is organized around standard REST conventions:
 
@@ -26,7 +26,7 @@ The API is organized around standard REST conventions:
 - Standard HTTP response codes to indicate success or failure.
 - OAuth 2.0 for secure, scoped authorization.
 
-## Authentication [​](https://marketplace.gohighlevel.com/docs/intro/\#authentication "Direct link to Authentication")
+## Authentication
 
 All requests are authenticated using **OAuth 2.0**. You'll exchange your
 credentials for an access token, then include that token in the `Authorization`
@@ -39,7 +39,7 @@ Authorization: Bearer YOUR_ACCESS_TOKEN
 Access tokens are scoped, so an application only receives the permissions it has
 been granted.
 
-## Getting started [​](https://marketplace.gohighlevel.com/docs/intro/\#getting-started "Direct link to Getting started")
+## Getting started
 
 1. **Create an app** to obtain your client credentials.
 2. **Authorize** and exchange your credentials for an access token.

@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever a product is updated
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/ProductUpdate/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -99,7 +99,7 @@ Called whenever a product is updated
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/ProductUpdate/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

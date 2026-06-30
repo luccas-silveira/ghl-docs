@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever a note is deleted
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/NoteDelete/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -33,7 +33,7 @@ Called whenever a note is deleted
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/NoteDelete/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

@@ -28,7 +28,7 @@ Create new schedule with specified rules, timezone, location, user and calendar 
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/create-schedule/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -130,7 +130,7 @@ Calendar IDs associated with the schedule
 
 Example:`["WvVX9LpvlBO6K506xLbp","XyZ8MnQrStUvWxYzAbCdEf"]`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/create-schedule/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

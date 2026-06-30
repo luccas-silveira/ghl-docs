@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever a knowledge base is created
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/KnowledgeBaseCreate/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -33,7 +33,7 @@ Called whenever a knowledge base is created
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/KnowledgeBaseCreate/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

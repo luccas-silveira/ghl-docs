@@ -13,9 +13,9 @@ PUT https://services.leadconnectorhq.com/social-media-posting/category/queues/:q
 
 Updates the content or variations of a specific item within a category queue.
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/update-queue-item/\#request "Direct link to Request")
+## Request
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/update-queue-item/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

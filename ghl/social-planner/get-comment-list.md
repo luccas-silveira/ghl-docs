@@ -14,7 +14,7 @@ POST https://services.leadconnectorhq.com/social-media-posting/comments/:platfor
 
 Paginated list of comments scoped to a post (`parentId` = postId) or a comment thread (`parentId` = commentId). Use `skip`/`limit` for pagination, `sortBy` for ordering, `originIds` to filter by connected account, and `search` for keyword search.
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-comment-list/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -106,7 +106,7 @@ Parent ID — pass the Highlevel post ID (for replies under a specific post) or 
 
 Example:`6975b186f3442844ec07665b`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-comment-list/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

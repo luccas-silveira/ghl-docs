@@ -3,11 +3,11 @@ title: "Recorddelete"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/RecordDelete
 version: v3
 ---
-## Overview [​](https://marketplace.gohighlevel.com/docs/webhook/RecordDelete/\#overview "Direct link to Overview")
+## Overview
 
 The `Delete Record` is triggered whenever a record or business (company) is deleted from the system.
 
-## Schema [​](https://marketplace.gohighlevel.com/docs/webhook/RecordDelete/\#schema "Direct link to Schema")
+## Schema
 
 The webhook payload follows a structured JSON schema, which defines the format and expected data types of the event payload.
 
@@ -58,7 +58,7 @@ The webhook payload follows a structured JSON schema, which defines the format a
 }
 ```
 
-## Explanation of Fields [​](https://marketplace.gohighlevel.com/docs/webhook/RecordDelete/\#explanation-of-fields "Direct link to Explanation of Fields")
+## Explanation of Fields
 
 | Field | Type | Description |
 | --- | --- | --- |
@@ -70,7 +70,7 @@ The webhook payload follows a structured JSON schema, which defines the format a
 | `id` | `string` | Unique identifier of the deleted record. |
 | `timestamp` | `string (ISO 8601 format)` | The timestamp when the deletion event occurred. |
 
-## Example Payload [​](https://marketplace.gohighlevel.com/docs/webhook/RecordDelete/\#example-payload "Direct link to Example Payload")
+## Example Payload
 
 ```json
 {

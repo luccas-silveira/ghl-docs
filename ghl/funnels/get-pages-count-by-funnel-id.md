@@ -24,7 +24,7 @@ Retrieves count of all funnel pages based on the given query parameters.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/funnels/get-pages-count-by-funnel-id/\#request "Direct link to Request")
+## Request
 
 ### Query Parameters
 
@@ -34,7 +34,7 @@ Retrieves count of all funnel pages based on the given query parameters.
 
 **name** string
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/funnels/get-pages-count-by-funnel-id/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 

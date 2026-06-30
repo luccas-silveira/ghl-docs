@@ -28,7 +28,7 @@ Get rebilling config for an app subscription and usage plans for the authenticat
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/marketplace/get-rebilling-config-for-app/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -54,7 +54,7 @@ ID of the Sub-Account location to get rebilling config for
 
 Example: ve9EPM428h8vShlRW1KT
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/marketplace/get-rebilling-config-for-app/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

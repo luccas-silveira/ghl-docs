@@ -24,7 +24,7 @@ Fetch all agency subscription plans for a given company ID
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/saas/get-agency-plans/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -38,7 +38,7 @@ API Version
 
 **companyId** stringrequired
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/saas/get-agency-plans/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 

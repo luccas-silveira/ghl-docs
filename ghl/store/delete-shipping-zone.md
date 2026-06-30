@@ -24,7 +24,7 @@ Delete specific shipping zone with Id :shippingZoneId
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/store/delete-shipping-zone/\#request "Direct link to Request")
+## Request
 
 ### Path Parameters
 
@@ -46,7 +46,7 @@ Example: 6578278e879ad2646715ba9c
 
 **Possible values:** \[`location`\]
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/store/delete-shipping-zone/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

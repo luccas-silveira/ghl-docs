@@ -3,13 +3,13 @@ title: "Externalauthentication"
 source_url: https://marketplace.gohighlevel.com/docs/oauth/ExternalAuthentication
 version: v3
 ---
-## What is External Authentication? [​](https://marketplace.gohighlevel.com/docs/oauth/ExternalAuthentication/\#what-is-external-authentication "Direct link to What is External Authentication?")
+## What is External Authentication?
 
 External Authentication lets your Marketplace app verify a HighLevel user against **your own system** before the app is installed. When a user installs your app, HighLevel collects the credentials you ask for, authenticates them with your backend, and securely stores the resulting tokens or credentials.
 
 Those stored credentials are then used automatically whenever your app needs to talk to your service - for example, when a [Workflow Action or Trigger](https://marketplace.gohighlevel.com/docs/marketplace-modules/WorkflowActionsAndTriggers) you've built runs and needs to call your API on the user's behalf. HighLevel manages the credential lifecycle (including refreshing OAuth tokens) so your integration keeps working without the user having to re-authenticate constantly.
 
-### A real-world example [​](https://marketplace.gohighlevel.com/docs/oauth/ExternalAuthentication/\#a-real-world-example "Direct link to A real-world example")
+### A real-world example
 
 Imagine you're building an app that syncs orders from a merchant's store into HighLevel:
 
@@ -19,14 +19,14 @@ Imagine you're building an app that syncs orders from a merchant's store into Hi
 
 The merchant connects once, and your integration keeps working.
 
-## Why use it? [​](https://marketplace.gohighlevel.com/docs/oauth/ExternalAuthentication/\#why-use-it "Direct link to Why use it?")
+## Why use it?
 
 - **Authenticate before install** \- confirm the user actually has a valid account on your side before the app is added.
 - **Securely store credentials** \- HighLevel keeps the API keys / tokens safe and injects them into the external calls your app makes.
 - **Hands-off token management** \- for OAuth, HighLevel can automatically refresh expiring access tokens.
 - **Per-account configuration** \- collect things like a store domain or workspace ID so your endpoints can be tailored to each user.
 
-## Supported authentication methods [​](https://marketplace.gohighlevel.com/docs/oauth/ExternalAuthentication/\#supported-authentication-methods "Direct link to Supported authentication methods")
+## Supported authentication methods
 
 External Authentication supports two methods:
 
@@ -37,7 +37,7 @@ External Authentication supports two methods:
 
 > **Note:** Currently, only the OAuth 2.0 **Authorization Code** grant type is supported. Switching an app between authentication types (for example, from Basic to OAuth) after it has been published is not supported.
 
-## How to enable External Authentication [​](https://marketplace.gohighlevel.com/docs/oauth/ExternalAuthentication/\#how-to-enable-external-authentication "Direct link to How to enable External Authentication")
+## How to enable External Authentication
 
 1. Go to the [Developer Marketplace](https://marketplace.gohighlevel.com/) → **My Apps** and select your app.
 2. Open **Advanced Settings → External Authentication** in the left navigation.
@@ -51,7 +51,7 @@ When enabled, configuration follows a simple three-step wizard:
 | **Step 2 - Configure** | Set up your fields, endpoints, and (optionally) multi-account support. |
 | **Step 3 - Test your auth** | Run the authentication flow with sample values to confirm everything works before publishing. |
 
-## Configuration building blocks [​](https://marketplace.gohighlevel.com/docs/oauth/ExternalAuthentication/\#configuration-building-blocks "Direct link to Configuration building blocks")
+## Configuration building blocks
 
 External Authentication is made up of a few configurable pieces. Depending on the method you choose, you'll use some or all of them:
 
@@ -61,7 +61,7 @@ External Authentication is made up of a few configurable pieces. Depending on th
 - **[Multi-Account Support & User Info](https://marketplace.gohighlevel.com/docs/oauth/external-auth/MultiAccountSupport)** \- Let a single sub-account connect multiple external accounts, and fetch a connected account's name/email for display.
 - **[Code Mode](https://marketplace.gohighlevel.com/docs/oauth/external-auth/CodeMode)** \- When the form builder isn't flexible enough, write JavaScript to fully customize any OAuth request.
 
-## Testing your integration [​](https://marketplace.gohighlevel.com/docs/oauth/ExternalAuthentication/\#testing-your-integration "Direct link to Testing your integration")
+## Testing your integration
 
 Before submitting your app for review, always use **Step 3 - Test your auth**. The tester runs the real authentication flow with sample values:
 
@@ -72,14 +72,14 @@ The tester surfaces the request that was sent, the response received, HTTP detai
 
 > **Tip:** Save your configuration before testing. The tester always uses the most recently saved version.
 
-## Next steps [​](https://marketplace.gohighlevel.com/docs/oauth/ExternalAuthentication/\#next-steps "Direct link to Next steps")
+## Next steps
 
 1. Decide which method fits your provider: [OAuth 2.0](https://marketplace.gohighlevel.com/docs/oauth/external-auth/OAuth2) or [API Key / Basic Auth](https://marketplace.gohighlevel.com/docs/oauth/external-auth/BasicAuth).
 2. If your endpoints differ per user (store domain, region, workspace), set up [Configure Your Fields](https://marketplace.gohighlevel.com/docs/oauth/external-auth/ConfigureYourFields).
 3. If users may connect more than one external account, review [Multi-Account Support & User Info](https://marketplace.gohighlevel.com/docs/oauth/external-auth/MultiAccountSupport).
 4. Need full control over a request? See [Code Mode](https://marketplace.gohighlevel.com/docs/oauth/external-auth/CodeMode).
 
-## Need help? [​](https://marketplace.gohighlevel.com/docs/oauth/ExternalAuthentication/\#need-help "Direct link to Need help?")
+## Need help?
 
 - **Community**: [Join our developer community](https://developers.gohighlevel.com/join-dev-community)
 - **Support**: [Contact developer support](https://developers.gohighlevel.com/support)

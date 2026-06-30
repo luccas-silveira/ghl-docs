@@ -28,7 +28,7 @@ Delete Relation
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/associations/delete-relation/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -50,7 +50,7 @@ Your Sub Account's ID
 
 Example: clF1LD04GTUKN3b3XuOj
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/associations/delete-relation/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -27,7 +27,7 @@ Update User
 
 `Agency Token``Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/users/update-user/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -447,7 +447,7 @@ Platform language preference for the user
 
 Example:`en_US`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/users/update-user/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

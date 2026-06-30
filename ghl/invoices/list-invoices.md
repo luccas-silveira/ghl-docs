@@ -28,7 +28,7 @@ API to get list of invoices
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/list-invoices/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -118,7 +118,7 @@ The order of sort which should be applied for the sortField
 
 Example: descend
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/list-invoices/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

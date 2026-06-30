@@ -28,7 +28,7 @@ API to create a new payment config for given location
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/payments/create-config/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -82,7 +82,7 @@ Publishable-key for custom payment provider config
 
 Example:`rzp_test_zPRoVMLOa0XXXX`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/payments/create-config/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

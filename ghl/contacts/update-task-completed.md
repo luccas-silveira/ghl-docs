@@ -27,7 +27,7 @@ Update Task Completed
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/update-task-completed/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -63,7 +63,7 @@ Whether the task is completed
 
 Example:`true`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/update-task-completed/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

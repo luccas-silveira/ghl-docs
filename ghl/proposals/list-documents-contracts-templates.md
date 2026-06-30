@@ -24,7 +24,7 @@ List document contract templates for a location
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/proposals/list-documents-contracts-templates/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -88,7 +88,7 @@ Skip
 
 Example: 0
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/proposals/list-documents-contracts-templates/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

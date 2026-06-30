@@ -32,7 +32,7 @@ Only supports Custom Objects and Company (Business) today. Will be extended to o
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/custom-fields/update-custom-field/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -106,7 +106,7 @@ Maximum file limit for uploads. Applicable only for fields with a data type of F
 
 Example:`2`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/custom-fields/update-custom-field/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

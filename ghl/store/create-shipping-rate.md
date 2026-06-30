@@ -24,7 +24,7 @@ The "Create Shipping Rate" API allows adding a new shipping rate.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/store/create-shipping-rate/\#request "Direct link to Request")
+## Request
 
 ### Path Parameters
 
@@ -130,7 +130,7 @@ Example:`PriorityMailExpressInternational`\
 \
 \]
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/store/create-shipping-rate/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

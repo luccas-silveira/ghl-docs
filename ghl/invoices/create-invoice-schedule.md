@@ -28,7 +28,7 @@ API to create an invoice Schedule
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/create-invoice-schedule/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -632,7 +632,7 @@ Example:`673d01d7d547648a8dab6211`\
 \
 \]
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/create-invoice-schedule/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

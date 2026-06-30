@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever an opportunity's AssignedTo field is updated
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/OpportunityAssignedToUpdate/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -51,7 +51,7 @@ Called whenever an opportunity's AssignedTo field is updated
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/OpportunityAssignedToUpdate/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

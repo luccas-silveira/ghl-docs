@@ -24,7 +24,7 @@ Get locations by stripeCustomerId or stripeSubscriptionId with companyId
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/saas/locations/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -42,7 +42,7 @@ API Version
 
 **companyId** stringrequired
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/saas/locations/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 

@@ -28,7 +28,7 @@ The "List Prices for a Product" API allows retrieving a paginated list of prices
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/products/list-prices-for-product/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -76,7 +76,7 @@ To filter the response only with the given price ids, Please provide with comma 
 
 Example: 6241712be68f7a98102ba272,632027d51f7876cd3020213d
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/products/list-prices-for-product/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

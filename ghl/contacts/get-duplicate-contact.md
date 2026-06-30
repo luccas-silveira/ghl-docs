@@ -30,7 +30,7 @@ If `Allow Duplicate Contact` is disabled under Settings, the global unique ident
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/get-duplicate-contact/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -62,7 +62,7 @@ Email — URL-encoded. E.g. test+abc@gmail.com → test%2Babc%40gmail.com
 
 Example: test%2Babc%40gmail.com
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/get-duplicate-contact/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

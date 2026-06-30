@@ -28,7 +28,7 @@ List active numbers. With `version: v3`, the HTTP 200 body is the standard succe
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/phone-system/active-numbers/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -84,7 +84,7 @@ Include RCS Sender IDs
 
 Example:
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/phone-system/active-numbers/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 

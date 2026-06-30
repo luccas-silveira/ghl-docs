@@ -27,7 +27,7 @@ Get User
 
 `Agency Token``Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/users/get-user/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -47,7 +47,7 @@ User Id
 
 Example: ve9EPM428h8vShlRW1KT
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/users/get-user/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

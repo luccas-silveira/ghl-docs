@@ -24,7 +24,7 @@ Download the recording transcription for a message by passing the message id
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/download-message-transcription/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -48,7 +48,7 @@ Message ID as string
 
 Example: tDtDnQdgm2LXpyiqYvZ6
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/download-message-transcription/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

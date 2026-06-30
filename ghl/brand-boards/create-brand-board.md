@@ -28,7 +28,7 @@ Creates a new brand board with logos, colors, and fonts
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/brand-boards/create-brand-board/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -196,7 +196,7 @@ Website URL to extract design kit from (colors, fonts, logos)
 
 Example:`https://example.com`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/brand-boards/create-brand-board/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

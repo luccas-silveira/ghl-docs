@@ -28,7 +28,7 @@ Get Appointment Notes
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-appointment-notes/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -60,7 +60,7 @@ Offset of notes to fetch
 
 Example: 0
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-appointment-notes/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

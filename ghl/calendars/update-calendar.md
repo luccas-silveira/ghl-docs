@@ -28,7 +28,7 @@ Update calendar by ID.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/update-calendar/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -433,7 +433,7 @@ Percentage of slots that will be hidden
 
 **isActive** boolean
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/update-calendar/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

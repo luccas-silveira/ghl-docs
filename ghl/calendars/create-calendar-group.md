@@ -27,7 +27,7 @@ Create Calendar Group
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/create-calendar-group/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -61,7 +61,7 @@ Example:`15-mins`
 
 Example:`true`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/create-calendar-group/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

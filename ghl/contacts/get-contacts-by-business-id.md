@@ -28,7 +28,7 @@ Get Contacts By BusinessId
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/get-contacts-by-business-id/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -78,7 +78,7 @@ Example: John
 
 Cursor for pagination (comma-separated name,id pair)
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/get-contacts-by-business-id/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -28,7 +28,7 @@ Get association by object keys like contacts, custom objects and opportunities. 
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/associations/get-association-by-object-keys/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -50,7 +50,7 @@ Example: custom\_objects.car
 
 Example: ve9EPM428h8vShlRW1KT
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/associations/get-association-by-object-keys/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

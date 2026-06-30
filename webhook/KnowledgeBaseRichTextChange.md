@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever a knowledge base **rich text** asset is created, updated or deleted
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/KnowledgeBaseRichTextChange/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -43,7 +43,7 @@ Called whenever a knowledge base **rich text** asset is created, updated or dele
 - Note: `assetType` is always `rich_text` for this event.
 - Note: `status` reflects the asset's processing state and varies by asset type.
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/KnowledgeBaseRichTextChange/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

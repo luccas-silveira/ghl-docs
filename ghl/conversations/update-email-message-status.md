@@ -14,13 +14,13 @@ PUT https://services.leadconnectorhq.com/conversations/messages/email/:emailMess
 
 Update delivery events, per-recipient statuses, and the overall message status for an email sent via a custom conversation provider.
 
-### Authorization [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/update-email-message-status/\#authorization "Direct link to Authorization")
+### Authorization
 
 - Requires the `conversations/message.write` OAuth scope.
 - The calling OAuth app must own the conversation provider that originally sent the email.
 - Attempts to update emails sent via LC Email or Mailgun will return `403 Forbidden`.
 
-### Updatable Fields [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/update-email-message-status/\#updatable-fields "Direct link to Updatable Fields")
+### Updatable Fields
 
 All request body fields are optional. Pass only what you need to update.
 
@@ -30,7 +30,7 @@ All request body fields are optional. Pass only what you need to update.
 
 **`status`** — The overall message status. Accepts any `MessageStatus` enum value.
 
-### Event Inference [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/update-email-message-status/\#event-inference "Direct link to Event Inference")
+### Event Inference
 
 The API automatically infers related events to maintain data consistency:
 
@@ -38,7 +38,7 @@ The API automatically infers related events to maintain data consistency:
 - **`opened`** → implies `delivered` (set to 1 if not provided).
 - **`delivered`, `permanent_fail`, or `temporary_fail`** → implies `accepted` (set to 1 if not provided).
 
-### Timestamps [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/update-email-message-status/\#timestamps "Direct link to Timestamps")
+### Timestamps
 
 The API automatically records server-side timestamps on first occurrence for `delivered`, `opened`, and `clicked` events. Subsequent updates to these counters do not overwrite the original timestamp.
 
@@ -56,7 +56,7 @@ The API automatically records server-side timestamps on first occurrence for `de
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/update-email-message-status/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -182,7 +182,7 @@ The overall status of the email message. Required on every request. For emails w
 
 Example:`delivered`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/update-email-message-status/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

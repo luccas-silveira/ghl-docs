@@ -28,7 +28,7 @@ API to bulk update products (price, availability, collections, delete)
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/products/bulk-update/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -156,7 +156,7 @@ Currency code
 
 Example:`USD`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/products/bulk-update/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

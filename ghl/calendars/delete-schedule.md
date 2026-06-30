@@ -28,7 +28,7 @@ Permanently remove a schedule and all its associated rules. This action cannot b
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/delete-schedule/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -46,7 +46,7 @@ Unique identifier of the schedule to delete
 
 Example: sch123def456ghi789
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/delete-schedule/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

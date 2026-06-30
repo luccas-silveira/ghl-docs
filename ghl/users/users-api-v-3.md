@@ -7,11 +7,11 @@ version: v3
 
 Documentation for users API
 
-## API Version v3 [​](https://marketplace.gohighlevel.com/docs/ghl/users/users-api-v-3/\#api-version-v3 "Direct link to API Version v3")
+## API Version v3
 
 All APIs available via `/v3` route prefix with AIP-compliant responses.
 
-## Authentication [​](https://marketplace.gohighlevel.com/docs/ghl/users/users-api-v-3/\#authentication "Direct link to Authentication")
+## Authentication
 
 - HTTP: Bearer Auth
 - HTTP: Bearer Auth

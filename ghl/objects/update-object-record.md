@@ -24,7 +24,7 @@ Update a Custom Object Record by Id. Supported Objects are business and custom o
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/objects/update-object-record/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -58,7 +58,7 @@ Example: 632c34b4c9b7da3358ac9891
 
 object
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/objects/update-object-record/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

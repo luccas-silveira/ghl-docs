@@ -28,7 +28,7 @@ Update Event notification by id
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/update-event-notification/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -144,7 +144,7 @@ from number for sms notification
 
 From name for email/sms notification
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/update-event-notification/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -28,7 +28,7 @@ This API allows you fetch location where app is installed upon
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/oauth/get-installed-location/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -110,7 +110,7 @@ locationId
 
 Example: 1245
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/oauth/get-installed-location/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

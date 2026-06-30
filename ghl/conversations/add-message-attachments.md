@@ -28,7 +28,7 @@ Set attachments on an existing message (replaces existing). Maximum 5 URLs. Supp
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/add-message-attachments/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -56,7 +56,7 @@ Array of attachment URLs to set on the message (replaces existing). Maximum 5 UR
 
 Example:`["https://provider.com/recordings/call-123.mp3"]`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/add-message-attachments/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

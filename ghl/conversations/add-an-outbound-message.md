@@ -28,7 +28,7 @@ Post the necessary fields for the API to add a new outbound call.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/add-an-outbound-message/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -106,7 +106,7 @@ Call status
 
 Example:`completed`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/add-an-outbound-message/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

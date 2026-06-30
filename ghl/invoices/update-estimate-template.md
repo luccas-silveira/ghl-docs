@@ -28,7 +28,7 @@ Update an existing estimate template
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/update-estimate-template/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -348,7 +348,7 @@ Example:`673d01d7d547648a8dab6211`\
 \
 \]
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/update-estimate-template/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

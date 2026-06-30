@@ -28,7 +28,7 @@ Removes the association between a team calendar and the given schedule by removi
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/remove-calendar-from-schedule/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -52,7 +52,7 @@ Unique identifier of the calendar to remove from the schedule
 
 Example: WvVX9LpvlBO6K506xLbp
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/remove-calendar-from-schedule/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

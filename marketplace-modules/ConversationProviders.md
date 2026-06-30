@@ -5,9 +5,9 @@ version: v3
 ---
 HighLevel provides conversation providers in marketplace applications for creating custom SMS, Email, and Call providers.
 
-## Setting up Custom Providers [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/\#setting-up-custom-providers "Direct link to Setting up Custom Providers")
+## Setting up Custom Providers
 
-### Create a Marketplace Application [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/\#create-a-marketplace-application "Direct link to Create a Marketplace Application")
+### Create a Marketplace Application
 
 First you'll need to create a marketplace application:
 
@@ -16,7 +16,7 @@ First you'll need to create a marketplace application:
 3. Add your scopes (see notes below)
 4. Add redirect, client keys, then click save
 
-### Scopes [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/\#scopes "Direct link to Scopes")
+### Scopes
 
 Below are the various scopes necessary to use custom conversation providers. Review all scope documentation here: [https://marketplace.gohighlevel.com/docs/oauth/Scopes](https://marketplace.gohighlevel.com/docs/oauth/Scopes)
 
@@ -32,11 +32,11 @@ Below are the various scopes necessary to use custom conversation providers. Rev
 
 * * *
 
-### Conversation Provider Configuration [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/\#conversation-provider-configuration "Direct link to Conversation Provider Configuration")
+### Conversation Provider Configuration
 
 After you create your provider you will have an "ID" which is the "conversationProviderId".
 
-#### SMS (Replace default SMS provider) [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/\#sms-replace-default-sms-provider "Direct link to SMS (Replace default SMS provider)")
+#### SMS (Replace default SMS provider)
 
 Description: This enables a SMS provider to replace the default twilio/LC-Phone provider.
 
@@ -55,7 +55,7 @@ Workflows: Supports standard SMS modules.
 
 Bulk Actions: Supported
 
-#### SMS (Add new conversation channel) [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/\#sms-add-new-conversation-channel "Direct link to SMS (Add new conversation channel)")
+#### SMS (Add new conversation channel)
 
 Description: This adds an additional SMS custom conversation provider.
 
@@ -74,7 +74,7 @@ Enable The Provider: Enabled upon installation. Visit Settings > Conversation Pr
 
 Workflows: You can build premium workflow actions in your marketplace application. SMS module is not currently supported.
 
-#### Email Provider (default) [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/\#email-provider-default "Direct link to Email Provider (default)")
+#### Email Provider (default)
 
 Description: This enables an Email provider to replace the default mailgun/LC-Email provider.
 
@@ -93,7 +93,7 @@ Workflows: Supports standard Email modules. Triggers are unsupported currently. 
 
 Bulk Actions: Supported
 
-#### Email Provider (extra) [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/\#email-provider-extra "Direct link to Email Provider (extra)")
+#### Email Provider (extra)
 
 Description: This adds an additional Email custom conversation provider.
 
@@ -112,7 +112,7 @@ Enable The Provider: Enabled upon installation. Visit Settings > Conversation Pr
 
 Workflows: You can build premium workflow actions in your marketplace application. Triggers and Email modules are unsupported currently.
 
-#### Call Provider [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/\#call-provider "Direct link to Call Provider")
+#### Call Provider
 
 Description: This adds a call provider. It is specifically for adding call logs and can also add attachments like voicemails to a conversation. It is not used to replace the voice/SIP connection.
 
@@ -126,14 +126,14 @@ Add Inbound Message API: Use type "Call". Supply the call object payload and ens
 Add an External Outbound Call API: Used to add outbound direction logs. Ensure the "to" phone number matches an existing contact.
 [https://marketplace.gohighlevel.com/docs/ghl/conversations/add-an-outbound-message](https://marketplace.gohighlevel.com/docs/ghl/conversations/add-an-outbound-message)
 
-### Webhook Events [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/\#webhook-events "Direct link to Webhook Events")
+### Webhook Events
 
 Conversations Provider Outbound Message Webhook Events
 [https://marketplace.gohighlevel.com/docs/webhook/ProviderOutboundMessage](https://marketplace.gohighlevel.com/docs/webhook/ProviderOutboundMessage)
 
 Purpose: Outbound events that are distinct from the Outbound Message Event payload.
 
-#### Securing your Delivery URL [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/\#securing-your-delivery-url "Direct link to Securing your Delivery URL")
+#### Securing your Delivery URL
 
 POSTs to your **Delivery URL** are signed like platform webhooks. Follow the same verification steps as the [Webhook Integration Guide](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide#security-verifying-webhook-authenticity):
 
@@ -147,9 +147,9 @@ Outbound Message Events
 
 Purpose: Monitors all outbound messages/channels
 
-## Additional Notes [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/\#additional-notes "Direct link to Additional Notes")
+## Additional Notes
 
-### Using Providers [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/\#using-providers "Direct link to Using Providers")
+### Using Providers
 
 1. Conversations Screen - Navigate to the conversations screen to send/receive messages if a provider is set as the default or if you have enabled the ability to see the provider.
 
@@ -162,7 +162,7 @@ Purpose: Monitors all outbound messages/channels
 5. All installed custom conversation providers in a sub-account appear under Settings > Conversation Providers; SMS and Email type providers can be used to send and receive messages directly from the CRM, while Call providers cannot be used to place or receive calls within the CRM and can only be used to log calls via inbound and outbound apis.
 
 
-### Update Message Status API [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/\#update-message-status-api "Direct link to Update Message Status API")
+### Update Message Status API
 
 Message status updates are only able to be updated by the conversation provider marketplace application tokens. If you have additional marketplace applications installed in your account then they cannot update the message status.
 [https://marketplace.gohighlevel.com/docs/ghl/conversations/update-message-status](https://marketplace.gohighlevel.com/docs/ghl/conversations/update-message-status)

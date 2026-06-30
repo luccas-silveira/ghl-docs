@@ -9,7 +9,7 @@ Version: 1.0
 
 Documentation for workflows API
 
-## Authentication [​](https://marketplace.gohighlevel.com/docs/ghl/workflows/workflows-api/\#authentication "Direct link to Authentication")
+## Authentication
 
 - HTTP: Bearer Auth
 - HTTP: Bearer Auth

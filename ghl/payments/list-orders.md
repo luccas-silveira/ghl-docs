@@ -27,7 +27,7 @@ The "List Orders" API allows to retrieve a paginated list of orders. Customize y
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/payments/list-orders/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -123,7 +123,7 @@ Default value:`0`
 
 Example: 0
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/payments/list-orders/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

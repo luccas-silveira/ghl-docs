@@ -5,7 +5,7 @@ version: v3
 ---
 The HighLevel Public API is versioned to ensure developers have a stable surface to build on while the platform continues to evolve. The version is specified per-request using the `Version` request header.
 
-## Versioning Schemes [​](https://marketplace.gohighlevel.com/docs/Versioning/\#versioning-schemes "Direct link to Versioning Schemes")
+## Versioning Schemes
 
 We have used two versioning schemes over time:
 
@@ -17,7 +17,7 @@ When a new version is released, the previous version enters a maintenance window
 
 We recommend migrating to the latest supported version before its retirement date to avoid service disruption.
 
-## Supported Versions [​](https://marketplace.gohighlevel.com/docs/Versioning/\#supported-versions "Direct link to Supported Versions")
+## Supported Versions
 
 | Version | Release Date | Supported Until |
 | --- | --- | --- |

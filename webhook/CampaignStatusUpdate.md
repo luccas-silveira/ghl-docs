@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever a campaign status is updated
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/CampaignStatusUpdate/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -39,7 +39,7 @@ Called whenever a campaign status is updated
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/CampaignStatusUpdate/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

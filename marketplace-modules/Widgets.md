@@ -5,24 +5,24 @@ version: v3
 ---
 This guide aims to help developers create custom widgets for use in funnel builder and integrate them seamlessly. We will cover how to create, set up, and render custom widgets using HTML, CSS, and JavaScript or any JS frameworks like Angular, React, Vue along with communication between your custom widget application and the funnel builder.
 
-## Prerequisites [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Widgets/\#prerequisites "Direct link to Prerequisites")
+## Prerequisites
 
 - Basic knowledge of HTML, CSS, JavaScript or Experience with JS frontend frameworks (Angular, React, Vue or similar)
 - Familiarity with iFrames.
 - Understanding of event-driven programming.
 
-## Overview [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Widgets/\#overview "Direct link to Overview")
+## Overview
 
 Custom widgets allow you to extend functionalities of a funnel builder by embedding custom elements like price banners or other interactive components.
 
-## Step-by-Step Guide [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Widgets/\#step-by-step-guide "Direct link to Step-by-Step Guide")
+## Step-by-Step Guide
 
-#### Step 1: Register yourself as a developer on the App Marketplace [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Widgets/\#step-1-register-yourself-as-a-developer-on-the-app-marketplace "Direct link to Step 1: Register yourself as a developer on the App Marketplace")
+#### Step 1: Register yourself as a developer on the App Marketplace
 
 - Sign up as a developer on the [App Marketplace.](https://marketplace.gohighlevel.com/)
 - Click on 'Create App' and start your app creation journey.
 
-#### Step 2: Setting Up Your Custom Widget [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Widgets/\#step-2-setting-up-your-custom-widget "Direct link to Step 2: Setting Up Your Custom Widget")
+#### Step 2: Setting Up Your Custom Widget
 
 Develop an independent web application which allows users to interact with UI elements and generate HTML, CSS and JS (if required) which will render the custom widget element based on the settings that they choose.
 
@@ -100,7 +100,7 @@ elementStore: elementSettings as Object
 
 > **Note:** ensure that you emit the initial state Make sure that the data received is filled to all the respective settings of your widgets so that we can show the previously saved values on revisits
 
-#### Step 3: Integrating With the Funnel Builder [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Widgets/\#step-3-integrating-with-the-funnel-builder "Direct link to Step 3: Integrating With the Funnel Builder")
+#### Step 3: Integrating With the Funnel Builder
 
 1. Upload to Marketplace
 Build the project and upload the HTML, CSS & JS file or dist folder as a zip to the marketplace app
@@ -161,7 +161,7 @@ relative path: ./css/style.css
 
 - Ensure the funnel builder can render the widget by interpreting the generated HTML, CSS, and JavaScript.
 
-#### Step 4: Communication Between Application and Funnel Builder [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Widgets/\#step-4-communication-between-application-and-funnel-builder "Direct link to Step 4: Communication Between Application and Funnel Builder")
+#### Step 4: Communication Between Application and Funnel Builder
 
 **Using iFrames:** Host(will take care of hosting) your settings application inside an iframe within the funnel builder. Make sure it generates and communicates HTML, CSS, and JS code as settings are adjusted.
 
@@ -200,7 +200,7 @@ Copy
 >
 > Example: Marketing Price Banner Widget: [https://github.com/b805rohit/marketing-price-banner](https://github.com/b805rohit/marketing-price-banner)
 
-## Checklist [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Widgets/\#checklist "Direct link to Checklist")
+## Checklist
 
 When developing and integrating custom widgets into a funnel builder, it's crucial to ensure they function effectively without causing any disruptions or conflicts. Please test your app to ensure it meets the criteria mentioned in this checklist before submitting the app for review.
 
@@ -214,7 +214,7 @@ When developing and integrating custom widgets into a funnel builder, it's cruci
 
 By carefully reviewing each of these points, you can assure the quality and reliability of your custom widgets in the funnel builder environment. This checklist serves as a quality assurance tool to catch potential issues before deployment.
 
-## Upload Format Supported [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Widgets/\#upload-format-supported "Direct link to Upload Format Supported")
+## Upload Format Supported
 
 According to the HighLevel Developer Guide for selling web widgets on the App Marketplace, there is an option to upload files, but with specific guidelines:
 
@@ -236,7 +236,7 @@ When creating your widget:
 
 If you're using a frontend framework (like React or Vue), zip the build/dist folder, not the entire project directory.
 
-## Developer Resources [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Widgets/\#developer-resources "Direct link to Developer Resources")
+## Developer Resources
 
 For step-by-step technical instructions and best practices, please refer to the following resources:
 

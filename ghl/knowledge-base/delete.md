@@ -24,7 +24,7 @@ Delete an existing knowledge base FAQ
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/delete/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -48,7 +48,7 @@ faq ID as string
 
 Example: 710KoEzy793Fxubft0bc
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/delete/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

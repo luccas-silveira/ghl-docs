@@ -28,7 +28,7 @@ Get lost reason
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/opportunities/get-lost-reason/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -88,7 +88,7 @@ get count
 
 Example: field
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/opportunities/get-lost-reason/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

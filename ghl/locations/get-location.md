@@ -27,7 +27,7 @@ Get details of a Sub-Account (Formerly Location) by passing the sub-account id
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/locations/get-location/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -45,7 +45,7 @@ Location Id
 
 Example: ve9EPM428h8vShlRW1KT
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/locations/get-location/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

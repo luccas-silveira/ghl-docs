@@ -28,7 +28,7 @@ Update Sub-Account (Formerly Location) permissions
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/locations/update-location-permissions/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -58,7 +58,7 @@ Permission plan values to apply for the sub-account
 
 Example:`["crm","workflow"]`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/locations/update-location-permissions/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

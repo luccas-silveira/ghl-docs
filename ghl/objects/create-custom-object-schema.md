@@ -28,7 +28,7 @@ Allows you to create a custom object schema. To understand objects and records, 
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/objects/create-custom-object-schema/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -98,7 +98,7 @@ Primary property data Type (it can either be TEXT or NUMERICAL type)
 
 Example:`TEXT`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/objects/create-custom-object-schema/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

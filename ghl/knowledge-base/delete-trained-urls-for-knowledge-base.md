@@ -24,7 +24,7 @@ Delete trained pages
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/delete-trained-urls-for-knowledge-base/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -62,7 +62,7 @@ List of trained urls ids ( fetched from the Get all trained page links by knowle
 
 Example:`[tDtDnQdgm2LXpyiqYvZ6]`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/delete-trained-urls-for-knowledge-base/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

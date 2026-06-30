@@ -28,7 +28,7 @@ The "Delete Product by ID" API allows deleting a specific product using its uniq
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/products/delete-product-by-id/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -60,7 +60,7 @@ Parameter which will decide whether to show the wishlisting status of products
 
 Example:
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/products/delete-product-by-id/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

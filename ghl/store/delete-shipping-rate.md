@@ -24,7 +24,7 @@ Delete specific shipping rate with Id :shippingRateId
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/store/delete-shipping-rate/\#request "Direct link to Request")
+## Request
 
 ### Path Parameters
 
@@ -52,7 +52,7 @@ Example: 6578278e879ad2646715ba9c
 
 **Possible values:** \[`location`\]
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/store/delete-shipping-rate/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

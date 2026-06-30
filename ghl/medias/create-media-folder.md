@@ -24,7 +24,7 @@ Creates a new folder in the media storage
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/medias/create-media-folder/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -64,7 +64,7 @@ ID of the parent folder (optional)
 
 Example:`64af50c42d567a3b4f5989e0`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/medias/create-media-folder/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 

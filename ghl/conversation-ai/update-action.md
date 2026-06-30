@@ -28,7 +28,7 @@ Updates an existing action's configuration. This includes modifying the action n
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/update-action/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -502,7 +502,7 @@ Example phrases that trigger transfer (required for Custom type, minimum 2)
 
 Example:`["talk to sales","pricing information","speak to specialist"]`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/update-action/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

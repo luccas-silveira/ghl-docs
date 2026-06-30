@@ -27,7 +27,7 @@ Retrieve analytics data for multiple social media accounts. Supports custom date
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-statistics/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -99,7 +99,7 @@ End date in ISO 8601 format. Must be after startDate.
 
 Example:`2025-02-28T23:59:59.999Z`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-statistics/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -3,7 +3,7 @@ title: "Relationdelete"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/RelationDelete
 version: v3
 ---
-## Overview [​](https://marketplace.gohighlevel.com/docs/webhook/RelationDelete/\#overview "Direct link to Overview")
+## Overview
 
 This webhook response is triggered when an existing relation between objects is deleted.
 
@@ -12,7 +12,7 @@ For example, in a business management system, a company may want to remove an re
 - The **first object** (custom object record) could represent an entity such as a project or a transaction.
 - The **second object** (contact) would represent a person associated with the custom object.
 
-## Schema [​](https://marketplace.gohighlevel.com/docs/webhook/RelationDelete/\#schema "Direct link to Schema")
+## Schema
 
 The webhook response follows the JSON schema below:
 
@@ -46,44 +46,44 @@ The webhook response follows the JSON schema below:
 }
 ```
 
-## Field Descriptions [​](https://marketplace.gohighlevel.com/docs/webhook/RelationDelete/\#field-descriptions "Direct link to Field Descriptions")
+## Field Descriptions
 
-### `id` [​](https://marketplace.gohighlevel.com/docs/webhook/RelationDelete/\#id "Direct link to id")
+### `id`
 
 - Type: `string`
 - Unique identifier for the deleted association.
 
-### `firstObjectKey` [​](https://marketplace.gohighlevel.com/docs/webhook/RelationDelete/\#firstobjectkey "Direct link to firstobjectkey")
+### `firstObjectKey`
 
 - Type: `string`
 - Key representing the first object in the association.
 
-### `firstRecordId` [​](https://marketplace.gohighlevel.com/docs/webhook/RelationDelete/\#firstrecordid "Direct link to firstrecordid")
+### `firstRecordId`
 
 - Type: `string`
 - Identifier of the first object’s specific record.
 
-### `secondObjectKey` [​](https://marketplace.gohighlevel.com/docs/webhook/RelationDelete/\#secondobjectkey "Direct link to secondobjectkey")
+### `secondObjectKey`
 
 - Type: `string`
 - Key representing the second object in the association.
 
-### `secondRecordId` [​](https://marketplace.gohighlevel.com/docs/webhook/RelationDelete/\#secondrecordid "Direct link to secondrecordid")
+### `secondRecordId`
 
 - Type: `string`
 - Identifier of the second object’s specific record.
 
-### `associationId` [​](https://marketplace.gohighlevel.com/docs/webhook/RelationDelete/\#associationid "Direct link to associationid")
+### `associationId`
 
 - Type: `string`
 - Unique identifier for the association that was deleted.
 
-### `locationId` [​](https://marketplace.gohighlevel.com/docs/webhook/RelationDelete/\#locationid "Direct link to locationid")
+### `locationId`
 
 - Type: `string`
 - Identifies the location associated with the deleted association.
 
-## Example Response [​](https://marketplace.gohighlevel.com/docs/webhook/RelationDelete/\#example-response "Direct link to Example Response")
+## Example Response
 
 ```json
 {
@@ -97,7 +97,7 @@ The webhook response follows the JSON schema below:
 }
 ```
 
-## Additional Notes [​](https://marketplace.gohighlevel.com/docs/webhook/RelationDelete/\#additional-notes "Direct link to Additional Notes")
+## Additional Notes
 
 - The `firstObjectKey` and `secondObjectKey` define the relationship between the deleted entities.
 

@@ -28,7 +28,7 @@ Bulk update rebilling for given locationIds
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/saas/update-rebilling-deprecated/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -86,7 +86,7 @@ Additional value to be added in terms of percentage. For example, if the product
 
 Example:`5`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/saas/update-rebilling-deprecated/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

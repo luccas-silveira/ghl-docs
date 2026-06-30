@@ -28,7 +28,7 @@ List all fulfillment history of an order
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/payments/list-order-fulfillment/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -58,7 +58,7 @@ Example: 6578278e879ad2646715ba9c
 
 **Possible values:** \[`location`\]
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/payments/list-order-fulfillment/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

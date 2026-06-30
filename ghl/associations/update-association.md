@@ -28,7 +28,7 @@ Update Association , Allows you to update labels of an associations. Documentati
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/associations/update-association/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -54,7 +54,7 @@ Example:`student`
 
 Example:`tutor`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/associations/update-association/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

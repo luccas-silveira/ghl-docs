@@ -24,7 +24,7 @@ List documents for a location
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/proposals/list-documents-contracts/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -88,7 +88,7 @@ Date to (ISO 8601), dateFrom & DateTo must be provided together
 
 Example: 2025-02-14T18:29:59.999Z
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/proposals/list-documents-contracts/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

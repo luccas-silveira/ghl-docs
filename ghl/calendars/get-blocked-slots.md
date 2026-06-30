@@ -28,7 +28,7 @@ Get Blocked Slots
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-blocked-slots/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -76,7 +76,7 @@ End Time (in millis)
 
 Example: 1680978599999
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-blocked-slots/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

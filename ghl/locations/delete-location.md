@@ -28,7 +28,7 @@ Delete a Sub-Account (Formerly Location) from the Agency
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/locations/delete-location/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -52,7 +52,7 @@ Example: ve9EPM428h8vShlRW1KT
 
 Boolean value to indicate whether to delete Twilio Account or not
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/locations/delete-location/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

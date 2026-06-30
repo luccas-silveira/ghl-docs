@@ -28,7 +28,7 @@ Get Comapny
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/companies/get-company/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -44,7 +44,7 @@ API Version
 
 Example: ve9EPM428h8vShlRW1KT
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/companies/get-company/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

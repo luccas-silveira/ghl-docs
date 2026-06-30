@@ -28,7 +28,7 @@ API to send invoice by invoice id
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/send-invoice/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -140,7 +140,7 @@ auto-payment configuration
 
 **provider** object
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/send-invoice/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

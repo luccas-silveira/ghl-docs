@@ -24,7 +24,7 @@ Fetch all SaaS-activated locations for a company with pagination
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/saas/get-saas-locations/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -42,7 +42,7 @@ API Version
 
 **page** numberrequired
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/saas/get-saas-locations/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 

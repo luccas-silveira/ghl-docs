@@ -24,7 +24,7 @@ Updates metadata or status of multiple files and folders
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/medias/bulk-update-media-objects/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -72,7 +72,7 @@ Example:`Updated File Name.pdf`\
 \
 \]
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/medias/bulk-update-media-objects/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 

@@ -7,7 +7,7 @@ Here you will find answers to commonly encountered questions.
 
 > If you are having trouble and cannot find a suitable answer, please reach out to support.
 
-### How do I listen to webhook events? [​](https://marketplace.gohighlevel.com/docs/oauth/Faqs/\#how-do-i-listen-to-webhook-events "Direct link to How do I listen to webhook events?")
+### How do I listen to webhook events?
 
 For listening to the webhook events -
 
@@ -19,15 +19,15 @@ For listening to the webhook events -
 6. Use the authorization code to get the access token.
 7. You would start receiving the webhook event for the location.
 
-### How long are the access tokens valid? [​](https://marketplace.gohighlevel.com/docs/oauth/Faqs/\#how-long-are-the-access-tokens-valid "Direct link to How long are the access tokens valid?")
+### How long are the access tokens valid?
 
 The access tokens are valid for a day. After that, you can use the refresh token to get a new access token which will be valid for another day.
 
-### How long are the refresh tokens valid? [​](https://marketplace.gohighlevel.com/docs/oauth/Faqs/\#how-long-are-the-refresh-tokens-valid "Direct link to How long are the refresh tokens valid?")
+### How long are the refresh tokens valid?
 
 The refresh tokens are valid for a year unless they are used. If they are used, the new refresh token is valid for a year as well.
 
-### How should we handle token expiry? [​](https://marketplace.gohighlevel.com/docs/oauth/Faqs/\#how-should-we-handle-token-expiry "Direct link to How should we handle token expiry?")
+### How should we handle token expiry?
 
 You should:
 
@@ -37,7 +37,7 @@ You should:
 
 You can write a wrapper function on your end to achieve this. You can use it for all the API calls you make to our APIs.
 
-### What are current rate limits for API 2.0? [​](https://marketplace.gohighlevel.com/docs/oauth/Faqs/\#what-are-current-rate-limits-for-api-20 "Direct link to What are current rate limits for API 2.0?")
+### What are current rate limits for API 2.0?
 
 GHL has implemented rate limits on our public V2 APIs using OAuth to ensure optimal performance and stability. These limits have been adjusted to:
 

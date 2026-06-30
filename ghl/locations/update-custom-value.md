@@ -23,7 +23,7 @@ Update Custom Value
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/locations/update-custom-value/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -59,7 +59,7 @@ Example:`Custom Field Name`
 
 Example:`Value`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/locations/update-custom-value/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

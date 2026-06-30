@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever an appointment is deleted
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/AppointmentDelete/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -71,7 +71,7 @@ Called whenever an appointment is deleted
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/AppointmentDelete/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

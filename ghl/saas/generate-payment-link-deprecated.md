@@ -28,7 +28,7 @@ Update SaaS subscription for given locationId and customerId
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/saas/generate-payment-link-deprecated/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -68,7 +68,7 @@ Company ID
 
 Example:`companyId1`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/saas/generate-payment-link-deprecated/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

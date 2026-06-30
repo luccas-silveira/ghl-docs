@@ -12,7 +12,7 @@ GET https://services.leadconnectorhq.com/social-media-posting/oauth/:platform/st
 ```
 
 
-## OAuth Connection Flow - Step 1: Initiate OAuth [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/start-oauth/\#oauth-connection-flow---step-1-initiate-oauth "Direct link to OAuth Connection Flow - Step 1: Initiate OAuth")
+## OAuth Connection Flow - Step 1: Initiate OAuth
 
 This is the first step in the 3-step OAuth flow to connect a social media account:
 
@@ -20,11 +20,11 @@ This is the first step in the 3-step OAuth flow to connect a social media accoun
 2. **Get Accounts** → Retrieve available pages/channels to connect
 3. **Attach Account** → Connect the selected account to your location
 
-### How to Use [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/start-oauth/\#how-to-use "Direct link to How to Use")
+### How to Use
 
 Open this API in a browser window (not via cURL) with the required query parameters. The user will be redirected to the platform's OAuth login screen.
 
-### Receiving the OAuth Response [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/start-oauth/\#receiving-the-oauth-response "Direct link to Receiving the OAuth Response")
+### Receiving the OAuth Response
 
 After successful authentication, the OAuth window will post a message back to your application. Listen for this message to get the `accountId` needed for the next step.
 
@@ -37,7 +37,7 @@ window.addEventListener('message', function(e) {
 }, false);
 ```
 
-### Event Data Response [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/start-oauth/\#event-data-response "Direct link to Event Data Response")
+### Event Data Response
 
 | Field | Type | Example | Description |
 | --- | --- | --- | --- |
@@ -48,7 +48,7 @@ window.addEventListener('message', function(e) {
 | accountId | string | "658a9b6833b91e0ecb8f3958" | **Use this for Step 2** |
 | reconnectAccounts | string\[\] | \["658a9b...", "efd2da..."\] | Accounts that need reconnection |
 
-### Next Step [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/start-oauth/\#next-step "Direct link to Next Step")
+### Next Step
 
 Use the `accountId` from the response to call:
 
@@ -56,12 +56,12 @@ Use the `accountId` from the response to call:
 GET /social-media-posting/oauth/{locationId}/{platform}/accounts/{accountId}
 ```
 
-### Platform Notes [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/start-oauth/\#platform-notes "Direct link to Platform Notes")
+### Platform Notes
 
 - **bluesky**: Currently not supported, will return an error
 - **tiktok-business**: Uses a separate business OAuth flow
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/start-oauth/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -126,7 +126,7 @@ Reconnect
 
 Example: true
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/start-oauth/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

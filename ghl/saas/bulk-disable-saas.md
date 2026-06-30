@@ -24,7 +24,7 @@ Disable SaaS for locations for given locationIds
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/saas/bulk-disable-saas/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -48,7 +48,7 @@ Location IDs
 
 Example:`["locationId1","locationId2"]`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/saas/bulk-disable-saas/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 

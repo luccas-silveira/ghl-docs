@@ -28,7 +28,7 @@ Get Custom Fields
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/locations/get-custom-fields/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -56,7 +56,7 @@ Model of the custom field you want to retrieve
 
 Example: opportunity
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/locations/get-custom-fields/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

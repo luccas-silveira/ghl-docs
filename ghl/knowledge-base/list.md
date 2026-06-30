@@ -24,7 +24,7 @@ Retrieves FAQs for a knowledge base. Supports pagination using limit and lastFaq
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/list/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -68,7 +68,7 @@ Last FAQ ID for pagination (cursor-based)
 
 Example: 3rzeElC1FOVY91veVBkp
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/list/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

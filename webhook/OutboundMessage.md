@@ -17,7 +17,7 @@ Called whenever a user sends a message to a contact.
 | Live Chat |
 | Internal Comment |
 
-#### Message Schema [​](https://marketplace.gohighlevel.com/docs/webhook/OutboundMessage/\#message-schema "Direct link to Message Schema")
+#### Message Schema
 
 ```json
 {
@@ -97,7 +97,7 @@ Called whenever a user sends a message to a contact.
 }
 ```
 
-#### Example(Message) [​](https://marketplace.gohighlevel.com/docs/webhook/OutboundMessage/\#examplemessage "Direct link to Example(Message)")
+#### Example(Message)
 
 ```json
 {
@@ -122,7 +122,7 @@ Called whenever a user sends a message to a contact.
 }
 ```
 
-#### Example(Call and Voicemail) [​](https://marketplace.gohighlevel.com/docs/webhook/OutboundMessage/\#examplecall-and-voicemail "Direct link to Example(Call and Voicemail)")
+#### Example(Call and Voicemail)
 
 ```json
 {
@@ -146,7 +146,7 @@ Called whenever a user sends a message to a contact.
 }
 ```
 
-### Call Status Details [​](https://marketplace.gohighlevel.com/docs/webhook/OutboundMessage/\#call-status-details "Direct link to Call Status Details")
+### Call Status Details
 
 For outbound calls:
 
@@ -154,7 +154,7 @@ For outbound calls:
 - When the call reaches voicemail, `status` will be `completed` and `callStatus` will be `voicemail`
 - The `callDuration` field indicates the length of the call in seconds
 
-#### Example(Voicemail send through workflow) [​](https://marketplace.gohighlevel.com/docs/webhook/OutboundMessage/\#examplevoicemail-send-through-workflow "Direct link to Example(Voicemail send through workflow)")
+#### Example(Voicemail send through workflow)
 
 ```json
 {
@@ -175,7 +175,7 @@ For outbound calls:
 }
 ```
 
-#### Example(Internal Comment with mentions) [​](https://marketplace.gohighlevel.com/docs/webhook/OutboundMessage/\#exampleinternal-comment-with-mentions "Direct link to Example(Internal Comment with mentions)")
+#### Example(Internal Comment with mentions)
 
 ```json
 {
@@ -196,7 +196,7 @@ For outbound calls:
 }
 ```
 
-#### Example(Internal Comment without mentions) [​](https://marketplace.gohighlevel.com/docs/webhook/OutboundMessage/\#exampleinternal-comment-without-mentions "Direct link to Example(Internal Comment without mentions)")
+#### Example(Internal Comment without mentions)
 
 ```json
 {
@@ -217,14 +217,14 @@ For outbound calls:
 }
 ```
 
-### Internal Comment Details [​](https://marketplace.gohighlevel.com/docs/webhook/OutboundMessage/\#internal-comment-details "Direct link to Internal Comment Details")
+### Internal Comment Details
 
 - Internal comments are only visible to internal users and are not sent to the contact.
 - The `userId` field identifies the user who posted the comment.
 - The `mentions` field contains an array of user IDs that were tagged in the comment. If no users were mentioned, it will be an empty array `[]`.
 - The `body` field contains the comment text. Mentioned users appear in the format `@username<userId>actualUserId</userId>`.
 
-#### Email Message Schema [​](https://marketplace.gohighlevel.com/docs/webhook/OutboundMessage/\#email-message-schema "Direct link to Email Message Schema")
+#### Email Message Schema
 
 ```json
 {
@@ -306,7 +306,7 @@ For outbound calls:
 }
 ```
 
-#### Example(Email) [​](https://marketplace.gohighlevel.com/docs/webhook/OutboundMessage/\#exampleemail "Direct link to Example(Email)")
+#### Example(Email)
 
 ```json
 {

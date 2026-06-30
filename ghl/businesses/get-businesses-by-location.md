@@ -28,7 +28,7 @@ Get Businesses by Location
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/businesses/get-businesses-by-location/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -56,7 +56,7 @@ Default value:`0`
 
 Example: 10
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/businesses/get-businesses-by-location/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

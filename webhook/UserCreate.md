@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever a user is created
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/UserCreate/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -63,7 +63,7 @@ Called whenever a user is created
 }
 ```
 
-#### Example (For Sub Account User) [​](https://marketplace.gohighlevel.com/docs/webhook/UserCreate/\#example-for-sub-account-user "Direct link to Example (For Sub Account User)")
+#### Example (For Sub Account User)
 
 ```json
 {
@@ -119,7 +119,7 @@ Called whenever a user is created
 }
 ```
 
-#### Example (For Agency User) [​](https://marketplace.gohighlevel.com/docs/webhook/UserCreate/\#example-for-agency-user "Direct link to Example (For Agency User)")
+#### Example (For Agency User)
 
 ```json
 {

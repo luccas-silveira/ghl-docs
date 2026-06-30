@@ -28,7 +28,7 @@ Update service by ID.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/update-service-catalog/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -264,7 +264,7 @@ Example:`Standard Haircut`\
 \
 \]
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/update-service-catalog/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

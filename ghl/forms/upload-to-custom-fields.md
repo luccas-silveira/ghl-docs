@@ -55,7 +55,7 @@ The API will return the updated contact object.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/forms/upload-to-custom-fields/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -83,7 +83,7 @@ Example: quXmPY59n1zgGBabY1bZ
 
 ### Body **required**
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/forms/upload-to-custom-fields/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

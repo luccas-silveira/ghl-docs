@@ -28,7 +28,7 @@ Get message by message id.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/get-message/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -38,7 +38,7 @@ Get message by message id.
 
 API Version
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/get-message/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

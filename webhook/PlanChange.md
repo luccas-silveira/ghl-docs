@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever user changes the plan for a paid app.
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/PlanChange/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -43,7 +43,7 @@ Called whenever user changes the plan for a paid app.
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/PlanChange/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

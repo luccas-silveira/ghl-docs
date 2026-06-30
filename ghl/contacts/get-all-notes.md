@@ -28,7 +28,7 @@ Get All Notes
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/get-all-notes/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -48,7 +48,7 @@ Contact Id
 
 Example: ve9EPM428h8vShlRW1KT
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/get-all-notes/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

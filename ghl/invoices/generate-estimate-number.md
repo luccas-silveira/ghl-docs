@@ -28,7 +28,7 @@ Get the next estimate number for the given location
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/generate-estimate-number/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -50,7 +50,7 @@ Example: 6578278e879ad2646715ba9c
 
 **Possible values:** \[`location`\]
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/generate-estimate-number/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

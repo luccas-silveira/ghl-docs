@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever a product is created
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/ProductCreate/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -99,7 +99,7 @@ Called whenever a product is created
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/ProductCreate/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

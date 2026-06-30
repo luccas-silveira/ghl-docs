@@ -28,7 +28,7 @@ The "Get all authors" Api return the blog authors for a given location ID. Pleas
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/blogs/get-all-blog-authors-by-location/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -58,7 +58,7 @@ Number of authors to skip in listing
 
 Example: 0
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/blogs/get-all-blog-authors-by-location/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

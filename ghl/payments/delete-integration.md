@@ -27,7 +27,7 @@ API to delete an association for an app and location
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/payments/delete-integration/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -45,7 +45,7 @@ Location id
 
 Example: Lk3nlfk4lxlelVEwcW
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/payments/delete-integration/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

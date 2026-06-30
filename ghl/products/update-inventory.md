@@ -28,7 +28,7 @@ The Update Inventory API allows the user to bulk update the inventory for multip
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/products/update-inventory/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -78,7 +78,7 @@ Example:`false`\
 \
 \]
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/products/update-inventory/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

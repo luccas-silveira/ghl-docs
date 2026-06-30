@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever a live chat conversation is merged into another conversation due to contact identification (e.g. a visitor provides their email or phone number matching an existing contact).
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/ConversationUpdate/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -33,7 +33,7 @@ Called whenever a live chat conversation is merged into another conversation due
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/ConversationUpdate/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

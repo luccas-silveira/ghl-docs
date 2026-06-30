@@ -28,7 +28,7 @@ Updates a specific agent version by versionId. Supports updating nodes, edges, v
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/agent-studio/update-agent-version/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -120,7 +120,7 @@ User name performing the update
 
 Example:`John Doe`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/agent-studio/update-agent-version/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

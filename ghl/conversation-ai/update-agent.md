@@ -27,7 +27,7 @@ Updates an existing AI agent's configuration. All fields in the agent configurat
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/update-agent/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -165,7 +165,7 @@ Enable sleep when a workflow outbound message is sent.
 
 Example:`false`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/update-agent/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

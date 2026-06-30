@@ -28,7 +28,7 @@ Duplicates an existing queue item at a specified order position. Requires an act
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/clone-queue-item/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -68,7 +68,7 @@ Order for the cloned item (typically between source and next item)
 
 Example:`1.5`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/clone-queue-item/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

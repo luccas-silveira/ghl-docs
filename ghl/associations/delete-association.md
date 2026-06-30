@@ -28,7 +28,7 @@ Delete USER\_DEFINED Association By Id, deleting an association will also all th
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/associations/delete-association/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -42,7 +42,7 @@ API Version
 
 **associationId** stringrequired
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/associations/delete-association/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

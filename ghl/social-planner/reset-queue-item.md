@@ -13,9 +13,9 @@ PUT https://services.leadconnectorhq.com/social-media-posting/category/queues/:q
 
 Resets a specific queue item to its original state, discarding any modifications made.
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/reset-queue-item/\#request "Direct link to Request")
+## Request
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/reset-queue-item/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

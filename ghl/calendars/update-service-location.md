@@ -28,7 +28,7 @@ Update an existing service location
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/update-service-location/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -88,7 +88,7 @@ Location type
 
 Example:`offline`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/update-service-location/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -24,7 +24,7 @@ Fetch subscription details for a specific location from location metadata
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/saas/get-location-subscription/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -42,7 +42,7 @@ API Version
 
 **companyId** stringrequired
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/saas/get-location-subscription/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 

@@ -23,7 +23,7 @@ Get list of brand voices for a location
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/brand-boards/list-brand-voices/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -75,7 +75,7 @@ Whether to return deleted brand voices. Defaults to false
 
 Default value:`false`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/brand-boards/list-brand-voices/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

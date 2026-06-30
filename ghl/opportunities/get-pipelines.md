@@ -28,7 +28,7 @@ Get Pipelines
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/opportunities/get-pipelines/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -48,7 +48,7 @@ Identifier of the location (sub-account) to retrieve pipelines for
 
 Example: ve9EPM428h8vShlRW1KT
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/opportunities/get-pipelines/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

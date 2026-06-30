@@ -7,7 +7,7 @@ version: v3
 
 API Service for LC Phone - version v3
 
-## Authentication [​](https://marketplace.gohighlevel.com/docs/ghl/phone-system/lc-phone-api-v-3/\#authentication "Direct link to Authentication")
+## Authentication
 
 - HTTP: Bearer Auth
 - HTTP: Bearer Auth

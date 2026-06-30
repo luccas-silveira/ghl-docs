@@ -28,7 +28,7 @@ GET all or email/sms templates
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/locations/get-all-or-email-sms-templates/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -74,7 +74,7 @@ Origin Id
 
 Example: ve9EPM428h8vShlRW1KT
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/locations/get-all-or-email-sms-templates/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

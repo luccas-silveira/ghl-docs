@@ -28,7 +28,7 @@ Updates queue status (active/paused/deleted), time slots, or skip dates.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/update-queue/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -102,7 +102,7 @@ Prioritize new content over older content. When true, new items added via direct
 
 Example:`false`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/update-queue/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

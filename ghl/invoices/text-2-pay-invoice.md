@@ -28,7 +28,7 @@ API to create or update a text2pay invoice
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/text-2-pay-invoice/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -646,7 +646,7 @@ Example:`wwww.example.com`
 
 Custom Values
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/text-2-pay-invoice/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -28,7 +28,7 @@ Uploads File to customFields
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/locations/upload-file-custom-fields/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -58,7 +58,7 @@ Max number of files
 
 Example:`15`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/locations/upload-file-custom-fields/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

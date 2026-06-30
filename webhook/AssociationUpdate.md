@@ -3,7 +3,7 @@ title: "Associationupdate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/AssociationUpdate
 version: v3
 ---
-## Overview [​](https://marketplace.gohighlevel.com/docs/webhook/AssociationUpdate/\#overview "Direct link to Overview")
+## Overview
 
 This webhook response is triggered when a new association is updated between objects, such as linking contacts to custom objects. Currently, only contact-to-contact , contact to custom object and custom object to custom object associations are supported. There are plans to expand support for additional associations in the future.
 
@@ -14,7 +14,7 @@ For example, in a real estate system, a company may want to associate potential 
 - The **association label** might be "Interested Buyer," indicating that the buyer has shown interest in the property.
 - The system could store multiple buyers per property (many-to-many relationship), allowing for flexible tracking of interest.
 
-## Schema [​](https://marketplace.gohighlevel.com/docs/webhook/AssociationUpdate/\#schema "Direct link to Schema")
+## Schema
 
 The webhook response follows the JSON schema below:
 
@@ -56,59 +56,59 @@ The webhook response follows the JSON schema below:
 }
 ```
 
-## Field Descriptions [​](https://marketplace.gohighlevel.com/docs/webhook/AssociationUpdate/\#field-descriptions "Direct link to Field Descriptions")
+## Field Descriptions
 
-### `id` [​](https://marketplace.gohighlevel.com/docs/webhook/AssociationUpdate/\#id "Direct link to id")
+### `id`
 
 - Type: `string`
 - Unique identifier for the association.
 
-### `associationType` [​](https://marketplace.gohighlevel.com/docs/webhook/AssociationUpdate/\#associationtype "Direct link to associationtype")
+### `associationType`
 
 - Type: `string`
 - Specifies the type of association (e.g., `USER_DEFINED` or `SYSTEM_DEFINED`).
 
-### `firstObjectKey` [​](https://marketplace.gohighlevel.com/docs/webhook/AssociationUpdate/\#firstobjectkey "Direct link to firstobjectkey")
+### `firstObjectKey`
 
 - Type: `string`
 - Key representing the first object in the association.
 
-### `firstObjectLabel` [​](https://marketplace.gohighlevel.com/docs/webhook/AssociationUpdate/\#firstobjectlabel "Direct link to firstobjectlabel")
+### `firstObjectLabel`
 
 - Type: `string`
 - Human-readable label for the first object.
 
-### `firstObjectToSecondObjectCardinality` [​](https://marketplace.gohighlevel.com/docs/webhook/AssociationUpdate/\#firstobjecttosecondobjectcardinality "Direct link to firstobjecttosecondobjectcardinality")
+### `firstObjectToSecondObjectCardinality`
 
 - Type: `string`
 - Indicates the relationship between the first and second object (e.g., `MANY_TO_MANY`).
 
-### `secondObjectKey` [​](https://marketplace.gohighlevel.com/docs/webhook/AssociationUpdate/\#secondobjectkey "Direct link to secondobjectkey")
+### `secondObjectKey`
 
 - Type: `string`
 - Key representing the second object in the association.
 
-### `secondObjectLabel` [​](https://marketplace.gohighlevel.com/docs/webhook/AssociationUpdate/\#secondobjectlabel "Direct link to secondobjectlabel")
+### `secondObjectLabel`
 
 - Type: `string`
 - Human-readable label for the second object.
 
-### `secondObjectToFirstObjectCardinality` [​](https://marketplace.gohighlevel.com/docs/webhook/AssociationUpdate/\#secondobjecttofirstobjectcardinality "Direct link to secondobjecttofirstobjectcardinality")
+### `secondObjectToFirstObjectCardinality`
 
 - Type: `string`
 - Defines the reverse relationship between objects.
 
-### `key` [​](https://marketplace.gohighlevel.com/docs/webhook/AssociationUpdate/\#key "Direct link to key")
+### `key`
 
 - Type: `string`
 - Unique key assigned to the association.
 
-### `locationId` [​](https://marketplace.gohighlevel.com/docs/webhook/AssociationUpdate/\#locationid "Direct link to locationid")
+### `locationId`
 
 - Type: `string`
 - Identifies the location associated with the created association.
 
-## Example Response [​](https://marketplace.gohighlevel.com/docs/webhook/AssociationUpdate/\#example-response "Direct link to Example Response")
+## Example Response
 
 ```json
 {
@@ -125,7 +125,7 @@ The webhook response follows the JSON schema below:
 }
 ```
 
-## Additional Notes [​](https://marketplace.gohighlevel.com/docs/webhook/AssociationUpdate/\#additional-notes "Direct link to Additional Notes")
+## Additional Notes
 
 - Ensure that your webhook listener is capable of processing `POST` requests.
 - The `firstObjectKey` and `secondObjectKey` help define relationships between entities.

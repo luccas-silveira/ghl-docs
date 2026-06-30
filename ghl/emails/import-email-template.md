@@ -28,7 +28,7 @@ Import a template from a provider URL
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/emails/import-email-template/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -84,7 +84,7 @@ ID of the user performing this action
 
 Example:`507f1f77bcf86cd799439011`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/emails/import-email-template/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

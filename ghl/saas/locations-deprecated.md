@@ -28,7 +28,7 @@ Get locations by stripeCustomerId or stripeSubscriptionId with companyId
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/saas/locations-deprecated/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -58,7 +58,7 @@ Company ID to filter locations
 
 Example: 5DP4iH6HLkQsiKESj6rh
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/saas/locations-deprecated/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

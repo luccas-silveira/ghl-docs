@@ -28,7 +28,7 @@ Search Users
 
 `Agency Token``Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/users/search-users/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -112,7 +112,7 @@ Filter users by whether 2-way sync is enabled
 
 Example:
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/users/search-users/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

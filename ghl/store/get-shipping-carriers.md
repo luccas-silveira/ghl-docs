@@ -24,7 +24,7 @@ The "List Shipping Carrier" API allows to retrieve a paginated list of shipping 
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/store/get-shipping-carriers/\#request "Direct link to Request")
+## Request
 
 ### Path Parameters
 
@@ -46,7 +46,7 @@ Example: 6578278e879ad2646715ba9c
 
 **Possible values:** \[`location`\]
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/store/get-shipping-carriers/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -28,7 +28,7 @@ Task Search
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/locations/task-search/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -96,7 +96,7 @@ Bussiness Id
 
 Example:`6348240b98722079e5417332`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/locations/task-search/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

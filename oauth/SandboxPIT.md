@@ -3,7 +3,7 @@ title: "Sandboxpit"
 source_url: https://marketplace.gohighlevel.com/docs/oauth/SandboxPIT
 version: v3
 ---
-## Overview [​](https://marketplace.gohighlevel.com/docs/oauth/SandboxPIT/\#overview "Direct link to Overview")
+## Overview
 
 A **Private Integration Token (PIT)** is a **scoped authentication token** that provides **secure server-to-server** access to **HighLevel APIs**. PITs let you build custom integrations without running an OAuth user-consent flow.
 
@@ -17,11 +17,11 @@ This document explains:
 
 * * *
 
-## What Is a Private Integration Token (PIT)? [​](https://marketplace.gohighlevel.com/docs/oauth/SandboxPIT/\#what-is-a-private-integration-token-pit "Direct link to What Is a Private Integration Token (PIT)?")
+## What Is a Private Integration Token (PIT)?
 
 A **PIT** is a token you generate in the HighLevel UI to authenticate API requests.
 
-### Key characteristics [​](https://marketplace.gohighlevel.com/docs/oauth/SandboxPIT/\#key-characteristics "Direct link to Key characteristics")
+### Key characteristics
 
 - **Scoped permissions:** Access is limited to the scopes you select.
 - **Static token behavior:** PITs act like a fixed OAuth2 access token. They **do not auto-refresh**. If you need a new token, you must **rotate** or regenerate it manually.
@@ -31,7 +31,7 @@ A **PIT** is a token you generate in the HighLevel UI to authenticate API reques
 
 * * *
 
-## When Should You Use a PIT? [​](https://marketplace.gohighlevel.com/docs/oauth/SandboxPIT/\#when-should-you-use-a-pit "Direct link to When Should You Use a PIT?")
+## When Should You Use a PIT?
 
 Use a PIT when:
 
@@ -42,7 +42,7 @@ Use a PIT when:
 
 * * *
 
-## PITs in Sandbox Accounts: What’s New? [​](https://marketplace.gohighlevel.com/docs/oauth/SandboxPIT/\#pits-in-sandbox-accounts-whats-new "Direct link to PITs in Sandbox Accounts: What’s New?")
+## PITs in Sandbox Accounts: What’s New?
 
 Previously, **Sandbox (App Test) Accounts** did not support PIT creation. This has changed:
 
@@ -57,11 +57,11 @@ This enables full integration testing in Sandbox **without switching to a live a
 
 * * *
 
-## How Sandbox PITs Differ from Production PITs [​](https://marketplace.gohighlevel.com/docs/oauth/SandboxPIT/\#how-sandbox-pits-differ-from-production-pits "Direct link to How Sandbox PITs Differ from Production PITs")
+## How Sandbox PITs Differ from Production PITs
 
 Sandbox PITs work the same way technically, but there are important operational differences.
 
-### 1) API Limits (Sandbox) [​](https://marketplace.gohighlevel.com/docs/oauth/SandboxPIT/\#1-api-limits-sandbox "Direct link to 1) API Limits (Sandbox)")
+### 1) API Limits (Sandbox)
 
 Sandbox PITs have reduced API limits for development/testing:
 
@@ -74,7 +74,7 @@ Notes:
 - Limits **do not multiply** if you generate multiple PITs.
 - Production PITs use the standard API limits based on the paid HighLevel plan.
 
-### 2) Environment Characteristics [​](https://marketplace.gohighlevel.com/docs/oauth/SandboxPIT/\#2-environment-characteristics "Direct link to 2) Environment Characteristics")
+### 2) Environment Characteristics
 
 | Category | Sandbox PITs | Production PITs |
 | --- | --- | --- |
@@ -87,7 +87,7 @@ Notes:
 
 * * *
 
-## Data & Lifecycle [​](https://marketplace.gohighlevel.com/docs/oauth/SandboxPIT/\#data--lifecycle "Direct link to Data & Lifecycle")
+## Data & Lifecycle
 
 Sandbox data (including PITs) is temporary and may be:
 
@@ -100,7 +100,7 @@ When moving to production, you should create a **separate PIT** in the productio
 
 * * *
 
-## Using a PIT in API Calls [​](https://marketplace.gohighlevel.com/docs/oauth/SandboxPIT/\#using-a-pit-in-api-calls "Direct link to Using a PIT in API Calls")
+## Using a PIT in API Calls
 
 Once you generate a PIT, include it in the `Authorization` header:
 
@@ -123,7 +123,7 @@ curl --request GET \
 
 * * *
 
-## Best Practices Around PITs [​](https://marketplace.gohighlevel.com/docs/oauth/SandboxPIT/\#best-practices-around-pits "Direct link to Best Practices Around PITs")
+## Best Practices Around PITs
 
 Even in Sandbox environments:
 
@@ -137,7 +137,7 @@ Even in Sandbox environments:
 
 * * *
 
-## Transitioning from Sandbox to Production [​](https://marketplace.gohighlevel.com/docs/oauth/SandboxPIT/\#transitioning-from-sandbox-to-production "Direct link to Transitioning from Sandbox to Production")
+## Transitioning from Sandbox to Production
 
 When your integration is ready for production:
 
@@ -148,7 +148,7 @@ When your integration is ready for production:
 
 * * *
 
-## Summary [​](https://marketplace.gohighlevel.com/docs/oauth/SandboxPIT/\#summary "Direct link to Summary")
+## Summary
 
 Private Integration Tokens (PITs) provide secure, scoped server-to-server authentication for HighLevel APIs.
 

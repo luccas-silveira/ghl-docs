@@ -28,7 +28,7 @@ Migrates an external authentication connection credentials (basic or oauth2) for
 
 `Sub-Account Token``Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/marketplace/migrate-connection/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -130,7 +130,7 @@ Whether this is the default connection for the location (optional, defaults to f
 
 Example:`false`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/marketplace/migrate-connection/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

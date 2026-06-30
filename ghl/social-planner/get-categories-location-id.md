@@ -28,7 +28,7 @@ Retrieve all categories for a specific location with optional search and paginat
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-categories-location-id/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -68,7 +68,7 @@ Skip
 
 Example: 0
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-categories-location-id/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

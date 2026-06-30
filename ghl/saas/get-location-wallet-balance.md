@@ -28,7 +28,7 @@ Fetch the wallet balance for a specific location. Returns a resource object with
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/saas/get-location-wallet-balance/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -52,7 +52,7 @@ Location ID to get wallet balance for
 
 Example: AUKAtFVo0lWezBsBQ3FE
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/saas/get-location-wallet-balance/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

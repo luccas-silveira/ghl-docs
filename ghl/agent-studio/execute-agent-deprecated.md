@@ -40,7 +40,7 @@ Executes the specified agent and returns a non-streaming JSON response with the 
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/agent-studio/execute-agent-deprecated/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -122,7 +122,7 @@ Contact ID to associate with this execution. When provided, contact data will be
 
 Example:`cid_abc123def456`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/agent-studio/execute-agent-deprecated/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -28,7 +28,7 @@ Creates and attach a new action for an AI agent. Actions define specific tasks o
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/create-action/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -498,7 +498,7 @@ Example phrases that trigger transfer (required for Custom type, minimum 2)
 
 Example:`["talk to sales","pricing information","speak to specialist"]`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/create-action/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

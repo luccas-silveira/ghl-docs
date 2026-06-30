@@ -28,7 +28,7 @@ Create Opportunity
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/opportunities/create-opportunity/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -174,7 +174,7 @@ Example:`{"url":"https://example.com/file.pdf","size":1024}`\
 \
 \]
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/opportunities/create-opportunity/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

@@ -9,7 +9,7 @@ These pages can be designed with your own frontend stack, tested in real time, a
 
 * * *
 
-## What You Can Do With Custom Pages [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomPages/\#what-you-can-do-with-custom-pages "Direct link to What You Can Do With Custom Pages")
+## What You Can Do With Custom Pages
 
 - Build custom UI experiences for your Marketplace app.
 - Test your page in a live environment before launch. See the [App Testing Guide](https://marketplace.gohighlevel.com/docs/oauth/AppTestingGuide) for more on test environments.
@@ -18,7 +18,7 @@ These pages can be designed with your own frontend stack, tested in real time, a
 
 * * *
 
-## Getting Started [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomPages/\#getting-started "Direct link to Getting Started")
+## Getting Started
 
 To speed up development, you can start from the official Marketplace app template:
 
@@ -32,7 +32,7 @@ The template includes:
 
 * * *
 
-## Placement Options [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomPages/\#placement-options "Direct link to Placement Options")
+## Placement Options
 
 Custom Pages can appear in one of two places after an app is installed:
 
@@ -41,7 +41,7 @@ Custom Pages can appear in one of two places after an app is installed:
 
 This gives developers more flexibility in how they expose their app experience to end users.
 
-### Placement by Distribution Type [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomPages/\#placement-by-distribution-type "Direct link to Placement by Distribution Type")
+### Placement by Distribution Type
 
 If you choose to surface the page in the left navigation, where it appears depends on the app's distribution type:
 
@@ -51,7 +51,7 @@ If you choose to surface the page in the left navigation, where it appears depen
 
 * * *
 
-## After Installation [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomPages/\#after-installation "Direct link to After Installation")
+## After Installation
 
 Once the app is installed, the custom page becomes visible to the customer in the configured placement. This makes it easier for users to discover and interact with the app without needing to leave HighLevel.
 
@@ -64,7 +64,7 @@ Custom Pages are especially useful when you want to provide:
 
 * * *
 
-## Passing User and Location Context [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomPages/\#passing-user-and-location-context "Direct link to Passing User and Location Context")
+## Passing User and Location Context
 
 There are two common ways to access context inside a Custom Page:
 
@@ -73,7 +73,7 @@ There are two common ways to access context inside a Custom Page:
 
 For secure user context handling, see [User Context in Marketplace Apps](https://marketplace.gohighlevel.com/docs/other/user-context-marketplace-apps).
 
-### Option 1: URL Parameters [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomPages/\#option-1-url-parameters "Direct link to Option 1: URL Parameters")
+### Option 1: URL Parameters
 
 While configuring the Custom Page URL, you can include supported HighLevel variables in the query string.
 
@@ -87,9 +87,9 @@ When the user opens the page, HighLevel replaces these placeholders with real va
 
 You can then read those query parameters in your frontend application and use them to personalize the experience.
 
-### Supported URL Variables [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomPages/\#supported-url-variables "Direct link to Supported URL Variables")
+### Supported URL Variables
 
-#### User [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomPages/\#user "Direct link to User")
+#### User
 
 - `user.first_name`
 - `user.last_name`
@@ -97,7 +97,7 @@ You can then read those query parameters in your frontend application and use th
 - `user.phone`
 - `user.email`
 
-#### Location [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomPages/\#location "Direct link to Location")
+#### Location
 
 - `location.id`
 - `location.name`
@@ -112,17 +112,17 @@ You can then read those query parameters in your frontend application and use th
 - `location.website`
 - `location.logo_url`
 
-#### Location Owner [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomPages/\#location-owner "Direct link to Location Owner")
+#### Location Owner
 
 - `location_owner.first_name`
 - `location_owner.last_name`
 - `location_owner.email`
 
-#### Custom Values [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomPages/\#custom-values "Direct link to Custom Values")
+#### Custom Values
 
 - `custom_values.{CUSTOM_VALUE_NAME}`
 
-### Option 2: Signed User Context [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomPages/\#option-2-signed-user-context "Direct link to Option 2: Signed User Context")
+### Option 2: Signed User Context
 
 If your use case requires a more secure way to get authenticated user context, use the signed user context flow described in [User Context in Marketplace Apps](https://marketplace.gohighlevel.com/docs/other/user-context-marketplace-apps).
 
@@ -130,7 +130,7 @@ This approach is recommended when your page needs trusted identity data that sho
 
 * * *
 
-## Media Permissions [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomPages/\#media-permissions "Direct link to Media Permissions")
+## Media Permissions
 
 Custom Pages support both camera access and microphone access. This can be useful for experiences such as:
 
@@ -140,7 +140,7 @@ Custom Pages support both camera access and microphone access. This can be usefu
 
 Make sure your page is hosted securely and that your application handles browser permission prompts gracefully.
 
-### Hosting Requirements [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomPages/\#hosting-requirements "Direct link to Hosting Requirements")
+### Hosting Requirements
 
 - Serve your Custom Page over **HTTPS**. Camera and microphone access generally require a secure context, and non-HTTPS pages may be blocked by the browser.
 - Ensure the page can be embedded inside HighLevel. Custom Pages are typically rendered in an iframe, so your hosting setup must allow cross-origin embedding.

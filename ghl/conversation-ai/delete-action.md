@@ -28,7 +28,7 @@ Permanently deletes an action. This will remove the action from all associated a
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/delete-action/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -46,7 +46,7 @@ The unique identifier of the action ID Attached to the agent
 
 **agentId** stringrequired
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/delete-action/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

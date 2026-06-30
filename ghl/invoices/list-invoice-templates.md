@@ -28,7 +28,7 @@ API to get list of templates
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/list-invoice-templates/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -96,7 +96,7 @@ Number of items to skip
 
 Example: 10
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/list-invoice-templates/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

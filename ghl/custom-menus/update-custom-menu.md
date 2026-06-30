@@ -28,7 +28,7 @@ Updates an existing custom menu for a given company. Requires authentication and
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/custom-menus/update-custom-menu/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -132,7 +132,7 @@ Whether to allow microphone access (only for iframe mode)
 
 Example:`false`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/custom-menus/update-custom-menu/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

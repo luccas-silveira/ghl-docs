@@ -28,7 +28,7 @@ Disable Group
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/disable-group/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -56,7 +56,7 @@ Is Active?
 
 Example:`true`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/disable-group/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

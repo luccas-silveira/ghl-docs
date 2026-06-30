@@ -5,12 +5,12 @@ version: v3
 ---
 Marketplace Workflow Actions are the customizable workflow actions managed in [Marketplace](https://marketplace.gohighlevel.com/). You will be able to create custom actions to push or pull data from your application/API in a workflow using customized fields and API endpoint.
 
-## Create a New Action [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomActions/\#create-a-new-action "Direct link to Create a New Action")
+## Create a New Action
 
 - Navigate to the "Workflow" section, located under the Modules in the left-hand navigation menu of your app..
 - Click on "Create Action" to initiate the process.
 
-## Define Action Information [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomActions/\#define-action-information "Direct link to Define Action Information")
+## Define Action Information
 
 - **Name:** Provide a descriptive name for your action.
 
@@ -23,15 +23,15 @@ Marketplace Workflow Actions are the customizable workflow actions managed in [M
 
 ![drawing](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155005617692/original/ayYzwBxRpcqkChyLHwVUxiYa6SNiuEUpmg.png?1692595399)
 
-## Action Configuration [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomActions/\#action-configuration "Direct link to Action Configuration")
+## Action Configuration
 
-### Manage Fields [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomActions/\#manage-fields "Direct link to Manage Fields")
+### Manage Fields
 
 _Construct form to collect the data required for sending to API_
 
 ![drawing](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155005617794/original/ruqdiXv6Qpyb5koXldxA6IezKmW4Kn4k6A.png?1692595629)
 
-### Create New Field [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomActions/\#create-new-field "Direct link to Create New Field")
+### Create New Field
 
 ![drawing](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155014097669/original/K7S7qgH1SPJT2Epd6gu8E37h5aImQ0tPDA.png?1701409848)
 
@@ -61,7 +61,7 @@ _If enabled, any changes made to this field value will trigger/ re-trigger loadi
 
 _If the value fails the check, HighLevel blocks the save/submit action and shows a custom error message that you configure._
 
-### Typical use-cases [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomActions/\#typical-use-cases "Direct link to Typical use-cases")
+### Typical use-cases
 
 | Scenario | Example |
 | --- | --- |
@@ -71,7 +71,7 @@ _If the value fails the check, HighLevel blocks the save/submit action and shows
 
 * * *
 
-### Field Types: Select / Multi Select / Radio [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomActions/\#field-types-select--multi-select--radio "Direct link to Field Types: Select / Multi Select / Radio")
+### Field Types: Select / Multi Select / Radio
 
 ![drawing](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155005618327/original/75wTdD-ywGGAzHHCMQ6rSJ74XtVQEivUeQ.png?1692596839)
 
@@ -91,7 +91,7 @@ Load options from HighLevel Internal Modules
 
 ![drawing](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155005617998/original/du8lZRMai5wENrSducJPjhqgFASlOZ_P6Q.png?1692596002)
 
-### Supported HighLevel Modules [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomActions/\#supported-highlevel-modules "Direct link to Supported HighLevel Modules")
+### Supported HighLevel Modules
 
 ![drawing](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155005670538/original/8uQtBkMLWLhm6jcDxdX-gzjR07BQ_GPtXw.png?1692623479)
 
@@ -125,7 +125,7 @@ Add headers as per your requirement
 
 * * *
 
-### Field Type: Hidden [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomActions/\#field-type-hidden "Direct link to Field Type: Hidden")
+### Field Type: Hidden
 
 It will be hidden in the action configuration and the mapped data will be sent in the payload. Used to collect essential information such as company\_id, customerid, etc., from system data or from your custom triggers.
 
@@ -133,7 +133,7 @@ It will be hidden in the action configuration and the mapped data will be sent i
 
 * * *
 
-### Field Type: Dynamic [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomActions/\#field-type-dynamic "Direct link to Field Type: Dynamic")
+### Field Type: Dynamic
 
 Dynamic fields are used to build custom fields from an API call. The API call should return the below response structure to construct the fields in the Workflow action configuration form UI. Only one Dynamic type can be created per action.
 
@@ -208,7 +208,7 @@ Sections are used to group the fields in UI
 
 * * *
 
-### Sample structure for each Field Types [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomActions/\#sample-structure-for-each-field-types "Direct link to Sample structure for each Field Types")
+### Sample structure for each Field Types
 
 **String**
 
@@ -287,7 +287,7 @@ Sections are used to group the fields in UI
 
 * * *
 
-## Validation Rules (Types) [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomActions/\#validation-rules-types "Direct link to Validation Rules (Types)")
+## Validation Rules (Types)
 
 The Validation Rules feature helps app developers ensure data integrity by enforcing input checks on form fields. Developers can choose from three flexible validation methods:
 
@@ -315,7 +315,7 @@ _For every validation rule, a custom error message must be provided to display m
 
 * * *
 
-## Multi-branch [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomActions/\#multi-branch "Direct link to Multi-branch")
+## Multi-branch
 
 The Multi-Branch Feature enables the creation of branches that can dynamically adjust based on various predefined conditions. By allowing multiple branches within a workflow, each contact can be directed down the appropriate path based on their interactions or status.
 
@@ -340,7 +340,7 @@ The Multi-Branch Feature enables the creation of branches that can dynamically a
 
 * * *
 
-#### Sample payload for branches [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomActions/\#sample-payload-for-branches "Direct link to Sample payload for branches")
+#### Sample payload for branches
 
 ```json
 {
@@ -378,11 +378,11 @@ The Multi-Branch Feature enables the creation of branches that can dynamically a
 
 * * *
 
-## Action Execution [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomActions/\#action-execution "Direct link to Action Execution")
+## Action Execution
 
 Allows you to choose between an API or a custom code.
 
-### API [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomActions/\#api "Direct link to API")
+### API
 
 **URL (POST)**
 
@@ -421,7 +421,7 @@ Add required header data that has to be included while sending data to the API e
 
 * * *
 
-### Custom code [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomActions/\#custom-code "Direct link to Custom code")
+### Custom code
 
 Custom Code allows users to create custom logic they want to achieve. This provides flexibility and control beyond the pre-built APIs, enabling users to automate complex tasks and integrate with various services not supported by API.
 
@@ -441,7 +441,7 @@ Custom Code allows users to create custom logic they want to achieve. This provi
 
 * * *
 
-## Pause Execution [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomActions/\#pause-execution "Direct link to Pause Execution")
+## Pause Execution
 
 This toggle is used the contact will be held at this action unless resume webhook is requested.
 
@@ -454,7 +454,7 @@ Show API details button shows a sample response to be passed onto to the webhook
 
 * * *
 
-## Response Data [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomActions/\#response-data "Direct link to Response Data")
+## Response Data
 
 Add sample response data to configure custom variables.
 
@@ -464,7 +464,7 @@ Arrays are supported in response data. This data can be utilized in custom varia
 
 * * *
 
-## Manage Custom Variables [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomActions/\#manage-custom-variables "Direct link to Manage Custom Variables")
+## Manage Custom Variables
 
 Add Custom variables using sample response data, for users to use in workflows.
 
@@ -472,7 +472,7 @@ Add Custom variables using sample response data, for users to use in workflows.
 
 * * *
 
-## Add Custom Variable [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomActions/\#add-custom-variable "Direct link to Add Custom Variable")
+## Add Custom Variable
 
 ![drawing](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155005620775/original/l4xln2C5D1jyZxTEv-jahSqBadZkpCvuzA.png?1692600290)
 
@@ -485,7 +485,7 @@ _Select a reference key from the sample response saved to Response Data._
 
 * * *
 
-## Submit for Review [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomActions/\#submit-for-review "Direct link to Submit for Review")
+## Submit for Review
 
 ![drawing](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155005621439/original/5UVWUz25eAcVTFtVlVtxEh3Fkg15t4zXDg.png?1692600744)
 
@@ -501,7 +501,7 @@ The action version will be in draft state by default. After updating the action 
 
 * * *
 
-## Create New Version [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomActions/\#create-new-version "Direct link to Create New Version")
+## Create New Version
 
 Click on + New Version to create a new version for the action.
 
@@ -513,7 +513,7 @@ On clicking + New Version It will create a new draft version with all the previo
 
 * * *
 
-## Delete Action [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/CustomActions/\#delete-action "Direct link to Delete Action")
+## Delete Action
 
 Once an Action is deleted, it will be deleted permanently and cannot be restored. The deleted action will be removed from Marketplace App and Workflow Action list. If a deleted action is part of any workflow the action execution will be skipped.
 

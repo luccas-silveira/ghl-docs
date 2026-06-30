@@ -28,7 +28,7 @@ Pause Sub account for given locationId
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/saas/pause-location-deprecated/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -62,7 +62,7 @@ Company ID
 
 Example:`companyId1`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/saas/pause-location-deprecated/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

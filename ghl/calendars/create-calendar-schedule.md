@@ -28,7 +28,7 @@ Create a new availability schedule specifically for an event calendar. The calen
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/create-calendar-schedule/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -114,7 +114,7 @@ Timezone for the schedule (IANA timezone identifier)
 
 Example:`America/New_York`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/create-calendar-schedule/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

@@ -28,7 +28,7 @@ Create User
 
 `Agency Token``Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/users/create-user/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -448,7 +448,7 @@ Last name of the user
 
 Example:`Deo`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/users/create-user/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

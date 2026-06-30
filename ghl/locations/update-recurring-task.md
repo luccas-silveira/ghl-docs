@@ -13,9 +13,9 @@ PUT https://services.leadconnectorhq.com/locations/:locationId/recurring-tasks/:
 
 Update Recurring Task
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/locations/update-recurring-task/\#request "Direct link to Request")
+## Request
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/locations/update-recurring-task/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

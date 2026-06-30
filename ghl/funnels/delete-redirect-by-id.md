@@ -28,7 +28,7 @@ The "Delete Redirect By Id" API Allows deletion of a URL redirect from the syste
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/funnels/delete-redirect-by-id/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -48,7 +48,7 @@ API Version
 
 Example: 6p2RxpgtMKQwO3E6IUaT
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/funnels/delete-redirect-by-id/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 422

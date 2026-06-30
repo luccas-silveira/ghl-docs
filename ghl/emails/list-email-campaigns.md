@@ -28,7 +28,7 @@ Get list of email campaigns for a location
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/emails/list-email-campaigns/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -82,7 +82,7 @@ Filter by campaign status
 
 Example: all
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/emails/list-email-campaigns/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

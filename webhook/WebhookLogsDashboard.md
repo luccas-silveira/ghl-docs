@@ -5,7 +5,7 @@ version: v3
 ---
 The Webhook Logs Dashboard provides comprehensive monitoring and troubleshooting capabilities for webhook deliveries in your marketplace application. This guide covers how to access, navigate, and effectively use the dashboard to monitor your webhook integrations.
 
-## Table of Contents [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#table-of-contents "Direct link to Table of Contents")
+## Table of Contents
 
 01. [Overview](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/#overview)
 02. [Accessing Webhook Logs](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/#accessing-webhook-logs)
@@ -21,7 +21,7 @@ The Webhook Logs Dashboard provides comprehensive monitoring and troubleshooting
 12. [Common Use Cases](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/#common-use-cases)
 13. [FAQ](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/#faq)
 
-## Overview [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#overview "Direct link to Overview")
+## Overview
 
 The Webhook Logs Dashboard enables you to:
 
@@ -34,9 +34,9 @@ The Webhook Logs Dashboard enables you to:
 - Manually retry failed webhook deliveries from the dashboard
 - Work with different timezones
 
-## Accessing Webhook Logs [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#accessing-webhook-logs "Direct link to Accessing Webhook Logs")
+## Accessing Webhook Logs
 
-### Navigation Steps [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#navigation-steps "Direct link to Navigation Steps")
+### Navigation Steps
 
 1. Navigate to your **Application Dashboard**
 2. Click on **Select The App You Want Logs For**
@@ -46,31 +46,31 @@ The Webhook Logs Dashboard enables you to:
 
 ![Webhook Logs Dashboard](https://assets.cdn.filesafe.space/Qniuo6jPp1TLzX8EaAB4/media/6a0d9d2707a34aa07f7b40a4.png)
 
-### URL Pattern [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#url-pattern "Direct link to URL Pattern")
+### URL Pattern
 
 ```text
 /app-settings/{your-app-id}/dashboard/logs
 ```
 
-## Understanding the Dashboard [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#understanding-the-dashboard "Direct link to Understanding the Dashboard")
+## Understanding the Dashboard
 
-### Statistics Cards [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#statistics-cards "Direct link to Statistics Cards")
+### Statistics Cards
 
 The dashboard displays three key metrics at the top of the page. **Important:** These statistics show data for the **last 24 hours** and are **independent of your date range filters**.
 
-#### Total Events [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#total-events "Direct link to Total Events")
+#### Total Events
 
 - Shows the number of unique events received during the selected period
 - Includes both successful and failed webhooks
 - Updates based on your selected date range and filters
 - Deduplicates by webhook ID
 
-#### Consumer Errors [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#consumer-errors "Direct link to Consumer Errors")
+#### Consumer Errors
 
 - Displays webhooks that failed (non-2xx status codes)
 - High numbers indicate potential issues with your webhook endpoint
 
-#### Total Attempts [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#total-attempts "Direct link to Total Attempts")
+#### Total Attempts
 
 - Shows all delivery attempts including retries
 - If this number is higher than Total Events, your app is experiencing retries
@@ -78,7 +78,7 @@ The dashboard displays three key metrics at the top of the page. **Important:** 
 
 **NOTE**: For **any non-`2xx` response** and for transport failures with no HTTP response, we retry up to **12 times** (excluding the original attempt) using exponential backoff with jitter. For detailed retry policy information, see the [Error Handling and Retries](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide#error-handling-and-retries) section.
 
-### Logs Table [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#logs-table "Direct link to Logs Table")
+### Logs Table
 
 The logs table displays the following columns:
 
@@ -92,9 +92,9 @@ The logs table displays the following columns:
 
 Status codes are color-coded: green for success (2xx) and red for errors (all others).
 
-## Using Date & Time Filters [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#using-date--time-filters "Direct link to Using Date & Time Filters")
+## Using Date & Time Filters
 
-### Date & Time Pickers [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#date--time-pickers "Direct link to Date & Time Pickers")
+### Date & Time Pickers
 
 - By default, the logs display the **last 1 hour** of webhook activity
 - You can change the date range with up to 1 second accuracy for any period within the past 30 days
@@ -107,18 +107,18 @@ Status codes are color-coded: green for success (2xx) and red for errors (all ot
 
 ![Date Picker](https://storage.googleapis.com/msgsndr/Qniuo6jPp1TLzX8EaAB4/media/6915d69d6c981438c463b9ee.png)
 
-### Changing Timezone [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#changing-timezone "Direct link to Changing Timezone")
+### Changing Timezone
 
 All webhook times are stored in UTC, but you can view them in your local timezone for easier reading.
 
-#### How to Change Timezone [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#how-to-change-timezone "Direct link to How to Change Timezone")
+#### How to Change Timezone
 
 1. Locate the **timezone dropdown** on the right
 2. Click and start typing your timezone (e.g., "America/New\_York")
 3. Select your timezone from the list
 4. All times will instantly convert to your selected timezone
 
-#### Timezone Features [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#timezone-features "Direct link to Timezone Features")
+#### Timezone Features
 
 - Your selection is saved automatically
 - All times in the table update immediately
@@ -130,18 +130,18 @@ All webhook times are stored in UTC, but you can view them in your local timezon
 - UTC: `2024-11-13 14:30:00`
 - Eastern Time: `2024-11-13 09:30:00`
 
-## Searching Logs [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#searching-logs "Direct link to Searching Logs")
+## Searching Logs
 
-### Global Search Bar [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#global-search-bar "Direct link to Global Search Bar")
+### Global Search Bar
 
 The search bar is located in the top-left of the table and allows you to search for specific webhooks.
 
-#### What You Can Search [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#what-you-can-search "Direct link to What You Can Search")
+#### What You Can Search
 
 - **Webhook ID**: Enter the full or partial webhook ID
 - **Webhook Payloads**: Enter the value or full key-value pair to search in the payload
 
-#### How to Search [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#how-to-search "Direct link to How to Search")
+#### How to Search
 
 1. Click in the search box
 
@@ -190,16 +190,16 @@ Example payload:
 
 ![Search Bar](https://storage.googleapis.com/msgsndr/Qniuo6jPp1TLzX8EaAB4/media/6915da4c6489c73c28ec7f50.png)
 
-#### Search Features [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#search-features "Direct link to Search Features")
+#### Search Features
 
 - Search is case-insensitive
 - Partial matches work (search "abc" finds "abc123def")
 - Click the **X** button to clear search
 - Search works with other filters simultaneously
 
-## Filtering by Event Name [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#filtering-by-event-name "Direct link to Filtering by Event Name")
+## Filtering by Event Name
 
-### Opening the Filter [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#opening-the-filter "Direct link to Opening the Filter")
+### Opening the Filter
 
 1. Find the **Event Name** column header
 2. Click the **filter icon** (funnel symbol)
@@ -207,7 +207,7 @@ Example payload:
 
 ![Event Name Filter](https://storage.googleapis.com/msgsndr/Qniuo6jPp1TLzX8EaAB4/media/6915df51948ba588426b4fe2.png)
 
-### Sorting Options [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#sorting-options "Direct link to Sorting Options")
+### Sorting Options
 
 - **Sort A-Z (Ascending)**: Click to sort events alphabetically
 - **Sort Z-A (Descending)**: Click to sort events in reverse order
@@ -215,11 +215,11 @@ Example payload:
 
 **NOTE**: Click on it again to remove the sort
 
-### Filter by Condition [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#filter-by-condition "Direct link to Filter by Condition")
+### Filter by Condition
 
 Filter event names by text patterns.
 
-#### Available Conditions [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#available-conditions "Direct link to Available Conditions")
+#### Available Conditions
 
 1. **None**: No text filtering (default)
 2. **Text contains**: Show events containing your text
@@ -228,7 +228,7 @@ Filter event names by text patterns.
 5. **Text ends with**: Show events ending with your text
 6. **Text is exactly**: Show only exact matches
 
-#### How to Use [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#how-to-use "Direct link to How to Use")
+#### How to Use
 
 1. Click **"Filter by Condition"** to expand
 2. Select a condition from the dropdown
@@ -241,11 +241,11 @@ Filter event names by text patterns.
 - Input: "Contact"
 - Result: Shows `ContactCreate`, `ContactUpdate`, `ContactDelete`, `ContactDndUpdate` & `ContactTagUpdate`
 
-### Filter by Values (Checkboxes) [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#filter-by-values-checkboxes "Direct link to Filter by Values (Checkboxes)")
+### Filter by Values (Checkboxes)
 
 Select specific event names to view.
 
-#### How to Use [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#how-to-use-1 "Direct link to How to Use")
+#### How to Use
 
 1. Click **"Filter by Values"** to expand
 2. You'll see checkboxes for all available events
@@ -255,20 +255,20 @@ Select specific event names to view.
 6. Select one or more event names
 7. Click **"Apply"** at the bottom
 
-### Clearing Event Name Filters [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#clearing-event-name-filters "Direct link to Clearing Event Name Filters")
+### Clearing Event Name Filters
 
 - Click **"Clear"** button at the bottom of the filter dropdown
 - Or use the main **"Clear Filters"** button at the top
 
-## Filtering by Status Code [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#filtering-by-status-code "Direct link to Filtering by Status Code")
+## Filtering by Status Code
 
-### Opening the Filter [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#opening-the-filter-1 "Direct link to Opening the Filter")
+### Opening the Filter
 
 1. Find the **Status Code** column header
 2. Click the **filter icon** (funnel symbol)
 3. A dropdown menu will appear
 
-### Quick Filter Options [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#quick-filter-options "Direct link to Quick Filter Options")
+### Quick Filter Options
 
 - **Filter By Success**: Click to show only successful webhooks (status codes 200-299)
 - **Filter By Failure**: Click to show only failed webhooks (includes all non-2xx status codes: 3xx redirects, 4xx client errors, and 5xx server errors)
@@ -276,11 +276,11 @@ Select specific event names to view.
 
 **Note**: You can only use one quick filter at a time (Success OR Failure)
 
-### Filter by Specific Status Codes [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#filter-by-specific-status-codes "Direct link to Filter by Specific Status Codes")
+### Filter by Specific Status Codes
 
 Select exact status codes to view. You can select multiple status codes simultaneously (e.g., 200 and 404) to create custom filter combinations.
 
-#### How to Use [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#how-to-use-2 "Direct link to How to Use")
+#### How to Use
 
 1. Click **"Filter by Values"** to expand
 2. See checkboxes for common HTTP status codes:
@@ -293,18 +293,18 @@ Select exact status codes to view. You can select multiple status codes simultan
 6. Select the codes you want to see
 7. Click **"Apply"**
 
-#### Status Code Colors [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#status-code-colors "Direct link to Status Code Colors")
+#### Status Code Colors
 
 - **Green tag** = Success (200-299)
 - **Red tag** = Error (all others)
 
-## Navigating Through Pages [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#navigating-through-pages "Direct link to Navigating Through Pages")
+## Navigating Through Pages
 
-### Pagination Controls [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#pagination-controls "Direct link to Pagination Controls")
+### Pagination Controls
 
 Pagination controls are located at the bottom-right of the table.
 
-### Changing Rows Per Page [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#changing-rows-per-page "Direct link to Changing Rows Per Page")
+### Changing Rows Per Page
 
 1. Locate the **"Rows per page"** dropdown
 2. Choose from:
@@ -313,39 +313,39 @@ Pagination controls are located at the bottom-right of the table.
    - **50 rows**
 3. Table updates immediately
 
-### Moving Between Pages [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#moving-between-pages "Direct link to Moving Between Pages")
+### Moving Between Pages
 
-#### Using Page Numbers [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#using-page-numbers "Direct link to Using Page Numbers")
+#### Using Page Numbers
 
 - Click any page number to jump to that page
 - Current page is highlighted in blue
 - Shows up to 7 page numbers at a time
 
-#### Using Previous/Next Buttons [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#using-previousnext-buttons "Direct link to Using Previous/Next Buttons")
+#### Using Previous/Next Buttons
 
 - **Previous**: Go back one page (disabled on first page)
 - **Next**: Go forward one page (disabled on last page)
 
 **Note**: Your filters remain active when you change pages.
 
-## Viewing Webhook Details [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#viewing-webhook-details "Direct link to Viewing Webhook Details")
+## Viewing Webhook Details
 
-### Opening the Details Modal [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#opening-the-details-modal "Direct link to Opening the Details Modal")
+### Opening the Details Modal
 
 1. Click on **any row** in the logs table
 2. The **Webhook event details** modal will appear with full delivery information
 
 ![Webhook Details Modal](https://assets.cdn.filesafe.space/Qniuo6jPp1TLzX8EaAB4/media/6a0d9c2fd3dfb498edbbac7f.png)
 
-### What You'll See [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#what-youll-see "Direct link to What You'll See")
+### What You'll See
 
-#### Webhook URL [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#webhook-url "Direct link to Webhook URL")
+#### Webhook URL
 
 - The endpoint where the webhook was sent
 - **Copy button**: Click to copy the URL to your clipboard
 - Useful for verifying the correct endpoint
 
-#### Event Information [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#event-information "Direct link to Event Information")
+#### Event Information
 
 - **Event Name**: Type of webhook (e.g., `ContactCreate`)
 - **Webhook ID**: Unique identifier for this webhook
@@ -353,7 +353,7 @@ Pagination controls are located at the bottom-right of the table.
 - **Attempted At**: When it was sent (in your selected timezone)
 - **Triggering Event**: What caused this webhook
 
-#### Payload [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#payload "Direct link to Payload")
+#### Payload
 
 - **JSON data** sent with the webhook
 - Automatically formatted for easy reading
@@ -364,18 +364,18 @@ Pagination controls are located at the bottom-right of the table.
   - Understanding data structure
   - Testing with sample data
 
-### Using the Payload [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#using-the-payload "Direct link to Using the Payload")
+### Using the Payload
 
-#### Copy or resend the payload [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#copy-or-resend-the-payload "Direct link to Copy or resend the payload")
+#### Copy or resend the payload
 
 - **Copy**: Click to copy the JSON payload to your clipboard for debugging or local testing
 - **Resend**: Click to manually redeliver the webhook when the button is enabled (see [When Is Resend Available?](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/#when-is-resend-available))
 
-## Triggering a Manual Retry [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#triggering-a-manual-retry "Direct link to Triggering a Manual Retry")
+## Triggering a Manual Retry
 
 When a webhook delivery has failed and you want to redeliver it, you can trigger a manual retry directly from the dashboard.
 
-### How It Works [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#how-it-works "Direct link to How It Works")
+### How It Works
 
 1. In the logs table, find the **latest failed** row for the webhook you want to redeliver (filter by failure or search by Webhook ID if needed)
 2. Click the row to open the **Webhook event details** modal
@@ -383,7 +383,7 @@ When a webhook delivery has failed and you want to redeliver it, you can trigger
 4. The original payload is re-sent to your webhook URL
 5. A new row appears in the table with Attempt # **`-`**
 
-### When Is Resend Available? [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#when-is-resend-available "Direct link to When Is Resend Available?")
+### When Is Resend Available?
 
 The **Resend** button is enabled only when:
 
@@ -392,42 +392,42 @@ The **Resend** button is enabled only when:
 
 If **Resend** is disabled, open the most recent row for that Webhook ID (an older attempt may have been superseded), or check whether a later attempt already succeeded.
 
-### What Happens After a Manual Retry? [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#what-happens-after-a-manual-retry "Direct link to What Happens After a Manual Retry?")
+### What Happens After a Manual Retry?
 
 - **If it succeeds:** The webhook is marked as delivered and any remaining scheduled retry is cancelled
 - **If it fails:** The failure is logged. The manual attempt does not start its own automatic retry cycle, but any **scheduled automatic retries for the original failure continue**. You can use **Resend** again after fixing the issue
 
-## Clearing All Filters [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#clearing-all-filters "Direct link to Clearing All Filters")
+## Clearing All Filters
 
-### When to Clear Filters [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#when-to-clear-filters "Direct link to When to Clear Filters")
+### When to Clear Filters
 
 - You've applied multiple filters and want to start fresh
 - You're not seeing expected results
 - You want to view all webhooks in the date range
 
-### How to Clear [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#how-to-clear "Direct link to How to Clear")
+### How to Clear
 
 1. Locate the **"Clear Filters"** button (top-left, blue text with refresh icon)
 2. Click the button
 3. All filters are removed instantly
 
-### What Gets Cleared [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#what-gets-cleared "Direct link to What Gets Cleared")
+### What Gets Cleared
 
 - Search text
 - Event name filters (sort, conditions, selected values)
 - Status code filters (sort, selected values)
 - Pagination resets to page 1
 
-### What Stays [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#what-stays "Direct link to What Stays")
+### What Stays
 
 - Date & time range (not cleared)
 - Timezone selection (not cleared)
 
 **Note**: The button is only enabled when you have active filters.
 
-## Common Use Cases [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#common-use-cases "Direct link to Common Use Cases")
+## Common Use Cases
 
-### Use Case 1: Finding a Specific Webhook [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#use-case-1-finding-a-specific-webhook "Direct link to Use Case 1: Finding a Specific Webhook")
+### Use Case 1: Finding a Specific Webhook
 
 **Scenario**: Support provided a webhook ID to investigate
 
@@ -438,7 +438,7 @@ If **Resend** is disabled, open the most recent row for that Webhook ID (an olde
 3. Press Enter or wait for auto-search
 4. Click the row to see full details
 
-### Use Case 2: Troubleshooting Failed Webhooks [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#use-case-2-troubleshooting-failed-webhooks "Direct link to Use Case 2: Troubleshooting Failed Webhooks")
+### Use Case 2: Troubleshooting Failed Webhooks
 
 **Scenario**: Your app isn't receiving webhooks properly
 
@@ -454,7 +454,7 @@ If **Resend** is disabled, open the most recent row for that Webhook ID (an olde
    - All 401? Check authentication
    - All 500? Your server has errors
 
-### Use Case 3: Checking Retry Behavior [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#use-case-3-checking-retry-behavior "Direct link to Use Case 3: Checking Retry Behavior")
+### Use Case 3: Checking Retry Behavior
 
 **Scenario**: You want to see if webhooks are being retried
 
@@ -466,7 +466,7 @@ If **Resend** is disabled, open the most recent row for that Webhook ID (an olde
 4. High attempt numbers indicate persistent failures
 5. Click to view details and see what changed between attempts
 
-### Use Case 4: Monitoring Event Volume [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#use-case-4-monitoring-event-volume "Direct link to Use Case 4: Monitoring Event Volume")
+### Use Case 4: Monitoring Event Volume
 
 **Scenario**: You want to know how many webhooks you're receiving
 
@@ -478,7 +478,7 @@ If **Resend** is disabled, open the most recent row for that Webhook ID (an olde
 4. High difference indicates many retries happening
 5. Check **"Consumer Errors"** to see failure rate
 
-### Use Case 5: Focusing on Specific Events [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#use-case-5-focusing-on-specific-events "Direct link to Use Case 5: Focusing on Specific Events")
+### Use Case 5: Focusing on Specific Events
 
 **Scenario**: You only care about contact-related webhooks
 
@@ -494,7 +494,7 @@ If **Resend** is disabled, open the most recent row for that Webhook ID (an olde
 5. Click **"Apply"**
 6. Now you only see contact webhooks
 
-### Use Case 6: Investigating Issues at Specific Time [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#use-case-6-investigating-issues-at-specific-time "Direct link to Use Case 6: Investigating Issues at Specific Time")
+### Use Case 6: Investigating Issues at Specific Time
 
 **Scenario**: Your app had issues yesterday at 2 PM
 
@@ -507,7 +507,7 @@ If **Resend** is disabled, open the most recent row for that Webhook ID (an olde
 5. Click **"Filter By Failure"**
 6. Review what went wrong during that hour
 
-### Use Case 7: Comparing Success vs Failure [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#use-case-7-comparing-success-vs-failure "Direct link to Use Case 7: Comparing Success vs Failure")
+### Use Case 7: Comparing Success vs Failure
 
 **Scenario**: You want to see the success rate
 
@@ -519,7 +519,7 @@ If **Resend** is disabled, open the most recent row for that Webhook ID (an olde
 4. Example: (1000 - 50) / 1000 = 95% success rate
 5. Filter by failures to investigate the remaining percentage
 
-### Use Case 8: Post-Deployment Verification [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#use-case-8-post-deployment-verification "Direct link to Use Case 8: Post-Deployment Verification")
+### Use Case 8: Post-Deployment Verification
 
 **Scenario**: You just deployed a webhook fix
 
@@ -532,7 +532,7 @@ If **Resend** is disabled, open the most recent row for that Webhook ID (an olde
 5. Check **"Consumer Errors"** should be low/zero
 6. Click rows to verify correct payloads
 
-### Use Case 9: Manually Retrying a Failed Webhook [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#use-case-9-manually-retrying-a-failed-webhook "Direct link to Use Case 9: Manually Retrying a Failed Webhook")
+### Use Case 9: Manually Retrying a Failed Webhook
 
 **Scenario**: Automatic retries failed but you've fixed the issue on your server
 
@@ -544,7 +544,7 @@ If **Resend** is disabled, open the most recent row for that Webhook ID (an olde
 4. Click **Resend**
 5. Verify the new row shows Attempt # **`-`** and a success status code
 
-## FAQ [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#faq "Direct link to FAQ")
+## FAQ
 
 **Why is no data showing in the logs?**
 
@@ -671,7 +671,7 @@ No additional automatic retries are started for the manual attempt itself. If a 
 
 Any remaining scheduled retry is automatically cancelled to prevent duplicate deliveries.
 
-## Need More Help? [​](https://marketplace.gohighlevel.com/docs/webhook/WebhookLogsDashboard/\#need-more-help "Direct link to Need More Help?")
+## Need More Help?
 
 - **Community**: [Join our developer community for questions and support](https://developers.gohighlevel.com/join-dev-community)
 - **Support**: [Contact our developer support team for technical assistance](https://developers.gohighlevel.com/support)

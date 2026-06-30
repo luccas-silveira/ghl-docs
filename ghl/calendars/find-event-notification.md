@@ -28,7 +28,7 @@ Find Event notification by notificationId
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/find-event-notification/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -44,7 +44,7 @@ API Version
 
 **notificationId** stringrequired
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/find-event-notification/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

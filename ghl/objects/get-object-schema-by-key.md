@@ -28,7 +28,7 @@ Retrieve Object Schema by key or ID. This will return the schema of the custom o
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/objects/get-object-schema-by-key/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -60,7 +60,7 @@ Fetch Properties , Fetches all the standard / custom fields of the object when s
 
 Example:
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/objects/get-object-schema-by-key/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

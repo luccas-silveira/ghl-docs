@@ -28,7 +28,7 @@ Upsert Opportunity
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/opportunities/upsert-opportunity/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -132,7 +132,7 @@ lost reason Id
 
 Example:`CLu7BaljjqrEjBGKTNNe`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/opportunities/upsert-opportunity/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -24,7 +24,7 @@ The "update Shipping Rate" API allows update a shipping rate to the system.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/store/update-shipping-rate/\#request "Direct link to Request")
+## Request
 
 ### Path Parameters
 
@@ -136,7 +136,7 @@ Example:`PriorityMailExpressInternational`\
 \
 \]
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/store/update-shipping-rate/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

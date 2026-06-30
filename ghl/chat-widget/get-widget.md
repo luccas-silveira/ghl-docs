@@ -14,7 +14,7 @@ GET https://services.leadconnectorhq.com/chat-widget/public/config/:id
 
 Returns widget configuration by ID.
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/chat-widget/get-widget/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -42,7 +42,7 @@ Default value:`2`
 
 Example: 3
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/chat-widget/get-widget/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

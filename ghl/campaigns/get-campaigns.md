@@ -28,7 +28,7 @@ Get Campaigns
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/campaigns/get-campaigns/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -48,7 +48,7 @@ Example: ve9EPM428h8vShlRW1KT
 
 Example: draft
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/campaigns/get-campaigns/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

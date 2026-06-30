@@ -24,7 +24,7 @@ API to update invoice last visited at by invoice id
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/update-invoice-last-visited-at/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -44,7 +44,7 @@ Invoice Id
 
 Example:`6578278e879ad2646715ba9c`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/update-invoice-last-visited-at/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -28,7 +28,7 @@ Verify Email
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/email-isv/verify-email/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -66,7 +66,7 @@ Email Verification recepient (email address / contactId)
 
 Example:`abc@xyz.com`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/email-isv/verify-email/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

@@ -28,7 +28,7 @@ Create a new estimate with the provided details
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/create-new-estimate/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -732,7 +732,7 @@ Example:`regular_interval`
 
 Payment Schedule Items
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/create-new-estimate/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

@@ -24,7 +24,7 @@ The "List Shipping Rate" API allows to retrieve a list of shipping rate.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/store/list-shipping-rates/\#request "Direct link to Request")
+## Request
 
 ### Path Parameters
 
@@ -62,7 +62,7 @@ Default value:`0`
 
 Example: 0
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/store/list-shipping-rates/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

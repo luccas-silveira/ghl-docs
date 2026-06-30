@@ -5,7 +5,7 @@ version: v3
 ---
 The official `gohighlevel-api-client` package publishes a async client that speaks to every HighLevel endpoint with the same token automation, webhook helpers, and storage adapters you get on other platforms. Requires Python 3.8+.
 
-## Installation [​](https://marketplace.gohighlevel.com/docs/sdk/python/\#installation "Direct link to Installation")
+## Installation
 
 - pip
 - Pipenv
@@ -23,9 +23,9 @@ pipenv install gohighlevel-api-client
 poetry add gohighlevel-api-client
 ```
 
-## Quick Start [​](https://marketplace.gohighlevel.com/docs/sdk/python/\#quick-start "Direct link to Quick Start")
+## Quick Start
 
-### Initialize the client [​](https://marketplace.gohighlevel.com/docs/sdk/python/\#initialize-the-client "Direct link to Initialize the client")
+### Initialize the client
 
 ```python
 from highlevel import HighLevel
@@ -35,7 +35,7 @@ client = HighLevel(
 )
 ```
 
-### Make an API call [​](https://marketplace.gohighlevel.com/docs/sdk/python/\#make-an-api-call "Direct link to Make an API call")
+### Make an API call
 
 The SDK is async-first; wrap your logic in `asyncio.run()` when you are not already inside an async framework.
 
@@ -59,7 +59,7 @@ async def main():
 asyncio.run(main())
 ```
 
-## Session storage [​](https://marketplace.gohighlevel.com/docs/sdk/python/\#session-storage "Direct link to Session storage")
+## Session storage
 
 Use in-memory storage for local testing or swap in MongoDB/Redis/etc. for production resiliency.
 
@@ -79,7 +79,7 @@ client = HighLevel(
 )
 ```
 
-## Webhook integration [​](https://marketplace.gohighlevel.com/docs/sdk/python/\#webhook-integration "Direct link to Webhook integration")
+## Webhook integration
 
 Hook up the middleware returned by `client.webhooks.subscribe()` to validate signatures, respond to INSTALL/UNINSTALL automatically, and keep session storage synchronized.
 
@@ -98,7 +98,7 @@ async def handle_ghl_webhook(request):
   return {"status": "success"}
 ```
 
-## Additional resources [​](https://marketplace.gohighlevel.com/docs/sdk/python/\#additional-resources "Direct link to Additional resources")
+## Additional resources
 
 You can find some SDK & additional examples here:
 

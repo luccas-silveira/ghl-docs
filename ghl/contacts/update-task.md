@@ -27,7 +27,7 @@ Update Task
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/update-task/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -87,7 +87,7 @@ User Id to whom the task is assigned
 
 Example:`hxHGVRb1YJUscrCB8eXK`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/update-task/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

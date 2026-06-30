@@ -28,7 +28,7 @@ Using this api you can get standard / user defined association by key
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/associations/get-association-key-by-key-name/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -46,7 +46,7 @@ API Version
 
 **locationId** stringrequired
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/associations/get-association-key-by-key-name/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

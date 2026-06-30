@@ -24,7 +24,7 @@ Retrieve all tags for a specific location with optional search and pagination
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-tags-location-id/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -64,7 +64,7 @@ Skip
 
 Example: 0
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-tags-location-id/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -24,7 +24,7 @@ List all notes of an order
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/payments/list-order-notes/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -54,7 +54,7 @@ Example: 6578278e879ad2646715ba9c
 
 **Possible values:** \[`location`\]
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/payments/list-order-notes/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

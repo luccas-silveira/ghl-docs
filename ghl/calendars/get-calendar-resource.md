@@ -32,7 +32,7 @@ Get calendar resource by ID (Services V1)
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-calendar-resource/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -54,7 +54,7 @@ Calendar Resource Type
 
 Calendar Resource ID
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-calendar-resource/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

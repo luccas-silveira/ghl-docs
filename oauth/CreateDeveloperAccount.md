@@ -14,7 +14,7 @@ Here’s how to create your Developer Account:
 - Click Get Started to create your account.
 - Check your inbox for the verification email and complete email verification.
 
-### Ownership and team access (important) [​](https://marketplace.gohighlevel.com/docs/oauth/CreateDeveloperAccount/\#ownership-and-team-access-important "Direct link to Ownership and team access (important)")
+### Ownership and team access (important)
 
 - The **first user** who signs up becomes the **Owner** of the developer account.
 

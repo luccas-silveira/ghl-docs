@@ -24,7 +24,7 @@ API to update template late fees configuration by template id
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/update-invoice-payment-methods-configuration/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -74,7 +74,7 @@ Enable Bank Debit Only
 
 Example:`false`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/update-invoice-payment-methods-configuration/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

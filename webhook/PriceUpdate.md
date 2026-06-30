@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever a price is updated
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/PriceUpdate/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -91,7 +91,7 @@ Called whenever a price is updated
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/PriceUpdate/\#example "Direct link to Example")
+#### Example
 
 ```json{
   "_id": "655b33aa2209e60b6adb87a7",

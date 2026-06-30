@@ -28,7 +28,7 @@ Returns chat widgets for the sub-account with pagination and optional filters.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/chat-widget/list-chat-widget/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -90,7 +90,7 @@ All-in-one chat type to filter by. Only applies when chatType is "allInOneChat".
 
 Example: emailChat
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/chat-widget/list-chat-widget/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

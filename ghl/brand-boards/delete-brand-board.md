@@ -28,7 +28,7 @@ Deletes a Brand Board
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/brand-boards/delete-brand-board/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -54,7 +54,7 @@ Brand board ID to update, retrieve, or delete
 
 Example: 507f1f77bcf86cd799439011
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/brand-boards/delete-brand-board/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

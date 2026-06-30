@@ -7,16 +7,16 @@ This document explains how to manage Access Tokens when your app’s Target User
 
 * * *
 
-## Installation Options [​](https://marketplace.gohighlevel.com/docs/Authorization/TargetUserSubAccount/\#installation-options "Direct link to Installation Options")
+## Installation Options
 
 When you set the target user to Sub-Account during app creation, you can configure who can install the app. The type of token generated depends on the option chosen and who installs the app.
 
-## Who can install the APP: **Agency Only** [​](https://marketplace.gohighlevel.com/docs/Authorization/TargetUserSubAccount/\#who-can-install-the-app-agency-only "Direct link to who-can-install-the-app-agency-only")
+## Who can install the APP: **Agency Only**
 
 - The app will be visible only to Agency Admins/Owners.
 - Only Agency Admin/Owner can install the app.
 
-#### Installation Flow [​](https://marketplace.gohighlevel.com/docs/Authorization/TargetUserSubAccount/\#installation-flow "Direct link to Installation Flow")
+#### Installation Flow
 
 1. Install the app on your account.
 2. After installation, the redirect URL will be triggered and an authorization code will be shared.
@@ -24,7 +24,7 @@ When you set the target user to Sub-Account during app creation, you can configu
 
 ⚠️ **Note:** The Access Token generated here will be of type `Company` (Agency-level).
 
-#### Sample Request [​](https://marketplace.gohighlevel.com/docs/Authorization/TargetUserSubAccount/\#sample-request "Direct link to Sample Request")
+#### Sample Request
 
 ```bash
 curl --request POST
@@ -38,7 +38,7 @@ curl --request POST
 --data-urlencode user_type=Company
 ```
 
-#### Sample Response [​](https://marketplace.gohighlevel.com/docs/Authorization/TargetUserSubAccount/\#sample-response "Direct link to Sample Response")
+#### Sample Response
 
 ```json
 {
@@ -61,7 +61,7 @@ curl --request POST
 >
 > When the APP is installed this event will be triggered, this webhook provides details such as the `locationId` where the app has been installed. You can use the `locationId` along with your Agency-level Access Token to exchange it for a Sub-Account (Location-level) Access Token.
 
-#### Sample App Install Event Payload [​](https://marketplace.gohighlevel.com/docs/Authorization/TargetUserSubAccount/\#sample-app-install-event-payload "Direct link to Sample App Install Event Payload")
+#### Sample App Install Event Payload
 
 ```json
 {
@@ -83,7 +83,7 @@ curl --request POST
 }
 ```
 
-#### Sample Request for Get Location Access Token from Agency Token [​](https://marketplace.gohighlevel.com/docs/Authorization/TargetUserSubAccount/\#sample-request-for-get-location-access-token-from-agency-token "Direct link to Sample Request for Get Location Access Token from Agency Token")
+#### Sample Request for Get Location Access Token from Agency Token
 
 ```bash
 curl -L 'https://services.leadconnectorhq.com/oauth/locationToken'
@@ -95,7 +95,7 @@ curl -L 'https://services.leadconnectorhq.com/oauth/locationToken'
 -d 'locationId=HjiMUOsCCHCjtxzEf8PR'
 ```
 
-#### Sample Response [​](https://marketplace.gohighlevel.com/docs/Authorization/TargetUserSubAccount/\#sample-response-1 "Direct link to Sample Response")
+#### Sample Response
 
 ```json
 {
@@ -114,15 +114,15 @@ curl -L 'https://services.leadconnectorhq.com/oauth/locationToken'
 
 * * *
 
-## Who can install the APP: **Everyone** [​](https://marketplace.gohighlevel.com/docs/Authorization/TargetUserSubAccount/\#who-can-install-the-app-everyone "Direct link to who-can-install-the-app-everyone")
+## Who can install the APP: **Everyone**
 
 This type of app can be installed by both Agency users and Sub-Account users. The type of Access Token generated will depend on who performs the installation.
 
-### Scenario 1: Agency User installs the app [​](https://marketplace.gohighlevel.com/docs/Authorization/TargetUserSubAccount/\#scenario-1-agency-user-installs-the-app "Direct link to Scenario 1: Agency User installs the app")
+### Scenario 1: Agency User installs the app
 
 In this case, the Access Token generated will be of type Company (Agency-level). To access Sub-Account resources, you must exchange this token for a Location-level token using the [Get Location Access Token from Agency Token](https://marketplace.gohighlevel.com/docs/ghl/oauth/get-location-access-token) API endpoint.
 
-#### Installation Flow [​](https://marketplace.gohighlevel.com/docs/Authorization/TargetUserSubAccount/\#installation-flow-1 "Direct link to Installation Flow")
+#### Installation Flow
 
 1. Install the app on your account.
 2. After installation, the redirect URL will be triggered and an authorization code will be shared.
@@ -130,7 +130,7 @@ In this case, the Access Token generated will be of type Company (Agency-level).
 
 ⚠️ **Note:** The Access Token generated here will be of type `Company` (Agency-level).
 
-#### Sample Request [​](https://marketplace.gohighlevel.com/docs/Authorization/TargetUserSubAccount/\#sample-request-1 "Direct link to Sample Request")
+#### Sample Request
 
 ```bash
 curl --request POST
@@ -144,7 +144,7 @@ curl --request POST
 --data-urlencode user_type=Company
 ```
 
-#### Sample Response [​](https://marketplace.gohighlevel.com/docs/Authorization/TargetUserSubAccount/\#sample-response-2 "Direct link to Sample Response")
+#### Sample Response
 
 ```json
 {
@@ -167,7 +167,7 @@ curl --request POST
 >
 > When the APP is installed this event will be triggered, this webhook provides details such as the `locationId` where the app has been installed. You can use the `locationId` along with your Agency-level Access Token to exchange it for a Sub-Account (Location-level) Access Token.
 
-#### Sample App Install Event Payload [​](https://marketplace.gohighlevel.com/docs/Authorization/TargetUserSubAccount/\#sample-app-install-event-payload-1 "Direct link to Sample App Install Event Payload")
+#### Sample App Install Event Payload
 
 ```json
 {
@@ -189,7 +189,7 @@ curl --request POST
 }
 ```
 
-#### Sample Request for Get Location Access Token from Agency Token [​](https://marketplace.gohighlevel.com/docs/Authorization/TargetUserSubAccount/\#sample-request-for-get-location-access-token-from-agency-token-1 "Direct link to Sample Request for Get Location Access Token from Agency Token")
+#### Sample Request for Get Location Access Token from Agency Token
 
 ```bash
 curl -L 'https://services.leadconnectorhq.com/oauth/locationToken'
@@ -201,7 +201,7 @@ curl -L 'https://services.leadconnectorhq.com/oauth/locationToken'
 -d 'locationId=HjiMUOsCCHCjtxzEf8PR'
 ```
 
-#### Sample Response [​](https://marketplace.gohighlevel.com/docs/Authorization/TargetUserSubAccount/\#sample-response-3 "Direct link to Sample Response")
+#### Sample Response
 
 ```json
 {
@@ -218,17 +218,17 @@ curl -L 'https://services.leadconnectorhq.com/oauth/locationToken'
 }
 ```
 
-### Scenario 2: Sub-Account User installs the app [​](https://marketplace.gohighlevel.com/docs/Authorization/TargetUserSubAccount/\#scenario-2-sub-account-user-installs-the-app "Direct link to Scenario 2: Sub-Account User installs the app")
+### Scenario 2: Sub-Account User installs the app
 
 In this case, the Access Token generated will be of type Location (Sub-Account level).
 
-#### Installation Flow [​](https://marketplace.gohighlevel.com/docs/Authorization/TargetUserSubAccount/\#installation-flow-2 "Direct link to Installation Flow")
+#### Installation Flow
 
 1. Install the app on your account.
 2. After installation, the redirect URL will be triggered and an authorization code will be shared.
 3. Use this code to exchange for an Access Token via the [Get Access Token](https://marketplace.gohighlevel.com/docs/ghl/oauth/get-access-token) API.
 
-#### Sample Request [​](https://marketplace.gohighlevel.com/docs/Authorization/TargetUserSubAccount/\#sample-request-2 "Direct link to Sample Request")
+#### Sample Request
 
 ```bash
 curl --request POST \
@@ -260,7 +260,7 @@ curl --request POST \
 
 * * *
 
-## Summary [​](https://marketplace.gohighlevel.com/docs/Authorization/TargetUserSubAccount/\#summary "Direct link to Summary")
+## Summary
 
 - **Agency-only installation:** If “Who can install the app” is set to Agency only, the generated token will be of type `Company` (Agency-level). To run APIs and perform actions at the Sub-Account level, this token must be exchanged for a Location-level token.
 - **Everyone installation:**If “Who can install the app” is set to Everyone, there are two possible scenarios:

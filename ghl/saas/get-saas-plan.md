@@ -24,7 +24,7 @@ Fetch a specific SaaS plan by plan ID
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/saas/get-saas-plan/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -42,7 +42,7 @@ API Version
 
 **companyId** stringrequired
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/saas/get-saas-plan/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 

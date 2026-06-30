@@ -28,7 +28,7 @@ Create a Custom Object Record. Supported Objects business and custom objects. Do
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/objects/create-object-record/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -52,7 +52,7 @@ Example: custom\_objects.pet or business.email (for company's email)
 
 object
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/objects/create-object-record/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

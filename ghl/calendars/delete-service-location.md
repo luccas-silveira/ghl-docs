@@ -28,7 +28,7 @@ Delete a service location by ID
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/delete-service-location/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -46,7 +46,7 @@ Unique Service Location ID
 
 Example: IkqiJlXJ7o9h61tCHHod
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/delete-service-location/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

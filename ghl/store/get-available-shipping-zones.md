@@ -14,7 +14,7 @@ POST https://services.leadconnectorhq.com/store/shipping-zone/shipping-rates
 
 This return available shipping rates for country based on order amount
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/store/get-available-shipping-zones/\#request "Direct link to Request")
+## Request
 
 - application/json
 
@@ -168,7 +168,7 @@ Coupon code
 
 Example:`TEST`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/store/get-available-shipping-zones/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

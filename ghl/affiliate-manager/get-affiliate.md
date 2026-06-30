@@ -28,7 +28,7 @@ Retrieve a single affiliate by id for a location.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/affiliate-manager/get-affiliate/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -54,7 +54,7 @@ Affiliate Id
 
 Example: ve9EPM428h8vShlRW1KT
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/affiliate-manager/get-affiliate/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

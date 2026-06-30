@@ -28,7 +28,7 @@ Partially update an existing voice AI agent
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/voice-ai/patch-agent/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -272,7 +272,7 @@ Target language code for translation (e.g., "es" for Spanish, "fr" for French).
 
 Example:`es`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/voice-ai/patch-agent/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

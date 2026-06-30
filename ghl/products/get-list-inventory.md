@@ -28,7 +28,7 @@ The "List Inventory API allows the user to retrieve a paginated list of inventor
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/products/get-list-inventory/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -72,7 +72,7 @@ Search string for Variant Search
 
 Example: Product Name
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/products/get-list-inventory/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -24,7 +24,7 @@ API to set the display priority of products in a store
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/products/update-display-priority/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -60,7 +60,7 @@ Example:`6578278e879ad2646715ba9c`
 
 Array of products with their display priorities
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/products/update-display-priority/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

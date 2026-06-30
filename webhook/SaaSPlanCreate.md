@@ -3,7 +3,7 @@ title: "Saasplancreate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/SaaSPlanCreate
 version: v3
 ---
-## Overview [​](https://marketplace.gohighlevel.com/docs/webhook/SaaSPlanCreate/\#overview "Direct link to Overview")
+## Overview
 
 This webhook response is triggered when a new SaaS subscription plan is created in the system. The webhook provides comprehensive information about the plan including its features, pricing tiers, and configuration details. This is particularly useful for systems that need to track plan creation events for billing, analytics, or integration purposes.
 
@@ -14,7 +14,7 @@ For example, when a company creates a new subscription plan for their SaaS produ
 - The **prices** array defines different billing intervals (monthly, yearly) with their respective amounts
 - The **addOns** array can include additional services or features that can be purchased separately
 
-## Schema [​](https://marketplace.gohighlevel.com/docs/webhook/SaaSPlanCreate/\#schema "Direct link to Schema")
+## Schema
 
 The webhook response follows the JSON schema below:
 
@@ -136,49 +136,49 @@ The webhook response follows the JSON schema below:
 }
 ```
 
-## Field Descriptions [​](https://marketplace.gohighlevel.com/docs/webhook/SaaSPlanCreate/\#field-descriptions "Direct link to Field Descriptions")
+## Field Descriptions
 
-### `planId` [​](https://marketplace.gohighlevel.com/docs/webhook/SaaSPlanCreate/\#planid "Direct link to planid")
+### `planId`
 
 - Type: `string`
 - Unique identifier for the created plan.
 
-### `title` [​](https://marketplace.gohighlevel.com/docs/webhook/SaaSPlanCreate/\#title "Direct link to title")
+### `title`
 
 - Type: `string`
 - Human-readable name of the subscription plan (e.g., "Professional", "Enterprise").
 
-### `description` [​](https://marketplace.gohighlevel.com/docs/webhook/SaaSPlanCreate/\#description "Direct link to description")
+### `description`
 
 - Type: `string`
 - Detailed description explaining what the plan includes and its benefits.
 
-### `saasProducts` [​](https://marketplace.gohighlevel.com/docs/webhook/SaaSPlanCreate/\#saasproducts "Direct link to saasproducts")
+### `saasProducts`
 
 - Type: `array[string]`
 - List of product features and services included in this plan (e.g., "2-way-text-messaging", "crm", "email-marketing").
 
-### `addOns` [​](https://marketplace.gohighlevel.com/docs/webhook/SaaSPlanCreate/\#addons "Direct link to addons")
+### `addOns`
 
 - Type: `array[string]`
 - List of additional services or features that can be purchased separately from the base plan.
 
-### `planLevel` [​](https://marketplace.gohighlevel.com/docs/webhook/SaaSPlanCreate/\#planlevel "Direct link to planlevel")
+### `planLevel`
 
 - Type: `number`
 - Numeric value indicating the tier or level of the plan (e.g., 1 for basic, 2 for professional, 3 for enterprise).
 
-### `trialPeriod` [​](https://marketplace.gohighlevel.com/docs/webhook/SaaSPlanCreate/\#trialperiod "Direct link to trialperiod")
+### `trialPeriod`
 
 - Type: `number`
 - Duration of the free trial period in days. Set to 0 if no trial is offered.
 
-### `prices` [​](https://marketplace.gohighlevel.com/docs/webhook/SaaSPlanCreate/\#prices "Direct link to prices")
+### `prices`
 
 - Type: `array[object]`
 - Array of pricing options for different billing intervals.
 
-#### Price Object Fields: [​](https://marketplace.gohighlevel.com/docs/webhook/SaaSPlanCreate/\#price-object-fields "Direct link to Price Object Fields:")
+#### Price Object Fields:
 
 - **`id`**: Unique identifier for the price (usually Stripe price ID)
 - **`billingInterval`**: Billing frequency ("month", "year", etc.)
@@ -187,37 +187,37 @@ The webhook response follows the JSON schema below:
 - **`currency`**: Currency code (e.g., "usd")
 - **`symbol`**: Currency symbol (e.g., "$")
 
-### `categoryId` [​](https://marketplace.gohighlevel.com/docs/webhook/SaaSPlanCreate/\#categoryid "Direct link to categoryid")
+### `categoryId`
 
 - Type: `string`
 - Identifier linking the plan to a specific category or grouping.
 
-### `snapshotId` [​](https://marketplace.gohighlevel.com/docs/webhook/SaaSPlanCreate/\#snapshotid "Direct link to snapshotid")
+### `snapshotId`
 
 - Type: `string`
 - Identifier for the plan snapshot, used for versioning or backup purposes.
 
-### `productId` [​](https://marketplace.gohighlevel.com/docs/webhook/SaaSPlanCreate/\#productid "Direct link to productid")
+### `productId`
 
 - Type: `string`
 - Identifier for the associated product in the billing system (usually Stripe product ID).
 
-### `isSaaSV2` [​](https://marketplace.gohighlevel.com/docs/webhook/SaaSPlanCreate/\#issaasv2 "Direct link to issaasv2")
+### `isSaaSV2`
 
 - Type: `boolean`
 - Flag indicating whether this plan uses the newer SaaS V2 architecture.
 
-### `createdAt` [​](https://marketplace.gohighlevel.com/docs/webhook/SaaSPlanCreate/\#createdat "Direct link to createdat")
+### `createdAt`
 
 - Type: `string` (ISO 8601 date-time)
 - Timestamp when the plan was initially created.
 
-### `updatedAt` [​](https://marketplace.gohighlevel.com/docs/webhook/SaaSPlanCreate/\#updatedat "Direct link to updatedat")
+### `updatedAt`
 
 - Type: `string` (ISO 8601 date-time)
 - Timestamp when the plan was last modified.
 
-## Example Response [​](https://marketplace.gohighlevel.com/docs/webhook/SaaSPlanCreate/\#example-response "Direct link to Example Response")
+## Example Response
 
 ```json
 {
@@ -290,7 +290,7 @@ The webhook response follows the JSON schema below:
 }
 ```
 
-## Additional Notes [​](https://marketplace.gohighlevel.com/docs/webhook/SaaSPlanCreate/\#additional-notes "Direct link to Additional Notes")
+## Additional Notes
 
 - The webhook response is an array, allowing for bulk plan creation events.
 - Price amounts are provided in cents to avoid floating-point precision issues.

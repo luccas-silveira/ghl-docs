@@ -28,7 +28,7 @@ Post the necessary fields for the API to send a new message.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/send-a-new-message/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -180,7 +180,7 @@ Use this field to specify the user who is making the internal comment when type 
 
 Example:`user123`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/send-a-new-message/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

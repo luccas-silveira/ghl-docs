@@ -9,7 +9,7 @@ We are thrilled to announce a game-changing feature: the ability to sell Snapsho
 
 * * *
 
-## What is the App Marketplace for Snapshots? [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Snapshots/\#what-is-the-app-marketplace-for-snapshots "Direct link to What is the App Marketplace for Snapshots?")
+## What is the App Marketplace for Snapshots?
 
 The App Marketplace allows agency admins to to monetize their CRM expertise and package their configurations into a scalable product!
 
@@ -19,7 +19,7 @@ The App Marketplace allows agency admins to to monetize their CRM expertise and 
 
 * * *
 
-## Why Sell Snapshots on HighLevel? [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Snapshots/\#why-sell-snapshots-on-highlevel "Direct link to Why Sell Snapshots on HighLevel?")
+## Why Sell Snapshots on HighLevel?
 
 - **Monetize Your Expertise:** Turn your CRM configurations into a revenue-generating product.
 - **Broaden Your Reach:** Leverage HighLevel’s App Marketplace to reach a wider audience.
@@ -27,9 +27,9 @@ The App Marketplace allows agency admins to to monetize their CRM expertise and 
 
 * * *
 
-## How to Sell Snapshots in the App Marketplace [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Snapshots/\#how-to-sell-snapshots-in-the-app-marketplace "Direct link to How to Sell Snapshots in the App Marketplace")
+## How to Sell Snapshots in the App Marketplace
 
-### Step 1: Sign Up for the Developer Portal [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Snapshots/\#step-1-sign-up-for-the-developer-portal "Direct link to Step 1: Sign Up for the Developer Portal")
+### Step 1: Sign Up for the Developer Portal
 
 - Visit [marketplace.gohighlevel.com](https://marketplace.gohighlevel.com/).
 - Sign up and complete the registration form.
@@ -37,7 +37,7 @@ The App Marketplace allows agency admins to to monetize their CRM expertise and 
 
 [Video Walkthrough](https://www.loom.com/share/f6f296b24e83446799bb1b189bc7267d?sid=b2b7d7bc-b9f4-4d79-b907-059fda7f7cbd)
 
-### Step 2: Create Your App [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Snapshots/\#step-2-create-your-app "Direct link to Step 2: Create Your App")
+### Step 2: Create Your App
 
 - Log in to the Developer Portal and navigate to My Apps.
 - Click on **Create an App**.
@@ -49,14 +49,14 @@ The App Marketplace allows agency admins to to monetize their CRM expertise and 
     - **Sub-Account:** Charge sub-accounts each time the Snapshot is pushed.
   - **Listing Type:** Select either Standard or White-Label (recommended for broader reach).
 
-### Step 3: Provide App Details [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Snapshots/\#step-3-provide-app-details "Direct link to Step 3: Provide App Details")
+### Step 3: Provide App Details
 
 - Add a logo, tagline, and description for your app.
 - Specify your company name and website to build trust with potential buyers.
 - Upload preview images or a demo video to enhance your app’s value proposition.
 - Include customer support details to ensure buyers can reach you if needed.
 
-### Step 4: Configure Pricing [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Snapshots/\#step-4-configure-pricing "Direct link to Step 4: Configure Pricing")
+### Step 4: Configure Pricing
 
 - Decide whether your app will be:
   - **Free:** No cost to the buyer.
@@ -64,13 +64,13 @@ The App Marketplace allows agency admins to to monetize their CRM expertise and 
   - **Paid:** Charge a one-time fee, monthly, or yearly subscription.
 - Define the pricing plan, name, and what’s included.
 
-### Step 5: Add Your Snapshot [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Snapshots/\#step-5-add-your-snapshot "Direct link to Step 5: Add Your Snapshot")
+### Step 5: Add Your Snapshot
 
 - In your HighLevel Agency account, select the Snapshot you want to sell.
 - Choose **Get Marketplace Share Link** from the share options.
 - Copy the link and paste it into the Developer Portal under the Snapshot section.
 
-### Step 6: Submit for Review [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Snapshots/\#step-6-submit-for-review "Direct link to Step 6: Submit for Review")
+### Step 6: Submit for Review
 
 - Return to the Basic Info page in the Developer Portal.
 - Ensure all necessary configurations are complete.
@@ -78,7 +78,7 @@ The App Marketplace allows agency admins to to monetize their CRM expertise and 
 
 * * *
 
-## Protecting Your Intellectual Property (IP) [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Snapshots/\#protecting-your-intellectual-property-ip "Direct link to Protecting Your Intellectual Property (IP)")
+## Protecting Your Intellectual Property (IP)
 
 When you enable **Get Marketplace Share Link**, IP Protection is automatically applied. This ensures:
 
@@ -87,7 +87,7 @@ When you enable **Get Marketplace Share Link**, IP Protection is automatically a
 
 * * *
 
-## Frequently Asked Questions [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Snapshots/\#frequently-asked-questions "Direct link to Frequently Asked Questions")
+## Frequently Asked Questions
 
 **Q: Can I list multiple Snapshots in one app?**
 

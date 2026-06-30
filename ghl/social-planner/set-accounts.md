@@ -28,7 +28,7 @@ Set social media accounts for a CSV import to publish posts to
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/set-accounts/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -96,7 +96,7 @@ CSV file type - determines the format of the CSV file being imported
 
 Example:`basic`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/set-accounts/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

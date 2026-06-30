@@ -24,7 +24,7 @@ Delete Custom Field
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/locations/delete-custom-field/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -48,7 +48,7 @@ Custom Field Id
 
 Example: 00NhGCcN1tlO8ZHcu7Wb
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/locations/delete-custom-field/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

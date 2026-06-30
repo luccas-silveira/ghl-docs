@@ -24,7 +24,7 @@ Delete tag
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/locations/delete-tag/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -48,7 +48,7 @@ Tag Id
 
 Example: flGwEuzsfJOia1i1ikRN
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/locations/delete-tag/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

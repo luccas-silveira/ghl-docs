@@ -24,7 +24,7 @@ Create or update store settings by altId and altType.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/store/create-store-setting/\#request "Direct link to Request")
+## Request
 
 - application/json
 
@@ -158,7 +158,7 @@ Default Email Template Id
 
 Example:`6788d542f0462ffd6bc29bb9`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/store/create-store-setting/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

@@ -28,7 +28,7 @@ Purchase number for location. With `version: v3`, the HTTP 201 body is the stand
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/phone-system/purchase-number-for-location/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -124,7 +124,7 @@ Skip location-level KYC verification if agency-level compliance has already been
 
 Example:`false`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/phone-system/purchase-number-for-location/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 

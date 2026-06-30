@@ -28,7 +28,7 @@ The "Get all categories" Api return the blog categoies for a given location ID. 
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/blogs/get-all-categories-by-location/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -52,7 +52,7 @@ Number of categories to show in the listing
 
 Number of categories to skip in listing
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/blogs/get-all-categories-by-location/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

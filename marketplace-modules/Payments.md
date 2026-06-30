@@ -9,7 +9,7 @@ Integrating your preferred payment gateway into HighLevel allows for streamlined
 
 * * *
 
-## Prerequisites [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Payments/\#prerequisites "Direct link to Prerequisites")
+## Prerequisites
 
 Before you begin, ensure you have:
 
@@ -19,9 +19,9 @@ Before you begin, ensure you have:
 
 * * *
 
-## Step-by-Step Integration Guide [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Payments/\#step-by-step-integration-guide "Direct link to Step-by-Step Integration Guide")
+## Step-by-Step Integration Guide
 
-### 1\. Create a Marketplace App [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Payments/\#1-create-a-marketplace-app "Direct link to 1. Create a Marketplace App")
+### 1\. Create a Marketplace App
 
 - Log in to the [HighLevel Marketplace Dashboard.](https://marketplace.gohighlevel.com/)
 - Create a new marketplace app with the following configurations:
@@ -59,7 +59,7 @@ Securely store this key; it's used to decrypt the auth token received for custom
 
 * * *
 
-### 2\. Configure the Payment Provider [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Payments/\#2-configure-the-payment-provider "Direct link to 2. Configure the Payment Provider")
+### 2\. Configure the Payment Provider
 
 Set up the payment provider so HighLevel recognizes your app as a payments app.
 
@@ -73,13 +73,13 @@ Set up the payment provider so HighLevel recognizes your app as a payments app.
 
 * * *
 
-### 3\. Set the App Profile [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Payments/\#3-set-the-app-profile "Direct link to 3. Set the App Profile")
+### 3\. Set the App Profile
 
 In the profile section, set the category to **Third Party Provider**. This ensures your app appears correctly in the App Marketplace and is visible on the Payments > Integrations page for improved discoverability.
 
 * * *
 
-### 4\. Develop Custom Pages [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Payments/\#4-develop-custom-pages "Direct link to 4. Develop Custom Pages")
+### 4\. Develop Custom Pages
 
 Create publicly hosted pages for payment-related credentials collection and other features. These pages are loaded in an iFrame within the App Details page after installation.
 
@@ -89,7 +89,7 @@ From Payments > Integrations, if your app is already installed, users can click 
 
 * * *
 
-### 5\. Testing and Launch [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Payments/\#5-testing-and-launch "Direct link to 5. Testing and Launch")
+### 5\. Testing and Launch
 
 Test the integration in test mode across different payment channels in HighLevel.
 
@@ -97,9 +97,9 @@ Once testing is successful, launch your app in the marketplace.
 
 * * *
 
-## App Installation and Configuration [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Payments/\#app-installation-and-configuration "Direct link to App Installation and Configuration")
+## App Installation and Configuration
 
-### 1\. App Installation Flow [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Payments/\#1-app-installation-flow "Direct link to 1. App Installation Flow")
+### 1\. App Installation Flow
 
 - Whenever your app is installed in a location, a new tab will open immediately with the oauth code on the redirect URL provided earlier in config.
 - Once the app is installed, the configured custom page is loaded.
@@ -130,11 +130,11 @@ _**test mode config** is used for testing payments where no real money is charge
 
 * * *
 
-## Payment Flow Overview [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Payments/\#payment-flow-overview "Direct link to Payment Flow Overview")
+## Payment Flow Overview
 
 ![drawing](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155027292624/original/ABr_dqmtRIFFqkbsa9G9sb53_lziRbfpSA.png?1717764603)
 
-### 1\. Initiating Payment [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Payments/\#1-initiating-payment "Direct link to 1. Initiating Payment")
+### 1\. Initiating Payment
 
 When the `paymentsUrl` is loaded in an iframe, dispatch a `custom_provider_ready` event:
 
@@ -173,7 +173,7 @@ HighLevel then sends a `payment_initiate_props` event containing payment details
 
 * * *
 
-### 2\. Handling Payment Outcomes [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Payments/\#2-handling-payment-outcomes "Direct link to 2. Handling Payment Outcomes")
+### 2\. Handling Payment Outcomes
 
 - **Success:** Dispatch `custom_element_success_response` with `chargeId`.
 
@@ -205,7 +205,7 @@ HighLevel then sends a `payment_initiate_props` event containing payment details
 
 * * *
 
-### 3\. Payment Verification [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Payments/\#3-payment-verification "Direct link to 3. Payment Verification")
+### 3\. Payment Verification
 
 HighLevel sends a POST request to your `queryUrl` to verify the payment:
 
@@ -227,9 +227,9 @@ HighLevel sends a POST request to your `queryUrl` to verify the payment:
 
 * * *
 
-## Managing Payment Methods [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Payments/\#managing-payment-methods "Direct link to Managing Payment Methods")
+## Managing Payment Methods
 
-### 1\. Adding a Payment Method [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Payments/\#1-adding-a-payment-method "Direct link to 1. Adding a Payment Method")
+### 1\. Adding a Payment Method
 
 Dispatch `custom_provider_ready` with `addCardOnFileSupported` set to true:
 
@@ -262,7 +262,7 @@ On failure, dispatch `custom_element_error_response` with an error description.
 
 * * *
 
-### 2\. Listing Payment Methods [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Payments/\#2-listing-payment-methods "Direct link to 2. Listing Payment Methods")
+### 2\. Listing Payment Methods
 
 HighLevel sends a POST request to your `queryUrl`:
 
@@ -293,7 +293,7 @@ Respond with an array of payment methods:
 
 * * *
 
-### 3\. Charging a Payment Method [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Payments/\#3-charging-a-payment-method "Direct link to 3. Charging a Payment Method")
+### 3\. Charging a Payment Method
 
 HighLevel sends a POST request to your `queryUrl`:
 
@@ -330,7 +330,7 @@ Respond with:
 
 * * *
 
-## Handling Refunds [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Payments/\#handling-refunds "Direct link to Handling Refunds")
+## Handling Refunds
 
 To process refunds, handle the following event dispatched by HighLevel:
 
@@ -346,7 +346,7 @@ Process the refund accordingly and update the transaction status in your system.
 
 * * *
 
-## Webhook Events [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Payments/\#webhook-events "Direct link to Webhook Events")
+## Webhook Events
 
 HighLevel sends webhook events to notify about various payment-related activities. Ensure your server can handle POST requests at:
 
@@ -380,7 +380,7 @@ HighLevel sends webhook events to notify about various payment-related activitie
 
 * * *
 
-## Understanding the Payment Flow [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Payments/\#understanding-the-payment-flow "Direct link to Understanding the Payment Flow")
+## Understanding the Payment Flow
 
 The payment flow involves the following steps:
 
@@ -392,7 +392,7 @@ The payment flow involves the following steps:
 
 * * *
 
-## Frequently Asked Questions [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/Payments/\#frequently-asked-questions "Direct link to Frequently Asked Questions")
+## Frequently Asked Questions
 
 **Q: Can I integrate any payment gateway with HighLevel?**
 

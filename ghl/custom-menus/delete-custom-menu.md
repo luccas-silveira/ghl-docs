@@ -28,7 +28,7 @@ Removes a specific custom menu from the system. This operation requires authenti
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/custom-menus/delete-custom-menu/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -46,7 +46,7 @@ ID of the custom menu to delete
 
 Example: 62e589c1-c456-47e1-a9a7-cb8900014311
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/custom-menus/delete-custom-menu/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

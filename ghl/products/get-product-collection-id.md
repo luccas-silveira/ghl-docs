@@ -28,7 +28,7 @@ Get Details about individual product collection
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/products/get-product-collection-id/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -54,7 +54,7 @@ Location Id
 
 Example: 3SwdhCsvxI8Au3KsPJt6
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/products/get-product-collection-id/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

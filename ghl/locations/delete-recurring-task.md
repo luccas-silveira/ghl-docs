@@ -24,7 +24,7 @@ Delete Recurring Task
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/locations/delete-recurring-task/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -48,7 +48,7 @@ Location Id
 
 Example: sx6wyHhbFdRXh302Lunr
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/locations/delete-recurring-task/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

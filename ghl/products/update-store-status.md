@@ -28,7 +28,7 @@ API to update the status of products in a particular store
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/products/update-store-status/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -74,7 +74,7 @@ Array of product IDs
 
 Example:`["productId1","productId2"]`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/products/update-store-status/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

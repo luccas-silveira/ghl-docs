@@ -28,7 +28,7 @@ Get all calendars in a location.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-calendars/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -58,7 +58,7 @@ Show drafted
 
 Default value:`true`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-calendars/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

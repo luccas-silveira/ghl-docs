@@ -28,7 +28,7 @@ The "Delete Price by ID for a Product" API allows deleting a specific price asso
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/products/delete-price-by-id-for-product/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -60,7 +60,7 @@ location Id
 
 Example: 6578278e879ad2646715ba9c
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/products/delete-price-by-id-for-product/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

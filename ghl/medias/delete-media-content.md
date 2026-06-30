@@ -28,7 +28,7 @@ Deletes specific file or folder from the media storage
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/medias/delete-media-content/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -56,7 +56,7 @@ Example: location
 
 location Id
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/medias/delete-media-content/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 

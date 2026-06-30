@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever external authentication (OAuth2 or Basic) is connected successfully for an app/location/company.
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/ExternalAuthConnected/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -27,7 +27,7 @@ Called whenever external authentication (OAuth2 or Basic) is connected successfu
 
 - Note: `scopes` and `isAutoRefreshTokenEnabled` are present only for OAuth2 connections.
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/ExternalAuthConnected/\#example "Direct link to Example")
+#### Example
 
 - For OAuth2 External Auth Connection
 

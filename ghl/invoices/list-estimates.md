@@ -28,7 +28,7 @@ Get a paginated list of estimates
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/list-estimates/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -94,7 +94,7 @@ Number of items to skip
 
 Example: 10
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/list-estimates/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

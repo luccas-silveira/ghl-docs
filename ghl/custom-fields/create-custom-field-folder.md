@@ -32,7 +32,7 @@ Only supports Custom Objects and Company (Business) today. Will be extended to o
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/custom-fields/create-custom-field-folder/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -64,7 +64,7 @@ Location Id
 
 Example:`ve9EPM428h8vShlRW1KT`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/custom-fields/create-custom-field-folder/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

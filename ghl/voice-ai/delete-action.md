@@ -28,7 +28,7 @@ Delete an existing action from a voice AI agent. This permanently removes the ac
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/voice-ai/delete-action/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -56,7 +56,7 @@ Example: LOC123456789ABCDEF
 
 Agent ID the action is attached to
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/voice-ai/delete-action/\#responses "Direct link to Responses")
+## Responses
 
 - 204
 - 400

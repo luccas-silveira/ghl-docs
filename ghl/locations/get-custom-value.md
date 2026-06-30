@@ -24,7 +24,7 @@ Get Custom Value
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/locations/get-custom-value/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -48,7 +48,7 @@ Custom Value Id
 
 Example: kOBjMVAJhFuUeYIojVet
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/locations/get-custom-value/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

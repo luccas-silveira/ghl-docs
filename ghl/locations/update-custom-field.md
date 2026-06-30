@@ -23,7 +23,7 @@ Update Custom Field
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/locations/update-custom-field/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -112,7 +112,7 @@ Model of the custom field you want to update
 
 Example:`opportunity`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/locations/update-custom-field/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

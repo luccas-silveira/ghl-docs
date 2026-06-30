@@ -28,7 +28,7 @@ Fetch all SaaS-activated locations for a company with pagination
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/saas/get-saas-locations-deprecated/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -54,7 +54,7 @@ Page number for pagination
 
 Example: 1
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/saas/get-saas-locations-deprecated/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

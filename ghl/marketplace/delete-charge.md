@@ -28,7 +28,7 @@ Delete a wallet charge
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/marketplace/delete-charge/\#request "Direct link to Request")
+## Request
 
 ### Path Parameters
 
@@ -38,7 +38,7 @@ ID of the charge to delete
 
 Example: charge\_123
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/marketplace/delete-charge/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 404

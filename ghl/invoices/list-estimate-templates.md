@@ -28,7 +28,7 @@ Get a list of estimate templates or a specific template by ID
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/list-estimate-templates/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -68,7 +68,7 @@ Number of items to skip
 
 Example: 10
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/list-estimate-templates/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

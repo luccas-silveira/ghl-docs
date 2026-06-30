@@ -32,7 +32,7 @@ This feature is only available on Agency Pro ($497) plan.
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/locations/create-location/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -256,7 +256,7 @@ The snapshot ID to be loaded into the location.
 
 Example:`XXXXXXXXXXX`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/locations/create-location/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

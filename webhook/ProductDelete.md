@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever a product is deleted
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/ProductDelete/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -99,7 +99,7 @@ Called whenever a product is deleted
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/ProductDelete/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

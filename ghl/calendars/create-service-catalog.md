@@ -28,7 +28,7 @@ Create new service in a location.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/create-service-catalog/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -256,7 +256,7 @@ Example:`Standard Haircut`\
 \
 \]
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/create-service-catalog/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

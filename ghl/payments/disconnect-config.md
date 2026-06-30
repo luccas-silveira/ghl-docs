@@ -28,7 +28,7 @@ API to disconnect an existing payment config for given location
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/payments/disconnect-config/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -56,7 +56,7 @@ Whether the config is for test mode or live mode. true represents config is for 
 
 Example:`true`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/payments/disconnect-config/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

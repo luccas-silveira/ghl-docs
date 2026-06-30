@@ -23,7 +23,7 @@ Get a list of all own and imported Snapshots
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/snapshots/get-custom-snapshots/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -41,7 +41,7 @@ Company Id
 
 Example: 5D112kQsiKESj6rash
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/snapshots/get-custom-snapshots/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

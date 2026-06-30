@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever an app is updated to a new version
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/AppUpdate/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -70,7 +70,7 @@ Called whenever an app is updated to a new version
 - Note: The `previousVersionId` contains the version ID of the previously installed version before the update.
 - Note: The User ID and Company ID may be available when a new token is generated. In case of app update via future locations, you may not get these fields.
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/AppUpdate/\#example "Direct link to Example")
+#### Example
 
 - For Location Level App Update if company is whitelabeled
 

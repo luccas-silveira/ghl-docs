@@ -24,7 +24,7 @@ Train discovered website pages and ingest into the knowledge base
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/train-discovered-urls/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -68,7 +68,7 @@ operation id as string
 
 Example:`688b640bcb02d498102a13f0,`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/train-discovered-urls/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

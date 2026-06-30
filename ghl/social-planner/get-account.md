@@ -28,7 +28,7 @@ Get list of accounts and groups
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-account/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -48,7 +48,7 @@ Location Id
 
 Example: ve9EPM428h8vShlRW1KT
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-account/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

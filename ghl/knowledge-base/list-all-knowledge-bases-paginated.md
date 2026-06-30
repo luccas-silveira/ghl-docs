@@ -24,7 +24,7 @@ Get all knowledge bases for a location by location Id (paginated)
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/list-all-knowledge-bases-paginated/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -62,7 +62,7 @@ ID of the last knowledge base from the previous page (for pagination)
 
 Example: ZwTB8S0yo0FIBY6OPZTD
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/list-all-knowledge-bases-paginated/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever an invoice is paid
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/InvoicePaid/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -203,7 +203,7 @@ Called whenever an invoice is paid
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/InvoicePaid/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

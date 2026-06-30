@@ -3,17 +3,17 @@ title: "Privateappinstalllimits"
 source_url: https://marketplace.gohighlevel.com/docs/MarketplacePolicies/PrivateAppInstallLimits
 version: v3
 ---
-## Effective date [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/PrivateAppInstallLimits/\#effective-date "Direct link to Effective date")
+## Effective date
 
 Applies to Private apps created on or after **18 November 2025**.
 
-## Purpose [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/PrivateAppInstallLimits/\#purpose "Direct link to Purpose")
+## Purpose
 
 Private apps are for small pilots, not broad distribution. This policy limits how widely a Private app can be installed. For legitimate enterprise/regulated scenarios, a Security Review path lets you remain private while lifting the cap.
 
 * * *
 
-## Summary [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/PrivateAppInstallLimits/\#summary "Direct link to Summary")
+## Summary
 
 - **Cap:** A Private app may be installed in up to 5 Agencies.
 - **Block:** At 6 or more Agencies, new installs are blocked. Existing installs continue to work.
@@ -22,7 +22,7 @@ Private apps are for small pilots, not broad distribution. This policy limits ho
 
 * * *
 
-## Key definitions [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/PrivateAppInstallLimits/\#key-definitions "Direct link to Key definitions")
+## Key definitions
 
 - **Agency:** Top‑level HighLevel account.
 - **Sub‑account** (formerly “Location”): Child account under an Agency;\*all Sub‑accounts under one Agency count as one toward the cap.
@@ -35,7 +35,7 @@ Private apps are for small pilots, not broad distribution. This policy limits ho
 
 * * *
 
-## Thresholds and behavior [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/PrivateAppInstallLimits/\#thresholds-and-behavior "Direct link to Thresholds and behavior")
+## Thresholds and behavior
 
 | State | Condition | What happens |
 | --- | --- | --- |
@@ -43,24 +43,24 @@ Private apps are for small pilots, not broad distribution. This policy limits ho
 | **Approaching** | **4–5** Agencies | **Warning** (amber). Installs continue; plan to publish or prepare Security Review materials. |
 | **Blocked** | ≥ **6** Agencies (unreviewed) | **New installs are blocked** (red). Existing installs continue. Choose **Publish publicly** or **Request Security Review**. |
 
-### Install experience [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/PrivateAppInstallLimits/\#install-experience "Direct link to Install experience")
+### Install experience
 
 - **Agency view when blocked:** “Install unavailable. Please contact the app developer.”
 - **After Security Review pass:** A small note indicates the app is Security reviewed; installs proceed beyond 5 while remaining Private.
 
-### Real‑time enforcement [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/PrivateAppInstallLimits/\#realtime-enforcement "Direct link to Real‑time enforcement")
+### Real‑time enforcement
 
 Counts update in real time as installs/uninstalls occur.
 
 * * *
 
-## Security Review [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/PrivateAppInstallLimits/\#security-review "Direct link to Security Review")
+## Security Review
 
-### When you can request [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/PrivateAppInstallLimits/\#when-you-can-request "Direct link to When you can request")
+### When you can request
 
 Only **after you exceed the cap** (installs in **6 or more Agencies**).
 
-### What you submit [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/PrivateAppInstallLimits/\#what-you-submit "Direct link to What you submit")
+### What you submit
 
 - **End‑to‑end demo video URL (install + core flows):** In this video, provide a complete end‑to‑end demo of the app.
 - **Scopes‑justification video URL:** Explain why your app needs each requested scope/permission.
@@ -68,22 +68,22 @@ Only **after you exceed the cap** (installs in **6 or more Agencies**).
 - **Optional:** Test credentials and any additional details.
 - **Acknowledgement:** Confirm the submission reflects the current app state.
 
-### Outcomes [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/PrivateAppInstallLimits/\#outcomes "Direct link to Outcomes")
+### Outcomes
 
 - **Approved:** The cap is lifted for that app; it may remain Private.
 - **Not approved / Changes required:** New installs remain blocked at 6+ until you publish publicly or resubmit and pass.
 
-### Re‑review [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/PrivateAppInstallLimits/\#rereview "Direct link to Re‑review")
+### Re‑review
 
 If you later make material changes (e.g., scopes, domains, or data flows), HighLevel may require a re‑review. Until re‑approved, new installs may be restricted.
 
 * * *
 
-## Publishing publicly [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/PrivateAppInstallLimits/\#publishing-publicly "Direct link to Publishing publicly")
+## Publishing publicly
 
 You can remove the Private cap by publishing as **Public (listed)**.
 
-### How to publish [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/PrivateAppInstallLimits/\#how-to-publish "Direct link to How to publish")
+### How to publish
 
 1. Open your app in **My Apps**.
 2. Click **Start Public (listed) review**.
@@ -91,7 +91,7 @@ You can remove the Private cap by publishing as **Public (listed)**.
 4. Complete listing details, scopes, and support info.
 5. Submit for review; track updates via email/product notifications.
 
-### Public listing requirements [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/PrivateAppInstallLimits/\#public-listing-requirements "Direct link to Public listing requirements")
+### Public listing requirements
 
 - **Listing & Brand:** App name & tagline; logo/icon; **3–6** screenshots; short (≤ **160** chars) and detailed description; categories/tags.
 - **Policy & Trust:** Privacy Policy URL; Terms of Service URL; data‑usage summary; security contact email.
@@ -102,7 +102,7 @@ You can remove the Private cap by publishing as **Public (listed)**.
 
 * * *
 
-## Where you’ll see this in product [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/PrivateAppInstallLimits/\#where-youll-see-this-in-product "Direct link to Where you’ll see this in product")
+## Where you’ll see this in product
 
 - **Create App → App type = Private**
 
@@ -115,7 +115,7 @@ You can remove the Private cap by publishing as **Public (listed)**.
 
 * * *
 
-## Converting between Public and Private [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/PrivateAppInstallLimits/\#converting-between-public-and-private "Direct link to Converting between Public and Private")
+## Converting between Public and Private
 
 | Conversion | Behavior |
 | --- | --- |
@@ -124,7 +124,7 @@ You can remove the Private cap by publishing as **Public (listed)**.
 
 * * *
 
-## Examples [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/PrivateAppInstallLimits/\#examples "Direct link to Examples")
+## Examples
 
 - **Pilot: 3 Agencies** → OK
 - **Growing: 4–5 Agencies** → Warning “Publish soon”; installs continue
@@ -134,19 +134,19 @@ You can remove the Private cap by publishing as **Public (listed)**.
 
 * * *
 
-## Legacy scope [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/PrivateAppInstallLimits/\#legacy-scope "Direct link to Legacy scope")
+## Legacy scope
 
 Private apps created before **18 November 2025** are out of scope (no warnings or blocks) unless later migrated into this policy.
 
 * * *
 
-## Optional: Bulk Installation (Public apps) [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/PrivateAppInstallLimits/\#optional-bulk-installation-public-apps "Direct link to Optional: Bulk Installation (Public apps)")
+## Optional: Bulk Installation (Public apps)
 
 If your Public app is meant for deployment across many Sub‑accounts, enable Bulk Installation so an Agency can install to multiple Sub‑accounts in one action. _(This does not affect counting rules for Private apps.)_
 
 * * *
 
-## FAQs [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/PrivateAppInstallLimits/\#faqs "Direct link to FAQs")
+## FAQs
 
 **Do Sub‑accounts count separately?**
 
@@ -176,14 +176,14 @@ Not permitted. HighLevel may aggregate counts across materially similar apps and
 
 * * *
 
-## Versioning & change log [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/PrivateAppInstallLimits/\#versioning--change-log "Direct link to Versioning & change log")
+## Versioning & change log
 
 - **v1 (18 Nov 2025):** Breadth‑only cap: **5** Agencies; warn at **4–5**; block at **6+**; real‑time enforcement.
 - **v1.1 (24 Nov 2025):** Added **Security Review** path that can lift the cap while remaining **Private**; clarified notices and examples.
 
 * * *
 
-## Change management [​](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/PrivateAppInstallLimits/\#change-management "Direct link to Change management")
+## Change management
 
 HighLevel may update this policy. Material changes will be announced with reasonable notice before taking effect.
 

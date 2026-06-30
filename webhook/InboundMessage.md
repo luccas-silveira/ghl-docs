@@ -16,7 +16,7 @@ Called whenever a contact sends a message to the user.
 | Email |
 | Live Chat |
 
-#### Message Schema [​](https://marketplace.gohighlevel.com/docs/webhook/InboundMessage/\#message-schema "Direct link to Message Schema")
+#### Message Schema
 
 ```json
 {
@@ -89,7 +89,7 @@ Called whenever a contact sends a message to the user.
 }
 ```
 
-#### Example(Message) [​](https://marketplace.gohighlevel.com/docs/webhook/InboundMessage/\#examplemessage "Direct link to Example(Message)")
+#### Example(Message)
 
 ```json
 {
@@ -113,7 +113,7 @@ Called whenever a contact sends a message to the user.
 }
 ```
 
-#### Example(Call) [​](https://marketplace.gohighlevel.com/docs/webhook/InboundMessage/\#examplecall "Direct link to Example(Call)")
+#### Example(Call)
 
 ```json
 {
@@ -158,7 +158,7 @@ Example for unattended incoming call going to voicemail -
 }
 ```
 
-### Call Status Details [​](https://marketplace.gohighlevel.com/docs/webhook/InboundMessage/\#call-status-details "Direct link to Call Status Details")
+### Call Status Details
 
 For inbound calls:
 
@@ -166,7 +166,7 @@ For inbound calls:
 - When the call goes to voicemail, `status` will be `voicemail` and `callStatus` will be `voicemail`
 - The `callDuration` field indicates the length of the call in seconds
 
-#### Email Message Schema [​](https://marketplace.gohighlevel.com/docs/webhook/InboundMessage/\#email-message-schema "Direct link to Email Message Schema")
+#### Email Message Schema
 
 ```json
 {
@@ -241,7 +241,7 @@ For inbound calls:
 }
 ```
 
-#### Example(Email) [​](https://marketplace.gohighlevel.com/docs/webhook/InboundMessage/\#exampleemail "Direct link to Example(Email)")
+#### Example(Email)
 
 ```json
 {
@@ -264,7 +264,7 @@ For inbound calls:
 }
 ```
 
-##### For listening to inbound messages [​](https://marketplace.gohighlevel.com/docs/webhook/InboundMessage/\#for-listening-to-inbound-messages "Direct link to For listening to inbound messages")
+##### For listening to inbound messages
 
 You need to change the Messaging webhook to -
 

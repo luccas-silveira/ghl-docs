@@ -28,7 +28,7 @@ Get calendar notifications based on query
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-event-notification/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -60,7 +60,7 @@ Number of records to skip
 
 Default value:`0`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-event-notification/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

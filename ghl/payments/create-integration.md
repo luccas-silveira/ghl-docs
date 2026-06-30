@@ -28,7 +28,7 @@ API to create a new association for an app and location
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/payments/create-integration/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -86,7 +86,7 @@ Whether the config supports subscription schedule or not. true represents config
 
 Example:`true`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/payments/create-integration/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

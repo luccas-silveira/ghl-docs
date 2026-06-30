@@ -28,7 +28,7 @@ The "List Coupons" API allows you to retrieve a list of all coupons available in
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/payments/list-coupons/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -84,7 +84,7 @@ Search term to filter coupons by name or code
 
 Example: DEAL50
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/payments/list-coupons/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 422

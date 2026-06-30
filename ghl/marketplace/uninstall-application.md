@@ -28,7 +28,7 @@ Uninstalls an application from your company or a specific location. This will re
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/marketplace/uninstall-application/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -70,7 +70,7 @@ The reason for uninstalling the application. Reason is required if you are unins
 
 Example:`Application is not working as expected`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/marketplace/uninstall-application/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

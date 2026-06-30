@@ -28,7 +28,7 @@ The "Create Redirect" API Allows adding a new url redirect to the system. Use th
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/funnels/create-redirect/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -64,7 +64,7 @@ Example:`https://www.google.com`
 
 Example:`URL`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/funnels/create-redirect/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 422

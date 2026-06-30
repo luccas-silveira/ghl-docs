@@ -9,7 +9,7 @@ Version: 1.0
 
 Documentation for Sub-Account (Formerly location) API
 
-## Authentication [​](https://marketplace.gohighlevel.com/docs/ghl/locations/sub-account-formerly-location-api/\#authentication "Direct link to Authentication")
+## Authentication
 
 - HTTP: Bearer Auth
 - HTTP: Bearer Auth

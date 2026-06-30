@@ -3,11 +3,11 @@ title: "Objectschemacreate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/ObjectSchemaCreate
 version: v3
 ---
-## Overview [​](https://marketplace.gohighlevel.com/docs/webhook/ObjectSchemaCreate/\#overview "Direct link to Overview")
+## Overview
 
 The **Object Schema Create** is triggered whenever a custom object is created. This webhook allows systems to listen for new custom objects and take appropriate actions based on the event.
 
-## Schema [​](https://marketplace.gohighlevel.com/docs/webhook/ObjectSchemaCreate/\#schema "Direct link to Schema")
+## Schema
 
 The webhook payload follows the JSON schema below:
 
@@ -56,66 +56,66 @@ The webhook payload follows the JSON schema below:
 }
 ```
 
-## Field Descriptions [​](https://marketplace.gohighlevel.com/docs/webhook/ObjectSchemaCreate/\#field-descriptions "Direct link to Field Descriptions")
+## Field Descriptions
 
-### `labels` [​](https://marketplace.gohighlevel.com/docs/webhook/ObjectSchemaCreate/\#labels "Direct link to labels")
+### `labels`
 
 An object that defines the human-readable names associated with the custom object.
 
 - **`singular`**: The name of the object in singular form (e.g., `"pet"`).
 - **`plural`**: The name of the object in plural form (e.g., `"pets"`).
 
-### `description` [​](https://marketplace.gohighlevel.com/docs/webhook/ObjectSchemaCreate/\#description "Direct link to description")
+### `description`
 
 - Type: `string`
 - A brief explanation of the custom object.
 
-### `searchableProperties` [​](https://marketplace.gohighlevel.com/docs/webhook/ObjectSchemaCreate/\#searchableproperties "Direct link to searchableproperties")
+### `searchableProperties`
 
 - Type: `array`
 - List of properties that are indexed for search.
 
-### `primaryDisplayProperty` [​](https://marketplace.gohighlevel.com/docs/webhook/ObjectSchemaCreate/\#primarydisplayproperty "Direct link to primarydisplayproperty")
+### `primaryDisplayProperty`
 
 - Type: `string`
 - Required: ✅
 - The key property used to display the custom object.
 
-### `key` [​](https://marketplace.gohighlevel.com/docs/webhook/ObjectSchemaCreate/\#key "Direct link to key")
+### `key`
 
 - Type: `string`
 - Required: ✅
 - Unique identifier for the custom object type.
 
-### `locationId` [​](https://marketplace.gohighlevel.com/docs/webhook/ObjectSchemaCreate/\#locationid "Direct link to locationid")
+### `locationId`
 
 - Type: `string`
 - Required: ✅
 - Identifies the location associated with the custom object.
 
-### `createdBy` [​](https://marketplace.gohighlevel.com/docs/webhook/ObjectSchemaCreate/\#createdby "Direct link to createdby")
+### `createdBy`
 
 - Type: `object`
 - Metadata about the user who created the object.
 
-### `updatedBy` [​](https://marketplace.gohighlevel.com/docs/webhook/ObjectSchemaCreate/\#updatedby "Direct link to updatedby")
+### `updatedBy`
 
 - Type: `object`
 - Metadata about the user who last updated the object.
 
-### `timestamp` [​](https://marketplace.gohighlevel.com/docs/webhook/ObjectSchemaCreate/\#timestamp "Direct link to timestamp")
+### `timestamp`
 
 - Type: `string`
 - Format: `date-time`
 - The date and time when the object was created.
 
-### `objectType` [​](https://marketplace.gohighlevel.com/docs/webhook/ObjectSchemaCreate/\#objecttype "Direct link to objecttype")
+### `objectType`
 
 - Type: `string`
 - Default: `"USER_DEFINED"`
 - Specifies the type of object, currently supports only `USER_DEFINED`.
 
-## Example Payload [​](https://marketplace.gohighlevel.com/docs/webhook/ObjectSchemaCreate/\#example-payload "Direct link to Example Payload")
+## Example Payload
 
 ```json
 {
@@ -138,7 +138,7 @@ An object that defines the human-readable names associated with the custom objec
 }
 ```
 
-## Additional Notes [​](https://marketplace.gohighlevel.com/docs/webhook/ObjectSchemaCreate/\#additional-notes "Direct link to Additional Notes")
+## Additional Notes
 
 - Ensure your webhook listener is set up to handle `POST` requests.
 - The payload format may change in future versions; check for updates regularly.

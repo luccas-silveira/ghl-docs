@@ -28,7 +28,7 @@ Returns call logs for Voice AI agents scoped to a location. Supports filtering b
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/voice-ai/get-call-logs/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -106,7 +106,7 @@ Page size (max 50).
 
 Default value:`10`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/voice-ai/get-call-logs/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

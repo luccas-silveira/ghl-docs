@@ -28,7 +28,7 @@ Get a single workflow campaign by its ID
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/emails/get-workflow-campaign/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -54,7 +54,7 @@ Campaign ID
 
 Example: 693bd14ea6b50a8df0180e9a
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/emails/get-workflow-campaign/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

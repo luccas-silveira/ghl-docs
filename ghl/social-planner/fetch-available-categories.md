@@ -28,7 +28,7 @@ Returns categories with status: "available" (no queue), "in\_queue" (active/paus
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/fetch-available-categories/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -66,7 +66,7 @@ Search query
 
 Example: Marketing
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/fetch-available-categories/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

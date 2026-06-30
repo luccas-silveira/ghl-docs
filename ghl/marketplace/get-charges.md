@@ -28,7 +28,7 @@ Get all wallet charges
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/marketplace/get-charges/\#request "Direct link to Request")
+## Request
 
 ### Query Parameters
 
@@ -74,7 +74,7 @@ Maximum number of records to return
 
 Example: 10
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/marketplace/get-charges/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 422

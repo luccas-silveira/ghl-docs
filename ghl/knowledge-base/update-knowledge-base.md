@@ -24,7 +24,7 @@ Update a knowledge base
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/update-knowledge-base/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -56,7 +56,7 @@ field to update the name of the knowledge base
 
 field to update the description of the knowledge base
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/update-knowledge-base/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

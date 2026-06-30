@@ -24,7 +24,7 @@ Delete Record By Id . Supported Objects are business and custom objects.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/objects/delete-object-record/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -48,7 +48,7 @@ id of the record to be updated. Available on the Record details page under the 3
 
 Example: 632c34b4c9b7da3358ac9891
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/objects/delete-object-record/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

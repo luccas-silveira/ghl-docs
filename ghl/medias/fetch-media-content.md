@@ -27,7 +27,7 @@ Fetches list of files and folders from the media storage
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/medias/fetch-media-content/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -97,7 +97,7 @@ Fetch all files or folders
 
 Example: false
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/medias/fetch-media-content/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 

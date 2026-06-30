@@ -28,7 +28,7 @@ The "Create Product" API allows adding a new product to the system. Use this end
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/products/create-product/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -254,7 +254,7 @@ Whether the taxes should be included in the purchase price
 
 Example:`true`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/products/create-product/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

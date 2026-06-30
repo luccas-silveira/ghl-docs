@@ -28,7 +28,7 @@ Get list of links by searching
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/links/search-trigger-links/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -76,7 +76,7 @@ Default value:`20`
 
 Example: 10
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/links/search-trigger-links/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

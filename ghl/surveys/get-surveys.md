@@ -28,7 +28,7 @@ Get Surveys
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/surveys/get-surveys/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -60,7 +60,7 @@ Example: 20
 
 Example: folder
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/surveys/get-surveys/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -14,7 +14,7 @@ POST https://services.leadconnectorhq.com/contacts/bulk/tags/update/:type
 
 Allows you to update tags to multiple contacts at once, you can add or remove tags from the contacts
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/create-association/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -54,7 +54,7 @@ Option to implement remove all tags. if true, all tags will be removed from the 
 
 Example:`false`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/create-association/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

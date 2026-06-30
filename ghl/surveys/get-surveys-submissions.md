@@ -28,7 +28,7 @@ Get Surveys Submissions
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/surveys/get-surveys-submissions/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -84,7 +84,7 @@ Get submission by ending of this date. By default it will be current date(YYYY-M
 
 Example: 2020-12-14
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/surveys/get-surveys-submissions/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

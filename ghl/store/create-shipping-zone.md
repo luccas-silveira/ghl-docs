@@ -24,7 +24,7 @@ The "Create Shipping Zone" API allows adding a new shipping zone.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/store/create-shipping-zone/\#request "Direct link to Request")
+## Request
 
 - application/json
 
@@ -78,7 +78,7 @@ Example:`VA`\
 \
 \]
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/store/create-shipping-zone/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

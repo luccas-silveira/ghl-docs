@@ -13,9 +13,9 @@ POST https://services.leadconnectorhq.com/social-media-posting/category/queues/l
 
 Returns scheduled posts from active queues within a date range. Supports filtering by categories and accounts.
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/fetch-calendar-list/\#request "Direct link to Request")
+## Request
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/fetch-calendar-list/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

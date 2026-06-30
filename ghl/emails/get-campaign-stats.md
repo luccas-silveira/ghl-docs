@@ -27,7 +27,7 @@ Get statistics for email campaigns, workflows, or bulk actions
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/emails/get-campaign-stats/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -69,7 +69,7 @@ Workflow action ID. Only valid when source is `workflow-campaigns`
 
 Example: step001
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/emails/get-campaign-stats/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

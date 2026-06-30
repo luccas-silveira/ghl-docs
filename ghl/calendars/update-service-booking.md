@@ -28,7 +28,7 @@ Update an existing service booking
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/update-service-booking/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -160,7 +160,7 @@ Example:`30`\
 \
 \]
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/update-service-booking/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

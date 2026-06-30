@@ -28,7 +28,7 @@ The "Get Transaction by ID" API allows to retrieve information for a specific tr
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/payments/get-transaction-by-id/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -66,7 +66,7 @@ AltType is the type of identifier.
 
 Example: location
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/payments/get-transaction-by-id/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

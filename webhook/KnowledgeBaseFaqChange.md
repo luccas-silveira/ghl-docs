@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever a knowledge base **FAQ** asset is created, updated or deleted
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/KnowledgeBaseFaqChange/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -43,7 +43,7 @@ Called whenever a knowledge base **FAQ** asset is created, updated or deleted
 - Note: `assetType` is always `faq` for this event.
 - Note: `status` reflects the asset's processing state and varies by asset type.
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/KnowledgeBaseFaqChange/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

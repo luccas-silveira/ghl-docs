@@ -27,7 +27,7 @@ Creates a new chat widget for the given sub-account.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/chat-widget/create-chat-widget/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -701,7 +701,7 @@ Widget Placement
 
 Example:`embedded`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/chat-widget/create-chat-widget/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

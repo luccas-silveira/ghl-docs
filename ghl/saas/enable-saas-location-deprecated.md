@@ -32,7 +32,7 @@ This feature is only available on Agency Pro ($497) plan.
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/saas/enable-saas-location-deprecated/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -116,7 +116,7 @@ Required only while pre-configuring saas subscription
 
 Example:`price_1QDPY5FpU9DlKp7RQ8BXfywx`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/saas/enable-saas-location-deprecated/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

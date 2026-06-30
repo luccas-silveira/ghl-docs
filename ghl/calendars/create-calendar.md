@@ -28,7 +28,7 @@ Create calendar in a location.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/create-calendar/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -457,7 +457,7 @@ Example:`true`
 
 Percentage of slots that will be hidden
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/create-calendar/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

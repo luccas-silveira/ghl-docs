@@ -28,7 +28,7 @@ Retrieves a list of all URL redirects based on the given query parameters.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/funnels/fetch-redirects-list/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -56,7 +56,7 @@ Example: 10
 
 Example: example.com/test
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/funnels/fetch-redirects-list/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 422

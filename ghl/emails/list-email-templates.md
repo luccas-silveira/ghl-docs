@@ -28,7 +28,7 @@ Get list of templates by location
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/emails/list-email-templates/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -116,7 +116,7 @@ Default value:`all`
 
 Example: all
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/emails/list-email-templates/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

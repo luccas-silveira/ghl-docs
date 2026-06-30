@@ -13,9 +13,9 @@ PUT https://services.leadconnectorhq.com/invoices/schedule/:scheduleId
 
 API to update an schedule by schedule id
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/update-invoice-schedule/\#request "Direct link to Request")
+## Request
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/update-invoice-schedule/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

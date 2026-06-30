@@ -28,7 +28,7 @@ Get Opportunity
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/opportunities/get-opportunity/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -48,7 +48,7 @@ Opportunity Id
 
 Example: yWQobCRIhRguQtD2llvk
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/opportunities/get-opportunity/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

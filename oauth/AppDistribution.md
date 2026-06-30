@@ -7,7 +7,7 @@ This guide covers the new, simplified Marketplace distribution model and the OAu
 
 * * *
 
-## App Distribution Model [​](https://marketplace.gohighlevel.com/docs/oauth/AppDistribution/\#app-distribution-model "Direct link to App Distribution Model")
+## App Distribution Model
 
 To configure your desired app distribution model, you have three fields:
 
@@ -19,9 +19,9 @@ To configure your desired app distribution model, you have three fields:
 
 * * *
 
-## Distribution Scenarios [​](https://marketplace.gohighlevel.com/docs/oauth/AppDistribution/\#distribution-scenarios "Direct link to Distribution Scenarios")
+## Distribution Scenarios
 
-### Developer’s distribution config scenarios and getting the right access token [​](https://marketplace.gohighlevel.com/docs/oauth/AppDistribution/\#developers-distribution-config-scenarios-and-getting-the-right-access-token "Direct link to Developer’s distribution config scenarios and getting the right access token")
+### Developer’s distribution config scenarios and getting the right access token
 
 | Who is the target user? | Who can install the app? | Can the app be bulk-installed by agencies? | User Installation Scenarios | Access Token Details | Step 2 |
 | --- | --- | --- | --- | --- | --- |
@@ -34,7 +34,7 @@ To configure your desired app distribution model, you have three fields:
 
 * * *
 
-## Backward Compatibility [​](https://marketplace.gohighlevel.com/docs/oauth/AppDistribution/\#backward-compatibility "Direct link to Backward Compatibility")
+## Backward Compatibility
 
 To maintain the existing installation flow for legacy apps, mappings are set as follows:
 
@@ -46,9 +46,9 @@ To maintain the existing installation flow for legacy apps, mappings are set as 
 
 * * *
 
-## Target User Types [​](https://marketplace.gohighlevel.com/docs/oauth/AppDistribution/\#target-user-types "Direct link to Target User Types")
+## Target User Types
 
-### Target User: Agency [​](https://marketplace.gohighlevel.com/docs/oauth/AppDistribution/\#target-user-agency "Direct link to Target User: Agency")
+### Target User: Agency
 
 Choose this if your app is only relevant for agency-level accounts.
 
@@ -64,7 +64,7 @@ Choose this if your app is only relevant for agency-level accounts.
 
 * * *
 
-### Target User: Sub-account — Both Can Install [​](https://marketplace.gohighlevel.com/docs/oauth/AppDistribution/\#target-user-sub-account--both-can-install "Direct link to Target User: Sub-account — Both Can Install")
+### Target User: Sub-account — Both Can Install
 
 Choose this if your app is for sub-account-level usage but should be installable by both agencies and sub-accounts.
 
@@ -87,7 +87,7 @@ Choose this if your app is for sub-account-level usage but should be installable
 
 * * *
 
-### Target User: Sub-account — Only Agency Can Install [​](https://marketplace.gohighlevel.com/docs/oauth/AppDistribution/\#target-user-sub-account--only-agency-can-install "Direct link to Target User: Sub-account — Only Agency Can Install")
+### Target User: Sub-account — Only Agency Can Install
 
 Choose this if only agencies should install, but app is used at sub-account level.
 

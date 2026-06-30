@@ -28,7 +28,7 @@ Internal API to fetch the Product Collections
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/products/get-product-collection/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -82,7 +82,7 @@ Query to search collection based on names
 
 Example: Best Sellers
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/products/get-product-collection/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -34,7 +34,7 @@ Gets a specific agent by its ID for the specified location with all its versions
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/agent-studio/get-agent-by-id-deprecated/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -60,7 +60,7 @@ Example: C2QujeCh8ZnC7al2InWR
 
 Example: api
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/agent-studio/get-agent-by-id-deprecated/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

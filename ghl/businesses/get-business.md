@@ -28,7 +28,7 @@ Get Business
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/businesses/get-business/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -44,7 +44,7 @@ API Version
 
 Example: 5DP4iH6HLkQsiKESj6rh
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/businesses/get-business/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

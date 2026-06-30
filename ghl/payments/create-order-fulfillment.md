@@ -28,7 +28,7 @@ The "Order Fulfillment" API facilitates the process of fulfilling an order.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/payments/create-order-fulfillment/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -112,7 +112,7 @@ Need to send a notification to customer
 
 Example:`true`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/payments/create-order-fulfillment/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

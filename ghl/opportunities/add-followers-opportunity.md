@@ -28,7 +28,7 @@ Add Followers
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/opportunities/add-followers-opportunity/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -58,7 +58,7 @@ Array of user IDs to add or remove as followers (max 10)
 
 Example:`["sx6wyHhbFdRXh302Lunr","sx6wyHhbFdRXh302Lunr"]`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/opportunities/add-followers-opportunity/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

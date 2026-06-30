@@ -28,7 +28,7 @@ Get the next invoice number for the given location
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/generate-invoice-number/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -48,7 +48,7 @@ Location Id
 
 **Possible values:** \[`location`\]
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/generate-invoice-number/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

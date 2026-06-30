@@ -28,7 +28,7 @@ Creates a new conversation with the data provided
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/create-conversation/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -54,7 +54,7 @@ Contact ID as string
 
 Example:`tDtDnQdgm2LXpyiqYvZ6`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/create-conversation/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

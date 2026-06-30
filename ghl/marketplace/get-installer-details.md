@@ -28,7 +28,7 @@ Fetches installer details for the authenticated user. This endpoint returns info
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/marketplace/get-installer-details/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -48,7 +48,7 @@ ID of the app to get installer details
 
 Example: 6578278e879ad2646715ba9c
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/marketplace/get-installer-details/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

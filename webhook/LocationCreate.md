@@ -7,7 +7,7 @@ Called whenever a location is created.
 
 > Available only to Agency Level Apps.
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/LocationCreate/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -35,7 +35,7 @@ Called whenever a location is created.
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/LocationCreate/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

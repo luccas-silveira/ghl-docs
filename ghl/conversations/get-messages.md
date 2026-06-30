@@ -28,7 +28,7 @@ Get messages by conversation id.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/get-messages/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -68,7 +68,7 @@ Types of message to fetched separated with comma
 
 Example: TYPE\_SMS,TYPE\_CALL
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/get-messages/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

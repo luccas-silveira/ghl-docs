@@ -24,7 +24,7 @@ Get Recurring Task By Id
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/locations/get-recurring-task-by-id/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -48,7 +48,7 @@ Location Id
 
 Example: sx6wyHhbFdRXh302Lunr
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/locations/get-recurring-task-by-id/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

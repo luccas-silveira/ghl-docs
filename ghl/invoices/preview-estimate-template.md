@@ -28,7 +28,7 @@ Get a preview of an estimate template
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/preview-estimate-template/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -56,7 +56,7 @@ Template Id
 
 Example: 5f9d6d8b1b2d2c001f2d9e4b
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/preview-estimate-template/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

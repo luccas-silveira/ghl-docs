@@ -27,7 +27,7 @@ Get a single email campaign by its ID
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/emails/get-email-campaign/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -53,7 +53,7 @@ Campaign ID
 
 Example: 67f15c2ae99226d5bcccb8f3
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/emails/get-email-campaign/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

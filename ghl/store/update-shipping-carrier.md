@@ -24,7 +24,7 @@ The "update Shipping Carrier" API allows update a shipping carrier to the system
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/store/update-shipping-carrier/\#request "Direct link to Request")
+## Request
 
 ### Path Parameters
 
@@ -86,7 +86,7 @@ The seller can choose multiple services while creating shipping rates if this is
 
 Example:`true`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/store/update-shipping-carrier/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

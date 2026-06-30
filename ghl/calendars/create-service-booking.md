@@ -28,7 +28,7 @@ Create a new service booking
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/create-service-booking/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -164,7 +164,7 @@ Status. (If not provided, the status configured in Service Global Settings will 
 
 Example:`confirmed`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/create-service-booking/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

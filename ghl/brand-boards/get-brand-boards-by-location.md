@@ -27,7 +27,7 @@ Retrieves all Brand Boards for a specific location
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/brand-boards/get-brand-boards-by-location/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -79,7 +79,7 @@ Include deleted brand boards in results
 
 Default value:`false`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/brand-boards/get-brand-boards-by-location/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

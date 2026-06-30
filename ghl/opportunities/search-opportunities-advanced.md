@@ -28,7 +28,7 @@ Search Opportunities based on combinations of advanced filters. Documentation Li
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/opportunities/search-opportunities-advanced/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -102,7 +102,7 @@ Include unread conversations count in the response
 
 Example:`false`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/opportunities/search-opportunities-advanced/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

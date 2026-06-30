@@ -27,7 +27,7 @@ Create tag
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/locations/create-tag/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -55,7 +55,7 @@ Tag name
 
 Example:`Tag`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/locations/create-tag/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -28,7 +28,7 @@ The "Record Order Payment" API allows to record a payment for an order. Use this
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/payments/record-order-payment/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -118,7 +118,7 @@ Meta data to be recorded with the transaction
 
 Indicates if the order is intended to be a partial payment.
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/payments/record-order-payment/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

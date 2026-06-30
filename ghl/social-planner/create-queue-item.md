@@ -13,9 +13,9 @@ POST https://services.leadconnectorhq.com/social-media-posting/category/queues/:
 
 Adds a new post item to a queue. Use sessionId for edit session or directToQueue for immediate addition.
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/create-queue-item/\#request "Direct link to Request")
+## Request
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/create-queue-item/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

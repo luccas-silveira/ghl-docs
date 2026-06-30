@@ -9,7 +9,7 @@ Version: 1.0
 
 Documentation for Social Media Posting API
 
-## Authentication [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/social-media-posting-api/\#authentication "Direct link to Authentication")
+## Authentication
 
 - HTTP: Bearer Auth
 - HTTP: Bearer Auth

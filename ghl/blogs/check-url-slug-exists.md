@@ -28,7 +28,7 @@ The "Check url slug" API allows check the blog slug validation which is needed b
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/blogs/check-url-slug-exists/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -50,7 +50,7 @@ Example: ve9EPM428h8vShlRW1KT
 
 Example: 66f429b8afdce84227a4610d
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/blogs/check-url-slug-exists/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

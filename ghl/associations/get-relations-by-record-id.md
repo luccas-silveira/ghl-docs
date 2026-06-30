@@ -28,7 +28,7 @@ Get all relations by record Id
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/associations/get-relations-by-record-id/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -62,7 +62,7 @@ Example: 100
 
 Association Ids
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/associations/get-relations-by-record-id/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

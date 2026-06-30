@@ -28,7 +28,7 @@ Creates a queue in draft status for a category. Published posts are auto-added. 
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/create-queue/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -92,7 +92,7 @@ User id
 
 Example:`w37swmmLbA02zgqKPpxITe`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/create-queue/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

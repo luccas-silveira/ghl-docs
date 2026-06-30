@@ -28,7 +28,7 @@ Searches for AI agents based on various criteria including name, status, and con
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/search-agent/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -58,7 +58,7 @@ query to search on agent name, must be provided in lowercase
 
 Example: booking
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/search-agent/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -28,7 +28,7 @@ API for fetching an existing payment config for given location
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/payments/fetch-config/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -46,7 +46,7 @@ Location id
 
 Example: Lk3nlfk4lxlelVEwcW
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/payments/fetch-config/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

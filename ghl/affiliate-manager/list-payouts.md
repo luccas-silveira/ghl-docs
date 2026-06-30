@@ -28,7 +28,7 @@ Retrieve the list of payouts for a location.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/affiliate-manager/list-payouts/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -94,7 +94,7 @@ Example: 2022-12-01T00:00:00.000Z
 
 Example: 2022-12-31T23:59:59.999Z
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/affiliate-manager/list-payouts/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

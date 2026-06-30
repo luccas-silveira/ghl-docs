@@ -28,7 +28,7 @@ Get all objects for a location. Supported Objects are contact, opportunity, busi
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/objects/get-object-by-location-id/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -46,7 +46,7 @@ location id
 
 Example: 632c34b4c9b7da3358ac9891
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/objects/get-object-by-location-id/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

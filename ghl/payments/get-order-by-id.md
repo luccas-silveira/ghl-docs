@@ -28,7 +28,7 @@ The "Get Order by ID" API allows to retrieve information for a specific order us
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/payments/get-order-by-id/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -60,7 +60,7 @@ AltId is the unique identifier e.g: location id.
 
 Example: 3SwdhCu3svxI8AKsPJt6
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/payments/get-order-by-id/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

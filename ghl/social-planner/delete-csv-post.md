@@ -24,7 +24,7 @@ Delete a specific post from a CSV import
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/delete-csv-post/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -56,7 +56,7 @@ CSV Id
 
 Example: 65f92e55cc884f0d0845e447
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/delete-csv-post/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

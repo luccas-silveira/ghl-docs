@@ -3,7 +3,7 @@ title: "Sandboxaccount"
 source_url: https://marketplace.gohighlevel.com/docs/oauth/SandboxAccount
 version: v3
 ---
-## Overview [​](https://marketplace.gohighlevel.com/docs/oauth/SandboxAccount/\#overview "Direct link to Overview")
+## Overview
 
 A Sandbox account is a non-production HighLevel environment created for Marketplace developers. Use it to build, test, and validate apps and integrations without affecting production systems or customer data.
 
@@ -14,7 +14,7 @@ Sandbox accounts are:
 - Governed by Sandbox Fair Use guidelines
 - Intended only for development, testing, and demos.
 
-## What is a Sandbox Account? [​](https://marketplace.gohighlevel.com/docs/oauth/SandboxAccount/\#what-is-a-sandbox-account "Direct link to What is a Sandbox Account?")
+## What is a Sandbox Account?
 
 A Sandbox account is a HighLevel test environment that lets developers:
 
@@ -22,7 +22,7 @@ A Sandbox account is a HighLevel test environment that lets developers:
 - Validate behavior safely using test data
 - Avoid impact to real customer accounts or live systems
 
-## Eligibility: Who Can Create a Sandbox Account? [​](https://marketplace.gohighlevel.com/docs/oauth/SandboxAccount/\#eligibility-who-can-create-a-sandbox-account "Direct link to Eligibility: Who Can Create a Sandbox Account?")
+## Eligibility: Who Can Create a Sandbox Account?
 
 Sandbox accounts are available to:
 
@@ -36,11 +36,11 @@ info
 
 Sandbox access is tied to the **Marketplace Developer account**.
 
-## How to Create a Sandbox Account [​](https://marketplace.gohighlevel.com/docs/oauth/SandboxAccount/\#how-to-create-a-sandbox-account "Direct link to How to Create a Sandbox Account")
+## How to Create a Sandbox Account
 
 Sandbox accounts are created in the **GHL Marketplace Developer Portal**.
 
-### Steps [​](https://marketplace.gohighlevel.com/docs/oauth/SandboxAccount/\#steps "Direct link to Steps")
+### Steps
 
 1. Log in to the **Marketplace Developer Portal**.
 2. In the top navigation, click **Testing**.
@@ -50,12 +50,12 @@ Sandbox accounts are created in the **GHL Marketplace Developer Portal**.
    - Set a **Password**
 5. Click **Create**.
 
-### Result [​](https://marketplace.gohighlevel.com/docs/oauth/SandboxAccount/\#result "Direct link to Result")
+### Result
 
 - The Sandbox account is provisioned **immediately**.
 - The account appears in the **Testing** environment.
 
-## How to Access the Sandbox Account [​](https://marketplace.gohighlevel.com/docs/oauth/SandboxAccount/\#how-to-access-the-sandbox-account "Direct link to How to Access the Sandbox Account")
+## How to Access the Sandbox Account
 
 After creation:
 
@@ -64,7 +64,7 @@ After creation:
 - The account is **clearly identified** as a test environment.
 - **Trial access to Enterprise features** is enabled for testing.
 
-## Sandbox Account Lifetime (Active Duration) [​](https://marketplace.gohighlevel.com/docs/oauth/SandboxAccount/\#sandbox-account-lifetime-active-duration "Direct link to Sandbox Account Lifetime (Active Duration)")
+## Sandbox Account Lifetime (Active Duration)
 
 Sandbox accounts are meant for **temporary development and testing**.
 
@@ -74,7 +74,7 @@ Sandbox accounts are meant for **temporary development and testing**.
   - Developers can **request reactivation** if needed
 - A Sandbox account may be deactivated **earlier** if it violates [**Sandbox Fair Use guidelines**](https://marketplace.gohighlevel.com/docs/MarketplacePolicies/SandBoxFUP)
 
-## How to Use Sandbox for App Development [​](https://marketplace.gohighlevel.com/docs/oauth/SandboxAccount/\#how-to-use-sandbox-for-app-development "Direct link to How to Use Sandbox for App Development")
+## How to Use Sandbox for App Development
 
 Use Sandbox accounts to:
 

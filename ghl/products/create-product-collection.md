@@ -28,7 +28,7 @@ Create a new Product Collection for a specific location
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/products/create-product-collection/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -96,7 +96,7 @@ The description which would be displayed in preview purposes
 
 Example:`Collections where all the best products are available`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/products/create-product-collection/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

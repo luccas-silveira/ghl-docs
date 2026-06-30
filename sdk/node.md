@@ -5,7 +5,7 @@ version: v3
 ---
 The official `@gohighlevel/api-client` package wraps every HighLevel REST endpoint with a typed, promise-based interface. You get automatic OAuth handling, token rotation, retries, and consistent errors without re-implementing request plumbing.
 
-## Installation [​](https://marketplace.gohighlevel.com/docs/sdk/node/\#installation "Direct link to Installation")
+## Installation
 
 The SDK supports any modern Node.js runtime (v18+) and works with npm, yarn, or pnpm. Install it as a regular dependency so it is available anywhere you need to talk to HighLevel.
 
@@ -25,9 +25,9 @@ yarn add @gohighlevel/api-client
 pnpm add @gohighlevel/api-client
 ```
 
-## Quick Start [​](https://marketplace.gohighlevel.com/docs/sdk/node/\#quick-start "Direct link to Quick Start")
+## Quick Start
 
-### Initialize the client [​](https://marketplace.gohighlevel.com/docs/sdk/node/\#initialize-the-client "Direct link to Initialize the client")
+### Initialize the client
 
 Set your OAuth credentials (or PIT) through environment variables so that local development and deployments share the same configuration.
 
@@ -52,7 +52,7 @@ const highLevel = new HighLevel({
 });
 ```
 
-### Make your first API call [​](https://marketplace.gohighlevel.com/docs/sdk/node/\#make-your-first-api-call "Direct link to Make your first API call")
+### Make your first API call
 
 Every service under `highLevel` mirrors the REST resources (contacts, opportunities, workflows, etc.). Provide the required `locationId` or `companyId` so the SDK can manage tokens for you.
 
@@ -73,7 +73,7 @@ async function listContacts() {
 listContacts();
 ```
 
-## Token storage and refresh [​](https://marketplace.gohighlevel.com/docs/sdk/node/\#token-storage-and-refresh "Direct link to Token storage and refresh")
+## Token storage and refresh
 
 By default, tokens live in memory. In production, inject your own storage adapter (Redis, MongoDB, SQL, etc.) so tokens survive restarts:
 
@@ -92,7 +92,7 @@ const highLevel = new HighLevel({
 
 The SDK will refresh expired access tokens on-demand and update your storage without extra work.
 
-## Webhook middleware [​](https://marketplace.gohighlevel.com/docs/sdk/node/\#webhook-middleware "Direct link to Webhook middleware")
+## Webhook middleware
 
 Use `highLevel.webhooks.subscribe()` to get an Express-compatible middleware that validates signatures, handles INSTALL/UNINSTALL events, and keeps session storage synchronized before your custom logic runs.
 
@@ -106,7 +106,7 @@ app.post('/api/webhooks/ghl', (req, res) => {
 
 **Note**: If you use webhook middleware provided by SDK, in case of bulk installation it will generate and store the token for each location when it receives INSTALL event from highlevel.
 
-## Additional resources [​](https://marketplace.gohighlevel.com/docs/sdk/node/\#additional-resources "Direct link to Additional resources")
+## Additional resources
 
 You can find some SDK & additional examples here:
 

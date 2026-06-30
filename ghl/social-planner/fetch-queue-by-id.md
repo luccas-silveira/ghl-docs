@@ -28,7 +28,7 @@ Retrieves the details of a single category queue by its unique ID. The response 
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/fetch-queue-by-id/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -52,7 +52,7 @@ Location ID
 
 Example: 609e126a1c4ae1001291e1b5
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/fetch-queue-by-id/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

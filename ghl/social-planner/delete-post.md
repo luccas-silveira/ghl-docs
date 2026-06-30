@@ -23,7 +23,7 @@ Delete Post
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/delete-post/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -49,7 +49,7 @@ Post Id
 
 Example: 65fac446d599990d1313c1dd
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/delete-post/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

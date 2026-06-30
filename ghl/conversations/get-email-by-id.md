@@ -28,9 +28,9 @@ Get email by Id
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/get-email-by-id/\#request "Direct link to Request")
+## Request
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversations/get-email-by-id/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 

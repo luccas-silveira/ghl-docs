@@ -28,7 +28,7 @@ API to get an schedule by schedule id
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/get-invoice-schedule/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -62,7 +62,7 @@ Alt Type
 
 Example: location
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/get-invoice-schedule/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever an app is installed
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/AppInstall/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -66,7 +66,7 @@ Called whenever an app is installed
 
 - Note: The User ID and Company ID may be available when a new token is generated. In case of app installation via future locations, you may not get these fields.
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/AppInstall/\#example "Direct link to Example")
+#### Example
 
 - For Location Level App Install if company is whitelabeled
 

@@ -13,9 +13,9 @@ GET https://services.leadconnectorhq.com/social-media-posting/:locationId/csv/:i
 
 Get details of a specific CSV import including its posts
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-csv-post/\#request "Direct link to Request")
+## Request
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-csv-post/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

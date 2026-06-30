@@ -24,7 +24,7 @@ Finalize a CSV import and schedule all posts for publishing
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/start-csv-finalize/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -60,7 +60,7 @@ User ID
 
 Example:`sdfdsfdsfEWEsdfsdsW32dd`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/start-csv-finalize/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

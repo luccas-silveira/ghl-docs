@@ -28,7 +28,7 @@ Get a specific service booking by ID
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-service-booking-by-id/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -46,7 +46,7 @@ Unique Service Booking ID
 
 Example: IkqiJlXJ7o9h61tCHHod
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-service-booking-by-id/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -3,43 +3,43 @@ title: "Changelog"
 source_url: https://marketplace.gohighlevel.com/docs/Changelog
 version: v3
 ---
-## 2026-06-18 [​](https://marketplace.gohighlevel.com/docs/Changelog/\#2026-06-18 "Direct link to 2026-06-18")
+## 2026-06-18
 
 **Ad Publishing**
 
-### GET /ad-publishing/facebook/campaigns/{campaignId}/publishing-progress [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-ad-publishingfacebookcampaignscampaignidpublishing-progress "Direct link to GET /ad-publishing/facebook/campaigns/{campaignId}/publishing-progress")
+### GET /ad-publishing/facebook/campaigns/{campaignId}/publishing-progress
 
 **Saas**
 
-### GET /saas/allow-attach-rebilling/{locationId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-saasallow-attach-rebillinglocationid "Direct link to GET /saas/allow-attach-rebilling/{locationId}")
+### GET /saas/allow-attach-rebilling/{locationId}
 
 - endpoint added
 
 * * *
 
-## 2026-06-15 [​](https://marketplace.gohighlevel.com/docs/Changelog/\#2026-06-15 "Direct link to 2026-06-15")
+## 2026-06-15
 
 **Users**
 
-### POST /users/ [​](https://marketplace.gohighlevel.com/docs/Changelog/\#post-users "Direct link to POST /users/")
+### POST /users/
 
 - ⚠️ added the new `pipelines.create` enum value to the `scopes` response property for the response status `201`
 - added the new `pipelines.create` enum value to the request property `scopes/items/`
 - added the new `pipelines.create` enum value to the request property `scopesAssignedToOnly/items/`
 
-### GET /users/search [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-userssearch "Direct link to GET /users/search")
+### GET /users/search
 
 - ⚠️ added the new `pipelines.create` enum value to the `users/items/scopes` response property for the response status `200`
 
-### POST /users/search/filter-by-email [​](https://marketplace.gohighlevel.com/docs/Changelog/\#post-userssearchfilter-by-email "Direct link to POST /users/search/filter-by-email")
+### POST /users/search/filter-by-email
 
 - ⚠️ added the new `pipelines.create` enum value to the `users/items/scopes` response property for the response status `200`
 
-### GET /users/{userId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-usersuserid "Direct link to GET /users/{userId}")
+### GET /users/{userId}
 
 - ⚠️ added the new `pipelines.create` enum value to the `scopes` response property for the response status `200`
 
-### PUT /users/{userId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#put-usersuserid "Direct link to PUT /users/{userId}")
+### PUT /users/{userId}
 
 - ⚠️ added the new `pipelines.create` enum value to the `scopes` response property for the response status `200`
 - added the new `pipelines.create` enum value to the request property `scopes/items/`
@@ -47,65 +47,65 @@ version: v3
 
 * * *
 
-## 2026-06-12 [​](https://marketplace.gohighlevel.com/docs/Changelog/\#2026-06-12 "Direct link to 2026-06-12")
+## 2026-06-12
 
 **Ad Publishing**
 
-### GET /ad-publishing/facebook/reporting/list [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-ad-publishingfacebookreportinglist "Direct link to GET /ad-publishing/facebook/reporting/list")
+### GET /ad-publishing/facebook/reporting/list
 
 - the `query` request parameter `campaignId` became optional
 
 * * *
 
-## 2026-06-11 [​](https://marketplace.gohighlevel.com/docs/Changelog/\#2026-06-11 "Direct link to 2026-06-11")
+## 2026-06-11
 
 **Brand Boards**
 
-### GET /brand-boards/locations/{locationId}/brand-voices [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-brand-boardslocationslocationidbrand-voices "Direct link to GET /brand-boards/locations/{locationId}/brand-voices")
+### GET /brand-boards/locations/{locationId}/brand-voices
 
 - endpoint added
 
-### POST /brand-boards/locations/{locationId}/brand-voices [​](https://marketplace.gohighlevel.com/docs/Changelog/\#post-brand-boardslocationslocationidbrand-voices "Direct link to POST /brand-boards/locations/{locationId}/brand-voices")
+### POST /brand-boards/locations/{locationId}/brand-voices
 
 - endpoint added
 
-### DELETE /brand-boards/locations/{locationId}/brand-voices/{brandVoiceId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#delete-brand-boardslocationslocationidbrand-voicesbrandvoiceid "Direct link to DELETE /brand-boards/locations/{locationId}/brand-voices/{brandVoiceId}")
+### DELETE /brand-boards/locations/{locationId}/brand-voices/{brandVoiceId}
 
 - endpoint added
 
-### GET /brand-boards/locations/{locationId}/brand-voices/{brandVoiceId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-brand-boardslocationslocationidbrand-voicesbrandvoiceid "Direct link to GET /brand-boards/locations/{locationId}/brand-voices/{brandVoiceId}")
+### GET /brand-boards/locations/{locationId}/brand-voices/{brandVoiceId}
 
 - endpoint added
 
-### PATCH /brand-boards/locations/{locationId}/brand-voices/{brandVoiceId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#patch-brand-boardslocationslocationidbrand-voicesbrandvoiceid "Direct link to PATCH /brand-boards/locations/{locationId}/brand-voices/{brandVoiceId}")
+### PATCH /brand-boards/locations/{locationId}/brand-voices/{brandVoiceId}
 
 - endpoint added
 
-### POST /brand-boards/locations/{locationId}/brand-voices/{brandVoiceId}/default [​](https://marketplace.gohighlevel.com/docs/Changelog/\#post-brand-boardslocationslocationidbrand-voicesbrandvoiceiddefault "Direct link to POST /brand-boards/locations/{locationId}/brand-voices/{brandVoiceId}/default")
+### POST /brand-boards/locations/{locationId}/brand-voices/{brandVoiceId}/default
 
 - endpoint added
 
-### GET /brand-boards/public/v1/locations/{locationId}/voices [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-brand-boardspublicv1locationslocationidvoices "Direct link to GET /brand-boards/public/v1/locations/{locationId}/voices")
+### GET /brand-boards/public/v1/locations/{locationId}/voices
 
 - api path removed with deprecation
 
-### POST /brand-boards/public/v1/locations/{locationId}/voices [​](https://marketplace.gohighlevel.com/docs/Changelog/\#post-brand-boardspublicv1locationslocationidvoices "Direct link to POST /brand-boards/public/v1/locations/{locationId}/voices")
+### POST /brand-boards/public/v1/locations/{locationId}/voices
 
 - api path removed with deprecation
 
-### DELETE /brand-boards/public/v1/locations/{locationId}/voices/{brandVoiceId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#delete-brand-boardspublicv1locationslocationidvoicesbrandvoiceid "Direct link to DELETE /brand-boards/public/v1/locations/{locationId}/voices/{brandVoiceId}")
+### DELETE /brand-boards/public/v1/locations/{locationId}/voices/{brandVoiceId}
 
 - api path removed with deprecation
 
-### GET /brand-boards/public/v1/locations/{locationId}/voices/{brandVoiceId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-brand-boardspublicv1locationslocationidvoicesbrandvoiceid "Direct link to GET /brand-boards/public/v1/locations/{locationId}/voices/{brandVoiceId}")
+### GET /brand-boards/public/v1/locations/{locationId}/voices/{brandVoiceId}
 
 - api path removed with deprecation
 
-### PATCH /brand-boards/public/v1/locations/{locationId}/voices/{brandVoiceId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#patch-brand-boardspublicv1locationslocationidvoicesbrandvoiceid "Direct link to PATCH /brand-boards/public/v1/locations/{locationId}/voices/{brandVoiceId}")
+### PATCH /brand-boards/public/v1/locations/{locationId}/voices/{brandVoiceId}
 
 - api path removed with deprecation
 
-### POST /brand-boards/public/v1/locations/{locationId}/voices/{brandVoiceId}/default [​](https://marketplace.gohighlevel.com/docs/Changelog/\#post-brand-boardspublicv1locationslocationidvoicesbrandvoiceiddefault "Direct link to POST /brand-boards/public/v1/locations/{locationId}/voices/{brandVoiceId}/default")
+### POST /brand-boards/public/v1/locations/{locationId}/voices/{brandVoiceId}/default
 
 - api path removed with deprecation
 
@@ -113,12 +113,12 @@ version: v3
 
 **Email Isv**
 
-### POST /email/verify [​](https://marketplace.gohighlevel.com/docs/Changelog/\#post-emailverify "Direct link to POST /email/verify")
+### POST /email/verify
 
 - ⚠️ added `#/components/schemas/EmailVerifiedV3ResponseDto, #/components/schemas/LeadConnectorRecommendationDto` to the response body `oneOf` list for the response status `201`
 - removed `#/components/schemas/EmailVerifiedResponseDto` from the response body `oneOf` list for the response status `201`
 
-## Components [​](https://marketplace.gohighlevel.com/docs/Changelog/\#components "Direct link to Components")
+## Components
 
 - removed the schema `EmailVerifiedResponseDto`
 - removed the schema `LeadConnectorRecomandationDto`
@@ -129,183 +129,183 @@ version: v3
 
 **Emails**
 
-### GET /emails/builder [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-emailsbuilder "Direct link to GET /emails/builder")
+### GET /emails/builder
 
 - api path removed with deprecation
 
-### POST /emails/builder [​](https://marketplace.gohighlevel.com/docs/Changelog/\#post-emailsbuilder "Direct link to POST /emails/builder")
+### POST /emails/builder
 
 - api path removed with deprecation
 
-### POST /emails/builder/data [​](https://marketplace.gohighlevel.com/docs/Changelog/\#post-emailsbuilderdata "Direct link to POST /emails/builder/data")
+### POST /emails/builder/data
 
 - api path removed with deprecation
 
-### DELETE /emails/builder/{locationId}/{templateId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#delete-emailsbuilderlocationidtemplateid "Direct link to DELETE /emails/builder/{locationId}/{templateId}")
+### DELETE /emails/builder/{locationId}/{templateId}
 
 - api path removed with deprecation
 
-### PATCH /emails/builder/{templateId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#patch-emailsbuildertemplateid "Direct link to PATCH /emails/builder/{templateId}")
+### PATCH /emails/builder/{templateId}
 
 - api path removed with deprecation
 
-### GET /emails/campaigns/bulk-actions [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-emailscampaignsbulk-actions "Direct link to GET /emails/campaigns/bulk-actions")
+### GET /emails/campaigns/bulk-actions
 
 - api path removed with deprecation
 
-### GET /emails/campaigns/workflows [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-emailscampaignsworkflows "Direct link to GET /emails/campaigns/workflows")
+### GET /emails/campaigns/workflows
 
 - api path removed with deprecation
 
-### GET /emails/locations/{locationId}/campaigns/bulk-actions [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-emailslocationslocationidcampaignsbulk-actions "Direct link to GET /emails/locations/{locationId}/campaigns/bulk-actions")
+### GET /emails/locations/{locationId}/campaigns/bulk-actions
 
 - endpoint added
 
-### GET /emails/locations/{locationId}/campaigns/bulk-actions/{campaignId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-emailslocationslocationidcampaignsbulk-actionscampaignid "Direct link to GET /emails/locations/{locationId}/campaigns/bulk-actions/{campaignId}")
+### GET /emails/locations/{locationId}/campaigns/bulk-actions/{campaignId}
 
 - endpoint added
 
-### GET /emails/locations/{locationId}/campaigns/emails [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-emailslocationslocationidcampaignsemails "Direct link to GET /emails/locations/{locationId}/campaigns/emails")
+### GET /emails/locations/{locationId}/campaigns/emails
 
 - endpoint added
 
-### POST /emails/locations/{locationId}/campaigns/emails [​](https://marketplace.gohighlevel.com/docs/Changelog/\#post-emailslocationslocationidcampaignsemails "Direct link to POST /emails/locations/{locationId}/campaigns/emails")
+### POST /emails/locations/{locationId}/campaigns/emails
 
 - endpoint added
 
-### DELETE /emails/locations/{locationId}/campaigns/emails/{campaignId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#delete-emailslocationslocationidcampaignsemailscampaignid "Direct link to DELETE /emails/locations/{locationId}/campaigns/emails/{campaignId}")
+### DELETE /emails/locations/{locationId}/campaigns/emails/{campaignId}
 
 - endpoint added
 
-### GET /emails/locations/{locationId}/campaigns/emails/{campaignId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-emailslocationslocationidcampaignsemailscampaignid "Direct link to GET /emails/locations/{locationId}/campaigns/emails/{campaignId}")
+### GET /emails/locations/{locationId}/campaigns/emails/{campaignId}
 
 - endpoint added
 
-### PATCH /emails/locations/{locationId}/campaigns/emails/{campaignId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#patch-emailslocationslocationidcampaignsemailscampaignid "Direct link to PATCH /emails/locations/{locationId}/campaigns/emails/{campaignId}")
+### PATCH /emails/locations/{locationId}/campaigns/emails/{campaignId}
 
 - endpoint added
 
-### POST /emails/locations/{locationId}/campaigns/emails/{campaignId}/schedule [​](https://marketplace.gohighlevel.com/docs/Changelog/\#post-emailslocationslocationidcampaignsemailscampaignidschedule "Direct link to POST /emails/locations/{locationId}/campaigns/emails/{campaignId}/schedule")
+### POST /emails/locations/{locationId}/campaigns/emails/{campaignId}/schedule
 
 - endpoint added
 
-### GET /emails/locations/{locationId}/campaigns/stats/{source}/{sourceId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-emailslocationslocationidcampaignsstatssourcesourceid "Direct link to GET /emails/locations/{locationId}/campaigns/stats/{source}/{sourceId}")
+### GET /emails/locations/{locationId}/campaigns/stats/{source}/{sourceId}
 
 - endpoint added
 
-### GET /emails/locations/{locationId}/campaigns/workflows [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-emailslocationslocationidcampaignsworkflows "Direct link to GET /emails/locations/{locationId}/campaigns/workflows")
+### GET /emails/locations/{locationId}/campaigns/workflows
 
 - endpoint added
 
-### GET /emails/locations/{locationId}/campaigns/workflows/{campaignId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-emailslocationslocationidcampaignsworkflowscampaignid "Direct link to GET /emails/locations/{locationId}/campaigns/workflows/{campaignId}")
+### GET /emails/locations/{locationId}/campaigns/workflows/{campaignId}
 
 - endpoint added
 
-### GET /emails/locations/{locationId}/templates [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-emailslocationslocationidtemplates "Direct link to GET /emails/locations/{locationId}/templates")
+### GET /emails/locations/{locationId}/templates
 
 - endpoint added
 
-### POST /emails/locations/{locationId}/templates [​](https://marketplace.gohighlevel.com/docs/Changelog/\#post-emailslocationslocationidtemplates "Direct link to POST /emails/locations/{locationId}/templates")
+### POST /emails/locations/{locationId}/templates
 
 - endpoint added
 
-### POST /emails/locations/{locationId}/templates/folders [​](https://marketplace.gohighlevel.com/docs/Changelog/\#post-emailslocationslocationidtemplatesfolders "Direct link to POST /emails/locations/{locationId}/templates/folders")
+### POST /emails/locations/{locationId}/templates/folders
 
 - endpoint added
 
-### POST /emails/locations/{locationId}/templates/import [​](https://marketplace.gohighlevel.com/docs/Changelog/\#post-emailslocationslocationidtemplatesimport "Direct link to POST /emails/locations/{locationId}/templates/import")
+### POST /emails/locations/{locationId}/templates/import
 
 - endpoint added
 
-### DELETE /emails/locations/{locationId}/templates/{templateId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#delete-emailslocationslocationidtemplatestemplateid "Direct link to DELETE /emails/locations/{locationId}/templates/{templateId}")
+### DELETE /emails/locations/{locationId}/templates/{templateId}
 
 - endpoint added
 
-### GET /emails/locations/{locationId}/templates/{templateId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-emailslocationslocationidtemplatestemplateid "Direct link to GET /emails/locations/{locationId}/templates/{templateId}")
+### GET /emails/locations/{locationId}/templates/{templateId}
 
 - endpoint added
 
-### PATCH /emails/locations/{locationId}/templates/{templateId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#patch-emailslocationslocationidtemplatestemplateid "Direct link to PATCH /emails/locations/{locationId}/templates/{templateId}")
+### PATCH /emails/locations/{locationId}/templates/{templateId}
 
 - endpoint added
 
-### GET /emails/public/v2/locations/{locationId}/campaigns/bulk-actions [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-emailspublicv2locationslocationidcampaignsbulk-actions "Direct link to GET /emails/public/v2/locations/{locationId}/campaigns/bulk-actions")
+### GET /emails/public/v2/locations/{locationId}/campaigns/bulk-actions
 
 - api path removed with deprecation
 
-### GET /emails/public/v2/locations/{locationId}/campaigns/bulk-actions/{campaignId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-emailspublicv2locationslocationidcampaignsbulk-actionscampaignid "Direct link to GET /emails/public/v2/locations/{locationId}/campaigns/bulk-actions/{campaignId}")
+### GET /emails/public/v2/locations/{locationId}/campaigns/bulk-actions/{campaignId}
 
 - api path removed with deprecation
 
-### POST /emails/public/v2/locations/{locationId}/campaigns/email-campaign [​](https://marketplace.gohighlevel.com/docs/Changelog/\#post-emailspublicv2locationslocationidcampaignsemail-campaign "Direct link to POST /emails/public/v2/locations/{locationId}/campaigns/email-campaign")
+### POST /emails/public/v2/locations/{locationId}/campaigns/email-campaign
 
 - api path removed with deprecation
 
-### GET /emails/public/v2/locations/{locationId}/campaigns/emails [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-emailspublicv2locationslocationidcampaignsemails "Direct link to GET /emails/public/v2/locations/{locationId}/campaigns/emails")
+### GET /emails/public/v2/locations/{locationId}/campaigns/emails
 
 - api path removed with deprecation
 
-### GET /emails/public/v2/locations/{locationId}/campaigns/emails/{campaignId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-emailspublicv2locationslocationidcampaignsemailscampaignid "Direct link to GET /emails/public/v2/locations/{locationId}/campaigns/emails/{campaignId}")
+### GET /emails/public/v2/locations/{locationId}/campaigns/emails/{campaignId}
 
 - api path removed with deprecation
 
-### GET /emails/public/v2/locations/{locationId}/campaigns/stats/{source}/{sourceId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-emailspublicv2locationslocationidcampaignsstatssourcesourceid "Direct link to GET /emails/public/v2/locations/{locationId}/campaigns/stats/{source}/{sourceId}")
+### GET /emails/public/v2/locations/{locationId}/campaigns/stats/{source}/{sourceId}
 
 - api path removed with deprecation
 
-### GET /emails/public/v2/locations/{locationId}/campaigns/workflows [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-emailspublicv2locationslocationidcampaignsworkflows "Direct link to GET /emails/public/v2/locations/{locationId}/campaigns/workflows")
+### GET /emails/public/v2/locations/{locationId}/campaigns/workflows
 
 - api path removed with deprecation
 
-### GET /emails/public/v2/locations/{locationId}/campaigns/workflows/{campaignId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-emailspublicv2locationslocationidcampaignsworkflowscampaignid "Direct link to GET /emails/public/v2/locations/{locationId}/campaigns/workflows/{campaignId}")
+### GET /emails/public/v2/locations/{locationId}/campaigns/workflows/{campaignId}
 
 - api path removed with deprecation
 
-### DELETE /emails/public/v2/locations/{locationId}/campaigns/{campaignId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#delete-emailspublicv2locationslocationidcampaignscampaignid "Direct link to DELETE /emails/public/v2/locations/{locationId}/campaigns/{campaignId}")
+### DELETE /emails/public/v2/locations/{locationId}/campaigns/{campaignId}
 
 - api path removed with deprecation
 
-### PATCH /emails/public/v2/locations/{locationId}/campaigns/{campaignId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#patch-emailspublicv2locationslocationidcampaignscampaignid "Direct link to PATCH /emails/public/v2/locations/{locationId}/campaigns/{campaignId}")
+### PATCH /emails/public/v2/locations/{locationId}/campaigns/{campaignId}
 
 - api path removed with deprecation
 
-### POST /emails/public/v2/locations/{locationId}/campaigns/{campaignId}/schedule [​](https://marketplace.gohighlevel.com/docs/Changelog/\#post-emailspublicv2locationslocationidcampaignscampaignidschedule "Direct link to POST /emails/public/v2/locations/{locationId}/campaigns/{campaignId}/schedule")
+### POST /emails/public/v2/locations/{locationId}/campaigns/{campaignId}/schedule
 
 - api path removed with deprecation
 
-### GET /emails/public/v2/locations/{locationId}/templates [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-emailspublicv2locationslocationidtemplates "Direct link to GET /emails/public/v2/locations/{locationId}/templates")
+### GET /emails/public/v2/locations/{locationId}/templates
 
 - api path removed with deprecation
 
-### POST /emails/public/v2/locations/{locationId}/templates [​](https://marketplace.gohighlevel.com/docs/Changelog/\#post-emailspublicv2locationslocationidtemplates "Direct link to POST /emails/public/v2/locations/{locationId}/templates")
+### POST /emails/public/v2/locations/{locationId}/templates
 
 - api path removed with deprecation
 
-### POST /emails/public/v2/locations/{locationId}/templates/folders [​](https://marketplace.gohighlevel.com/docs/Changelog/\#post-emailspublicv2locationslocationidtemplatesfolders "Direct link to POST /emails/public/v2/locations/{locationId}/templates/folders")
+### POST /emails/public/v2/locations/{locationId}/templates/folders
 
 - api path removed with deprecation
 
-### POST /emails/public/v2/locations/{locationId}/templates/import [​](https://marketplace.gohighlevel.com/docs/Changelog/\#post-emailspublicv2locationslocationidtemplatesimport "Direct link to POST /emails/public/v2/locations/{locationId}/templates/import")
+### POST /emails/public/v2/locations/{locationId}/templates/import
 
 - api path removed with deprecation
 
-### DELETE /emails/public/v2/locations/{locationId}/templates/{templateId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#delete-emailspublicv2locationslocationidtemplatestemplateid "Direct link to DELETE /emails/public/v2/locations/{locationId}/templates/{templateId}")
+### DELETE /emails/public/v2/locations/{locationId}/templates/{templateId}
 
 - api path removed with deprecation
 
-### GET /emails/public/v2/locations/{locationId}/templates/{templateId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-emailspublicv2locationslocationidtemplatestemplateid "Direct link to GET /emails/public/v2/locations/{locationId}/templates/{templateId}")
+### GET /emails/public/v2/locations/{locationId}/templates/{templateId}
 
 - api path removed with deprecation
 
-### PATCH /emails/public/v2/locations/{locationId}/templates/{templateId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#patch-emailspublicv2locationslocationidtemplatestemplateid "Direct link to PATCH /emails/public/v2/locations/{locationId}/templates/{templateId}")
+### PATCH /emails/public/v2/locations/{locationId}/templates/{templateId}
 
 - api path removed with deprecation
 
-### GET /emails/schedule [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-emailsschedule "Direct link to GET /emails/schedule")
+### GET /emails/schedule
 
 - api path removed with deprecation
 
-### GET /emails/stats/location/{locationId}/{source}/{sourceId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-emailsstatslocationlocationidsourcesourceid "Direct link to GET /emails/stats/location/{locationId}/{source}/{sourceId}")
+### GET /emails/stats/location/{locationId}/{source}/{sourceId}
 
 - api path removed with deprecation
 
@@ -313,14 +313,14 @@ version: v3
 
 **Opportunities**
 
-### POST /opportunities/ [​](https://marketplace.gohighlevel.com/docs/Changelog/\#post-opportunities "Direct link to POST /opportunities/")
+### POST /opportunities/
 
 - ⚠️ removed `#/components/schemas/customFieldsInputStringSchema, #/components/schemas/customFieldsInputArraySchema, #/components/schemas/customFieldsInputObjectSchema` from the `customFields/items/` request property `anyOf` list
 
 - added `#/components/schemas/customFieldsInputStringSchemaV3, #/components/schemas/customFieldsInputArraySchemaV3, #/components/schemas/customFieldsInputObjectSchemaV3` to the `customFields/items/` request property `anyOf` list
 
 
-### GET /opportunities/search [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-opportunitiessearch "Direct link to GET /opportunities/search")
+### GET /opportunities/search
 
 - ⚠️ added the new required `query` request parameter `locationId`
 
@@ -343,14 +343,14 @@ version: v3
 - added the new optional `query` request parameter `pipelineStageId`
 
 
-### PUT /opportunities/{id} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#put-opportunitiesid "Direct link to PUT /opportunities/{id}")
+### PUT /opportunities/{id}
 
 - ⚠️ removed `#/components/schemas/customFieldsInputStringSchema, #/components/schemas/customFieldsInputArraySchema, #/components/schemas/customFieldsInputObjectSchema` from the `customFields/items/` request property `anyOf` list
 
 - added `#/components/schemas/customFieldsInputStringSchemaV3, #/components/schemas/customFieldsInputArraySchemaV3, #/components/schemas/customFieldsInputObjectSchemaV3` to the `customFields/items/` request property `anyOf` list
 
 
-## Components [​](https://marketplace.gohighlevel.com/docs/Changelog/\#components-1 "Direct link to Components")
+## Components
 
 - removed the schema `CreateDto`
 - removed the schema `UpdateOpportunityDto`
@@ -362,17 +362,17 @@ version: v3
 
 **Users**
 
-### GET /users/ [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-users "Direct link to GET /users/")
+### GET /users/
 
 - api removed with deprecation
 
-### DELETE /users/{userId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#delete-usersuserid "Direct link to DELETE /users/{userId}")
+### DELETE /users/{userId}
 
 - ⚠️ added the new required `header` request parameter `Version`
 - ⚠️ removed the optional property `succeded` from the response with the `200` status
 - added the optional property `succeeded` to the response with the `200` status
 
-## Components [​](https://marketplace.gohighlevel.com/docs/Changelog/\#components-2 "Direct link to Components")
+## Components
 
 - removed the schema `DeleteUserSuccessfulResponseDto`
 
@@ -380,30 +380,30 @@ version: v3
 
 **Contacts**
 
-### GET /contacts/ [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-contacts "Direct link to GET /contacts/")
+### GET /contacts/
 
 - api removed with deprecation
 
-### POST /contacts/ [​](https://marketplace.gohighlevel.com/docs/Changelog/\#post-contacts "Direct link to POST /contacts/")
+### POST /contacts/
 
 - ⚠️ added `#/components/schemas/DndSettingsSchemaV3` to the `dndSettings` request property `allOf` list
 - ⚠️ removed `#/components/schemas/DndSettingsSchema` from the `dndSettings` request property `allOf` list
 - added `#/components/schemas/GetContactByIdSchemaV3` to the `contact` response property `allOf` list for the response status `201`
 - removed `#/components/schemas/CreateContactSchema` from the `contact` response property `allOf` list for the response status `201`
 
-### POST /contacts/upsert [​](https://marketplace.gohighlevel.com/docs/Changelog/\#post-contactsupsert "Direct link to POST /contacts/upsert")
+### POST /contacts/upsert
 
 - ⚠️ added `#/components/schemas/DndSettingsSchemaV3` to the `dndSettings` request property `allOf` list
 - ⚠️ removed `#/components/schemas/DndSettingsSchema` from the `dndSettings` request property `allOf` list
 - added `#/components/schemas/GetContactByIdSchemaV3` to the `contact` response property `allOf` list for the response status `200`
 - removed `#/components/schemas/GetContectByIdSchema` from the `contact` response property `allOf` list for the response status `200`
 
-### GET /contacts/{contactId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-contactscontactid "Direct link to GET /contacts/{contactId}")
+### GET /contacts/{contactId}
 
 - added `#/components/schemas/GetContactByIdSchemaV3` to the `contact` response property `allOf` list for the response status `200`
 - removed `#/components/schemas/GetContectByIdSchema` from the `contact` response property `allOf` list for the response status `200`
 
-### PUT /contacts/{contactId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#put-contactscontactid "Direct link to PUT /contacts/{contactId}")
+### PUT /contacts/{contactId}
 
 - ⚠️ added `#/components/schemas/DndSettingsSchemaV3` to the `dndSettings` request property `allOf` list
 - ⚠️ removed `#/components/schemas/DndSettingsSchema` from the `dndSettings` request property `allOf` list
@@ -411,15 +411,15 @@ version: v3
 - added `#/components/schemas/GetContactByIdSchemaV3` to the `contact` response property `allOf` list for the response status `200`
 - removed `#/components/schemas/GetContectByIdSchema` from the `contact` response property `allOf` list for the response status `200`
 
-### DELETE /contacts/{contactId}/campaigns/remove-all [​](https://marketplace.gohighlevel.com/docs/Changelog/\#delete-contactscontactidcampaignsremove-all "Direct link to DELETE /contacts/{contactId}/campaigns/remove-all")
+### DELETE /contacts/{contactId}/campaigns/remove-all
 
 - endpoint added
 
-### DELETE /contacts/{contactId}/campaigns/removeAll [​](https://marketplace.gohighlevel.com/docs/Changelog/\#delete-contactscontactidcampaignsremoveall "Direct link to DELETE /contacts/{contactId}/campaigns/removeAll")
+### DELETE /contacts/{contactId}/campaigns/removeAll
 
 - api path removed with deprecation
 
-## Components [​](https://marketplace.gohighlevel.com/docs/Changelog/\#components-3 "Direct link to Components")
+## Components
 
 - removed the schema `ContactsByIdSuccessfulResponseDto`
 - removed the schema `CreateContactDto`
@@ -436,23 +436,23 @@ version: v3
 
 **Oauth**
 
-### GET /oauth/installed-locations [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-oauthinstalled-locations "Direct link to GET /oauth/installed-locations")
+### GET /oauth/installed-locations
 
 - endpoint added
 
-### GET /oauth/installedLocations [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-oauthinstalledlocations "Direct link to GET /oauth/installedLocations")
+### GET /oauth/installedLocations
 
 - ⚠️ api path removed without deprecation
 
-### POST /oauth/location-token [​](https://marketplace.gohighlevel.com/docs/Changelog/\#post-oauthlocation-token "Direct link to POST /oauth/location-token")
+### POST /oauth/location-token
 
 - endpoint added
 
-### POST /oauth/locationToken [​](https://marketplace.gohighlevel.com/docs/Changelog/\#post-oauthlocationtoken "Direct link to POST /oauth/locationToken")
+### POST /oauth/locationToken
 
 - ⚠️ api path removed without deprecation
 
-### POST /oauth/token [​](https://marketplace.gohighlevel.com/docs/Changelog/\#post-oauthtoken "Direct link to POST /oauth/token")
+### POST /oauth/token
 
 - ⚠️ added the new required `header` request parameter `Version`
 - ⚠️ added the new required request property `clientId`
@@ -477,7 +477,7 @@ version: v3
 - added the optional property `refreshToken` to the response with the `200` status
 - added the optional property `tokenType` to the response with the `200` status
 
-## Components [​](https://marketplace.gohighlevel.com/docs/Changelog/\#components-4 "Direct link to Components")
+## Components
 
 - removed the schema `GetAccessCodeSuccessfulResponseDto`
 - removed the schema `GetAccessCodebodyDto`
@@ -486,7 +486,7 @@ version: v3
 
 **Phone System**
 
-### GET /phone-system/numbers/location/{locationId} [​](https://marketplace.gohighlevel.com/docs/Changelog/\#get-phone-systemnumberslocationlocationid "Direct link to GET /phone-system/numbers/location/{locationId}")
+### GET /phone-system/numbers/location/{locationId}
 
 - ⚠️ added the new required `header` request parameter `version`
 
@@ -497,7 +497,7 @@ version: v3
 - added the media type `application/json` for the response with the status `200`
 
 
-### POST /phone-system/numbers/location/{locationId}/purchase [​](https://marketplace.gohighlevel.com/docs/Changelog/\#post-phone-systemnumberslocationlocationidpurchase "Direct link to POST /phone-system/numbers/location/{locationId}/purchase")
+### POST /phone-system/numbers/location/{locationId}/purchase
 
 - ⚠️ added the new required `header` request parameter `version`
 

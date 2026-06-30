@@ -28,7 +28,7 @@ Update a specific product collection with Id :collectionId
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/products/update-product-collection/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -98,7 +98,7 @@ The description which would be displayed in preview purposes
 
 Example:`Collections where all the best products are available`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/products/update-product-collection/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

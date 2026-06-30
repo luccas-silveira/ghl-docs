@@ -24,7 +24,7 @@ Delete account and account from group
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/delete-account/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -64,7 +64,7 @@ User ID
 
 Example: sdfdsfdsfEWEsdfsdsW32dd
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/delete-account/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

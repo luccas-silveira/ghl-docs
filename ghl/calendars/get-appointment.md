@@ -28,7 +28,7 @@ Get appointment by ID
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-appointment/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -57,7 +57,7 @@ Recurring Instance ID
 
 Example:`ocQHyuzHvysMo5N5VsXc_1729821600000_1800`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-appointment/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

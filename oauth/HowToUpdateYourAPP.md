@@ -7,7 +7,7 @@ This document explains how app versioning and updates work in the HighLevel Mark
 
 * * *
 
-## 1\. What Is App Versioning? [​](https://marketplace.gohighlevel.com/docs/oauth/HowToUpdateYourAPP/\#1-what-is-app-versioning "Direct link to 1. What Is App Versioning?")
+## 1\. What Is App Versioning?
 
 App versioning lets you create new versions of your app instead of changing the live app directly.
 
@@ -17,7 +17,7 @@ This replaces the old system where updates overwrote the same app record.
 
 * * *
 
-## 2\. Purpose [​](https://marketplace.gohighlevel.com/docs/oauth/HowToUpdateYourAPP/\#2-purpose "Direct link to 2. Purpose")
+## 2\. Purpose
 
 Versioning solves several longstanding issues:
 
@@ -29,11 +29,11 @@ Versioning solves several longstanding issues:
 
 * * *
 
-## 3\. Versioning System – How It Works [​](https://marketplace.gohighlevel.com/docs/oauth/HowToUpdateYourAPP/\#3-versioning-system--how-it-works "Direct link to 3. Versioning System – How It Works")
+## 3\. Versioning System – How It Works
 
 Apps now have multiple explicit versions with lifecycle statuses. Developers work on a new version without modifying the live one.
 
-### Available Version States [​](https://marketplace.gohighlevel.com/docs/oauth/HowToUpdateYourAPP/\#available-version-states "Direct link to Available Version States")
+### Available Version States
 
 - **Draft** – Editable working copy. _(Version = `draft`)_
 - **In Review** – Submitted to Marketplace review _(non-private apps only)_.
@@ -45,7 +45,7 @@ info
 
 Drafts can’t be deleted immediately. After you click Delete, it may take some time for the deletion to complete.
 
-### Version Limits [​](https://marketplace.gohighlevel.com/docs/oauth/HowToUpdateYourAPP/\#version-limits "Direct link to Version Limits")
+### Version Limits
 
 To keep things clean and safe, these limits apply:
 
@@ -58,7 +58,7 @@ These rules prevent unfinished or risky versions from piling up.
 
 * * *
 
-## 4\. Creating a New Version (Draft) [​](https://marketplace.gohighlevel.com/docs/oauth/HowToUpdateYourAPP/\#4-creating-a-new-version-draft "Direct link to 4. Creating a New Version (Draft)")
+## 4\. Creating a New Version (Draft)
 
 To start a new version:
 
@@ -74,11 +74,11 @@ As of today, if your app already has three versions, you must deprecate one vers
 
 * * *
 
-## 5\. Publishing an Update [​](https://marketplace.gohighlevel.com/docs/oauth/HowToUpdateYourAPP/\#5-publishing-an-update "Direct link to 5. Publishing an Update")
+## 5\. Publishing an Update
 
 When your draft is ready, publish it by following these steps.
 
-### Step 1 — Choose a Version Type [​](https://marketplace.gohighlevel.com/docs/oauth/HowToUpdateYourAPP/\#step-1--choose-a-version-type "Direct link to Step 1 — Choose a Version Type")
+### Step 1 — Choose a Version Type
 
 HighLevel uses Semantic Versioning (`x.y.z`):
 
@@ -86,7 +86,7 @@ HighLevel uses Semantic Versioning (`x.y.z`):
 - **Minor** – New features that don’t break existing behavior
 - **Patch** – Bug fixes only
 
-### Step 2 — Add Release Notes [​](https://marketplace.gohighlevel.com/docs/oauth/HowToUpdateYourAPP/\#step-2--add-release-notes "Direct link to Step 2 — Add Release Notes")
+### Step 2 — Add Release Notes
 
 Release notes explain what changed.
 
@@ -100,7 +100,7 @@ Release notes explain what changed.
 
 Clear release notes help users decide whether to update.
 
-### Step 3 — Review or Go Live [​](https://marketplace.gohighlevel.com/docs/oauth/HowToUpdateYourAPP/\#step-3--review-or-go-live "Direct link to Step 3 — Review or Go Live")
+### Step 3 — Review or Go Live
 
 What happens next depends on your app type:
 
@@ -117,7 +117,7 @@ See [**Private App Install Limits**](https://marketplace.gohighlevel.com/docs/Ma
 
 * * *
 
-## 6\. Major vs Minor vs Patch — What Users Experience [​](https://marketplace.gohighlevel.com/docs/oauth/HowToUpdateYourAPP/\#6-major-vs-minor-vs-patch--what-users-experience "Direct link to 6. Major vs Minor vs Patch — What Users Experience")
+## 6\. Major vs Minor vs Patch — What Users Experience
 
 | Update Type | What It Means | User Experience |
 | --- | --- | --- |
@@ -133,7 +133,7 @@ Modules do not automatically update for existing installs. Users must manually u
 
 * * *
 
-## 7\. What Users See When an Update Is Live [​](https://marketplace.gohighlevel.com/docs/oauth/HowToUpdateYourAPP/\#7-what-users-see-when-an-update-is-live "Direct link to 7. What Users See When an Update Is Live")
+## 7\. What Users See When an Update Is Live
 
 When a new version is **Live**:
 
@@ -145,7 +145,7 @@ This avoids surprise changes and builds trust.
 
 * * *
 
-## 8\. Deprecating Old Versions [​](https://marketplace.gohighlevel.com/docs/oauth/HowToUpdateYourAPP/\#8-deprecating-old-versions "Direct link to 8. Deprecating Old Versions")
+## 8\. Deprecating Old Versions
 
 You can schedule a **Live** version for removal.
 
@@ -160,7 +160,7 @@ Deprecation prevents outdated or unsafe versions from lingering.
 
 * * *
 
-## 9\. Future Milestones [​](https://marketplace.gohighlevel.com/docs/oauth/HowToUpdateYourAPP/\#9-future-milestones "Direct link to 9. Future Milestones")
+## 9\. Future Milestones
 
 - As of today, if your app already has three versions, you must deprecate one version before you can release a patch update. Once the version is deprecated, you can proceed with publishing the patch. We’re working to make this more flexible, and in the near future you’ll be able to release patch and minor updates without having to deprecate any live versions of your app.
 
@@ -171,7 +171,7 @@ Deprecation prevents outdated or unsafe versions from lingering.
 
 * * *
 
-## Contact Us [​](https://marketplace.gohighlevel.com/docs/oauth/HowToUpdateYourAPP/\#contact-us "Direct link to Contact Us")
+## Contact Us
 
 If you have any questions or concerns:
 

@@ -24,7 +24,7 @@ The "update Shipping Zone" API allows update a shipping zone to the system.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/store/update-shipping-zone/\#request "Direct link to Request")
+## Request
 
 ### Path Parameters
 
@@ -86,7 +86,7 @@ Example:`VA`\
 \
 \]
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/store/update-shipping-zone/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

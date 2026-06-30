@@ -28,7 +28,7 @@ Update a Sub-Account (Formerly Location) based on the data provided
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/locations/put-location/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -272,7 +272,7 @@ If you want override all conflicted assets then pass true. Default value is fals
 
 Example:`false`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/locations/put-location/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -28,7 +28,7 @@ Create Link
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/links/create-link/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -62,7 +62,7 @@ URL or variable to redirect to when the trigger link is clicked
 
 Example:`https://www.google.com/`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/links/create-link/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

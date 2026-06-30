@@ -28,7 +28,7 @@ Get all Associations
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/associations/find-associations/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -52,7 +52,7 @@ Example: 10
 
 Example: 100
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/associations/find-associations/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever a knowledge base is deleted
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/KnowledgeBaseDelete/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -33,7 +33,7 @@ Called whenever a knowledge base is deleted
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/KnowledgeBaseDelete/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

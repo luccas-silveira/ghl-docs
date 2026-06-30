@@ -24,7 +24,7 @@ Get list of sub-accounts snapshot pushed in time period
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/snapshots/get-snapshot-push/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -70,7 +70,7 @@ Limit of documents to return. Default is 20
 
 Example: 10
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/snapshots/get-snapshot-push/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

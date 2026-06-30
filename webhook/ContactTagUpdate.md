@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever a contact's tag field is updated
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/ContactTagUpdate/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -95,7 +95,7 @@ Called whenever a contact's tag field is updated
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/ContactTagUpdate/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

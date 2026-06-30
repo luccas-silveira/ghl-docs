@@ -28,7 +28,7 @@ Retrieves a contact by its unique identifier.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/get-contact/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -48,7 +48,7 @@ Unique identifier of the contact
 
 Example: ve9EPM428h8vShlRW1KT
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/get-contact/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

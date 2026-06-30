@@ -28,7 +28,7 @@ Remove Followers
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/remove-followers-contact/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -58,7 +58,7 @@ List of user Ids to follow or unfollow the contact
 
 Example:`["sx6wyHhbFdRXh302Lunr","sx6wyHhbFdRXh302Lunr"]`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/remove-followers-contact/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -28,7 +28,7 @@ Get Appointments for Contact
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/get-appointments-for-contact/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -48,7 +48,7 @@ Contact Id
 
 Example: ve9EPM428h8vShlRW1KT
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/get-appointments-for-contact/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

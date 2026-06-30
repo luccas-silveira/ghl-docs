@@ -28,7 +28,7 @@ This API allows you to generate locationAccessToken from AgencyAccessToken
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/oauth/get-location-access-token/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -56,7 +56,7 @@ The location ID for which you want to obtain accessToken
 
 Example:`l1C08ntBrFjLS0elLIYU`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/oauth/get-location-access-token/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

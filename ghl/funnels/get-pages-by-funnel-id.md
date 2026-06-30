@@ -24,7 +24,7 @@ Retrieves a list of all funnel pages based on the given query parameters.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/funnels/get-pages-by-funnel-id/\#request "Direct link to Request")
+## Request
 
 ### Query Parameters
 
@@ -38,7 +38,7 @@ Retrieves a list of all funnel pages based on the given query parameters.
 
 **offset** numberrequired
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/funnels/get-pages-by-funnel-id/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 

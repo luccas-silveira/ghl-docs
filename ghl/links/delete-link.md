@@ -28,7 +28,7 @@ Delete Link
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/links/delete-link/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -48,7 +48,7 @@ Link Id
 
 Example: ve9EPM428h8vShlRW1KT
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/links/delete-link/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

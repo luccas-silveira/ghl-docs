@@ -28,7 +28,7 @@ Delete specific product collection with Id :collectionId
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/products/delete-product-collection/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -62,7 +62,7 @@ The type of alt. For now it is only LOCATION
 
 Example: LOCATION
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/products/delete-product-collection/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

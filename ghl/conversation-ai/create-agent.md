@@ -28,7 +28,7 @@ Creates a new AI agent for the location. The agent will be created with the spec
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/create-agent/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -178,7 +178,7 @@ Enable sleep when a workflow outbound message is sent.
 
 Example:`false`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/create-agent/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

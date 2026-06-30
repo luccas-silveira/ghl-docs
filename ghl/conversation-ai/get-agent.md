@@ -27,7 +27,7 @@ Retrieves a specific AI agent by its ID. Returns the complete agent configuratio
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/get-agent/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -45,7 +45,7 @@ Conversations AI agent id
 
 Example: EmployeeId123
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/get-agent/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

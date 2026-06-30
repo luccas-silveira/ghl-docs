@@ -28,7 +28,7 @@ Update Note
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/update-note/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -88,7 +88,7 @@ Whether the note is pinned
 
 Example:`false`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/update-note/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -28,7 +28,7 @@ Update the wallet balance or complimentary credit settings for a specific locati
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/saas/update-location-wallet-balance/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -62,7 +62,7 @@ Credit amount to be added
 
 Example:`100`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/saas/update-location-wallet-balance/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

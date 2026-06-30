@@ -28,7 +28,7 @@ Create Relation.Documentation Link - [https://doc.clickup.com/8631005/d/h/87cpx-
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/associations/create-relation/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -66,7 +66,7 @@ Second Record's Id.For instance, if you have an association between a contact an
 
 Example:`ve9EPM428h8vShlRW1KT`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/associations/create-relation/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

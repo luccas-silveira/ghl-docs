@@ -12,15 +12,15 @@ Called whenever a user sends a message to a contact and has a custom provider as
 | SMS | Web App, Mobile App, Workflows, Bulk Actions |
 | Email | Web App, Mobile App, Workflows, Bulk Actions |
 
-## Security: Verifying Webhook Authenticity [​](https://marketplace.gohighlevel.com/docs/webhook/ProviderOutboundMessage/\#security-verifying-webhook-authenticity "Direct link to Security: Verifying Webhook Authenticity")
+## Security: Verifying Webhook Authenticity
 
 Deliveries to your Conversation Provider **Delivery URL** can be spoofed by malicious actors. Always verify that requests are coming from our platform.
 
-### Why Verification is Important [​](https://marketplace.gohighlevel.com/docs/webhook/ProviderOutboundMessage/\#why-verification-is-important "Direct link to Why Verification is Important")
+### Why Verification is Important
 
 Treat your Delivery URL like any other webhook endpoint: verify the signature before you process the JSON body or send messages on behalf of a contact.
 
-### Signature Headers [​](https://marketplace.gohighlevel.com/docs/webhook/ProviderOutboundMessage/\#signature-headers "Direct link to Signature Headers")
+### Signature Headers
 
 We sign the **raw JSON request body** (the same bytes in the POST). Conversation Provider outbound deliveries use the **same signing approach** as [platform webhook events](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide#security-verifying-webhook-authenticity), with one difference: only the current Ed25519 header is sent.
 
@@ -33,11 +33,11 @@ Platform webhooks vs Delivery URL
 
 OAuth app webhooks may include both `X-WH-Signature` and `X-GHL-Signature` during the transition period. **Delivery URL** posts include **`X-GHL-Signature` only.** Use the Ed25519 public key below (same key as platform webhooks).
 
-### How to Verify [​](https://marketplace.gohighlevel.com/docs/webhook/ProviderOutboundMessage/\#how-to-verify "Direct link to How to Verify")
+### How to Verify
 
 We sign the webhook body with our private key. You verify it using the public key below. Read the **raw request body** as UTF-8 text before parsing JSON so the signed bytes match what we sent (including `timestamp` and `webhookId` when present).
 
-### GHL Signature (Ed25519) public key — for `X-GHL-Signature` [​](https://marketplace.gohighlevel.com/docs/webhook/ProviderOutboundMessage/\#ghl-signature-ed25519-public-key--for-x-ghl-signature "Direct link to ghl-signature-ed25519-public-key--for-x-ghl-signature")
+### GHL Signature (Ed25519) public key — for `X-GHL-Signature`
 
 Use this key to verify the `X-GHL-Signature` header. It is the **same key** documented in the [Webhook Integration Guide](https://marketplace.gohighlevel.com/docs/webhook/WebhookIntegrationGuide#ghl-signature-ed25519-public-key--for-x-ghl-signature).
 
@@ -68,7 +68,7 @@ function verifyGhl(payload, signature, publicKeyPem) {
 
 **Recommended verification flow:** Read the raw body, verify `X-GHL-Signature` using the Ed25519 public key, then parse JSON. Reject the request if the header is missing or verification fails.
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/ProviderOutboundMessage/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -117,7 +117,7 @@ function verifyGhl(payload, signature, publicKeyPem) {
 }
 ```
 
-#### Example for SMS [​](https://marketplace.gohighlevel.com/docs/webhook/ProviderOutboundMessage/\#example-for-sms "Direct link to Example for SMS")
+#### Example for SMS
 
 ```json
 {
@@ -132,7 +132,7 @@ function verifyGhl(payload, signature, publicKeyPem) {
 }
 ```
 
-#### Example for Email [​](https://marketplace.gohighlevel.com/docs/webhook/ProviderOutboundMessage/\#example-for-email "Direct link to Example for Email")
+#### Example for Email
 
 ```json
 {

@@ -28,7 +28,7 @@ Returns paginated queue items. Pass sessionId to get draft items from an edit se
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/fetch-queue-items/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -84,7 +84,7 @@ Item ID to center the response around. When provided, the response will position
 
 Example:`60af88475f1b2c001f5d5f4b`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/fetch-queue-items/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

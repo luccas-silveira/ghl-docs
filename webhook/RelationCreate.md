@@ -3,7 +3,7 @@ title: "Relationcreate"
 source_url: https://marketplace.gohighlevel.com/docs/webhook/RelationCreate
 version: v3
 ---
-## Overview [​](https://marketplace.gohighlevel.com/docs/webhook/RelationCreate/\#overview "Direct link to Overview")
+## Overview
 
 This webhook response is triggered when an relation between objects is created.
 
@@ -13,7 +13,7 @@ For example, in a business management system, a company may want to establish an
 - The **first object** (custom object) could represent an entity such as a project or a transaction.
 - The system allows for dynamic relationships between entities, facilitating better data management.
 
-## Schema [​](https://marketplace.gohighlevel.com/docs/webhook/RelationCreate/\#schema "Direct link to Schema")
+## Schema
 
 The webhook response follows the JSON schema below:
 
@@ -46,44 +46,44 @@ The webhook response follows the JSON schema below:
 }
 ```
 
-## Field Descriptions [​](https://marketplace.gohighlevel.com/docs/webhook/RelationCreate/\#field-descriptions "Direct link to Field Descriptions")
+## Field Descriptions
 
-### `id` [​](https://marketplace.gohighlevel.com/docs/webhook/RelationCreate/\#id "Direct link to id")
+### `id`
 
 - Type: `string`
 - Unique identifier for the created association.
 
-### `firstObjectKey` [​](https://marketplace.gohighlevel.com/docs/webhook/RelationCreate/\#firstobjectkey "Direct link to firstobjectkey")
+### `firstObjectKey`
 
 - Type: `string`
 - Key representing the first object in the association.
 
-### `firstRecordId` [​](https://marketplace.gohighlevel.com/docs/webhook/RelationCreate/\#firstrecordid "Direct link to firstrecordid")
+### `firstRecordId`
 
 - Type: `string`
 - Identifier of the first object’s specific record.
 
-### `secondObjectKey` [​](https://marketplace.gohighlevel.com/docs/webhook/RelationCreate/\#secondobjectkey "Direct link to secondobjectkey")
+### `secondObjectKey`
 
 - Type: `string`
 - Key representing the second object in the association.
 
-### `secondRecordId` [​](https://marketplace.gohighlevel.com/docs/webhook/RelationCreate/\#secondrecordid "Direct link to secondrecordid")
+### `secondRecordId`
 
 - Type: `string`
 - Identifier of the second object’s specific record.
 
-### `associationId` [​](https://marketplace.gohighlevel.com/docs/webhook/RelationCreate/\#associationid "Direct link to associationid")
+### `associationId`
 
 - Type: `string`
 - Unique identifier for the association that was created.
 
-### `locationId` [​](https://marketplace.gohighlevel.com/docs/webhook/RelationCreate/\#locationid "Direct link to locationid")
+### `locationId`
 
 - Type: `string`
 - Identifies the location associated with the created association.
 
-## Example Response [​](https://marketplace.gohighlevel.com/docs/webhook/RelationCreate/\#example-response "Direct link to Example Response")
+## Example Response
 
 ```json
 {
@@ -97,7 +97,7 @@ The webhook response follows the JSON schema below:
 }
 ```
 
-## Additional Notes [​](https://marketplace.gohighlevel.com/docs/webhook/RelationCreate/\#additional-notes "Direct link to Additional Notes")
+## Additional Notes
 
 - The `firstObjectKey` and `secondObjectKey` define the relationship between the created entities.
 

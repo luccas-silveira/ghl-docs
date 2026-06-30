@@ -28,7 +28,7 @@ Cancels the edit session and deletes all staged changes without affecting the li
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/discard-edit-session/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -68,7 +68,7 @@ If true, keeps the queue in DRAFT state after saving instead of automatically ac
 
 Example:`false`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/discard-edit-session/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

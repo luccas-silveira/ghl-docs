@@ -9,7 +9,7 @@ HighLevel supports the **Authorization Code Grant** flow with v2 APIs. Below is 
 
 * * *
 
-## 1\. Register an OAuth App [​](https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/\#1-register-an-oauth-app "Direct link to 1. Register an OAuth App")
+## 1\. Register an OAuth App
 
 1. Go to the [Marketplace](https://marketplace.gohighlevel.com/) and sign up for a developer account.
 2. Go to My Apps, click Create App.
@@ -53,7 +53,7 @@ These credentials are used to identify and authenticate your application with th
 
 * * *
 
-## 2\. Add the App to Your Desired Location [​](https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/\#2-add-the-app-to-your-desired-location "Direct link to 2. Add the App to Your Desired Location")
+## 2\. Add the App to Your Desired Location
 
 - Have the location/agency admin visit your Installation URL.
 - Select the location to connect.
@@ -63,7 +63,7 @@ These credentials are used to identify and authenticate your application with th
 
 * * *
 
-## 3\. Get the Installation URL [​](https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/\#3-get-the-installation-url "Direct link to 3. Get the Installation URL")
+## 3\. Get the Installation URL
 
 Inside your APP Auth Pane available inside the Advanced Settings Section you will be able to see the Install Link at the top of the Page.
 
@@ -98,7 +98,7 @@ This URL demonstrates a typical OAuth callback scenario for a HighLevel integrat
 
 * * *
 
-## 4\. Listening to Webhook Events [​](https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/\#4-listening-to-webhook-events "Direct link to 4. Listening to Webhook Events")
+## 4\. Listening to Webhook Events
 
 The HighLevel Marketplace App allows you to listen to various webhook events, enabling real-time updates and integrations based on user actions.
 
@@ -112,7 +112,7 @@ To set up webhook listeners:
 
 For a full list of supported webhook events and example payloads, please refer to the documentation: [Webhook Events & Payloads](https://marketplace.gohighlevel.com/docs/category/webhook)
 
-### Important: App Install Webhook [​](https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/\#important-app-install-webhook "Direct link to Important: App Install Webhook")
+### Important: App Install Webhook
 
 One of the most critical webhook events is the App Install event. This event provides essential details whenever your app is installed by a user. If a webhook URL is configured for your app, this event is subscribed to by default.
 
@@ -140,7 +140,7 @@ Here’s a sample payload for the App Install event:
 
 * * *
 
-## 5\. Exchange Authorization Code for Access Token [​](https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/\#5-exchange-authorization-code-for-access-token "Direct link to 5. Exchange Authorization Code for Access Token")
+## 5\. Exchange Authorization Code for Access Token
 
 Once you have received the Authorization code on your redirect URl you are expected to use [Get Access Token API](https://marketplace.gohighlevel.com/docs/ghl/oauth/get-access-token) endpoint to generate the Acces Token which you can then use to run the API endpoints.
 
@@ -180,7 +180,7 @@ Sample Response:
 
 * * *
 
-## 6\. Refresh Token Usage [​](https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/\#6-refresh-token-usage "Direct link to 6. Refresh Token Usage")
+## 6\. Refresh Token Usage
 
 As shown in the previous response, the Access Token expires after 86,399 seconds, which is approximately 24 hours. This means you'll need to regenerate a new Access Token once it expires to continue making API requests.
 
@@ -229,7 +229,7 @@ Sample Response:
 
 * * *
 
-## 7\. Types of Access Token [​](https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/\#7-types-of-access-token "Direct link to 7. Types of Access Token")
+## 7\. Types of Access Token
 
 In HighLevel we have 2 types of Access Token depending on the type of APP you have installed and who has installed the APP.
 
@@ -275,7 +275,7 @@ Sample Response:
 
 * * *
 
-## 8\. Create Sub-Account Token from Agency Token [​](https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/\#8-create-sub-account-token-from-agency-token "Direct link to 8. Create Sub-Account Token from Agency Token")
+## 8\. Create Sub-Account Token from Agency Token
 
 Suppose you have an Agency-level Access Token but want to run API endpoints specific to a Sub-Account (Location). In that case, you can use the Agency-level Access Token to generate a Sub-Account/Location-level Access Token via the [Get Location Access Token from Agency Token](https://marketplace.gohighlevel.com/docs/ghl/oauth/get-location-access-token) API endpoint.
 

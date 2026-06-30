@@ -27,7 +27,7 @@ Get Forms
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/forms/get-forms/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -59,7 +59,7 @@ Example: 20
 
 Example: folder
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/forms/get-forms/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

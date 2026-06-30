@@ -14,7 +14,7 @@ Reach for Code Mode when you need to do things the form can't express, such as:
 
 You can switch any supported request between form mode and Code Mode at any time using **Switch to Code Mode** / **Switch to Form Mode**.
 
-## Which requests support Code Mode [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/CodeMode/\#which-requests-support-code-mode "Direct link to Which requests support Code Mode")
+## Which requests support Code Mode
 
 Code Mode is available on the following [OAuth 2.0](https://marketplace.gohighlevel.com/docs/oauth/external-auth/OAuth2) requests:
 
@@ -26,17 +26,17 @@ Code Mode is available on the following [OAuth 2.0](https://marketplace.gohighle
 | Test API endpoint | `testRequest` | The HTTP response (used to confirm the token works). |
 | Fetch user info | `userInfoRequest` | The user/account info response (then field-mapped). |
 
-## Switching to Code Mode [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/CodeMode/\#switching-to-code-mode "Direct link to Switching to Code Mode")
+## Switching to Code Mode
 
 When you click **Switch to Code Mode**, HighLevel pre-fills the editor with a starter template for that step. The template mirrors a typical request so you can edit it rather than start from scratch.
 
 > The handlebars template variables you use in form mode (`{{externalApp.clientId}}`, `{{bundle.code}}`, etc.) are **not** used in Code Mode. Instead you access the same data through the JavaScript objects described below (`process.env`, `bundle`).
 
-## The execution environment [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/CodeMode/\#the-execution-environment "Direct link to The execution environment")
+## The execution environment
 
 Your script runs inside a secure, isolated JavaScript sandbox. The following globals are available.
 
-### `bundle` [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/CodeMode/\#bundle "Direct link to bundle")
+### `bundle`
 
 Holds the current authentication state and inputs for the step.
 
@@ -63,7 +63,7 @@ bundle.authData.refresh_token
 // plus any other top-level fields returned by your token response
 ```
 
-### `process.env` [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/CodeMode/\#processenv "Direct link to processenv")
+### `process.env`
 
 A frozen, read-only object with your app credentials:
 
@@ -73,11 +73,11 @@ process.env.CLIENT_SECRET  // your OAuth Client Secret (empty when using PKCE on
 process.env.SCOPES         // the configured scopes
 ```
 
-### `z` \- the helper namespace [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/CodeMode/\#z---the-helper-namespace "Direct link to z---the-helper-namespace")
+### `z` \- the helper namespace
 
 A frozen object with everything you need to make requests and work with data.
 
-#### `z.request(options)` [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/CodeMode/\#zrequestoptions "Direct link to zrequestoptions")
+#### `z.request(options)`
 
 Makes an outbound HTTP request and returns a promise resolving to the response. Options:
 
@@ -109,7 +109,7 @@ The resolved response has this shape:
 
 > When `content-type` is `application/x-www-form-urlencoded`, the `body` object is automatically form-encoded for you.
 
-#### `z.console` [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/CodeMode/\#zconsole "Direct link to zconsole")
+#### `z.console`
 
 Logging that appears in the tester's **Logs** tab. Use it to debug your script.
 
@@ -119,7 +119,7 @@ z.console.log('exchanging code', bundle.inputData.code)
 
 A plain `console.log(...)` also works and writes to the same place.
 
-#### `z.errors.RefreshAuthError` [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/CodeMode/\#zerrorsrefreshautherror "Direct link to zerrorsrefreshautherror")
+#### `z.errors.RefreshAuthError`
 
 Throw this from the access token or refresh token step to signal that the credentials are no longer valid and a refresh/re-auth is required.
 
@@ -127,7 +127,7 @@ Throw this from the access token or refresh token step to signal that the creden
 throw new z.errors.RefreshAuthError('Token rejected by provider')
 ```
 
-#### `z.require(...)` [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/CodeMode/\#zrequire "Direct link to zrequire")
+#### `z.require(...)`
 
 A small set of built-in helpers is available:
 
@@ -145,14 +145,14 @@ Other modules are not available and will throw an error.
 
 `z.JSON` is also exposed (equivalent to the standard `JSON` object).
 
-## What your script must return [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/CodeMode/\#what-your-script-must-return "Direct link to What your script must return")
+## What your script must return
 
 - **Authorization URL step** \- `return` a URL **string**. It must be a valid `https` URL.
 - **All other steps** \- `return z.request(options)` (or a promise that resolves to the response/parsed object). You can parse or reshape the response in a `.then()` before returning it.
 
-## Examples [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/CodeMode/\#examples "Direct link to Examples")
+## Examples
 
-### Authorization URL [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/CodeMode/\#authorization-url "Direct link to Authorization URL")
+### Authorization URL
 
 ```js
 const url = `https://example.com/oauth/authorize?client_id=${process.env.CLIENT_ID}&state=${bundle.inputData.state}&redirect_uri=${encodeURIComponent(bundle.inputData.redirect_uri)}&response_type=code`;
@@ -160,7 +160,7 @@ const url = `https://example.com/oauth/authorize?client_id=${process.env.CLIENT_
 return url;
 ```
 
-### Access token request [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/CodeMode/\#access-token-request "Direct link to Access token request")
+### Access token request
 
 ```js
 const options = {
@@ -189,7 +189,7 @@ return z.request(options)
   });
 ```
 
-### Refresh token request [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/CodeMode/\#refresh-token-request "Direct link to Refresh token request")
+### Refresh token request
 
 ```js
 const options = {
@@ -210,7 +210,7 @@ const options = {
 return z.request(options).then((response) => response.json);
 ```
 
-### Test request [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/CodeMode/\#test-request "Direct link to Test request")
+### Test request
 
 ```js
 const options = {
@@ -224,7 +224,7 @@ const options = {
 return z.request(options).then((response) => response.json);
 ```
 
-### Fetch user info [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/CodeMode/\#fetch-user-info "Direct link to Fetch user info")
+### Fetch user info
 
 ```js
 const options = {
@@ -243,7 +243,7 @@ return z.request(options).then((response) => response.json);
 
 The returned object is then field-mapped using the **ID / Name / Email** paths you configure in [Multi-Account Support & User Info](https://marketplace.gohighlevel.com/docs/oauth/external-auth/MultiAccountSupport).
 
-## Limits & restrictions [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/CodeMode/\#limits--restrictions "Direct link to Limits & restrictions")
+## Limits & restrictions
 
 Code Mode runs in a sandbox with guardrails to keep it safe and fast:
 
@@ -254,11 +254,11 @@ Code Mode runs in a sandbox with guardrails to keep it safe and fast:
 - **Limited modules** \- only `querystring` and `crypto` (via `z.require`) plus standard JavaScript built-ins are available.
 - **Restricted headers** \- certain internal headers are not allowed and will cause an error.
 
-### Secret redaction [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/CodeMode/\#secret-redaction "Direct link to Secret redaction")
+### Secret redaction
 
 To protect your credentials, sensitive values - client secrets, access/refresh tokens, authorization codes, the `Authorization` header, cookies - are automatically redacted from the logs and request/response details shown in the tester. You'll see `[REDACTED]` in their place.
 
-## Debugging [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/CodeMode/\#debugging "Direct link to Debugging")
+## Debugging
 
 Use **Step 3 - Test your auth** to run your script against real values. The tester's **Logs** tab shows your `z.console` output (grouped by step), and the **HTTP Details** tab shows the outbound request and the response. If a script errors or times out, the error message and captured logs are returned so you can fix it.
 

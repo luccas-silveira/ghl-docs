@@ -24,7 +24,7 @@ The "List Shipping Zone" API allows to retrieve a list of shipping zone.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/store/list-shipping-zones/\#request "Direct link to Request")
+## Request
 
 ### Query Parameters
 
@@ -60,7 +60,7 @@ Include shipping rates array
 
 Example:
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/store/list-shipping-zones/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -28,7 +28,7 @@ Fetches a single custom menus based on id. This endpoint allows clients to retri
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/custom-menus/get-custom-menu-by-id/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -46,7 +46,7 @@ Unique identifier of the custom menu
 
 Example: 62e589c1-c456-47e1-a9a7-cb8900014311
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/custom-menus/get-custom-menu-by-id/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

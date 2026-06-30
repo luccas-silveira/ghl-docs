@@ -24,7 +24,7 @@ Get the status of all CSV imports for a location
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-upload-status/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -80,7 +80,7 @@ User ID
 
 Example: sdfdsfdsfEWEsdfsdsW32dd
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-upload-status/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

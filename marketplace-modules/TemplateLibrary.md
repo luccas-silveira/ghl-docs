@@ -9,7 +9,7 @@ If you want to **sell a template**, the process begins in the Template Library a
 
 * * *
 
-## Seller Portal: Account Setup, Listing, and Review [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/TemplateLibrary/\#seller-portal-account-setup-listing-and-review "Direct link to Seller Portal: Account Setup, Listing, and Review")
+## Seller Portal: Account Setup, Listing, and Review
 
 To list a template for sale:
 
@@ -18,11 +18,11 @@ To list a template for sale:
 3. Click the **three-dot menu (⋮)** on the template preview
 4. Select **Sell on Marketplace**
 
-### Developer Account [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/TemplateLibrary/\#developer-account "Direct link to Developer Account")
+### Developer Account
 
 If you don’t already have a developer account, one will be **automatically created** during the seller flow. You can also choose to sign up manually.
 
-### Completing Your Listing [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/TemplateLibrary/\#completing-your-listing "Direct link to Completing Your Listing")
+### Completing Your Listing
 
 Once the template-backed app is created, complete the listing in the following order:
 
@@ -31,21 +31,21 @@ Once the template-backed app is created, complete the listing in the following o
 3. **Pricing** _(optional, only for paid templates)_
 4. **Publish** the app after completing all required sections
 
-### Scope of Template Marketplace Apps [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/TemplateLibrary/\#scope-of-template-marketplace-apps "Direct link to Scope of Template Marketplace Apps")
+### Scope of Template Marketplace Apps
 
 Template Marketplace listings use a **streamlined app profile** designed specifically for template distribution. To keep onboarding simple:
 
 - **OAuth and install-token capabilities are not supported** for this app type
 
-### Review Process [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/TemplateLibrary/\#review-process "Direct link to Review Process")
+### Review Process
 
 All public listings go through a **manual review process**, with a target SLA of **10 working days**.
 
 * * *
 
-## Updating a Listed Template [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/TemplateLibrary/\#updating-a-listed-template "Direct link to Updating a Listed Template")
+## Updating a Listed Template
 
-### Minor Updates [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/TemplateLibrary/\#minor-updates "Direct link to Minor Updates")
+### Minor Updates
 
 For incremental changes to the **same listing**:
 
@@ -57,7 +57,7 @@ This will automatically resubmit the app for review. Once approved:
 - **New installations** will use the updated version
 - **Existing installations** will remain unchanged
 
-### Major Updates [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/TemplateLibrary/\#major-updates "Direct link to Major Updates")
+### Major Updates
 
 If the changes are significant:
 
@@ -68,18 +68,18 @@ If the changes are significant:
 
 * * *
 
-## End-User Experience (Overview) [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/TemplateLibrary/\#end-user-experience-overview "Direct link to End-User Experience (Overview)")
+## End-User Experience (Overview)
 
 For a detailed walkthrough, refer to the
 
 [Template Library Marketplace Integration](https://help.leadconnectorhq.com/support/solutions/articles/155000007748-template-library-marketplace-integration) help article.
 
-### Browsing Templates [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/TemplateLibrary/\#browsing-templates "Direct link to Browsing Templates")
+### Browsing Templates
 
 - Navigate to **Template Library → Marketplace** (Agency View)
 - Templates are also available via **App Marketplace → Templates**
 
-### Discovering Templates [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/TemplateLibrary/\#discovering-templates "Direct link to Discovering Templates")
+### Discovering Templates
 
 Users can find templates through:
 
@@ -89,7 +89,7 @@ Users can find templates through:
 - Template type
 - Other catalog filters
 
-### Installing Templates [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/TemplateLibrary/\#installing-templates "Direct link to Installing Templates")
+### Installing Templates
 
 1. Open a template
 2. Click **Preview**
@@ -98,7 +98,7 @@ Users can find templates through:
 
 After installation, the template appears under **My Templates** and can be used in the appropriate builder.
 
-### Selling Templates [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/TemplateLibrary/\#selling-templates "Direct link to Selling Templates")
+### Selling Templates
 
 1. Open a template
 2. Click **Preview**
@@ -106,14 +106,14 @@ After installation, the template appears under **My Templates** and can be used 
 
 This redirects to the **Seller Portal**, where template details are pre-filled. The process also includes **automatic developer profile creation** if needed.
 
-### Pricing Model (Buyers) [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/TemplateLibrary/\#pricing-model-buyers "Direct link to Pricing Model (Buyers)")
+### Pricing Model (Buyers)
 
 - Templates are sold as **one-time purchases**
 - There are **no recurring charges** for templates
 
 * * *
 
-## Supported Template Types [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/TemplateLibrary/\#supported-template-types "Direct link to Supported Template Types")
+## Supported Template Types
 
 Only the following template types can be distributed via the Marketplace:
 

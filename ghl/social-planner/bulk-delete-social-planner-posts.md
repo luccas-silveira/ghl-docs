@@ -31,7 +31,7 @@ it is recommended to be cautious of this operation.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/bulk-delete-social-planner-posts/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -53,7 +53,7 @@ Requested Results
 
 Example:`["662791ee3f216822d7da0c8c"]`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/bulk-delete-social-planner-posts/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

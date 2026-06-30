@@ -24,7 +24,7 @@ API to update template late fees configuration by template id
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/update-invoice-template-late-fees-configuration/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -136,7 +136,7 @@ Max late fees to pay
 
 Example:`10`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/update-invoice-template-late-fees-configuration/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

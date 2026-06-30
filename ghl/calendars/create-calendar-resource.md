@@ -32,7 +32,7 @@ Create calendar resource by resource type (Services V1)
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/create-calendar-resource/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -84,7 +84,7 @@ One room can be mapped with multiple service calendars.
 
 **Possible values:**`<= 100`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/create-calendar-resource/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

@@ -5,7 +5,7 @@ version: v3
 ---
 Use **API Key / Basic Auth** when your provider authenticates requests with a username and password, an API key, or other custom credentials sent on each call. During installation, HighLevel collects the credentials you ask for and sends them to your **authentication endpoint** to verify them. If the endpoint responds with a success status, the install proceeds and the credentials are stored for later use.
 
-## Configuration at a glance [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/BasicAuth/\#configuration-at-a-glance "Direct link to Configuration at a glance")
+## Configuration at a glance
 
 A Basic Auth setup has three parts:
 
@@ -13,13 +13,13 @@ A Basic Auth setup has three parts:
 2. **Configure authentication endpoint** \- the request HighLevel sends to your backend to verify those inputs.
 3. **(Optional) [Multi-Account Support](https://marketplace.gohighlevel.com/docs/oauth/external-auth/MultiAccountSupport)** \- let a sub-account connect multiple external accounts, and sync the connected account's name/email.
 
-## 1\. Configure your fields [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/BasicAuth/\#1-configure-your-fields "Direct link to 1. Configure your fields")
+## 1\. Configure your fields
 
 Define the inputs the user must provide at install time. These are typically the credentials your endpoint needs to verify - for example `apiKey`, `username`, and `password`.
 
 See [Configure Your Fields](https://marketplace.gohighlevel.com/docs/oauth/external-auth/ConfigureYourFields) for the full reference. The key thing to remember: each field's value is available as `{{userData.<key>}}` everywhere in the request you configure below.
 
-## 2\. Configure authentication endpoint [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/BasicAuth/\#2-configure-authentication-endpoint "Direct link to 2. Configure authentication endpoint")
+## 2\. Configure authentication endpoint
 
 This is the HTTP request HighLevel makes when a user installs your app. If it returns a success status code, authentication passes.
 
@@ -36,11 +36,11 @@ Click **Show options** to add:
 
 In each of these, you can reference the user's input with `{{userData.<key>}}`. For example, a header value of `Bearer {{userData.apiKey}}` becomes `Bearer sk_live_123...` for a user who entered that API key.
 
-### Passing user input into the request [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/BasicAuth/\#passing-user-input-into-the-request "Direct link to Passing user input into the request")
+### Passing user input into the request
 
 You access user-entered values through the `userData` object using the field's **Key**. For example, if your field's key is `apiKey`, reference it as `{{userData.apiKey}}`.
 
-### Success status codes [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/BasicAuth/\#success-status-codes "Direct link to Success status codes")
+### Success status codes
 
 For authentication to be considered successful, your authentication URL must respond with one of the following status codes:
 
@@ -50,7 +50,7 @@ For authentication to be considered successful, your authentication URL must res
 
 Any other status code is treated as an authentication failure, and the install is blocked.
 
-## The install payload [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/BasicAuth/\#the-install-payload "Direct link to The install payload")
+## The install payload
 
 When a user installs your app, HighLevel sends the fields you configured **plus** a set of context parameters describing the installation. In `POST`, `PATCH`, and `PUT` requests these are sent in the body; in `GET` requests they're sent as query parameters.
 
@@ -62,7 +62,7 @@ When a user installs your app, HighLevel sends the fields you configured **plus*
 | `locationId` | string\[\] | If `approveAllLocations = false`, an array of the sub-account IDs selected during install. If `approveAllLocations = true`, this is `null`. |
 | `excludedLocations` | string\[\] | If `approveAllLocations = true`, an array of sub-account IDs that were **not** selected. If `approveAllLocations = false`, this is `null`. |
 
-### Examples [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/BasicAuth/\#examples "Direct link to Examples")
+### Examples
 
 Assume an agency has 5 sub-accounts - A, B, C, D, E - and your app asks for `username` and `password`.
 
@@ -118,13 +118,13 @@ Assume an agency has 5 sub-accounts - A, B, C, D, E - and your app asks for `use
 }
 ```
 
-## 3\. Multi-account support (optional) [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/BasicAuth/\#3-multi-account-support-optional "Direct link to 3. Multi-account support (optional)")
+## 3\. Multi-account support (optional)
 
 If a single sub-account may need to connect more than one external account - or you want to display the connected account's name/email - configure **Multi-Account Support**. For Basic Auth this includes an optional **Account Info Request** and the ability to reuse your authentication response as the account info.
 
 See [Multi-Account Support & User Info](https://marketplace.gohighlevel.com/docs/oauth/external-auth/MultiAccountSupport) for the full reference.
 
-## Testing your setup [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/BasicAuth/\#testing-your-setup "Direct link to Testing your setup")
+## Testing your setup
 
 In **Step 3 - Test your auth**, you'll be prompted to enter values for the fields you configured. HighLevel then calls your authentication endpoint with those values and shows you the request, response, and HTTP details so you can confirm everything works before publishing.
 

@@ -28,7 +28,7 @@ Using this api you can get SYSTEM\_DEFINED / USER\_DEFINED association by id
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/associations/get-association-by-id/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -42,7 +42,7 @@ API Version
 
 **associationId** stringrequired
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/associations/get-association-by-id/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

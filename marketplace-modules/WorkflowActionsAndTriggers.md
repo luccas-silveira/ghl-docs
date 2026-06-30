@@ -7,7 +7,7 @@ HighLevel's Marketplace empowers developers to create custom Workflow Triggers a
 
 * * *
 
-## Prerequisites [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/WorkflowActionsAndTriggers/\#prerequisites "Direct link to Prerequisites")
+## Prerequisites
 
 Before creating a Marketplace Workflow Trigger or Action:
 

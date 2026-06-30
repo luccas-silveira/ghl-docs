@@ -28,7 +28,7 @@ Get service location by ID
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-service-location-by-id/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -46,7 +46,7 @@ Unique Service Location ID
 
 Example: IkqiJlXJ7o9h61tCHHod
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-service-location-by-id/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

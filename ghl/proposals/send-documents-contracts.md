@@ -24,7 +24,7 @@ Send document to a client
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/proposals/send-documents-contracts/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -128,7 +128,7 @@ Sent ByUser Id
 
 Example:`1234567890`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/proposals/send-documents-contracts/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

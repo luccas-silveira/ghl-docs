@@ -28,7 +28,7 @@ Get a single email template by its ID
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/emails/get-email-template/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -54,7 +54,7 @@ Template ID
 
 Example: 507f1f77bcf86cd799439011
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/emails/get-email-template/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -8,13 +8,13 @@ This section covers two related capabilities that work for both [OAuth 2.0](http
 - **User Info Endpoint** \- fetch the connected account's details (name, email) so HighLevel can display _which_ account is connected.
 - **Allow multi-account auth** \- let a single sub-account connect more than one external account.
 
-## User Info Endpoint [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/MultiAccountSupport/\#user-info-endpoint "Direct link to User Info Endpoint")
+## User Info Endpoint
 
 When your provider exposes a "who am I" style endpoint (such as `/me`, `/account`, or similar), turn on **User Info Endpoint**. HighLevel calls it after authentication and syncs the connected user's name and email from your provider. This is what lets the UI show a friendly label for each connected account instead of an opaque ID.
 
 > **Heads up:** Once **User Info Endpoint** is saved in a published version of your app, it **cannot be turned off** in later versions. Be sure you want it before publishing.
 
-### Mapping the response fields [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/MultiAccountSupport/\#mapping-the-response-fields "Direct link to Mapping the response fields")
+### Mapping the response fields
 
 After the user info request runs, you tell HighLevel where to find each value in the response using dot notation for nested paths.
 
@@ -44,7 +44,7 @@ You would map:
 
 > When User Info Endpoint is enabled you must map **ID** and at least one of **Name** or **Email**. The **ID** identifies the connected account; **Name** or **Email** is used for display.
 
-## Allow multi-account auth for this app [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/MultiAccountSupport/\#allow-multi-account-auth-for-this-app "Direct link to Allow multi-account auth for this app")
+## Allow multi-account auth for this app
 
 Turn on **Allow multi-account auth for this app** to let users connect multiple external accounts to a single sub-account. This is useful when a customer manages several stores, workspaces, or profiles on your platform and wants to use all of them from one HighLevel location.
 
@@ -52,7 +52,7 @@ The mapped **ID** (above) is what keeps connected accounts distinct, which is wh
 
 > **Heads up:** Once **Allow multi-account auth** is saved in a published version, it **cannot be turned off** in later versions.
 
-## OAuth: Fetch user information [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/MultiAccountSupport/\#oauth-fetch-user-information "Direct link to OAuth: Fetch user information")
+## OAuth: Fetch user information
 
 For OAuth apps, configure the user info request in the **Fetch user information** section:
 
@@ -61,7 +61,7 @@ For OAuth apps, configure the user info request in the **Fetch user information*
 
 Then map the response fields ( **ID field**, **Name field**, **Email field**) as described above. Need to transform or assemble the response yourself? Use [Code Mode](https://marketplace.gohighlevel.com/docs/oauth/external-auth/CodeMode) on the user info request.
 
-## Basic Auth: Account info [​](https://marketplace.gohighlevel.com/docs/oauth/external-auth/MultiAccountSupport/\#basic-auth-account-info "Direct link to Basic Auth: Account info")
+## Basic Auth: Account info
 
 For API Key / Basic Auth apps, the same capabilities appear under **Configure Multi-Account Support**:
 

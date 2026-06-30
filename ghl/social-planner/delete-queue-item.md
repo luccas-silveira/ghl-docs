@@ -28,7 +28,7 @@ Deletes an item from a specific category queue.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/delete-queue-item/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -60,7 +60,7 @@ Edit session ID
 
 Example: 60af88475f1b2c001f5d5f4b
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/delete-queue-item/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -3,11 +3,11 @@ title: "Custom Js"
 source_url: https://marketplace.gohighlevel.com/docs/marketplace-modules/custom-js
 version: v3
 ---
-## Wrapper functions [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/custom-js/\#wrapper-functions "Direct link to Wrapper functions")
+## Wrapper functions
 
 HighLevel provides functions to render contextual data & some utilities that can help developers customize experience for the user. These are available via the global `AppUtils` object.
 
-### 1\. Local Storage and Cookies Management [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/custom-js/\#1-local-storage-and-cookies-management "Direct link to 1. Local Storage and Cookies Management")
+### 1\. Local Storage and Cookies Management
 
 This feature provides utility methods to interact with localStorage and cookies efficiently.
 
@@ -44,7 +44,7 @@ const cookieValue = await AppUtils.Storage.getCookie(key); // Retrieve cookie va
 
 * * *
 
-### 2\. Custom Events [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/custom-js/\#2-custom-events "Direct link to 2. Custom Events")
+### 2\. Custom Events
 
 You can listen to custom application events for specific lifecycle hooks or activities.
 
@@ -62,7 +62,7 @@ window.addEventListener('routeChangeEvent', callback);
 
 * * *
 
-### 3\. Routing Methods [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/custom-js/\#3-routing-methods "Direct link to 3. Routing Methods")
+### 3\. Routing Methods
 
 Custom scripts can now control routing within the application via exposed methods.
 
@@ -110,7 +110,7 @@ console.log(currentRoute);
 
 * * *
 
-### 4\. Utility Methods [​](https://marketplace.gohighlevel.com/docs/marketplace-modules/custom-js/\#4-utility-methods "Direct link to 4. Utility Methods")
+### 4\. Utility Methods
 
 A set of utility methods is now available to provide essential contextual data for custom scripts.
 

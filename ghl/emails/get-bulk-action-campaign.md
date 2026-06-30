@@ -28,7 +28,7 @@ Get a single bulk action campaign by its ID
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/emails/get-bulk-action-campaign/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -54,7 +54,7 @@ Campaign ID
 
 Example: OI72xYec4Mho6VBykTvj
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/emails/get-bulk-action-campaign/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

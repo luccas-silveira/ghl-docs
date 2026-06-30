@@ -32,7 +32,7 @@ Only supports Custom Objects and Company (Business) today. Will be extended to o
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/custom-fields/get-custom-fields-by-object-key/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -56,7 +56,7 @@ Example: custom\_objects.pet
 
 Example: Location Id
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/custom-fields/get-custom-fields-by-object-key/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

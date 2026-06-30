@@ -24,7 +24,7 @@ Start crawling and discover pages for training
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/discover-website/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -70,7 +70,7 @@ knowledge base ID as string
 
 Example:`tDtDnQdgm2LXpyiqYvZ6`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/discover-website/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

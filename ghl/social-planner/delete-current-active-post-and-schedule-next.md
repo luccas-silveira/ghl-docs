@@ -28,7 +28,7 @@ Deletes a post that is currently scheduled and automatically triggers the schedu
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/delete-current-active-post-and-schedule-next/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -52,7 +52,7 @@ Location ID
 
 Example: 609e126a1c4ae1001291e1b5
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/delete-current-active-post-and-schedule-next/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

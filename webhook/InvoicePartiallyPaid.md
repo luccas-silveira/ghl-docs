@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever an invoice is partially paid
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/InvoicePartiallyPaid/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -203,7 +203,7 @@ Called whenever an invoice is partially paid
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/InvoicePartiallyPaid/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

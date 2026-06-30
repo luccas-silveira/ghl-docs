@@ -28,7 +28,7 @@ Lists all active agents for the specified location. locationId is required param
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/agent-studio/get-agents/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -62,7 +62,7 @@ Example: 0
 
 Example: api
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/agent-studio/get-agents/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

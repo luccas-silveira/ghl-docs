@@ -28,7 +28,7 @@ Remove Contact From Campaign
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/remove-contact-from-campaign/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -54,7 +54,7 @@ Campaign Id
 
 Example: Y5AMhDEE4L6EuVmmDTKZ
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/remove-contact-from-campaign/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -28,7 +28,7 @@ Search Twilio inventory for purchasable phone numbers in a country for the given
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/phone-system/list-available-numbers-for-a-country/\#request "Direct link to Request")
+## Request
 
 ### Path Parameters
 
@@ -88,7 +88,7 @@ country for which the phone numbers are being requested
 
 Example: US
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/phone-system/list-available-numbers-for-a-country/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 

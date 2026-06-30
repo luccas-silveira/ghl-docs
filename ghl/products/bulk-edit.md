@@ -14,7 +14,7 @@ POST https://services.leadconnectorhq.com/products/bulk-update/edit
 
 API to bulk edit products and their associated prices (max 30 entities)
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/products/bulk-edit/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -290,7 +290,7 @@ Product label\
 \
 \]
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/products/bulk-edit/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

@@ -28,7 +28,7 @@ Update an existing estimate with new details
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/update-estimate/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -748,7 +748,7 @@ Estimate Status
 
 Example:`sent`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/invoices/update-estimate/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

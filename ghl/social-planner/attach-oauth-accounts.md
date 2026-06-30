@@ -11,21 +11,21 @@ endpoint: https://services.leadconnectorhq.com/social-media-posting/oauth/:locat
 POST https://services.leadconnectorhq.com/social-media-posting/oauth/:locationId/:platform/accounts/:accountId
 ```
 
-## OAuth Connection Flow - Step 3: Connect the Account [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/attach-oauth-accounts/\#oauth-connection-flow---step-3-connect-the-account "Direct link to OAuth Connection Flow - Step 3: Connect the Account")
+## OAuth Connection Flow - Step 3: Connect the Account
 
 This is the final step in the OAuth flow. After retrieving available accounts (Step 2), use this endpoint to connect the selected account to your location.
 
-### OAuth Flow Summary [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/attach-oauth-accounts/\#oauth-flow-summary "Direct link to OAuth Flow Summary")
+### OAuth Flow Summary
 
 1. **Start OAuth** → User authenticates with platform
 2. **Get Accounts** → Retrieved available pages/channels
 3. **Attach Account** (this endpoint) → Connect the selected account
 
-### Request Body by Platform [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/attach-oauth-accounts/\#request-body-by-platform "Direct link to Request Body by Platform")
+### Request Body by Platform
 
 The request body structure varies depending on the platform:
 
-#### Facebook / Instagram [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/attach-oauth-accounts/\#facebook--instagram "Direct link to Facebook / Instagram")
+#### Facebook / Instagram
 
 ```json
 {
@@ -36,7 +36,7 @@ The request body structure varies depending on the platform:
 }
 ```
 
-#### Google Business Profile [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/attach-oauth-accounts/\#google-business-profile "Direct link to Google Business Profile")
+#### Google Business Profile
 
 ```json
 {
@@ -56,7 +56,7 @@ The request body structure varies depending on the platform:
 }
 ```
 
-#### LinkedIn [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/attach-oauth-accounts/\#linkedin "Direct link to LinkedIn")
+#### LinkedIn
 
 ```json
 {
@@ -67,7 +67,7 @@ The request body structure varies depending on the platform:
 }
 ```
 
-#### TikTok [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/attach-oauth-accounts/\#tiktok "Direct link to TikTok")
+#### TikTok
 
 ```json
 {
@@ -77,7 +77,7 @@ The request body structure varies depending on the platform:
 }
 ```
 
-#### YouTube [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/attach-oauth-accounts/\#youtube "Direct link to YouTube")
+#### YouTube
 
 ```json
 {
@@ -87,7 +87,7 @@ The request body structure varies depending on the platform:
 }
 ```
 
-#### Pinterest [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/attach-oauth-accounts/\#pinterest "Direct link to Pinterest")
+#### Pinterest
 
 ```json
 {
@@ -97,11 +97,11 @@ The request body structure varies depending on the platform:
 }
 ```
 
-### After Connection [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/attach-oauth-accounts/\#after-connection "Direct link to After Connection")
+### After Connection
 
 Once connected, the account will appear in your location's connected accounts and can be used for social media posting.
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/attach-oauth-accounts/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -444,7 +444,7 @@ Avatar URL
 
 Example:`https://storage.googleapis.com/2ad21ebc23/test`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/attach-oauth-accounts/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

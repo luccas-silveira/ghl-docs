@@ -28,7 +28,7 @@ Returns a call log by callId.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/voice-ai/get-call-log/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -54,7 +54,7 @@ Location ID
 
 Example: LOC123456789ABCDEF
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/voice-ai/get-call-log/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -28,7 +28,7 @@ Retrieve the availability schedule for a specific event calendar. Returns the sc
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-calendar-schedule/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -46,7 +46,7 @@ Unique identifier of the event calendar
 
 Example: WvVX9LpvlBO6K506xLbp
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-calendar-schedule/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever the specific fields in contact is updated
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/ContactUpdate/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -98,7 +98,7 @@ Called whenever the specific fields in contact is updated
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/ContactUpdate/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

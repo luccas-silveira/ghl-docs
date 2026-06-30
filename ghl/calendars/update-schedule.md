@@ -28,7 +28,7 @@ Modify an existing schedule by updating its rules, timezone, and name All fields
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/update-schedule/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -120,7 +120,7 @@ Updated timezone for the schedule (IANA timezone identifier)
 
 Example:`America/Los_Angeles`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/update-schedule/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -28,7 +28,7 @@ Create a new wallet charge
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/marketplace/charge/\#request "Direct link to Request")
+## Request
 
 - application/json
 
@@ -94,7 +94,7 @@ The timestamp when the event/transaction was performed. If blank, the billing ti
 
 Example:`2025-03-26T00:00:000Z`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/marketplace/charge/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

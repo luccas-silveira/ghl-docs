@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever an invoice is deleted
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/InvoiceDelete/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -203,7 +203,7 @@ Called whenever an invoice is deleted
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/InvoiceDelete/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

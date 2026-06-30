@@ -24,7 +24,7 @@ Create a new knowledge base (max 15 knowledge bases per location)
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/create-knowledge-base/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -50,7 +50,7 @@ API Version
 
 **locationId** stringrequired
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/create-knowledge-base/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

@@ -24,7 +24,7 @@ Get Latest Snapshot Push Status for a location id
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/snapshots/get-latest-snapshot-push/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -50,7 +50,7 @@ Example: IIRGHCgxSINdPT79M75P
 
 Example: 5D112kQsiKESj6rash
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/snapshots/get-latest-snapshot-push/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

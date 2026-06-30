@@ -28,7 +28,7 @@ Update Custom Object Schema or standard object's like contact, opportunity, busi
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/objects/update-custom-object/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -84,7 +84,7 @@ Searchable Fields: Provide the field key of your object that you want to search 
 
 Example:`["custom_objects.mad.mad","custom_objects.mad.record_1","custom_objects.mad.nn"]`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/objects/update-custom-object/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -7,7 +7,7 @@ This webhook is essential for externally billed apps within our marketplace. It 
 
 The primary purpose of this webhook is to capture and update payment information for apps that employ a Paid business model and do not utilize HighLevel's internal billing mechanism.
 
-## 1\. Prerequisites for using this webhook [​](https://marketplace.gohighlevel.com/docs/oauth/Billing/\#1-prerequisites-for-using-this-webhook "Direct link to 1. Prerequisites for using this webhook")
+## 1\. Prerequisites for using this webhook
 
 Before using this webhook, ensure that you meet the following prerequisites on the [Marketplace](https://marketplace.gohighlevel.com/):
 
@@ -15,7 +15,7 @@ Before using this webhook, ensure that you meet the following prerequisites on t
 2. External Billing must be enabled for your app.
 3. You must have entered the Billing URL.
 
-## 2\. Retrieving Parameters from the Billing URL [​](https://marketplace.gohighlevel.com/docs/oauth/Billing/\#2-retrieving-parameters-from-the-billing-url "Direct link to 2. Retrieving Parameters from the Billing URL")
+## 2\. Retrieving Parameters from the Billing URL
 
 When an Agency or Location installs your app, they will be redirected to the Billing URL specified in the configuration. You will receive the following parameters in the URL:
 
@@ -26,7 +26,7 @@ When an Agency or Location installs your app, they will be redirected to the Bil
 | locationId | `<location_id>` | You will receive this in case of `location` or `agency,location`. |
 | companyId | `<agency_id>` | You will receive this in case of `agency` or `agency,location`. |
 
-## 3\. Using The Webhook [​](https://marketplace.gohighlevel.com/docs/oauth/Billing/\#3-using-the-webhook "Direct link to 3. Using The Webhook")
+## 3\. Using The Webhook
 
 After successfully processing the payment on your end, you need to make a request to our billing webhook endpoint:
 
@@ -61,7 +61,7 @@ POST
 | status | Enum | Possible values are `COMPLETED` and `FAILED`. |
 | paymentType | Enum | Possible values are `one_time` and `recurring`. |
 
-### Example [​](https://marketplace.gohighlevel.com/docs/oauth/Billing/\#example "Direct link to Example")
+### Example
 
 Here is a sample cURL command for the webhook request:
 
@@ -82,13 +82,13 @@ curl --location 'https://services.leadconnectorhq.com/oauth/billing/webhook' \
 }'
 ```
 
-## Webhook FAQs [​](https://marketplace.gohighlevel.com/docs/oauth/Billing/\#webhook-faqs "Direct link to Webhook FAQs")
+## Webhook FAQs
 
-### Can I get multiple location ids in the Billing URL? [​](https://marketplace.gohighlevel.com/docs/oauth/Billing/\#can-i-get-multiple-location-ids-in-the-billing-url "Direct link to Can I get multiple location ids in the Billing URL?")
+### Can I get multiple location ids in the Billing URL?
 
 Yes, in the case of multiple installations, you will receive a list of locationIds in a comma-separated format in the billing URL.
 
-### Can I update for multiple locations in one call? [​](https://marketplace.gohighlevel.com/docs/oauth/Billing/\#can-i-update-for-multiple-locations-in-one-call "Direct link to Can I update for multiple locations in one call?")
+### Can I update for multiple locations in one call?
 
 No, you need to trigger the webhook for each location and company separately.
 

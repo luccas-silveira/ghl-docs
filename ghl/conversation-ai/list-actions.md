@@ -28,7 +28,7 @@ List for actions for an agent
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/list-actions/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -42,7 +42,7 @@ API Version
 
 **agentId** stringrequired
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/list-actions/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

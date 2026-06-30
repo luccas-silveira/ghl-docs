@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever an order's status field updated
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/OrderStatusUpdate/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -199,7 +199,7 @@ Called whenever an order's status field updated
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/OrderStatusUpdate/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

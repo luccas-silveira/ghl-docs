@@ -28,7 +28,7 @@ Create a new email campaign
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/emails/create-email-campaign/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -102,7 +102,7 @@ Name of the user performing this action
 
 Example:`John Doe`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/emails/create-email-campaign/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

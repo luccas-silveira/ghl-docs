@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever a task is completed
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/TaskComplete/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -42,7 +42,7 @@ Called whenever a task is completed
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/TaskComplete/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

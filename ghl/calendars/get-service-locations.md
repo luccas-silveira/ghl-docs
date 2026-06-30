@@ -28,7 +28,7 @@ Get all service locations
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-service-locations/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -46,7 +46,7 @@ Location ID
 
 Example: 0007BWpSzSwfiuSl0tR2
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-service-locations/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

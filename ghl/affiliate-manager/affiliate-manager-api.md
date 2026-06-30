@@ -9,7 +9,7 @@ Version: 1.0
 
 Documentation for Affiliate Manager API
 
-## Authentication [​](https://marketplace.gohighlevel.com/docs/ghl/affiliate-manager/affiliate-manager-api/\#authentication "Direct link to Authentication")
+## Authentication
 
 - HTTP: Bearer Auth
 - HTTP: Bearer Auth

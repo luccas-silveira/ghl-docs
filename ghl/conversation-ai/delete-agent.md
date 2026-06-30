@@ -28,7 +28,7 @@ Deletes an AI agent permanently. This action cannot be undone. All associated co
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/delete-agent/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -46,7 +46,7 @@ Conversations AI agent id
 
 Example: EmployeeId123
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/conversation-ai/delete-agent/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

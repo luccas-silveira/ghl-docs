@@ -28,7 +28,7 @@ Retrieve a paginated list of agents for given location.
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/voice-ai/get-agents/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -68,7 +68,7 @@ Location ID
 
 Query
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/voice-ai/get-agents/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

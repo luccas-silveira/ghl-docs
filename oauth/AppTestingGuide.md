@@ -5,7 +5,7 @@ version: v3
 ---
 This guide walks you through testing a Marketplace App in HighLevel using Sandbox (App Test) accounts. It covers how to create and use a test environment, install and validate your app, and verify key behaviors like OAuth, scopes, API calls, webhooks, and workflows. It’s written to be practical and easy to follow, so you can catch issues early, iterate quickly, and confidently ship to production.
 
-## What you’ll test [​](https://marketplace.gohighlevel.com/docs/oauth/AppTestingGuide/\#what-youll-test "Direct link to What you’ll test")
+## What you’ll test
 
 By the end of this document, you will have:
 

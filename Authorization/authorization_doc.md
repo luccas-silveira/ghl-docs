@@ -7,14 +7,14 @@ Authorization is the process of granting or denying access to resources based on
 
 * * *
 
-## HighLevel currently supports two types of authorization: [​](https://marketplace.gohighlevel.com/docs/Authorization/authorization_doc/\#highlevel-currently-supports-two-types-of-authorization "Direct link to HighLevel currently supports two types of authorization:")
+## HighLevel currently supports two types of authorization:
 
 - [Private Integration Token](https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken)
 - [OAuth 2.0 Flow](https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0)
 
 * * *
 
-### When should I use a Private Integration Token? [​](https://marketplace.gohighlevel.com/docs/Authorization/authorization_doc/\#when-should-i-use-a-private-integration-token "Direct link to When should I use a Private Integration Token?")
+### When should I use a Private Integration Token?
 
 You should use a Private Integration Token if:
 
@@ -22,7 +22,7 @@ You should use a Private Integration Token if:
 - If you don't need webhooks or custom design or pages.
 - If you need to access only 1 sub-account at a time.
 
-#### Example use cases: [​](https://marketplace.gohighlevel.com/docs/Authorization/authorization_doc/\#example-use-cases "Direct link to Example use cases:")
+#### Example use cases:
 
 - Internal data synchronization
 - Custom reporting dashboards
@@ -30,7 +30,7 @@ You should use a Private Integration Token if:
 
 * * *
 
-### When should I use OAuth 2.0 Flow? [​](https://marketplace.gohighlevel.com/docs/Authorization/authorization_doc/\#when-should-i-use-oauth-20-flow "Direct link to When should I use OAuth 2.0 Flow?")
+### When should I use OAuth 2.0 Flow?
 
 You should use OAuth 2.0 Flow if:
 
@@ -38,7 +38,7 @@ You should use OAuth 2.0 Flow if:
 - Your integration requires features like webhooks and custom modules.
 - You need advanced security features and standardized authorization management.
 
-#### Example use cases: [​](https://marketplace.gohighlevel.com/docs/Authorization/authorization_doc/\#example-use-cases-1 "Direct link to Example use cases:")
+#### Example use cases:
 
 - Third-party applications
 - Creating custom conversation providers/custom workflow actions and triggers, etc.

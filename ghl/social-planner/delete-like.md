@@ -16,7 +16,7 @@ Remove a like from a comment by its **Highlevel** comment ID (the `_id` returned
 
 Works for any comment level — top-level comments, replies, and replies-to-replies. **Supported platforms:** Facebook, LinkedIn, Community, TikTok, Bluesky. Instagram is not supported (passing `instagram` returns 400).
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/delete-like/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -52,7 +52,7 @@ Location ID
 
 Example: 1234
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/delete-like/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

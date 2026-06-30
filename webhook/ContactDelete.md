@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever a contact is deleted
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/ContactDelete/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -95,7 +95,7 @@ Called whenever a contact is deleted
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/ContactDelete/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

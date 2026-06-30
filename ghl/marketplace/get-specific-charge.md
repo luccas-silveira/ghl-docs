@@ -28,7 +28,7 @@ Get specific wallet charge details
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/marketplace/get-specific-charge/\#request "Direct link to Request")
+## Request
 
 ### Path Parameters
 
@@ -38,7 +38,7 @@ ID of the charge to retrieve
 
 Example: charge\_123
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/marketplace/get-specific-charge/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 404

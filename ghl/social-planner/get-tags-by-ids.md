@@ -24,7 +24,7 @@ Retrieve specific tags by their IDs
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-tags-by-ids/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -54,7 +54,7 @@ Array of Tag Ids
 
 Example:`["65fbdcfecc884f07e645ea8b"]`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/social-planner/get-tags-by-ids/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

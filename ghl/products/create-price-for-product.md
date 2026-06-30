@@ -28,7 +28,7 @@ The "Create Price for a Product" API allows adding a new price associated with a
 
 `Sub-Account Token``Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/products/create-price-for-product/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -284,7 +284,7 @@ Example:`true`
 
 Digital delivery options
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/products/create-price-for-product/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

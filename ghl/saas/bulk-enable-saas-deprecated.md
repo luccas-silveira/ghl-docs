@@ -28,7 +28,7 @@ Enable SaaS mode for multiple locations with support for both SaaS v1 and v2
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/saas/bulk-enable-saas-deprecated/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -90,7 +90,7 @@ Provider location ID
 
 Example:`r06mdj4OrrERzYDvsOdh`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/saas/bulk-enable-saas-deprecated/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

@@ -28,7 +28,7 @@ Add contact to Campaign
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/add-contact-to-campaign/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -60,7 +60,7 @@ Example: Y5AMhDEE4L6EuVmmDTKZ
 
 object
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/contacts/add-contact-to-campaign/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

@@ -28,7 +28,7 @@ Get calendar by ID
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-calendar/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -46,7 +46,7 @@ Calendar Id
 
 Example: ocQHyuzHvysMo5N5VsXc
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/get-calendar/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

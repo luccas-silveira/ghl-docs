@@ -28,7 +28,7 @@ Filter users by company ID, deleted status, and email array
 
 `Agency Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/users/filter-users-by-email/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -86,7 +86,7 @@ Projection fields to return. Use "all" for all fields, or specify comma-separate
 
 Example:`all`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/users/filter-users-by-email/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

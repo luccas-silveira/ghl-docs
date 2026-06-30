@@ -32,7 +32,7 @@ Update calendar resource by ID (Services V1)
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/update-calendar-resource/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -90,7 +90,7 @@ One room can be mapped with multiple service calendars.
 
 **isActive** boolean
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/update-calendar-resource/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

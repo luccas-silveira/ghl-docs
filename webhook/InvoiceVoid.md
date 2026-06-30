@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever an invoice is marked as void
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/InvoiceVoid/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -203,7 +203,7 @@ Called whenever an invoice is marked as void
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/InvoiceVoid/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

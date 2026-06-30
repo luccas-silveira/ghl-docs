@@ -24,7 +24,7 @@ Create a new FAQ inside knowledge base
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/create/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -68,7 +68,7 @@ knowledge base ID as string
 
 Example:`710KoEzy793Fxubft0bc`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/knowledge-base/create/\#responses "Direct link to Responses")
+## Responses
 
 - 201
 - 400

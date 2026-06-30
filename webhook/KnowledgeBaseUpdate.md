@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever a knowledge base name/description is updated
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/KnowledgeBaseUpdate/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -33,7 +33,7 @@ Called whenever a knowledge base name/description is updated
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/KnowledgeBaseUpdate/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

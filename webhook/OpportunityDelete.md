@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever an opportunity is deleted
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/OpportunityDelete/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -54,7 +54,7 @@ Called whenever an opportunity is deleted
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/OpportunityDelete/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

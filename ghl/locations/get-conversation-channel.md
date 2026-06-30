@@ -28,7 +28,7 @@ Get the conversation channel providers configured for a location by type (SMS or
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/locations/get-conversation-channel/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -52,7 +52,7 @@ Example: ve9EPM428h8vShlRW1KT
 
 Channel type to retrieve providers for
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/locations/get-conversation-channel/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400

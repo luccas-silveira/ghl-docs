@@ -5,7 +5,7 @@ version: v3
 ---
 Called whenever a task is created
 
-#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/TaskCreate/\#schema "Direct link to Schema")
+#### Schema
 
 ```json
 {
@@ -42,7 +42,7 @@ Called whenever a task is created
 }
 ```
 
-#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/TaskCreate/\#example "Direct link to Example")
+#### Example
 
 ```json
 {

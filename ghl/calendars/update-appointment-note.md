@@ -28,7 +28,7 @@ Update Note
 
 `Sub-Account Token`
 
-## Request [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/update-appointment-note/\#request "Direct link to Request")
+## Request
 
 ### Header Parameters
 
@@ -60,7 +60,7 @@ Note body
 
 Example:`lorem ipsum`
 
-## Responses [​](https://marketplace.gohighlevel.com/docs/ghl/calendars/update-appointment-note/\#responses "Direct link to Responses")
+## Responses
 
 - 200
 - 400
