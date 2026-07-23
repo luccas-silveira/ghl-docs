@@ -1,6 +1,14 @@
+> Status: Canônico
+> Owner: Luccas — até delegação formal
+> Revisor: Luccas
+> Versão: v1.0
+> Atualizado em: 2026-07-23
+> Próxima revisão: após mudanças relevantes nas integrações GHL
+> Fonte: manifesto autoral da ZOI sobre APIs GHL efetivamente usadas
+
 # APIs GHL usadas pela ZOI
 
-`ghl-docs/` é um espelho externo com centenas de páginas. Não é fonte de verdade da operação ZOI.
+Este arquivo é a exceção autoral da ZOI dentro de `ghl-docs/`: é um manifesto mantido no mirror para registrar as APIs efetivamente usadas pela ZOI. O restante de `ghl-docs/` continua sendo documentação externa importada e não fonte de verdade da operação ZOI.
 
 ## Projetos consumidores conhecidos
 
